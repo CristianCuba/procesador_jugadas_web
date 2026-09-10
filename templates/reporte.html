@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reporte de Normalización de Excel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #f4f6f9;
+            padding: 20px;
+        }
+
+        .badge-CLIENTE {
+            background-color: #0d6efd;
+        }
+
+        .badge-ADVERTENCIA {
+            background-color: #ffc107;
+            color: #000;
+        }
+
+        .badge-NORMALIZADO {
+            background-color: #198754;
+        }
+
+        .log-box {
+            background: #212529;
+            color: #00ff66;
+            font-family: monospace;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2><i class="bi bi-journal-text"></i> Último Reporte de Procesamiento</h2>
+            <a href="/" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Volver al Inicio</a>
+        </div>
+
+        {% if not reporte %}
+        <div class="alert alert-info">No hay ningún reporte procesado disponible. Carga un Excel primero.</div>
+        {% else %}
+        <div class="card shadow-sm">
+            <div class="card-body p-0">
+                <table class="table table-hover table-striped mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th># Fila</th>
+                            <th>Texto Raw</th>
+                            <th>Tipo</th>
+                            <th>Resultado Extraído</th>
+                            <th>Trazabilidad / Logs</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in reporte %}
+                        <tr>
+                            <td><strong>#{{ item.fila }}</strong></td>
+                            <td><code>{{ item.raw }}</code></td>
+                            <td>
+                                <span class="badge badge-{{ item.tipo }}">
+                                    {{ item.tipo }}
+                                </span>
+                            </td>
+                            <td>
+                                <strong>Jugada:</strong> {{ item.resultado.jugada }}<br>
+                                <small class="text-muted">Monto: {{ item.resultado.monto or 'N/A' }} | Línea: {{
+                                    item.resultado.linea or 'N/A' }}</small>
+                            </td>
+                            <td>
+                                <div class="log-box">
+                                    {% for log in item.detalles %}
+                                    <div>{{ log }}</div>
+                                    {% endfor %}
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,328 @@
+[
+    {
+        "id": "1274",
+        "nombre_oficial": "NEW YORK YANKEES",
+        "apodo": "YANKEES",
+        "aliases": [
+            "NEW YORK YANKEES",
+            "YANKEES",
+            "YANKIS",
+            "YANKY",
+            "YAAAAAANKE",
+            "YANKES PA DAR MEDIA",
+            "YANQUE",
+            "YANQUI"
+        ]
+    },
+    {
+        "id": "1275",
+        "nombre_oficial": "BOSTON RED SOX",
+        "apodo": "RED SOX",
+        "aliases": [
+            "BOSTON RED SOX",
+            "RED SOX",
+            "BOSTON",
+            "MEDIAS ROJAS"
+        ]
+    },
+    {
+        "id": "1276",
+        "nombre_oficial": "TORONTO BLUE JAYS",
+        "apodo": "BLU JAYS",
+        "aliases": [
+            "TORONTO BLUE JAYS",
+            "BLU JAYS",
+            "TORONTO"
+        ]
+    },
+    {
+        "id": "1277",
+        "nombre_oficial": "BALTIMORE ORIOLES",
+        "apodo": "ORIOLES",
+        "aliases": [
+            "BALTIMORE ORIOLES",
+            "ORIOLES",
+            "BALTIMORE"
+        ]
+    },
+    {
+        "id": "1278",
+        "nombre_oficial": "TAMPA BAY RAYS",
+        "apodo": "RAYS",
+        "aliases": [
+            "TAMPA BAY RAYS",
+            "RAYS",
+            "TAMPA BAY RAYS_RL",
+            "TAMPA_MLB",
+            "TAMPA",
+            "TAMPA BAY RL",
+            "TAMPA BAY RAYS_RL_MLB",
+            "TAMPA BAY PA DAR MEDIA"
+        ]
+    },
+    {
+        "id": "1279",
+        "nombre_oficial": "MINNESOTA TWINS",
+        "apodo": "TWINS",
+        "aliases": [
+            "MINNESOTA TWINS",
+            "TWINS",
+            "MINESOTA"
+        ]
+    },
+    {
+        "id": "1280",
+        "nombre_oficial": "CHICAGO WHITE SOX",
+        "apodo": "WHTIE SOX",
+        "aliases": [
+            "CHICAGO WHITE SOX",
+            "WHTIE SOX",
+            "WAI SOX",
+            "WAIXOS",
+            "WHIRESOX",
+            "WITEXOS",
+            "MEDIAS BLANCAS",
+            "CHICAGO WAISOP"
+        ]
+    },
+    {
+        "id": "1281",
+        "nombre_oficial": "CLEVELAND GUARDIANS",
+        "apodo": "GUARDIANS",
+        "aliases": [
+            "CLEVELAND GUARDIANS",
+            "GUARDIANS",
+            "CLEVELAND",
+            "CLEVENLAND"
+        ]
+    },
+    {
+        "id": "1282",
+        "nombre_oficial": "KANSAS CITY ROYALS",
+        "apodo": "ROYALS",
+        "aliases": [
+            "KANSAS CITY ROYALS",
+            "ROYALS",
+            "ROYAL",
+            "KANSAS"
+        ]
+    },
+    {
+        "id": "1283",
+        "nombre_oficial": "DETROIT TIGERS",
+        "apodo": "TIGERS",
+        "aliases": [
+            "DETROIT TIGERS",
+            "TIGERS",
+            "TIGRES",
+            "DITROE",
+            "DITROIT",
+            "DETROIT"
+        ]
+    },
+    {
+        "id": "1284",
+        "nombre_oficial": "ATHLETICS",
+        "apodo": "OAKLAND",
+        "aliases": [
+            "ATHLETICS",
+            "OAKLAND",
+            "OKLAN"
+        ]
+    },
+    {
+        "id": "1285",
+        "nombre_oficial": "LOS ANGELES ANGELS",
+        "apodo": "ANGELINOS",
+        "aliases": [
+            "LOS ANGELES ANGELS",
+            "ANGELINOS",
+            "ÁNGELES"
+        ]
+    },
+    {
+        "id": "1286",
+        "nombre_oficial": "SEATTLE MARINERS",
+        "apodo": "MARIENERS",
+        "aliases": [
+            "SEATTLE MARINERS",
+            "MARIENERS"
+        ]
+    },
+    {
+        "id": "1287",
+        "nombre_oficial": "TEXAS RANGERS",
+        "apodo": "RANGERS",
+        "aliases": [
+            "TEXAS RANGERS",
+            "RANGERS",
+            "TEXAS"
+        ]
+    },
+    {
+        "id": "1288",
+        "nombre_oficial": "ATLANTA BRAVES",
+        "apodo": "BRAVES",
+        "aliases": [
+            "ATLANTA BRAVES",
+            "BRAVES",
+            "BRAVOS",
+            "ATLANTA"
+        ]
+    },
+    {
+        "id": "1289",
+        "nombre_oficial": "WASHINGTON NATIONALS",
+        "apodo": "NATIONALS",
+        "aliases": [
+            "WASHINGTON NATIONALS",
+            "NATIONALS",
+            "WASHINGTON"
+        ]
+    },
+    {
+        "id": "1290",
+        "nombre_oficial": "PHILADELPHIA PHILLIES",
+        "apodo": "PHILLIES",
+        "aliases": [
+            "PHILADELPHIA PHILLIES",
+            "PHILLIES",
+            "D_PHILIPS",
+            "PILADELFIA",
+            "FILADELFIA",
+            "FILIS"
+        ]
+    },
+    {
+        "id": "1291",
+        "nombre_oficial": "MIAMI MARLINS",
+        "apodo": "MARLINS",
+        "aliases": [
+            "MIAMI MARLINS",
+            "MARLINS",
+            "MIAMI"
+        ]
+    },
+    {
+        "id": "1292",
+        "nombre_oficial": "NEW YORK METS",
+        "apodo": "METS",
+        "aliases": [
+            "NEW YORK METS",
+            "METS"
+        ]
+    },
+    {
+        "id": "1293",
+        "nombre_oficial": "ST. LOUIS CARDINALS",
+        "apodo": "CARDINALS",
+        "aliases": [
+            "ST. LOUIS CARDINALS",
+            "CARDINALS",
+            "SAN LUIS"
+        ]
+    },
+    {
+        "id": "1294",
+        "nombre_oficial": "HOUSTON ASTROS",
+        "apodo": "ASTROS",
+        "aliases": [
+            "HOUSTON ASTROS",
+            "ASTROS",
+            "ASTRO"
+        ]
+    },
+    {
+        "id": "1295",
+        "nombre_oficial": "CINCINNATI REDS",
+        "apodo": "REDS",
+        "aliases": [
+            "CINCINNATI REDS",
+            "REDS",
+            "REC"
+        ]
+    },
+    {
+        "id": "1296",
+        "nombre_oficial": "PITTSBURGH PIRATES",
+        "apodo": "PIRATES",
+        "aliases": [
+            "PITTSBURGH PIRATES",
+            "PIRATES",
+            "PITTSBURGO"
+        ]
+    },
+    {
+        "id": "1297",
+        "nombre_oficial": "CHICAGO CUBS",
+        "apodo": "CUBS",
+        "aliases": [
+            "CHICAGO CUBS",
+            "CUBS"
+        ]
+    },
+    {
+        "id": "1298",
+        "nombre_oficial": "MILWAUKEE BREWERS",
+        "apodo": "BREWERS",
+        "aliases": [
+            "MILWAUKEE BREWERS",
+            "BREWERS",
+            "CERVEZA",
+            "CERVECEROS",
+            "CERVECERO",
+            "MILWOKE"
+        ]
+    },
+    {
+        "id": "1299",
+        "nombre_oficial": "ARIZONA DIAMONDBACKS",
+        "apodo": "DIAMONDBLAKS",
+        "aliases": [
+            "ARIZONA DIAMONDBACKS",
+            "DIAMONDBLAKS",
+            "ARIZONA",
+            "ARIZONA PA DAR MEDIA"
+        ]
+    },
+    {
+        "id": "1300",
+        "nombre_oficial": "SAN FRANCISCO GIANTS",
+        "apodo": "GIANTS",
+        "aliases": [
+            "SAN FRANCISCO GIANTS",
+            "GIANTS"
+        ]
+    },
+    {
+        "id": "1301",
+        "nombre_oficial": "LOS ANGELES DODGERS",
+        "apodo": "DODGERS",
+        "aliases": [
+            "LOS ANGELES DODGERS",
+            "DODGERS",
+            "DOYER",
+            "DOGET",
+            "DOYARAS"
+        ]
+    },
+    {
+        "id": "1302",
+        "nombre_oficial": "COLORADO ROCKIES",
+        "apodo": "ROCKIES",
+        "aliases": [
+            "COLORADO ROCKIES",
+            "ROCKIES"
+        ]
+    },
+    {
+        "id": "1303",
+        "nombre_oficial": "SAN DIEGO PADRES",
+        "apodo": "PADRES",
+        "aliases": [
+            "SAN DIEGO PADRES",
+            "PADRES",
+            "PELOTA PADRES"
+        ]
+    }
+]

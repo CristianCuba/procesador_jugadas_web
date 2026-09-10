@@ -1,0 +1,8116 @@
+[
+    {
+        "id": "2001",
+        "nombre_oficial": "SANTOS LAGUNA",
+        "apodo": "SANTOS LAGUNA",
+        "aliases": [
+            "SANTOS LAGUNA",
+            "LAGUNA",
+            "SANTOS L"
+        ]
+    },
+    {
+        "id": "2002",
+        "nombre_oficial": "CRUZ AZUL",
+        "apodo": "CRUZ AZUL",
+        "aliases": [
+            "CRUZ AZUL"
+        ]
+    },
+    {
+        "id": "2003",
+        "nombre_oficial": "PHILADELPHIA UNION",
+        "apodo": "PHILADELPHIA UNION",
+        "aliases": [
+            "PHILADELPHIA UNION"
+        ]
+    },
+    {
+        "id": "2004",
+        "nombre_oficial": "NECAXA",
+        "apodo": "NECAXA",
+        "aliases": [
+            "NECAXA"
+        ]
+    },
+    {
+        "id": "2005",
+        "nombre_oficial": "CLUB TIJUANA",
+        "apodo": "CLUB TIJUANA",
+        "aliases": [
+            "CLUB TIJUANA",
+            "TIJUANA"
+        ]
+    },
+    {
+        "id": "2006",
+        "nombre_oficial": "AUSTIN",
+        "apodo": "AUSTIN",
+        "aliases": [
+            "AUSTIN"
+        ]
+    },
+    {
+        "id": "2007",
+        "nombre_oficial": "CLUB AMERICA",
+        "apodo": "CLUB AMERICA",
+        "aliases": [
+            "CLUB AMERICA",
+            "CLUB AMÉRICA"
+        ]
+    },
+    {
+        "id": "2008",
+        "nombre_oficial": "PUEBLA",
+        "apodo": "PUEBLA",
+        "aliases": [
+            "PUEBLA"
+        ]
+    },
+    {
+        "id": "2009",
+        "nombre_oficial": "CS U CRAIOVA",
+        "apodo": "CS U CRAIOVA",
+        "aliases": [
+            "CS U CRAIOVA"
+        ]
+    },
+    {
+        "id": "2010",
+        "nombre_oficial": "KUPS",
+        "apodo": "KUPS",
+        "aliases": [
+            "KUPS"
+        ]
+    },
+    {
+        "id": "2011",
+        "nombre_oficial": "KI",
+        "apodo": "KI",
+        "aliases": [
+            "KI"
+        ]
+    },
+    {
+        "id": "2012",
+        "nombre_oficial": "LECH POZNAN",
+        "apodo": "LECH POZNAN",
+        "aliases": [
+            "LECH POZNAN"
+        ]
+    },
+    {
+        "id": "2013",
+        "nombre_oficial": "OMONIA NICOSIA",
+        "apodo": "OMONIA NICOSIA",
+        "aliases": [
+            "OMONIA NICOSIA"
+        ]
+    },
+    {
+        "id": "2014",
+        "nombre_oficial": "LINCOLN RED IMPS",
+        "apodo": "LINCOLN RED IMPS",
+        "aliases": [
+            "LINCOLN RED IMPS"
+        ]
+    },
+    {
+        "id": "2015",
+        "nombre_oficial": "VIKINGUR REYKJAVIK.",
+        "apodo": "VIKINGUR REYKJAVIK.",
+        "aliases": [
+            "VIKINGUR REYKJAVIK."
+        ]
+    },
+    {
+        "id": "2016",
+        "nombre_oficial": "THUN",
+        "apodo": "THUN",
+        "aliases": [
+            "THUN"
+        ]
+    },
+    {
+        "id": "2017",
+        "nombre_oficial": "DRITA",
+        "apodo": "DRITA",
+        "aliases": [
+            "DRITA"
+        ]
+    },
+    {
+        "id": "2018",
+        "nombre_oficial": "TRE FIORI",
+        "apodo": "TRE FIORI",
+        "aliases": [
+            "TRE FIORI"
+        ]
+    },
+    {
+        "id": "2019",
+        "nombre_oficial": "JAGIELLONIA BIAYSTOK",
+        "apodo": "JAGIELLONIA BIAYSTOK",
+        "aliases": [
+            "JAGIELLONIA BIAYSTOK"
+        ]
+    },
+    {
+        "id": "2020",
+        "nombre_oficial": "CIENCIANO",
+        "apodo": "CIENCIANO",
+        "aliases": [
+            "CIENCIANO"
+        ]
+    },
+    {
+        "id": "2021",
+        "nombre_oficial": "ALIANZA ATLETICO",
+        "apodo": "ALIANZA ATLETICO",
+        "aliases": [
+            "ALIANZA ATLETICO"
+        ]
+    },
+    {
+        "id": "2022",
+        "nombre_oficial": "LANUS",
+        "apodo": "LANUS",
+        "aliases": [
+            "LANUS"
+        ]
+    },
+    {
+        "id": "2023",
+        "nombre_oficial": "UNION SANTA FE",
+        "apodo": "UNION SANTA FE",
+        "aliases": [
+            "UNION SANTA FE"
+        ]
+    },
+    {
+        "id": "2024",
+        "nombre_oficial": "INTERNACIONAL",
+        "apodo": "INTERNACIONAL",
+        "aliases": [
+            "INTERNACIONAL"
+        ]
+    },
+    {
+        "id": "2025",
+        "nombre_oficial": "CORINTHIANS",
+        "apodo": "CORINTHIANS",
+        "aliases": [
+            "CORINTHIANS"
+        ]
+    },
+    {
+        "id": "2026",
+        "nombre_oficial": "VADUZ",
+        "apodo": "VADUZ",
+        "aliases": [
+            "VADUZ"
+        ]
+    },
+    {
+        "id": "2027",
+        "nombre_oficial": "INTER TURKU",
+        "apodo": "INTER TURKU",
+        "aliases": [
+            "INTER TURKU"
+        ]
+    },
+    {
+        "id": "2028",
+        "nombre_oficial": "CSKA SOFIA",
+        "apodo": "CSKA SOFIA",
+        "aliases": [
+            "CSKA SOFIA"
+        ]
+    },
+    {
+        "id": "2029",
+        "nombre_oficial": "MACCABI TEL AVIV",
+        "apodo": "MACCABI TEL AVIV",
+        "aliases": [
+            "MACCABI TEL AVIV"
+        ]
+    },
+    {
+        "id": "2030",
+        "nombre_oficial": "RIGAS FS",
+        "apodo": "RIGAS FS",
+        "aliases": [
+            "RIGAS FS"
+        ]
+    },
+    {
+        "id": "2031",
+        "nombre_oficial": "JABLONEC",
+        "apodo": "JABLONEC",
+        "aliases": [
+            "JABLONEC"
+        ]
+    },
+    {
+        "id": "2032",
+        "nombre_oficial": "RAPID VIENNA",
+        "apodo": "RAPID VIENNA",
+        "aliases": [
+            "RAPID VIENNA"
+        ]
+    },
+    {
+        "id": "2033",
+        "nombre_oficial": "PAIDE",
+        "apodo": "PAIDE",
+        "aliases": [
+            "PAIDE"
+        ]
+    },
+    {
+        "id": "2034",
+        "nombre_oficial": "PAFOS",
+        "apodo": "PAFOS",
+        "aliases": [
+            "PAFOS"
+        ]
+    },
+    {
+        "id": "2035",
+        "nombre_oficial": "SALZBURG",
+        "apodo": "SALZBURG",
+        "aliases": [
+            "SALZBURG"
+        ]
+    },
+    {
+        "id": "2036",
+        "nombre_oficial": "FC COPENHAGEN",
+        "apodo": "FC COPENHAGEN",
+        "aliases": [
+            "FC COPENHAGEN",
+            "FC KOBENHAVN"
+        ]
+    },
+    {
+        "id": "2037",
+        "nombre_oficial": "DEBRECEN",
+        "apodo": "DEBRECEN",
+        "aliases": [
+            "DEBRECEN"
+        ]
+    },
+    {
+        "id": "2038",
+        "nombre_oficial": "QARABAG",
+        "apodo": "QARABAG",
+        "aliases": [
+            "QARABAG"
+        ]
+    },
+    {
+        "id": "2039",
+        "nombre_oficial": "DINAMO KIEV",
+        "apodo": "DINAMO KIEV",
+        "aliases": [
+            "DINAMO KIEV"
+        ]
+    },
+    {
+        "id": "2040",
+        "nombre_oficial": "FLORA",
+        "apodo": "FLORA",
+        "aliases": [
+            "FLORA"
+        ]
+    },
+    {
+        "id": "2041",
+        "nombre_oficial": "HAMMARBY",
+        "apodo": "HAMMARBY",
+        "aliases": [
+            "HAMMARBY"
+        ]
+    },
+    {
+        "id": "2042",
+        "nombre_oficial": "RAKOW CZESTOCHOWA",
+        "apodo": "RAKOW CZESTOCHOWA",
+        "aliases": [
+            "RAKOW CZESTOCHOWA"
+        ]
+    },
+    {
+        "id": "2043",
+        "nombre_oficial": "GYOR",
+        "apodo": "GYOR",
+        "aliases": [
+            "GYOR"
+        ]
+    },
+    {
+        "id": "2044",
+        "nombre_oficial": "RIGA",
+        "apodo": "RIGA",
+        "aliases": [
+            "RIGA"
+        ]
+    },
+    {
+        "id": "2045",
+        "nombre_oficial": "ST.GALLEN",
+        "apodo": "ST.GALLEN",
+        "aliases": [
+            "ST.GALLEN"
+        ]
+    },
+    {
+        "id": "2046",
+        "nombre_oficial": "SHERIFF",
+        "apodo": "SHERIFF",
+        "aliases": [
+            "SHERIFF"
+        ]
+    },
+    {
+        "id": "2047",
+        "nombre_oficial": "HAJDUK SPLIT",
+        "apodo": "HAJDUK SPLIT",
+        "aliases": [
+            "HAJDUK SPLIT",
+            "FC HAJDUK"
+        ]
+    },
+    {
+        "id": "2048",
+        "nombre_oficial": "ZALGIRIS",
+        "apodo": "ZALGIRIS",
+        "aliases": [
+            "ZALGIRIS"
+        ]
+    },
+    {
+        "id": "2049",
+        "nombre_oficial": "AUSTRIA VIENNA",
+        "apodo": "AUSTRIA VIENNA",
+        "aliases": [
+            "AUSTRIA VIENNA"
+        ]
+    },
+    {
+        "id": "2050",
+        "nombre_oficial": "BEITAR JERUSALEM",
+        "apodo": "BEITAR JERUSALEM",
+        "aliases": [
+            "BEITAR JERUSALEM"
+        ]
+    },
+    {
+        "id": "2051",
+        "nombre_oficial": "ANDERLECHT",
+        "apodo": "ANDERLECHT",
+        "aliases": [
+            "ANDERLECHT"
+        ]
+    },
+    {
+        "id": "2052",
+        "nombre_oficial": "PAOK FC",
+        "apodo": "PAOK FC",
+        "aliases": [
+            "PAOK FC"
+        ]
+    },
+    {
+        "id": "2053",
+        "nombre_oficial": "SHELBOURNE",
+        "apodo": "SHELBOURNE",
+        "aliases": [
+            "SHELBOURNE"
+        ]
+    },
+    {
+        "id": "2054",
+        "nombre_oficial": "AJAX",
+        "apodo": "AJAX",
+        "aliases": [
+            "AJAX"
+        ]
+    },
+    {
+        "id": "2055",
+        "nombre_oficial": "DINAMO MINSK",
+        "apodo": "DINAMO MINSK",
+        "aliases": [
+            "DINAMO MINSK"
+        ]
+    },
+    {
+        "id": "2056",
+        "nombre_oficial": "SPORTING BRAGA",
+        "apodo": "SPORTING BRAGA",
+        "aliases": [
+            "SPORTING BRAGA"
+        ]
+    },
+    {
+        "id": "2057",
+        "nombre_oficial": "NSI",
+        "apodo": "NSI",
+        "aliases": [
+            "NSI"
+        ]
+    },
+    {
+        "id": "2058",
+        "nombre_oficial": "LUGANO",
+        "apodo": "LUGANO",
+        "aliases": [
+            "LUGANO"
+        ]
+    },
+    {
+        "id": "2059",
+        "nombre_oficial": "NORDSJLLAND",
+        "apodo": "NORDSJLLAND",
+        "aliases": [
+            "NORDSJLLAND"
+        ]
+    },
+    {
+        "id": "2060",
+        "nombre_oficial": "VALUR",
+        "apodo": "VALUR",
+        "aliases": [
+            "VALUR"
+        ]
+    },
+    {
+        "id": "2061",
+        "nombre_oficial": "ILVES",
+        "apodo": "ILVES",
+        "aliases": [
+            "ILVES",
+            "FC_LLVES"
+        ]
+    },
+    {
+        "id": "2062",
+        "nombre_oficial": "RIJEKA",
+        "apodo": "RIJEKA",
+        "aliases": [
+            "RIJEKA"
+        ]
+    },
+    {
+        "id": "2063",
+        "nombre_oficial": "HEART OF MIDLOTHIAN",
+        "apodo": "HEART OF MIDLOTHIAN",
+        "aliases": [
+            "HEART OF MIDLOTHIAN"
+        ]
+    },
+    {
+        "id": "2064",
+        "nombre_oficial": "BENFICA",
+        "apodo": "BENFICA",
+        "aliases": [
+            "BENFICA",
+            "BEMFICA"
+        ]
+    },
+    {
+        "id": "2065",
+        "nombre_oficial": "SHKENDIJA",
+        "apodo": "SHKENDIJA",
+        "aliases": [
+            "SHKENDIJA"
+        ]
+    },
+    {
+        "id": "2066",
+        "nombre_oficial": "HIBERNIAN",
+        "apodo": "HIBERNIAN",
+        "aliases": [
+            "HIBERNIAN"
+        ]
+    },
+    {
+        "id": "2067",
+        "nombre_oficial": "VIBORG FF",
+        "apodo": "VIBORG FF",
+        "aliases": [
+            "VIBORG FF"
+        ]
+    },
+    {
+        "id": "2068",
+        "nombre_oficial": "SONDERJYSKE",
+        "apodo": "SONDERJYSKE",
+        "aliases": [
+            "SONDERJYSKE"
+        ]
+    },
+    {
+        "id": "2069",
+        "nombre_oficial": "KFUM",
+        "apodo": "KFUM",
+        "aliases": [
+            "KFUM"
+        ]
+    },
+    {
+        "id": "2070",
+        "nombre_oficial": "SANDEFJORD",
+        "apodo": "SANDEFJORD",
+        "aliases": [
+            "SANDEFJORD"
+        ]
+    },
+    {
+        "id": "2071",
+        "nombre_oficial": "GIF SUNDSVALL",
+        "apodo": "GIF SUNDSVALL",
+        "aliases": [
+            "GIF SUNDSVALL"
+        ]
+    },
+    {
+        "id": "2072",
+        "nombre_oficial": "OSTERSUNDS FK",
+        "apodo": "OSTERSUNDS FK",
+        "aliases": [
+            "OSTERSUNDS FK"
+        ]
+    },
+    {
+        "id": "2073",
+        "nombre_oficial": "LOKOMOTIV PLOVDIV",
+        "apodo": "LOKOMOTIV PLOVDIV",
+        "aliases": [
+            "LOKOMOTIV PLOVDIV"
+        ]
+    },
+    {
+        "id": "2074",
+        "nombre_oficial": "LEVSKI SOFIA",
+        "apodo": "LEVSKI SOFIA",
+        "aliases": [
+            "LEVSKI SOFIA"
+        ]
+    },
+    {
+        "id": "2075",
+        "nombre_oficial": "EXCELSIOR ROTTERDAM",
+        "apodo": "EXCELSIOR ROTTERDAM",
+        "aliases": [
+            "EXCELSIOR ROTTERDAM"
+        ]
+    },
+    {
+        "id": "2076",
+        "nombre_oficial": "CAMBUUR LEEWARDEN",
+        "apodo": "CAMBUUR LEEWARDEN",
+        "aliases": [
+            "CAMBUUR LEEWARDEN"
+        ]
+    },
+    {
+        "id": "2077",
+        "nombre_oficial": "LOS CHANKAS",
+        "apodo": "LOS CHANKAS",
+        "aliases": [
+            "LOS CHANKAS"
+        ]
+    },
+    {
+        "id": "2078",
+        "nombre_oficial": "SPORT HUANCAYO",
+        "apodo": "SPORT HUANCAYO",
+        "aliases": [
+            "SPORT HUANCAYO"
+        ]
+    },
+    {
+        "id": "2079",
+        "nombre_oficial": "HERTHA BERLIN",
+        "apodo": "HERTHA BERLIN",
+        "aliases": [
+            "HERTHA BERLIN"
+        ]
+    },
+    {
+        "id": "2080",
+        "nombre_oficial": "VFL BOCHUM",
+        "apodo": "VFL BOCHUM",
+        "aliases": [
+            "VFL BOCHUM"
+        ]
+    },
+    {
+        "id": "2081",
+        "nombre_oficial": "WISLA PLOCK",
+        "apodo": "WISLA PLOCK",
+        "aliases": [
+            "WISLA PLOCK"
+        ]
+    },
+    {
+        "id": "2082",
+        "nombre_oficial": "WISLA KRAKOW",
+        "apodo": "WISLA KRAKOW",
+        "aliases": [
+            "WISLA KRAKOW"
+        ]
+    },
+    {
+        "id": "2083",
+        "nombre_oficial": "RAPID BUCURESTI",
+        "apodo": "RAPID BUCURESTI",
+        "aliases": [
+            "RAPID BUCURESTI"
+        ]
+    },
+    {
+        "id": "2084",
+        "nombre_oficial": "UTA ARAD1",
+        "apodo": "UTA ARAD1",
+        "aliases": [
+            "UTA ARAD1"
+        ]
+    },
+    {
+        "id": "2085",
+        "nombre_oficial": "LIVINGSTON",
+        "apodo": "LIVINGSTON",
+        "aliases": [
+            "LIVINGSTON"
+        ]
+    },
+    {
+        "id": "2086",
+        "nombre_oficial": "PARTICK THISTLE",
+        "apodo": "PARTICK THISTLE",
+        "aliases": [
+            "PARTICK THISTLE"
+        ]
+    },
+    {
+        "id": "2087",
+        "nombre_oficial": "KV KORTRIJK",
+        "apodo": "KV KORTRIJK",
+        "aliases": [
+            "KV KORTRIJK"
+        ]
+    },
+    {
+        "id": "2088",
+        "nombre_oficial": "CLUB BRUGGE",
+        "apodo": "CLUB BRUGGE",
+        "aliases": [
+            "CLUB BRUGGE"
+        ]
+    },
+    {
+        "id": "2089",
+        "nombre_oficial": "PORT VALE",
+        "apodo": "PORT VALE",
+        "aliases": [
+            "PORT VALE"
+        ]
+    },
+    {
+        "id": "2090",
+        "nombre_oficial": "WOLVERHAMPTON",
+        "apodo": "WOLVERHAMPTON",
+        "aliases": [
+            "WOLVERHAMPTON"
+        ]
+    },
+    {
+        "id": "2091",
+        "nombre_oficial": "DROGHEDA UNITED",
+        "apodo": "DROGHEDA UNITED",
+        "aliases": [
+            "DROGHEDA UNITED"
+        ]
+    },
+    {
+        "id": "2092",
+        "nombre_oficial": "GALWAY",
+        "apodo": "GALWAY",
+        "aliases": [
+            "GALWAY"
+        ]
+    },
+    {
+        "id": "2093",
+        "nombre_oficial": "SLIGO ROVERS",
+        "apodo": "SLIGO ROVERS",
+        "aliases": [
+            "SLIGO ROVERS"
+        ]
+    },
+    {
+        "id": "2094",
+        "nombre_oficial": "DERRY CITY",
+        "apodo": "DERRY CITY",
+        "aliases": [
+            "DERRY CITY"
+        ]
+    },
+    {
+        "id": "2095",
+        "nombre_oficial": "CRUSADERS",
+        "apodo": "CRUSADERS",
+        "aliases": [
+            "CRUSADERS"
+        ]
+    },
+    {
+        "id": "2096",
+        "nombre_oficial": "CLIFTONVILLE",
+        "apodo": "CLIFTONVILLE",
+        "aliases": [
+            "CLIFTONVILLE"
+        ]
+    },
+    {
+        "id": "2097",
+        "nombre_oficial": "PENYBONT",
+        "apodo": "PENYBONT",
+        "aliases": [
+            "PENYBONT"
+        ]
+    },
+    {
+        "id": "2098",
+        "nombre_oficial": "CAERNARFON TOWN",
+        "apodo": "CAERNARFON TOWN",
+        "aliases": [
+            "CAERNARFON TOWN"
+        ]
+    },
+    {
+        "id": "2099",
+        "nombre_oficial": "HAVERFORDWEST COUNTY",
+        "apodo": "HAVERFORDWEST COUNTY",
+        "aliases": [
+            "HAVERFORDWEST COUNTY"
+        ]
+    },
+    {
+        "id": "2100",
+        "nombre_oficial": "THE NEW SAINTS",
+        "apodo": "THE NEW SAINTS",
+        "aliases": [
+            "THE NEW SAINTS"
+        ]
+    },
+    {
+        "id": "2101",
+        "nombre_oficial": "BARRY TOWN UNITED",
+        "apodo": "BARRY TOWN UNITED",
+        "aliases": [
+            "BARRY TOWN UNITED"
+        ]
+    },
+    {
+        "id": "2102",
+        "nombre_oficial": "FLINT TOWN UNITED",
+        "apodo": "FLINT TOWN UNITED",
+        "aliases": [
+            "FLINT TOWN UNITED"
+        ]
+    },
+    {
+        "id": "2103",
+        "nombre_oficial": "CARDIFF MU",
+        "apodo": "CARDIFF MU",
+        "aliases": [
+            "CARDIFF MU"
+        ]
+    },
+    {
+        "id": "2104",
+        "nombre_oficial": "AIRBUS UK",
+        "apodo": "AIRBUS UK",
+        "aliases": [
+            "AIRBUS UK"
+        ]
+    },
+    {
+        "id": "2105",
+        "nombre_oficial": "WREXHAM",
+        "apodo": "WREXHAM",
+        "aliases": [
+            "WREXHAM"
+        ]
+    },
+    {
+        "id": "2106",
+        "nombre_oficial": "MIDDLESBROUGH",
+        "apodo": "MIDDLESBROUGH",
+        "aliases": [
+            "MIDDLESBROUGH"
+        ]
+    },
+    {
+        "id": "2107",
+        "nombre_oficial": "DUNDALK",
+        "apodo": "DUNDALK",
+        "aliases": [
+            "DUNDALK"
+        ]
+    },
+    {
+        "id": "2108",
+        "nombre_oficial": "SHAMROCK ROVERS",
+        "apodo": "SHAMROCK ROVERS",
+        "aliases": [
+            "SHAMROCK ROVERS"
+        ]
+    },
+    {
+        "id": "2109",
+        "nombre_oficial": "FAMALICAO",
+        "apodo": "FAMALICAO",
+        "aliases": [
+            "FAMALICAO"
+        ]
+    },
+    {
+        "id": "2110",
+        "nombre_oficial": "ESTORIL PRAIA",
+        "apodo": "ESTORIL PRAIA",
+        "aliases": [
+            "ESTORIL PRAIA"
+        ]
+    },
+    {
+        "id": "2111",
+        "nombre_oficial": "CUSCO",
+        "apodo": "CUSCO",
+        "aliases": [
+            "CUSCO"
+        ]
+    },
+    {
+        "id": "2112",
+        "nombre_oficial": "COMERCIANTES UNIDOS",
+        "apodo": "COMERCIANTES UNIDOS",
+        "aliases": [
+            "COMERCIANTES UNIDOS"
+        ]
+    },
+    {
+        "id": "2113",
+        "nombre_oficial": "SAO BERNARDO",
+        "apodo": "SAO BERNARDO",
+        "aliases": [
+            "SAO BERNARDO"
+        ]
+    },
+    {
+        "id": "2114",
+        "nombre_oficial": "OPERARIO PR",
+        "apodo": "OPERARIO PR",
+        "aliases": [
+            "OPERARIO PR"
+        ]
+    },
+    {
+        "id": "2115",
+        "nombre_oficial": "VANCOUVER FC",
+        "apodo": "VANCOUVER FC",
+        "aliases": [
+            "VANCOUVER FC"
+        ]
+    },
+    {
+        "id": "2116",
+        "nombre_oficial": "FORGE",
+        "apodo": "FORGE",
+        "aliases": [
+            "FORGE"
+        ]
+    },
+    {
+        "id": "2117",
+        "nombre_oficial": "INDEPENDIENTE DEL VALLE",
+        "apodo": "INDEPENDIENTE DEL VALLE",
+        "aliases": [
+            "INDEPENDIENTE DEL VALLE"
+        ]
+    },
+    {
+        "id": "2118",
+        "nombre_oficial": "LDU QUITO",
+        "apodo": "LDU QUITO",
+        "aliases": [
+            "LDU QUITO"
+        ]
+    },
+    {
+        "id": "2119",
+        "nombre_oficial": "CA LA PAZ",
+        "apodo": "CA LA PAZ",
+        "aliases": [
+            "CA LA PAZ"
+        ]
+    },
+    {
+        "id": "2120",
+        "nombre_oficial": "TEPATITLAN",
+        "apodo": "TEPATITLAN",
+        "aliases": [
+            "TEPATITLAN"
+        ]
+    },
+    {
+        "id": "2121",
+        "nombre_oficial": "SPORTING CRISTAL",
+        "apodo": "SPORTING CRISTAL",
+        "aliases": [
+            "SPORTING CRISTAL"
+        ]
+    },
+    {
+        "id": "2122",
+        "nombre_oficial": "UNIVERSITARIO",
+        "apodo": "UNIVERSITARIO",
+        "aliases": [
+            "UNIVERSITARIO"
+        ]
+    },
+    {
+        "id": "2123",
+        "nombre_oficial": "DEPORTIVO MAIPU",
+        "apodo": "DEPORTIVO MAIPU",
+        "aliases": [
+            "DEPORTIVO MAIPU"
+        ]
+    },
+    {
+        "id": "2124",
+        "nombre_oficial": "MIDLAND",
+        "apodo": "MIDLAND",
+        "aliases": [
+            "MIDLAND"
+        ]
+    },
+    {
+        "id": "2125",
+        "nombre_oficial": "ESTUDIANTES RIO CUARTO",
+        "apodo": "ESTUDIANTES RIO CUARTO",
+        "aliases": [
+            "ESTUDIANTES RIO CUARTO",
+            "ESTUDIANTES RIO CUATRO"
+        ]
+    },
+    {
+        "id": "2126",
+        "nombre_oficial": "INDEPENDIENTE RIVADAVIA",
+        "apodo": "INDEPENDIENTE RIVADAVIA",
+        "aliases": [
+            "INDEPENDIENTE RIVADAVIA"
+        ]
+    },
+    {
+        "id": "2127",
+        "nombre_oficial": "ALDOSIVI",
+        "apodo": "ALDOSIVI",
+        "aliases": [
+            "ALDOSIVI"
+        ]
+    },
+    {
+        "id": "2128",
+        "nombre_oficial": "ROSARIO CENTRAL",
+        "apodo": "ROSARIO CENTRAL",
+        "aliases": [
+            "ROSARIO CENTRAL"
+        ]
+    },
+    {
+        "id": "2129",
+        "nombre_oficial": "CHARLOTTE",
+        "apodo": "CHARLOTTE",
+        "aliases": [
+            "CHARLOTTE"
+        ]
+    },
+    {
+        "id": "2130",
+        "nombre_oficial": "ATLAS",
+        "apodo": "ATLAS",
+        "aliases": [
+            "ATLAS"
+        ]
+    },
+    {
+        "id": "2131",
+        "nombre_oficial": "PACHUCA",
+        "apodo": "PACHUCA",
+        "aliases": [
+            "PACHUCA"
+        ]
+    },
+    {
+        "id": "2132",
+        "nombre_oficial": "COLUMBUS CREW",
+        "apodo": "COLUMBUS CREW",
+        "aliases": [
+            "COLUMBUS CREW"
+        ]
+    },
+    {
+        "id": "2133",
+        "nombre_oficial": "UNAM PUMAS",
+        "apodo": "UNAM PUMAS",
+        "aliases": [
+            "UNAM PUMAS"
+        ]
+    },
+    {
+        "id": "2135",
+        "nombre_oficial": "TIGRES UANL",
+        "apodo": "TIGRES UANL",
+        "aliases": [
+            "TIGRES UANL"
+        ]
+    },
+    {
+        "id": "2136",
+        "nombre_oficial": "MINNESOTA UNITED",
+        "apodo": "MINNESOTA UNITED",
+        "aliases": [
+            "MINNESOTA UNITED"
+        ]
+    },
+    {
+        "id": "2137",
+        "nombre_oficial": "JUAREZ",
+        "apodo": "JUAREZ",
+        "aliases": [
+            "JUAREZ"
+        ]
+    },
+    {
+        "id": "2138",
+        "nombre_oficial": "VANCOUVER WHITECAPS",
+        "apodo": "VANCOUVER WHITECAPS",
+        "aliases": [
+            "VANCOUVER WHITECAPS"
+        ]
+    },
+    {
+        "id": "2139",
+        "nombre_oficial": "GUINGAMP",
+        "apodo": "GUINGAMP",
+        "aliases": [
+            "GUINGAMP"
+        ]
+    },
+    {
+        "id": "2140",
+        "nombre_oficial": "METZ",
+        "apodo": "METZ",
+        "aliases": [
+            "METZ"
+        ]
+    },
+    {
+        "id": "2141",
+        "nombre_oficial": "NANCY",
+        "apodo": "NANCY",
+        "aliases": [
+            "NANCY"
+        ]
+    },
+    {
+        "id": "2142",
+        "nombre_oficial": "BOULOGNE",
+        "apodo": "BOULOGNE",
+        "aliases": [
+            "BOULOGNE"
+        ]
+    },
+    {
+        "id": "2143",
+        "nombre_oficial": "SAINT-ETIENNE1",
+        "apodo": "SAINT-ETIENNE1",
+        "aliases": [
+            "SAINT-ETIENNE1"
+        ]
+    },
+    {
+        "id": "2144",
+        "nombre_oficial": "SOCHAUX",
+        "apodo": "SOCHAUX",
+        "aliases": [
+            "SOCHAUX"
+        ]
+    },
+    {
+        "id": "2145",
+        "nombre_oficial": "GRENOBLE FOOT 38",
+        "apodo": "GRENOBLE FOOT 38",
+        "aliases": [
+            "GRENOBLE FOOT 38"
+        ]
+    },
+    {
+        "id": "2146",
+        "nombre_oficial": "DUNKERQUE1",
+        "apodo": "DUNKERQUE1",
+        "aliases": [
+            "DUNKERQUE1"
+        ]
+    },
+    {
+        "id": "2147",
+        "nombre_oficial": "ANNECY",
+        "apodo": "ANNECY",
+        "aliases": [
+            "ANNECY"
+        ]
+    },
+    {
+        "id": "2148",
+        "nombre_oficial": "PAU1",
+        "apodo": "PAU1",
+        "aliases": [
+            "PAU1"
+        ]
+    },
+    {
+        "id": "2149",
+        "nombre_oficial": "FC NARVA TRANS",
+        "apodo": "FC NARVA TRANS",
+        "aliases": [
+            "FC NARVA TRANS"
+        ]
+    },
+    {
+        "id": "2150",
+        "nombre_oficial": "HOBRO IK",
+        "apodo": "HOBRO IK",
+        "aliases": [
+            "HOBRO IK"
+        ]
+    },
+    {
+        "id": "2151",
+        "nombre_oficial": "TAMWORTH",
+        "apodo": "TAMWORTH",
+        "aliases": [
+            "TAMWORTH"
+        ]
+    },
+    {
+        "id": "2152",
+        "nombre_oficial": "BOREHAM WOOD",
+        "apodo": "BOREHAM WOOD",
+        "aliases": [
+            "BOREHAM WOOD"
+        ]
+    },
+    {
+        "id": "2153",
+        "nombre_oficial": "BARROW FC",
+        "apodo": "BARROW FC",
+        "aliases": [
+            "BARROW FC"
+        ]
+    },
+    {
+        "id": "2154",
+        "nombre_oficial": "HARTLEPOOL UNITED",
+        "apodo": "HARTLEPOOL UNITED",
+        "aliases": [
+            "HARTLEPOOL UNITED"
+        ]
+    },
+    {
+        "id": "2155",
+        "nombre_oficial": "ALDERSHOT TOWN",
+        "apodo": "ALDERSHOT TOWN",
+        "aliases": [
+            "ALDERSHOT TOWN"
+        ]
+    },
+    {
+        "id": "2156",
+        "nombre_oficial": "BOSTON UNITED",
+        "apodo": "BOSTON UNITED",
+        "aliases": [
+            "BOSTON UNITED"
+        ]
+    },
+    {
+        "id": "2157",
+        "nombre_oficial": "SOUTHEND",
+        "apodo": "SOUTHEND",
+        "aliases": [
+            "SOUTHEND"
+        ]
+    },
+    {
+        "id": "2158",
+        "nombre_oficial": "ALTRINCHAM",
+        "apodo": "ALTRINCHAM",
+        "aliases": [
+            "ALTRINCHAM"
+        ]
+    },
+    {
+        "id": "2159",
+        "nombre_oficial": "YEOVIL TOWN",
+        "apodo": "YEOVIL TOWN",
+        "aliases": [
+            "YEOVIL TOWN"
+        ]
+    },
+    {
+        "id": "2160",
+        "nombre_oficial": "SCUNTHORPE UNITED",
+        "apodo": "SCUNTHORPE UNITED",
+        "aliases": [
+            "SCUNTHORPE UNITED"
+        ]
+    },
+    {
+        "id": "2161",
+        "nombre_oficial": "WEALDSTONE",
+        "apodo": "WEALDSTONE",
+        "aliases": [
+            "WEALDSTONE"
+        ]
+    },
+    {
+        "id": "2162",
+        "nombre_oficial": "FYLDE",
+        "apodo": "FYLDE",
+        "aliases": [
+            "FYLDE"
+        ]
+    },
+    {
+        "id": "2163",
+        "nombre_oficial": "SWINDON TOWN",
+        "apodo": "SWINDON TOWN",
+        "aliases": [
+            "SWINDON TOWN"
+        ]
+    },
+    {
+        "id": "2164",
+        "nombre_oficial": "CARDIFF",
+        "apodo": "CARDIFF",
+        "aliases": [
+            "CARDIFF"
+        ]
+    },
+    {
+        "id": "2165",
+        "nombre_oficial": "MILTON KEYNES DONS",
+        "apodo": "MILTON KEYNES DONS",
+        "aliases": [
+            "MILTON KEYNES DONS"
+        ]
+    },
+    {
+        "id": "2166",
+        "nombre_oficial": "NORWICH CITY",
+        "apodo": "NORWICH CITY",
+        "aliases": [
+            "NORWICH CITY"
+        ]
+    },
+    {
+        "id": "2167",
+        "nombre_oficial": "WIGAN ATHLETIC",
+        "apodo": "WIGAN ATHLETIC",
+        "aliases": [
+            "WIGAN ATHLETIC"
+        ]
+    },
+    {
+        "id": "2168",
+        "nombre_oficial": "BARNSLEY",
+        "apodo": "BARNSLEY",
+        "aliases": [
+            "BARNSLEY"
+        ]
+    },
+    {
+        "id": "2169",
+        "nombre_oficial": "OXFORD UTD",
+        "apodo": "OXFORD UTD",
+        "aliases": [
+            "OXFORD UTD"
+        ]
+    },
+    {
+        "id": "2170",
+        "nombre_oficial": "LEYTON ORIENT",
+        "apodo": "LEYTON ORIENT",
+        "aliases": [
+            "LEYTON ORIENT"
+        ]
+    },
+    {
+        "id": "2171",
+        "nombre_oficial": "DONCASTER",
+        "apodo": "DONCASTER",
+        "aliases": [
+            "DONCASTER"
+        ]
+    },
+    {
+        "id": "2172",
+        "nombre_oficial": "STOCKPORT COUNTY",
+        "apodo": "STOCKPORT COUNTY",
+        "aliases": [
+            "STOCKPORT COUNTY"
+        ]
+    },
+    {
+        "id": "2173",
+        "nombre_oficial": "HUDDERSFIELD TOWN",
+        "apodo": "HUDDERSFIELD TOWN",
+        "aliases": [
+            "HUDDERSFIELD TOWN"
+        ]
+    },
+    {
+        "id": "2174",
+        "nombre_oficial": "PRESTON",
+        "apodo": "PRESTON",
+        "aliases": [
+            "PRESTON"
+        ]
+    },
+    {
+        "id": "2175",
+        "nombre_oficial": "ROCHDALE",
+        "apodo": "ROCHDALE",
+        "aliases": [
+            "ROCHDALE"
+        ]
+    },
+    {
+        "id": "2176",
+        "nombre_oficial": "BRADFORD",
+        "apodo": "BRADFORD",
+        "aliases": [
+            "BRADFORD"
+        ]
+    },
+    {
+        "id": "2177",
+        "nombre_oficial": "SHREWSBURY TOWN",
+        "apodo": "SHREWSBURY TOWN",
+        "aliases": [
+            "SHREWSBURY TOWN"
+        ]
+    },
+    {
+        "id": "2178",
+        "nombre_oficial": "SALFORD CITY",
+        "apodo": "SALFORD CITY",
+        "aliases": [
+            "SALFORD CITY"
+        ]
+    },
+    {
+        "id": "2179",
+        "nombre_oficial": "OLDHAM ATH",
+        "apodo": "OLDHAM ATH",
+        "aliases": [
+            "OLDHAM ATH"
+        ]
+    },
+    {
+        "id": "2180",
+        "nombre_oficial": "STOKE CITY",
+        "apodo": "STOKE CITY",
+        "aliases": [
+            "STOKE CITY"
+        ]
+    },
+    {
+        "id": "2181",
+        "nombre_oficial": "ACCRINGTON",
+        "apodo": "ACCRINGTON",
+        "aliases": [
+            "ACCRINGTON"
+        ]
+    },
+    {
+        "id": "2182",
+        "nombre_oficial": "CREWE ALEXANDRA",
+        "apodo": "CREWE ALEXANDRA",
+        "aliases": [
+            "CREWE ALEXANDRA"
+        ]
+    },
+    {
+        "id": "2183",
+        "nombre_oficial": "BOLTON",
+        "apodo": "BOLTON",
+        "aliases": [
+            "BOLTON"
+        ]
+    },
+    {
+        "id": "2184",
+        "nombre_oficial": "SHEFFIELD WEDNESDAY",
+        "apodo": "SHEFFIELD WEDNESDAY",
+        "aliases": [
+            "SHEFFIELD WEDNESDAY"
+        ]
+    },
+    {
+        "id": "2185",
+        "nombre_oficial": "BIRMINGHAM CITY",
+        "apodo": "BIRMINGHAM CITY",
+        "aliases": [
+            "BIRMINGHAM CITY"
+        ]
+    },
+    {
+        "id": "2186",
+        "nombre_oficial": "SWANSEA CITY",
+        "apodo": "SWANSEA CITY",
+        "aliases": [
+            "SWANSEA CITY"
+        ]
+    },
+    {
+        "id": "2187",
+        "nombre_oficial": "CHESTERFIELD",
+        "apodo": "CHESTERFIELD",
+        "aliases": [
+            "CHESTERFIELD"
+        ]
+    },
+    {
+        "id": "2188",
+        "nombre_oficial": "FLEETWOOD TOWN",
+        "apodo": "FLEETWOOD TOWN",
+        "aliases": [
+            "FLEETWOOD TOWN"
+        ]
+    },
+    {
+        "id": "2189",
+        "nombre_oficial": "LINCOLN CITY",
+        "apodo": "LINCOLN CITY",
+        "aliases": [
+            "LINCOLN CITY"
+        ]
+    },
+    {
+        "id": "2190",
+        "nombre_oficial": "DERBY COUNTY",
+        "apodo": "DERBY COUNTY",
+        "aliases": [
+            "DERBY COUNTY"
+        ]
+    },
+    {
+        "id": "2191",
+        "nombre_oficial": "BLACKBURN",
+        "apodo": "BLACKBURN",
+        "aliases": [
+            "BLACKBURN"
+        ]
+    },
+    {
+        "id": "2192",
+        "nombre_oficial": "BURTON ALBION",
+        "apodo": "BURTON ALBION",
+        "aliases": [
+            "BURTON ALBION"
+        ]
+    },
+    {
+        "id": "2193",
+        "nombre_oficial": "NOTTS COUNTY",
+        "apodo": "NOTTS COUNTY",
+        "aliases": [
+            "NOTTS COUNTY"
+        ]
+    },
+    {
+        "id": "2194",
+        "nombre_oficial": "BURNLEY FC",
+        "apodo": "BURNLEY FC",
+        "aliases": [
+            "BURNLEY FC"
+        ]
+    },
+    {
+        "id": "2195",
+        "nombre_oficial": "PORTSMOUTH",
+        "apodo": "PORTSMOUTH",
+        "aliases": [
+            "PORTSMOUTH"
+        ]
+    },
+    {
+        "id": "2196",
+        "nombre_oficial": "WEST HAM",
+        "apodo": "WEST HAM",
+        "aliases": [
+            "WEST HAM"
+        ]
+    },
+    {
+        "id": "2197",
+        "nombre_oficial": "READING",
+        "apodo": "READING",
+        "aliases": [
+            "READING"
+        ]
+    },
+    {
+        "id": "2198",
+        "nombre_oficial": "BROMLEY",
+        "apodo": "BROMLEY",
+        "aliases": [
+            "BROMLEY"
+        ]
+    },
+    {
+        "id": "2199",
+        "nombre_oficial": "NEWPORT COUNTY",
+        "apodo": "NEWPORT COUNTY",
+        "aliases": [
+            "NEWPORT COUNTY"
+        ]
+    },
+    {
+        "id": "2200",
+        "nombre_oficial": "AFC WIMBLEDON",
+        "apodo": "AFC WIMBLEDON",
+        "aliases": [
+            "AFC WIMBLEDON"
+        ]
+    },
+    {
+        "id": "2201",
+        "nombre_oficial": "LUTON TOWN",
+        "apodo": "LUTON TOWN",
+        "aliases": [
+            "LUTON TOWN"
+        ]
+    },
+    {
+        "id": "2202",
+        "nombre_oficial": "GILLINGHAM",
+        "apodo": "GILLINGHAM",
+        "aliases": [
+            "GILLINGHAM"
+        ]
+    },
+    {
+        "id": "2203",
+        "nombre_oficial": "PETERBOROUGH",
+        "apodo": "PETERBOROUGH",
+        "aliases": [
+            "PETERBOROUGH"
+        ]
+    },
+    {
+        "id": "2204",
+        "nombre_oficial": "BRISTOL ROVERS",
+        "apodo": "BRISTOL ROVERS",
+        "aliases": [
+            "BRISTOL ROVERS"
+        ]
+    },
+    {
+        "id": "2205",
+        "nombre_oficial": "COLERAINE",
+        "apodo": "COLERAINE",
+        "aliases": [
+            "COLERAINE"
+        ]
+    },
+    {
+        "id": "2206",
+        "nombre_oficial": "DUNGANNON SWIFTS",
+        "apodo": "DUNGANNON SWIFTS",
+        "aliases": [
+            "DUNGANNON SWIFTS"
+        ]
+    },
+    {
+        "id": "2207",
+        "nombre_oficial": "BALLYMENA UNITED",
+        "apodo": "BALLYMENA UNITED",
+        "aliases": [
+            "BALLYMENA UNITED"
+        ]
+    },
+    {
+        "id": "2208",
+        "nombre_oficial": "LINFIELD",
+        "apodo": "LINFIELD",
+        "aliases": [
+            "LINFIELD"
+        ]
+    },
+    {
+        "id": "2209",
+        "nombre_oficial": "PORTADOWN",
+        "apodo": "PORTADOWN",
+        "aliases": [
+            "PORTADOWN"
+        ]
+    },
+    {
+        "id": "2210",
+        "nombre_oficial": "CARRICK RANGERS",
+        "apodo": "CARRICK RANGERS",
+        "aliases": [
+            "CARRICK RANGERS"
+        ]
+    },
+    {
+        "id": "2211",
+        "nombre_oficial": "SARPSBORG 08",
+        "apodo": "SARPSBORG 08",
+        "aliases": [
+            "SARPSBORG 08"
+        ]
+    },
+    {
+        "id": "2212",
+        "nombre_oficial": "VIKING FK",
+        "apodo": "VIKING FK",
+        "aliases": [
+            "VIKING FK"
+        ]
+    },
+    {
+        "id": "2213",
+        "nombre_oficial": "LYN",
+        "apodo": "LYN",
+        "aliases": [
+            "LYN"
+        ]
+    },
+    {
+        "id": "2214",
+        "nombre_oficial": "STABK",
+        "apodo": "STABK",
+        "aliases": [
+            "STABK"
+        ]
+    },
+    {
+        "id": "2215",
+        "nombre_oficial": "ABERDEEN",
+        "apodo": "ABERDEEN",
+        "aliases": [
+            "ABERDEEN"
+        ]
+    },
+    {
+        "id": "2216",
+        "nombre_oficial": "DUNDEE",
+        "apodo": "DUNDEE",
+        "aliases": [
+            "DUNDEE"
+        ]
+    },
+    {
+        "id": "2217",
+        "nombre_oficial": "ST. JOHNSTONE",
+        "apodo": "ST. JOHNSTONE",
+        "aliases": [
+            "ST. JOHNSTONE"
+        ]
+    },
+    {
+        "id": "2218",
+        "nombre_oficial": "ST. MIRREN",
+        "apodo": "ST. MIRREN",
+        "aliases": [
+            "ST. MIRREN"
+        ]
+    },
+    {
+        "id": "2219",
+        "nombre_oficial": "RAITH ROVERS",
+        "apodo": "RAITH ROVERS",
+        "aliases": [
+            "RAITH ROVERS"
+        ]
+    },
+    {
+        "id": "2220",
+        "nombre_oficial": "QUEEN'S PARK",
+        "apodo": "QUEEN'S PARK",
+        "aliases": [
+            "QUEEN'S PARK"
+        ]
+    },
+    {
+        "id": "2221",
+        "nombre_oficial": "AYR UNITED",
+        "apodo": "AYR UNITED",
+        "aliases": [
+            "AYR UNITED"
+        ]
+    },
+    {
+        "id": "2222",
+        "nombre_oficial": "DUNFERMLINE ATHLETIC",
+        "apodo": "DUNFERMLINE ATHLETIC",
+        "aliases": [
+            "DUNFERMLINE ATHLETIC"
+        ]
+    },
+    {
+        "id": "2223",
+        "nombre_oficial": "GREENOCK MORTON",
+        "apodo": "GREENOCK MORTON",
+        "aliases": [
+            "GREENOCK MORTON"
+        ]
+    },
+    {
+        "id": "2224",
+        "nombre_oficial": "STENHOUSEMUIR",
+        "apodo": "STENHOUSEMUIR",
+        "aliases": [
+            "STENHOUSEMUIR"
+        ]
+    },
+    {
+        "id": "2225",
+        "nombre_oficial": "INVERNESS CT",
+        "apodo": "INVERNESS CT",
+        "aliases": [
+            "INVERNESS CT"
+        ]
+    },
+    {
+        "id": "2226",
+        "nombre_oficial": "ARBROATH",
+        "apodo": "ARBROATH",
+        "aliases": [
+            "ARBROATH"
+        ]
+    },
+    {
+        "id": "2227",
+        "nombre_oficial": "TELSTAR",
+        "apodo": "TELSTAR",
+        "aliases": [
+            "TELSTAR"
+        ]
+    },
+    {
+        "id": "2228",
+        "nombre_oficial": "NEC NIJMEGEN",
+        "apodo": "NEC NIJMEGEN",
+        "aliases": [
+            "NEC NIJMEGEN"
+        ]
+    },
+    {
+        "id": "2229",
+        "nombre_oficial": "CASA PIA",
+        "apodo": "CASA PIA",
+        "aliases": [
+            "CASA PIA"
+        ]
+    },
+    {
+        "id": "2230",
+        "nombre_oficial": "MARITIMO",
+        "apodo": "MARITIMO",
+        "aliases": [
+            "MARITIMO"
+        ]
+    },
+    {
+        "id": "2231",
+        "nombre_oficial": "AUSTRIA LUSTENAU",
+        "apodo": "AUSTRIA LUSTENAU",
+        "aliases": [
+            "AUSTRIA LUSTENAU"
+        ]
+    },
+    {
+        "id": "2232",
+        "nombre_oficial": "GRAZER AK",
+        "apodo": "GRAZER AK",
+        "aliases": [
+            "GRAZER AK"
+        ]
+    },
+    {
+        "id": "2233",
+        "nombre_oficial": "NK OSIJEK",
+        "apodo": "NK OSIJEK",
+        "aliases": [
+            "NK OSIJEK"
+        ]
+    },
+    {
+        "id": "2234",
+        "nombre_oficial": "RUDES",
+        "apodo": "RUDES",
+        "aliases": [
+            "RUDES"
+        ]
+    },
+    {
+        "id": "2235",
+        "nombre_oficial": "HNK GORICA1",
+        "apodo": "HNK GORICA1",
+        "aliases": [
+            "HNK GORICA1"
+        ]
+    },
+    {
+        "id": "2236",
+        "nombre_oficial": "LOKOMOTIVA ZAGREB",
+        "apodo": "LOKOMOTIVA ZAGREB",
+        "aliases": [
+            "LOKOMOTIVA ZAGREB"
+        ]
+    },
+    {
+        "id": "2237",
+        "nombre_oficial": "BRAGE",
+        "apodo": "BRAGE",
+        "aliases": [
+            "BRAGE"
+        ]
+    },
+    {
+        "id": "2238",
+        "nombre_oficial": "NORRKOPING",
+        "apodo": "NORRKOPING",
+        "aliases": [
+            "NORRKOPING"
+        ]
+    },
+    {
+        "id": "2239",
+        "nombre_oficial": "NEMAN GRODNO.",
+        "apodo": "NEMAN GRODNO.",
+        "aliases": [
+            "NEMAN GRODNO."
+        ]
+    },
+    {
+        "id": "2240",
+        "nombre_oficial": "VITEBSK.",
+        "apodo": "VITEBSK.",
+        "aliases": [
+            "VITEBSK."
+        ]
+    },
+    {
+        "id": "2241",
+        "nombre_oficial": "UJPEST FC",
+        "apodo": "UJPEST FC",
+        "aliases": [
+            "UJPEST FC"
+        ]
+    },
+    {
+        "id": "2242",
+        "nombre_oficial": "VARDA SE",
+        "apodo": "VARDA SE",
+        "aliases": [
+            "VARDA SE"
+        ]
+    },
+    {
+        "id": "2243",
+        "nombre_oficial": "MOTOR LUBLIN",
+        "apodo": "MOTOR LUBLIN",
+        "aliases": [
+            "MOTOR LUBLIN"
+        ]
+    },
+    {
+        "id": "2244",
+        "nombre_oficial": "POGON SZCZECIN",
+        "apodo": "POGON SZCZECIN",
+        "aliases": [
+            "POGON SZCZECIN",
+            "POGON"
+        ]
+    },
+    {
+        "id": "2245",
+        "nombre_oficial": "CSIKSZEREDA",
+        "apodo": "CSIKSZEREDA",
+        "aliases": [
+            "CSIKSZEREDA"
+        ]
+    },
+    {
+        "id": "2246",
+        "nombre_oficial": "FARUL CONSTANTA 1920",
+        "apodo": "FARUL CONSTANTA 1920",
+        "aliases": [
+            "FARUL CONSTANTA 1920"
+        ]
+    },
+    {
+        "id": "2247",
+        "nombre_oficial": "CSKA 1948 SOFIA",
+        "apodo": "CSKA 1948 SOFIA",
+        "aliases": [
+            "CSKA 1948 SOFIA"
+        ]
+    },
+    {
+        "id": "2248",
+        "nombre_oficial": "LOKOMOTIV SOFIA 1929",
+        "apodo": "LOKOMOTIV SOFIA 1929",
+        "aliases": [
+            "LOKOMOTIV SOFIA 1929"
+        ]
+    },
+    {
+        "id": "2249",
+        "nombre_oficial": "NOMME KALJU",
+        "apodo": "NOMME KALJU",
+        "aliases": [
+            "NOMME KALJU"
+        ]
+    },
+    {
+        "id": "2250",
+        "nombre_oficial": "TRANS",
+        "apodo": "TRANS",
+        "aliases": [
+            "TRANS"
+        ]
+    },
+    {
+        "id": "2251",
+        "nombre_oficial": "VPS.",
+        "apodo": "VPS.",
+        "aliases": [
+            "VPS."
+        ]
+    },
+    {
+        "id": "2252",
+        "nombre_oficial": "JARO",
+        "apodo": "JARO",
+        "aliases": [
+            "JARO"
+        ]
+    },
+    {
+        "id": "2253",
+        "nombre_oficial": "HEGELMANN",
+        "apodo": "HEGELMANN",
+        "aliases": [
+            "HEGELMANN"
+        ]
+    },
+    {
+        "id": "2254",
+        "nombre_oficial": "KAUNO ZALGIRIS",
+        "apodo": "KAUNO ZALGIRIS",
+        "aliases": [
+            "KAUNO ZALGIRIS"
+        ]
+    },
+    {
+        "id": "2255",
+        "nombre_oficial": "FREDRIKSTAD",
+        "apodo": "FREDRIKSTAD",
+        "aliases": [
+            "FREDRIKSTAD"
+        ]
+    },
+    {
+        "id": "2256",
+        "nombre_oficial": "IK START",
+        "apodo": "IK START",
+        "aliases": [
+            "IK START"
+        ]
+    },
+    {
+        "id": "2257",
+        "nombre_oficial": "KOMARNO",
+        "apodo": "KOMARNO",
+        "aliases": [
+            "KOMARNO"
+        ]
+    },
+    {
+        "id": "2258",
+        "nombre_oficial": "ZEMPLIN MICHALOVCE",
+        "apodo": "ZEMPLIN MICHALOVCE",
+        "aliases": [
+            "ZEMPLIN MICHALOVCE"
+        ]
+    },
+    {
+        "id": "2259",
+        "nombre_oficial": "PODBREZOVA",
+        "apodo": "PODBREZOVA",
+        "aliases": [
+            "PODBREZOVA"
+        ]
+    },
+    {
+        "id": "2260",
+        "nombre_oficial": "RUZOMBEROK",
+        "apodo": "RUZOMBEROK",
+        "aliases": [
+            "RUZOMBEROK"
+        ]
+    },
+    {
+        "id": "2261",
+        "nombre_oficial": "YOUNG BOYS",
+        "apodo": "YOUNG BOYS",
+        "aliases": [
+            "YOUNG BOYS"
+        ]
+    },
+    {
+        "id": "2262",
+        "nombre_oficial": "LAUSANNE SPORT",
+        "apodo": "LAUSANNE SPORT",
+        "aliases": [
+            "LAUSANNE SPORT"
+        ]
+    },
+    {
+        "id": "2263",
+        "nombre_oficial": "CERCLE BRUGGE1",
+        "apodo": "CERCLE BRUGGE1",
+        "aliases": [
+            "CERCLE BRUGGE1"
+        ]
+    },
+    {
+        "id": "2264",
+        "nombre_oficial": "STANDARD LIEGE",
+        "apodo": "STANDARD LIEGE",
+        "aliases": [
+            "STANDARD LIEGE"
+        ]
+    },
+    {
+        "id": "2265",
+        "nombre_oficial": "WEST BROMWICH",
+        "apodo": "WEST BROMWICH",
+        "aliases": [
+            "WEST BROMWICH"
+        ]
+    },
+    {
+        "id": "2266",
+        "nombre_oficial": "ROTHERHAM",
+        "apodo": "ROTHERHAM",
+        "aliases": [
+            "ROTHERHAM"
+        ]
+    },
+    {
+        "id": "2267",
+        "nombre_oficial": "CHARLTON",
+        "apodo": "CHARLTON",
+        "aliases": [
+            "CHARLTON"
+        ]
+    },
+    {
+        "id": "2268",
+        "nombre_oficial": "CHELTENHAM TOWN.",
+        "apodo": "CHELTENHAM TOWN.",
+        "aliases": [
+            "CHELTENHAM TOWN."
+        ]
+    },
+    {
+        "id": "2269",
+        "nombre_oficial": "WILLEM II",
+        "apodo": "WILLEM II",
+        "aliases": [
+            "WILLEM II"
+        ]
+    },
+    {
+        "id": "2270",
+        "nombre_oficial": "GO AHEAD EAGLES",
+        "apodo": "GO AHEAD EAGLES",
+        "aliases": [
+            "GO AHEAD EAGLES"
+        ]
+    },
+    {
+        "id": "2271",
+        "nombre_oficial": "FC AROUCA",
+        "apodo": "FC AROUCA",
+        "aliases": [
+            "FC AROUCA"
+        ]
+    },
+    {
+        "id": "2272",
+        "nombre_oficial": "VITORIA GUIMARAES",
+        "apodo": "VITORIA GUIMARAES",
+        "aliases": [
+            "VITORIA GUIMARAES"
+        ]
+    },
+    {
+        "id": "2273",
+        "nombre_oficial": "SK STURM GRAZ",
+        "apodo": "SK STURM GRAZ",
+        "aliases": [
+            "SK STURM GRAZ"
+        ]
+    },
+    {
+        "id": "2274",
+        "nombre_oficial": "HARTBERG",
+        "apodo": "HARTBERG",
+        "aliases": [
+            "HARTBERG"
+        ]
+    },
+    {
+        "id": "2275",
+        "nombre_oficial": "CLUB ATLETICO GUEMES",
+        "apodo": "CLUB ATLETICO GUEMES",
+        "aliases": [
+            "CLUB ATLETICO GUEMES"
+        ]
+    },
+    {
+        "id": "2276",
+        "nombre_oficial": "AGROPECUARIO",
+        "apodo": "AGROPECUARIO",
+        "aliases": [
+            "AGROPECUARIO"
+        ]
+    },
+    {
+        "id": "2277",
+        "nombre_oficial": "CIUDAD BOLIVAR",
+        "apodo": "CIUDAD BOLIVAR",
+        "aliases": [
+            "CIUDAD BOLIVAR"
+        ]
+    },
+    {
+        "id": "2278",
+        "nombre_oficial": "ALMIRANTE BROWN",
+        "apodo": "ALMIRANTE BROWN",
+        "aliases": [
+            "ALMIRANTE BROWN"
+        ]
+    },
+    {
+        "id": "2279",
+        "nombre_oficial": "DEPORTIVO MADRYN",
+        "apodo": "DEPORTIVO MADRYN",
+        "aliases": [
+            "DEPORTIVO MADRYN"
+        ]
+    },
+    {
+        "id": "2280",
+        "nombre_oficial": "ESTUDIANTES CASEROS",
+        "apodo": "ESTUDIANTES CASEROS",
+        "aliases": [
+            "ESTUDIANTES CASEROS"
+        ]
+    },
+    {
+        "id": "2281",
+        "nombre_oficial": "CATANIA",
+        "apodo": "CATANIA",
+        "aliases": [
+            "CATANIA"
+        ]
+    },
+    {
+        "id": "2282",
+        "nombre_oficial": "VICENZA",
+        "apodo": "VICENZA",
+        "aliases": [
+            "VICENZA"
+        ]
+    },
+    {
+        "id": "2283",
+        "nombre_oficial": "FORTUNA SITTARD",
+        "apodo": "FORTUNA SITTARD",
+        "aliases": [
+            "FORTUNA SITTARD"
+        ]
+    },
+    {
+        "id": "2284",
+        "nombre_oficial": "PSV EINDHOVEN",
+        "apodo": "PSV EINDHOVEN",
+        "aliases": [
+            "PSV EINDHOVEN",
+            "PSV"
+        ]
+    },
+    {
+        "id": "2285",
+        "nombre_oficial": "ADT",
+        "apodo": "ADT",
+        "aliases": [
+            "ADT"
+        ]
+    },
+    {
+        "id": "2286",
+        "nombre_oficial": "UTC CAJAMARCA",
+        "apodo": "UTC CAJAMARCA",
+        "aliases": [
+            "UTC CAJAMARCA"
+        ]
+    },
+    {
+        "id": "2287",
+        "nombre_oficial": "LEGIA WARSZAWA",
+        "apodo": "LEGIA WARSZAWA",
+        "aliases": [
+            "LEGIA WARSZAWA"
+        ]
+    },
+    {
+        "id": "2288",
+        "nombre_oficial": "KORONA KIELCE",
+        "apodo": "KORONA KIELCE",
+        "aliases": [
+            "KORONA KIELCE"
+        ]
+    },
+    {
+        "id": "2289",
+        "nombre_oficial": "VOLUNTARI",
+        "apodo": "VOLUNTARI",
+        "aliases": [
+            "VOLUNTARI"
+        ]
+    },
+    {
+        "id": "2290",
+        "nombre_oficial": "DINAMO BUCURESTI",
+        "apodo": "DINAMO BUCURESTI",
+        "aliases": [
+            "DINAMO BUCURESTI"
+        ]
+    },
+    {
+        "id": "2291",
+        "nombre_oficial": "GRASSHOPPER",
+        "apodo": "GRASSHOPPER",
+        "aliases": [
+            "GRASSHOPPER"
+        ]
+    },
+    {
+        "id": "2292",
+        "nombre_oficial": "SERVETTE",
+        "apodo": "SERVETTE",
+        "aliases": [
+            "SERVETTE"
+        ]
+    },
+    {
+        "id": "2293",
+        "nombre_oficial": "LOMMEL",
+        "apodo": "LOMMEL",
+        "aliases": [
+            "LOMMEL"
+        ]
+    },
+    {
+        "id": "2294",
+        "nombre_oficial": "ST TRUIDENSE",
+        "apodo": "ST TRUIDENSE",
+        "aliases": [
+            "ST TRUIDENSE"
+        ]
+    },
+    {
+        "id": "2295",
+        "nombre_oficial": "UNION SAINT-GILLOISE",
+        "apodo": "UNION SAINT-GILLOISE",
+        "aliases": [
+            "UNION SAINT-GILLOISE"
+        ]
+    },
+    {
+        "id": "2296",
+        "nombre_oficial": "KVC WESTERLO",
+        "apodo": "KVC WESTERLO",
+        "aliases": [
+            "KVC WESTERLO"
+        ]
+    },
+    {
+        "id": "2297",
+        "nombre_oficial": "SAO PAULO",
+        "apodo": "SAO PAULO",
+        "aliases": [
+            "SAO PAULO",
+            "SAO PABLO"
+        ]
+    },
+    {
+        "id": "2298",
+        "nombre_oficial": "GREMIO",
+        "apodo": "GREMIO",
+        "aliases": [
+            "GREMIO"
+        ]
+    },
+    {
+        "id": "2299",
+        "nombre_oficial": "SPORT RECIFE",
+        "apodo": "SPORT RECIFE",
+        "aliases": [
+            "SPORT RECIFE"
+        ]
+    },
+    {
+        "id": "2300",
+        "nombre_oficial": "VILA NOVA",
+        "apodo": "VILA NOVA",
+        "aliases": [
+            "VILA NOVA"
+        ]
+    },
+    {
+        "id": "2301",
+        "nombre_oficial": "EVERTON",
+        "apodo": "EVERTON",
+        "aliases": [
+            "EVERTON"
+        ]
+    },
+    {
+        "id": "2302",
+        "nombre_oficial": "HUACHIPATO",
+        "apodo": "HUACHIPATO",
+        "aliases": [
+            "HUACHIPATO"
+        ]
+    },
+    {
+        "id": "2303",
+        "nombre_oficial": "ADO DEN HAAG",
+        "apodo": "ADO DEN HAAG",
+        "aliases": [
+            "ADO DEN HAAG"
+        ]
+    },
+    {
+        "id": "2304",
+        "nombre_oficial": "AZ ALKMAAR",
+        "apodo": "AZ ALKMAAR",
+        "aliases": [
+            "AZ ALKMAAR"
+        ]
+    },
+    {
+        "id": "2305",
+        "nombre_oficial": "SPORTING LISBON",
+        "apodo": "SPORTING LISBON",
+        "aliases": [
+            "SPORTING LISBON"
+        ]
+    },
+    {
+        "id": "2306",
+        "nombre_oficial": "ESTRELA",
+        "apodo": "ESTRELA",
+        "aliases": [
+            "ESTRELA"
+        ]
+    },
+    {
+        "id": "2307",
+        "nombre_oficial": "CHACARITA JUNIORS",
+        "apodo": "CHACARITA JUNIORS",
+        "aliases": [
+            "CHACARITA JUNIORS",
+            "CHACARITA"
+        ]
+    },
+    {
+        "id": "2308",
+        "nombre_oficial": "ATLETICO RAFAELA",
+        "apodo": "ATLETICO RAFAELA",
+        "aliases": [
+            "ATLETICO RAFAELA"
+        ]
+    },
+    {
+        "id": "2309",
+        "nombre_oficial": "ATLETICO GRAU",
+        "apodo": "ATLETICO GRAU",
+        "aliases": [
+            "ATLETICO GRAU"
+        ]
+    },
+    {
+        "id": "2310",
+        "nombre_oficial": "JUAN PABLO II COLLEGE",
+        "apodo": "JUAN PABLO II COLLEGE",
+        "aliases": [
+            "JUAN PABLO II COLLEGE"
+        ]
+    },
+    {
+        "id": "2311",
+        "nombre_oficial": "HOUSTON",
+        "apodo": "HOUSTON",
+        "aliases": [
+            "HOUSTON"
+        ]
+    },
+    {
+        "id": "2312",
+        "nombre_oficial": "NEW ENGLAND",
+        "apodo": "NEW ENGLAND",
+        "aliases": [
+            "NEW ENGLAND"
+        ]
+    },
+    {
+        "id": "2313",
+        "nombre_oficial": "CUCUTA DEPORTIVO",
+        "apodo": "CUCUTA DEPORTIVO",
+        "aliases": [
+            "CUCUTA DEPORTIVO"
+        ]
+    },
+    {
+        "id": "2314",
+        "nombre_oficial": "FORTALEZA (COL)",
+        "apodo": "FORTALEZA (COL)",
+        "aliases": [
+            "FORTALEZA (COL)"
+        ]
+    },
+    {
+        "id": "2315",
+        "nombre_oficial": "ATLETICO MG",
+        "apodo": "ATLETICO MG",
+        "aliases": [
+            "ATLETICO MG"
+        ]
+    },
+    {
+        "id": "2316",
+        "nombre_oficial": "REMO",
+        "apodo": "REMO",
+        "aliases": [
+            "REMO"
+        ]
+    },
+    {
+        "id": "2317",
+        "nombre_oficial": "LA SERENA",
+        "apodo": "LA SERENA",
+        "aliases": [
+            "LA SERENA"
+        ]
+    },
+    {
+        "id": "2318",
+        "nombre_oficial": "COQUIMBO UNIDO",
+        "apodo": "COQUIMBO UNIDO",
+        "aliases": [
+            "COQUIMBO UNIDO"
+        ]
+    },
+    {
+        "id": "2319",
+        "nombre_oficial": "LEONES DEL NORTE",
+        "apodo": "LEONES DEL NORTE",
+        "aliases": [
+            "LEONES DEL NORTE"
+        ]
+    },
+    {
+        "id": "2320",
+        "nombre_oficial": "AUCAS",
+        "apodo": "AUCAS",
+        "aliases": [
+            "AUCAS"
+        ]
+    },
+    {
+        "id": "2321",
+        "nombre_oficial": "INTER BOGOTA",
+        "apodo": "INTER BOGOTA",
+        "aliases": [
+            "INTER BOGOTA"
+        ]
+    },
+    {
+        "id": "2322",
+        "nombre_oficial": "DEPORTES TOLIMA",
+        "apodo": "DEPORTES TOLIMA",
+        "aliases": [
+            "DEPORTES TOLIMA"
+        ]
+    },
+    {
+        "id": "2323",
+        "nombre_oficial": "CHAPECOENSE",
+        "apodo": "CHAPECOENSE",
+        "aliases": [
+            "CHAPECOENSE"
+        ]
+    },
+    {
+        "id": "2324",
+        "nombre_oficial": "CORITIBA",
+        "apodo": "CORITIBA",
+        "aliases": [
+            "CORITIBA"
+        ]
+    },
+    {
+        "id": "2325",
+        "nombre_oficial": "FLUMINENSE PI",
+        "apodo": "FLUMINENSE PI",
+        "aliases": [
+            "FLUMINENSE PI"
+        ]
+    },
+    {
+        "id": "2326",
+        "nombre_oficial": "BOTAFOGO",
+        "apodo": "BOTAFOGO",
+        "aliases": [
+            "BOTAFOGO"
+        ]
+    },
+    {
+        "id": "2327",
+        "nombre_oficial": "MACARA",
+        "apodo": "MACARA",
+        "aliases": [
+            "MACARA"
+        ]
+    },
+    {
+        "id": "2328",
+        "nombre_oficial": "BARCELONA SC",
+        "apodo": "BARCELONA SC",
+        "aliases": [
+            "BARCELONA SC"
+        ]
+    },
+    {
+        "id": "2329",
+        "nombre_oficial": "ALIANZA LIMA",
+        "apodo": "ALIANZA LIMA",
+        "aliases": [
+            "ALIANZA LIMA"
+        ]
+    },
+    {
+        "id": "2330",
+        "nombre_oficial": "SPORT BOYS",
+        "apodo": "SPORT BOYS",
+        "aliases": [
+            "SPORT BOYS"
+        ]
+    },
+    {
+        "id": "2331",
+        "nombre_oficial": "DEPORTIVO CALI",
+        "apodo": "DEPORTIVO CALI",
+        "aliases": [
+            "DEPORTIVO CALI"
+        ]
+    },
+    {
+        "id": "2332",
+        "nombre_oficial": "DEPORTIVO PASTO",
+        "apodo": "DEPORTIVO PASTO",
+        "aliases": [
+            "DEPORTIVO PASTO"
+        ]
+    },
+    {
+        "id": "2333",
+        "nombre_oficial": "ESTUDIANTES",
+        "apodo": "ESTUDIANTES",
+        "aliases": [
+            "ESTUDIANTES"
+        ]
+    },
+    {
+        "id": "2334",
+        "nombre_oficial": "DEPORTIVO RIESTRA",
+        "apodo": "DEPORTIVO RIESTRA",
+        "aliases": [
+            "DEPORTIVO RIESTRA"
+        ]
+    },
+    {
+        "id": "2335",
+        "nombre_oficial": "PLATENSE",
+        "apodo": "PLATENSE",
+        "aliases": [
+            "PLATENSE"
+        ]
+    },
+    {
+        "id": "2336",
+        "nombre_oficial": "INDEPENDIENTE",
+        "apodo": "INDEPENDIENTE",
+        "aliases": [
+            "INDEPENDIENTE"
+        ]
+    },
+    {
+        "id": "2337",
+        "nombre_oficial": "SARMIENTO JUNIN",
+        "apodo": "SARMIENTO JUNIN",
+        "aliases": [
+            "SARMIENTO JUNIN"
+        ]
+    },
+    {
+        "id": "2338",
+        "nombre_oficial": "ATLETICO TUCUMAN",
+        "apodo": "ATLETICO TUCUMAN",
+        "aliases": [
+            "ATLETICO TUCUMAN"
+        ]
+    },
+    {
+        "id": "2339",
+        "nombre_oficial": "GIMNASIA MENDOZA",
+        "apodo": "GIMNASIA MENDOZA",
+        "aliases": [
+            "GIMNASIA MENDOZA"
+        ]
+    },
+    {
+        "id": "2340",
+        "nombre_oficial": "INSTITUTO",
+        "apodo": "INSTITUTO",
+        "aliases": [
+            "INSTITUTO"
+        ]
+    },
+    {
+        "id": "2341",
+        "nombre_oficial": "CRAWLEY TOWN",
+        "apodo": "CRAWLEY TOWN",
+        "aliases": [
+            "CRAWLEY TOWN"
+        ]
+    },
+    {
+        "id": "2342",
+        "nombre_oficial": "WATFORD",
+        "apodo": "WATFORD",
+        "aliases": [
+            "WATFORD"
+        ]
+    },
+    {
+        "id": "2343",
+        "nombre_oficial": "CLUB LEON",
+        "apodo": "CLUB LEON",
+        "aliases": [
+            "CLUB LEON"
+        ]
+    },
+    {
+        "id": "2344",
+        "nombre_oficial": "ORLANDO CITY",
+        "apodo": "ORLANDO CITY",
+        "aliases": [
+            "ORLANDO CITY"
+        ]
+    },
+    {
+        "id": "2345",
+        "nombre_oficial": "MONTERREY",
+        "apodo": "MONTERREY",
+        "aliases": [
+            "MONTERREY"
+        ]
+    },
+    {
+        "id": "2346",
+        "nombre_oficial": "INTER MIAMI",
+        "apodo": "INTER MIAMI",
+        "aliases": [
+            "INTER MIAMI"
+        ]
+    },
+    {
+        "id": "2347",
+        "nombre_oficial": "FC DALLAS",
+        "apodo": "FC DALLAS",
+        "aliases": [
+            "FC DALLAS"
+        ]
+    },
+    {
+        "id": "2348",
+        "nombre_oficial": "GUADALAJARA",
+        "apodo": "GUADALAJARA",
+        "aliases": [
+            "GUADALAJARA"
+        ]
+    },
+    {
+        "id": "2349",
+        "nombre_oficial": "ATLANTE",
+        "apodo": "ATLANTE",
+        "aliases": [
+            "ATLANTE"
+        ]
+    },
+    {
+        "id": "2350",
+        "nombre_oficial": "REAL SALT LAKE",
+        "apodo": "REAL SALT LAKE",
+        "aliases": [
+            "REAL SALT LAKE"
+        ]
+    },
+    {
+        "id": "2351",
+        "nombre_oficial": "LOS ANGELES FC",
+        "apodo": "LOS ANGELES FC",
+        "aliases": [
+            "LOS ANGELES FC"
+        ]
+    },
+    {
+        "id": "2352",
+        "nombre_oficial": "TOLUCA",
+        "apodo": "TOLUCA",
+        "aliases": [
+            "TOLUCA"
+        ]
+    },
+    {
+        "id": "2353",
+        "nombre_oficial": "RIVER PLATE",
+        "apodo": "RIVER PLATE",
+        "aliases": [
+            "RIVER PLATE"
+        ]
+    },
+    {
+        "id": "2354",
+        "nombre_oficial": "TIGRE",
+        "apodo": "TIGRE",
+        "aliases": [
+            "TIGRE"
+        ]
+    },
+    {
+        "id": "2355",
+        "nombre_oficial": "VELEZ SARSFIELD",
+        "apodo": "VELEZ SARSFIELD",
+        "aliases": [
+            "VELEZ SARSFIELD"
+        ]
+    },
+    {
+        "id": "2356",
+        "nombre_oficial": "BOCA JUNIORS",
+        "apodo": "BOCA JUNIORS",
+        "aliases": [
+            "BOCA JUNIORS"
+        ]
+    },
+    {
+        "id": "2357",
+        "nombre_oficial": "CERRO PORTENO",
+        "apodo": "CERRO PORTENO",
+        "aliases": [
+            "CERRO PORTENO"
+        ]
+    },
+    {
+        "id": "2358",
+        "nombre_oficial": "SPORTIVO AMELIANO1",
+        "apodo": "SPORTIVO AMELIANO1",
+        "aliases": [
+            "SPORTIVO AMELIANO1"
+        ]
+    },
+    {
+        "id": "2359",
+        "nombre_oficial": "BOYACA CHICO",
+        "apodo": "BOYACA CHICO",
+        "aliases": [
+            "BOYACA CHICO"
+        ]
+    },
+    {
+        "id": "2360",
+        "nombre_oficial": "SANTA FE BOGOTA",
+        "apodo": "SANTA FE BOGOTA",
+        "aliases": [
+            "SANTA FE BOGOTA"
+        ]
+    },
+    {
+        "id": "2361",
+        "nombre_oficial": "OLIMPIA ASUNCION",
+        "apodo": "OLIMPIA ASUNCION",
+        "aliases": [
+            "OLIMPIA ASUNCION"
+        ]
+    },
+    {
+        "id": "2362",
+        "nombre_oficial": "2 DE MAYO",
+        "apodo": "2 DE MAYO",
+        "aliases": [
+            "2 DE MAYO"
+        ]
+    },
+    {
+        "id": "2363",
+        "nombre_oficial": "OTELUL",
+        "apodo": "OTELUL",
+        "aliases": [
+            "OTELUL"
+        ]
+    },
+    {
+        "id": "2364",
+        "nombre_oficial": "PETROLUL 52",
+        "apodo": "PETROLUL 52",
+        "aliases": [
+            "PETROLUL 52"
+        ]
+    },
+    {
+        "id": "2365",
+        "nombre_oficial": "ST. PATRICK'S ATH.",
+        "apodo": "ST. PATRICK'S ATH.",
+        "aliases": [
+            "ST. PATRICK'S ATH."
+        ]
+    },
+    {
+        "id": "2366",
+        "nombre_oficial": "BOHEMIANS",
+        "apodo": "BOHEMIANS",
+        "aliases": [
+            "BOHEMIANS"
+        ]
+    },
+    {
+        "id": "2367",
+        "nombre_oficial": "WATERFORD",
+        "apodo": "WATERFORD",
+        "aliases": [
+            "WATERFORD"
+        ]
+    },
+    {
+        "id": "2368",
+        "nombre_oficial": "BATE BORISOV",
+        "apodo": "BATE BORISOV",
+        "aliases": [
+            "BATE BORISOV"
+        ]
+    },
+    {
+        "id": "2369",
+        "nombre_oficial": "BARANOVICI",
+        "apodo": "BARANOVICI",
+        "aliases": [
+            "BARANOVICI"
+        ]
+    },
+    {
+        "id": "2370",
+        "nombre_oficial": "LEUVEN",
+        "apodo": "LEUVEN",
+        "aliases": [
+            "LEUVEN"
+        ]
+    },
+    {
+        "id": "2371",
+        "nombre_oficial": "ROYAL CHARLEROI",
+        "apodo": "ROYAL CHARLEROI",
+        "aliases": [
+            "ROYAL CHARLEROI"
+        ]
+    },
+    {
+        "id": "2372",
+        "nombre_oficial": "GENK",
+        "apodo": "GENK",
+        "aliases": [
+            "GENK"
+        ]
+    },
+    {
+        "id": "2373",
+        "nombre_oficial": "SV ZULTE WAREGEM",
+        "apodo": "SV ZULTE WAREGEM",
+        "aliases": [
+            "SV ZULTE WAREGEM"
+        ]
+    },
+    {
+        "id": "2374",
+        "nombre_oficial": "MIRASSOL",
+        "apodo": "MIRASSOL",
+        "aliases": [
+            "MIRASSOL"
+        ]
+    },
+    {
+        "id": "2375",
+        "nombre_oficial": "CRUZEIRO",
+        "apodo": "CRUZEIRO",
+        "aliases": [
+            "CRUZEIRO"
+        ]
+    },
+    {
+        "id": "2376",
+        "nombre_oficial": "DZIUGAS TELSIAI1",
+        "apodo": "DZIUGAS TELSIAI1",
+        "aliases": [
+            "DZIUGAS TELSIAI1"
+        ]
+    },
+    {
+        "id": "2377",
+        "nombre_oficial": "FA SIAULIAI1",
+        "apodo": "FA SIAULIAI1",
+        "aliases": [
+            "FA SIAULIAI1"
+        ]
+    },
+    {
+        "id": "2378",
+        "nombre_oficial": "DUNDEE UNITED",
+        "apodo": "DUNDEE UNITED",
+        "aliases": [
+            "DUNDEE UNITED"
+        ]
+    },
+    {
+        "id": "2379",
+        "nombre_oficial": "FALKIRK",
+        "apodo": "FALKIRK",
+        "aliases": [
+            "FALKIRK"
+        ]
+    },
+    {
+        "id": "2380",
+        "nombre_oficial": "MOTHERWELL",
+        "apodo": "MOTHERWELL",
+        "aliases": [
+            "MOTHERWELL"
+        ]
+    },
+    {
+        "id": "2381",
+        "nombre_oficial": "LYNGBY",
+        "apodo": "LYNGBY",
+        "aliases": [
+            "LYNGBY"
+        ]
+    },
+    {
+        "id": "2382",
+        "nombre_oficial": "RANDERS FC",
+        "apodo": "RANDERS FC",
+        "aliases": [
+            "RANDERS FC"
+        ]
+    },
+    {
+        "id": "2383",
+        "nombre_oficial": "KALMAR FF",
+        "apodo": "KALMAR FF",
+        "aliases": [
+            "KALMAR FF"
+        ]
+    },
+    {
+        "id": "2384",
+        "nombre_oficial": "IFK GOTEBORG",
+        "apodo": "IFK GOTEBORG",
+        "aliases": [
+            "IFK GOTEBORG"
+        ]
+    },
+    {
+        "id": "2385",
+        "nombre_oficial": "GAIS",
+        "apodo": "GAIS",
+        "aliases": [
+            "GAIS"
+        ]
+    },
+    {
+        "id": "2386",
+        "nombre_oficial": "HALMSTADS",
+        "apodo": "HALMSTADS",
+        "aliases": [
+            "HALMSTADS"
+        ]
+    },
+    {
+        "id": "2387",
+        "nombre_oficial": "LUZERN",
+        "apodo": "LUZERN",
+        "aliases": [
+            "LUZERN"
+        ]
+    },
+    {
+        "id": "2388",
+        "nombre_oficial": "ST. GALLEN",
+        "apodo": "ST. GALLEN",
+        "aliases": [
+            "ST. GALLEN"
+        ]
+    },
+    {
+        "id": "2389",
+        "nombre_oficial": "FC SION",
+        "apodo": "FC SION",
+        "aliases": [
+            "FC SION"
+        ]
+    },
+    {
+        "id": "2390",
+        "nombre_oficial": "FC BASEL",
+        "apodo": "FC BASEL",
+        "aliases": [
+            "FC BASEL"
+        ]
+    },
+    {
+        "id": "2391",
+        "nombre_oficial": "FC TWENTE",
+        "apodo": "FC TWENTE",
+        "aliases": [
+            "FC TWENTE"
+        ]
+    },
+    {
+        "id": "2392",
+        "nombre_oficial": "SC HEERENVEEN",
+        "apodo": "SC HEERENVEEN",
+        "aliases": [
+            "SC HEERENVEEN"
+        ]
+    },
+    {
+        "id": "2393",
+        "nombre_oficial": "SHEFFIELD UTD",
+        "apodo": "SHEFFIELD UTD",
+        "aliases": [
+            "SHEFFIELD UTD"
+        ]
+    },
+    {
+        "id": "2394",
+        "nombre_oficial": "MANSFIELD",
+        "apodo": "MANSFIELD",
+        "aliases": [
+            "MANSFIELD"
+        ]
+    },
+    {
+        "id": "2395",
+        "nombre_oficial": "BUDAPEST HONVED",
+        "apodo": "BUDAPEST HONVED",
+        "aliases": [
+            "BUDAPEST HONVED"
+        ]
+    },
+    {
+        "id": "2396",
+        "nombre_oficial": "PAKSI SE",
+        "apodo": "PAKSI SE",
+        "aliases": [
+            "PAKSI SE"
+        ]
+    },
+    {
+        "id": "2397",
+        "nombre_oficial": "KONGSVINGER",
+        "apodo": "KONGSVINGER",
+        "aliases": [
+            "KONGSVINGER"
+        ]
+    },
+    {
+        "id": "2398",
+        "nombre_oficial": "ASANE",
+        "apodo": "ASANE",
+        "aliases": [
+            "ASANE"
+        ]
+    },
+    {
+        "id": "2399",
+        "nombre_oficial": "HODD",
+        "apodo": "HODD",
+        "aliases": [
+            "HODD"
+        ]
+    },
+    {
+        "id": "2400",
+        "nombre_oficial": "SANDNES ULF",
+        "apodo": "SANDNES ULF",
+        "aliases": [
+            "SANDNES ULF"
+        ]
+    },
+    {
+        "id": "2401",
+        "nombre_oficial": "BRYNE",
+        "apodo": "BRYNE",
+        "aliases": [
+            "BRYNE"
+        ]
+    },
+    {
+        "id": "2402",
+        "nombre_oficial": "SOGNDAL.",
+        "apodo": "SOGNDAL.",
+        "aliases": [
+            "SOGNDAL."
+        ]
+    },
+    {
+        "id": "2403",
+        "nombre_oficial": "RANHEIM",
+        "apodo": "RANHEIM",
+        "aliases": [
+            "RANHEIM"
+        ]
+    },
+    {
+        "id": "2404",
+        "nombre_oficial": "STROMMEN",
+        "apodo": "STROMMEN",
+        "aliases": [
+            "STROMMEN"
+        ]
+    },
+    {
+        "id": "2405",
+        "nombre_oficial": "RANGERS",
+        "apodo": "RANGERS",
+        "aliases": [
+            "RANGERS"
+        ]
+    },
+    {
+        "id": "2406",
+        "nombre_oficial": "PIAST GLIWICE",
+        "apodo": "PIAST GLIWICE",
+        "aliases": [
+            "PIAST GLIWICE"
+        ]
+    },
+    {
+        "id": "2407",
+        "nombre_oficial": "PFC LUDOGORETS RAZGRAD",
+        "apodo": "PFC LUDOGORETS RAZGRAD",
+        "aliases": [
+            "PFC LUDOGORETS RAZGRAD"
+        ]
+    },
+    {
+        "id": "2408",
+        "nombre_oficial": "CHERNO MORE",
+        "apodo": "CHERNO MORE",
+        "aliases": [
+            "CHERNO MORE"
+        ]
+    },
+    {
+        "id": "2409",
+        "nombre_oficial": "NYIREGYHAZA SPARTACUS",
+        "apodo": "NYIREGYHAZA SPARTACUS",
+        "aliases": [
+            "NYIREGYHAZA SPARTACUS"
+        ]
+    },
+    {
+        "id": "2410",
+        "nombre_oficial": "CERRO",
+        "apodo": "CERRO",
+        "aliases": [
+            "CERRO"
+        ]
+    },
+    {
+        "id": "2411",
+        "nombre_oficial": "DANUBIO",
+        "apodo": "DANUBIO",
+        "aliases": [
+            "DANUBIO"
+        ]
+    },
+    {
+        "id": "2412",
+        "nombre_oficial": "MARIEHAMN.",
+        "apodo": "MARIEHAMN.",
+        "aliases": [
+            "MARIEHAMN."
+        ]
+    },
+    {
+        "id": "2413",
+        "nombre_oficial": "ILVES.",
+        "apodo": "ILVES.",
+        "aliases": [
+            "ILVES."
+        ]
+    },
+    {
+        "id": "2414",
+        "nombre_oficial": "HJK HELSINKI",
+        "apodo": "HJK HELSINKI",
+        "aliases": [
+            "HJK HELSINKI"
+        ]
+    },
+    {
+        "id": "2415",
+        "nombre_oficial": "OULU",
+        "apodo": "OULU",
+        "aliases": [
+            "OULU"
+        ]
+    },
+    {
+        "id": "2416",
+        "nombre_oficial": "AL ITTIHAD FC",
+        "apodo": "AL ITTIHAD FC",
+        "aliases": [
+            "AL ITTIHAD FC"
+        ]
+    },
+    {
+        "id": "2417",
+        "nombre_oficial": "AL JAZIRA",
+        "apodo": "AL JAZIRA",
+        "aliases": [
+            "AL JAZIRA"
+        ]
+    },
+    {
+        "id": "2418",
+        "nombre_oficial": "BODO GLIMT",
+        "apodo": "BODO GLIMT",
+        "aliases": [
+            "BODO GLIMT"
+        ]
+    },
+    {
+        "id": "2419",
+        "nombre_oficial": "BRANN",
+        "apodo": "BRANN",
+        "aliases": [
+            "BRANN"
+        ]
+    },
+    {
+        "id": "2420",
+        "nombre_oficial": "APOLLON",
+        "apodo": "APOLLON",
+        "aliases": [
+            "APOLLON"
+        ]
+    },
+    {
+        "id": "2421",
+        "nombre_oficial": "VARNAMO.",
+        "apodo": "VARNAMO.",
+        "aliases": [
+            "VARNAMO."
+        ]
+    },
+    {
+        "id": "2422",
+        "nombre_oficial": "HELSINGBORG",
+        "apodo": "HELSINGBORG",
+        "aliases": [
+            "HELSINGBORG"
+        ]
+    },
+    {
+        "id": "2423",
+        "nombre_oficial": "HAPOEL BE'ER SHEVA",
+        "apodo": "HAPOEL BE'ER SHEVA",
+        "aliases": [
+            "HAPOEL BE'ER SHEVA"
+        ]
+    },
+    {
+        "id": "2424",
+        "nombre_oficial": "CRVENA ZVEZDA",
+        "apodo": "CRVENA ZVEZDA",
+        "aliases": [
+            "CRVENA ZVEZDA"
+        ]
+    },
+    {
+        "id": "2425",
+        "nombre_oficial": "FENERBAHCE",
+        "apodo": "FENERBAHCE",
+        "aliases": [
+            "FENERBAHCE"
+        ]
+    },
+    {
+        "id": "2426",
+        "nombre_oficial": "STURM GRAZ",
+        "apodo": "STURM GRAZ",
+        "aliases": [
+            "STURM GRAZ"
+        ]
+    },
+    {
+        "id": "2427",
+        "nombre_oficial": "SPARTA PRAHA",
+        "apodo": "SPARTA PRAHA",
+        "aliases": [
+            "SPARTA PRAHA"
+        ]
+    },
+    {
+        "id": "2428",
+        "nombre_oficial": "LYON",
+        "apodo": "LYON",
+        "aliases": [
+            "LYON"
+        ]
+    },
+    {
+        "id": "2429",
+        "nombre_oficial": "IND. RIVADAVIA",
+        "apodo": "IND. RIVADAVIA",
+        "aliases": [
+            "IND. RIVADAVIA"
+        ]
+    },
+    {
+        "id": "2430",
+        "nombre_oficial": "FLUMINENSE",
+        "apodo": "FLUMINENSE",
+        "aliases": [
+            "FLUMINENSE"
+        ]
+    },
+    {
+        "id": "2431",
+        "nombre_oficial": "RECOLETA",
+        "apodo": "RECOLETA",
+        "aliases": [
+            "RECOLETA"
+        ]
+    },
+    {
+        "id": "2432",
+        "nombre_oficial": "UNIVERSIDAD CATOLICA",
+        "apodo": "UNIVERSIDAD CATOLICA",
+        "aliases": [
+            "UNIVERSIDAD CATOLICA",
+            "UNIÓN CATÓLICA"
+        ]
+    },
+    {
+        "id": "2433",
+        "nombre_oficial": "BOLIVAR",
+        "apodo": "BOLIVAR",
+        "aliases": [
+            "BOLIVAR"
+        ]
+    },
+    {
+        "id": "2434",
+        "nombre_oficial": "VANCOUVER",
+        "apodo": "VANCOUVER",
+        "aliases": [
+            "VANCOUVER"
+        ]
+    },
+    {
+        "id": "2435",
+        "nombre_oficial": "ARARAT-ARMENIA",
+        "apodo": "ARARAT-ARMENIA",
+        "aliases": [
+            "ARARAT-ARMENIA"
+        ]
+    },
+    {
+        "id": "2436",
+        "nombre_oficial": "CELJE",
+        "apodo": "CELJE",
+        "aliases": [
+            "CELJE"
+        ]
+    },
+    {
+        "id": "2437",
+        "nombre_oficial": "MJALLBY",
+        "apodo": "MJALLBY",
+        "aliases": [
+            "MJALLBY"
+        ]
+    },
+    {
+        "id": "2438",
+        "nombre_oficial": "SLOVAN BRATISLAVA",
+        "apodo": "SLOVAN BRATISLAVA",
+        "aliases": [
+            "SLOVAN BRATISLAVA"
+        ]
+    },
+    {
+        "id": "2439",
+        "nombre_oficial": "KAIRAT.",
+        "apodo": "KAIRAT.",
+        "aliases": [
+            "KAIRAT."
+        ]
+    },
+    {
+        "id": "2440",
+        "nombre_oficial": "DINAMO ZAGREB",
+        "apodo": "DINAMO ZAGREB",
+        "aliases": [
+            "DINAMO ZAGREB"
+        ]
+    },
+    {
+        "id": "2441",
+        "nombre_oficial": "OLYMPIACOS",
+        "apodo": "OLYMPIACOS",
+        "aliases": [
+            "OLYMPIACOS"
+        ]
+    },
+    {
+        "id": "2442",
+        "nombre_oficial": "MINNESOTA UNITED.",
+        "apodo": "MINNESOTA UNITED.",
+        "aliases": [
+            "MINNESOTA UNITED."
+        ]
+    },
+    {
+        "id": "2443",
+        "nombre_oficial": "LARNE",
+        "apodo": "LARNE",
+        "aliases": [
+            "LARNE"
+        ]
+    },
+    {
+        "id": "2444",
+        "nombre_oficial": "IBERIA",
+        "apodo": "IBERIA",
+        "aliases": [
+            "IBERIA"
+        ]
+    },
+    {
+        "id": "2445",
+        "nombre_oficial": "PANATHINAIKOS",
+        "apodo": "PANATHINAIKOS",
+        "aliases": [
+            "PANATHINAIKOS"
+        ]
+    },
+    {
+        "id": "2446",
+        "nombre_oficial": "INTER CLUB D'ESCALDES",
+        "apodo": "INTER CLUB D'ESCALDES",
+        "aliases": [
+            "INTER CLUB D'ESCALDES"
+        ]
+    },
+    {
+        "id": "2447",
+        "nombre_oficial": "FERENCVAROS",
+        "apodo": "FERENCVAROS",
+        "aliases": [
+            "FERENCVAROS"
+        ]
+    },
+    {
+        "id": "2448",
+        "nombre_oficial": "GORNIK ZABRZE",
+        "apodo": "GORNIK ZABRZE",
+        "aliases": [
+            "GORNIK ZABRZE",
+            "GORNIK"
+        ]
+    },
+    {
+        "id": "2449",
+        "nombre_oficial": "AUDA",
+        "apodo": "AUDA",
+        "aliases": [
+            "AUDA"
+        ]
+    },
+    {
+        "id": "2450",
+        "nombre_oficial": "DINAMO",
+        "apodo": "DINAMO",
+        "aliases": [
+            "DINAMO"
+        ]
+    },
+    {
+        "id": "2451",
+        "nombre_oficial": "VASCO DA GAMA1",
+        "apodo": "VASCO DA GAMA1",
+        "aliases": [
+            "VASCO DA GAMA1",
+            "BASCO DA GAMA",
+            "VASCO GAMA"
+        ]
+    },
+    {
+        "id": "2452",
+        "nombre_oficial": "SANTOS",
+        "apodo": "SANTOS",
+        "aliases": [
+            "SANTOS"
+        ]
+    },
+    {
+        "id": "2453",
+        "nombre_oficial": "NEW YORK CITY FC",
+        "apodo": "NEW YORK CITY FC",
+        "aliases": [
+            "NEW YORK CITY FC"
+        ]
+    },
+    {
+        "id": "2454",
+        "nombre_oficial": "CIENCIANO1",
+        "apodo": "CIENCIANO1",
+        "aliases": [
+            "CIENCIANO1"
+        ]
+    },
+    {
+        "id": "2455",
+        "nombre_oficial": "CHICAGO FIRE",
+        "apodo": "CHICAGO FIRE",
+        "aliases": [
+            "CHICAGO FIRE"
+        ]
+    },
+    {
+        "id": "2456",
+        "nombre_oficial": "PORTLAND TIMBERS",
+        "apodo": "PORTLAND TIMBERS",
+        "aliases": [
+            "PORTLAND TIMBERS"
+        ]
+    },
+    {
+        "id": "2456",
+        "nombre_oficial": "ST. PAULI",
+        "apodo": "ST. PAULI",
+        "aliases": [
+            "ST. PAULI"
+        ]
+    },
+    {
+        "id": "2457",
+        "nombre_oficial": "HOLSTEIN KIEL",
+        "apodo": "HOLSTEIN KIEL",
+        "aliases": [
+            "HOLSTEIN KIEL"
+        ]
+    },
+    {
+        "id": "2458",
+        "nombre_oficial": "EINTRACHT BRAUNSCHWEIG",
+        "apodo": "EINTRACHT BRAUNSCHWEIG",
+        "aliases": [
+            "EINTRACHT BRAUNSCHWEIG"
+        ]
+    },
+    {
+        "id": "2459",
+        "nombre_oficial": "AJMAN",
+        "apodo": "AJMAN",
+        "aliases": [
+            "AJMAN"
+        ]
+    },
+    {
+        "id": "2460",
+        "nombre_oficial": "AL WAHDA",
+        "apodo": "AL WAHDA",
+        "aliases": [
+            "AL WAHDA"
+        ]
+    },
+    {
+        "id": "2461",
+        "nombre_oficial": "HAPOEL RISHON LEZION FC",
+        "apodo": "HAPOEL RISHON LEZION FC",
+        "aliases": [
+            "HAPOEL RISHON LEZION FC"
+        ]
+    },
+    {
+        "id": "2462",
+        "nombre_oficial": "NEOM SC1",
+        "apodo": "NEOM SC1",
+        "aliases": [
+            "NEOM SC1"
+        ]
+    },
+    {
+        "id": "2463",
+        "nombre_oficial": "AARHUS",
+        "apodo": "AARHUS",
+        "aliases": [
+            "AARHUS"
+        ]
+    },
+    {
+        "id": "2464",
+        "nombre_oficial": "ROSENBORG",
+        "apodo": "ROSENBORG",
+        "aliases": [
+            "ROSENBORG"
+        ]
+    },
+    {
+        "id": "2465",
+        "nombre_oficial": "VASTERAS SK",
+        "apodo": "VASTERAS SK",
+        "aliases": [
+            "VASTERAS SK"
+        ]
+    },
+    {
+        "id": "2466",
+        "nombre_oficial": "IF ELFSBORG",
+        "apodo": "IF ELFSBORG",
+        "aliases": [
+            "IF ELFSBORG"
+        ]
+    },
+    {
+        "id": "2467",
+        "nombre_oficial": "OREBRO",
+        "apodo": "OREBRO",
+        "aliases": [
+            "OREBRO"
+        ]
+    },
+    {
+        "id": "2468",
+        "nombre_oficial": "ODDEVOLD",
+        "apodo": "ODDEVOLD",
+        "aliases": [
+            "ODDEVOLD"
+        ]
+    },
+    {
+        "id": "2469",
+        "nombre_oficial": "LANDSKRONA",
+        "apodo": "LANDSKRONA",
+        "aliases": [
+            "LANDSKRONA"
+        ]
+    },
+    {
+        "id": "2470",
+        "nombre_oficial": "ACASSUSO",
+        "apodo": "ACASSUSO",
+        "aliases": [
+            "ACASSUSO"
+        ]
+    },
+    {
+        "id": "2471",
+        "nombre_oficial": "SPARTA ROTTERDAM.",
+        "apodo": "SPARTA ROTTERDAM.",
+        "aliases": [
+            "SPARTA ROTTERDAM."
+        ]
+    },
+    {
+        "id": "2472",
+        "nombre_oficial": "AL RIYADH1",
+        "apodo": "AL RIYADH1",
+        "aliases": [
+            "AL RIYADH1"
+        ]
+    },
+    {
+        "id": "2473",
+        "nombre_oficial": "AL ITTIFAQ",
+        "apodo": "AL ITTIFAQ",
+        "aliases": [
+            "AL ITTIFAQ"
+        ]
+    },
+    {
+        "id": "2474",
+        "nombre_oficial": "RADOMIAK RADOM",
+        "apodo": "RADOMIAK RADOM",
+        "aliases": [
+            "RADOMIAK RADOM"
+        ]
+    },
+    {
+        "id": "2475",
+        "nombre_oficial": "ARGES",
+        "apodo": "ARGES",
+        "aliases": [
+            "ARGES"
+        ]
+    },
+    {
+        "id": "2476",
+        "nombre_oficial": "CASTELLON",
+        "apodo": "CASTELLON",
+        "aliases": [
+            "CASTELLON"
+        ]
+    },
+    {
+        "id": "2477",
+        "nombre_oficial": "REAL SOCIEDAD II",
+        "apodo": "REAL SOCIEDAD II",
+        "aliases": [
+            "REAL SOCIEDAD II"
+        ]
+    },
+    {
+        "id": "2478",
+        "nombre_oficial": "MONTPELLIER",
+        "apodo": "MONTPELLIER",
+        "aliases": [
+            "MONTPELLIER"
+        ]
+    },
+    {
+        "id": "2479",
+        "nombre_oficial": "RED STAR",
+        "apodo": "RED STAR",
+        "aliases": [
+            "RED STAR"
+        ]
+    },
+    {
+        "id": "2480",
+        "nombre_oficial": "RODEZ",
+        "apodo": "RODEZ",
+        "aliases": [
+            "RODEZ"
+        ]
+    },
+    {
+        "id": "2481",
+        "nombre_oficial": "STADE REIMS",
+        "apodo": "STADE REIMS",
+        "aliases": [
+            "STADE REIMS"
+        ]
+    },
+    {
+        "id": "2482",
+        "nombre_oficial": "AVELLINO",
+        "apodo": "AVELLINO",
+        "aliases": [
+            "AVELLINO"
+        ]
+    },
+    {
+        "id": "2483",
+        "nombre_oficial": "MONZA1",
+        "apodo": "MONZA1",
+        "aliases": [
+            "MONZA1"
+        ]
+    },
+    {
+        "id": "2484",
+        "nombre_oficial": "BRITON FERRY",
+        "apodo": "BRITON FERRY",
+        "aliases": [
+            "BRITON FERRY"
+        ]
+    },
+    {
+        "id": "2485",
+        "nombre_oficial": "BOSTON RIVER",
+        "apodo": "BOSTON RIVER",
+        "aliases": [
+            "BOSTON RIVER"
+        ]
+    },
+    {
+        "id": "2486",
+        "nombre_oficial": "BOTAFOGO SP",
+        "apodo": "BOTAFOGO SP",
+        "aliases": [
+            "BOTAFOGO SP"
+        ]
+    },
+    {
+        "id": "2487",
+        "nombre_oficial": "NAUTICO",
+        "apodo": "NAUTICO",
+        "aliases": [
+            "NAUTICO"
+        ]
+    },
+    {
+        "id": "2488",
+        "nombre_oficial": "PONTE PRETA",
+        "apodo": "PONTE PRETA",
+        "aliases": [
+            "PONTE PRETA"
+        ]
+    },
+    {
+        "id": "2489",
+        "nombre_oficial": "UNIV. CONCEPCION",
+        "apodo": "UNIV. CONCEPCION",
+        "aliases": [
+            "UNIV. CONCEPCION"
+        ]
+    },
+    {
+        "id": "2490",
+        "nombre_oficial": "LLANEROS",
+        "apodo": "LLANEROS",
+        "aliases": [
+            "LLANEROS"
+        ]
+    },
+    {
+        "id": "2491",
+        "nombre_oficial": "BANFIELD",
+        "apodo": "BANFIELD",
+        "aliases": [
+            "BANFIELD"
+        ]
+    },
+    {
+        "id": "2492",
+        "nombre_oficial": "RACING CLUB",
+        "apodo": "RACING CLUB",
+        "aliases": [
+            "RACING CLUB"
+        ]
+    },
+    {
+        "id": "2493",
+        "nombre_oficial": "DEFENSORES DE BELGRANO",
+        "apodo": "DEFENSORES DE BELGRANO",
+        "aliases": [
+            "DEFENSORES DE BELGRANO"
+        ]
+    },
+    {
+        "id": "2494",
+        "nombre_oficial": "LONDRINA",
+        "apodo": "LONDRINA",
+        "aliases": [
+            "LONDRINA"
+        ]
+    },
+    {
+        "id": "2495",
+        "nombre_oficial": "DELFIN",
+        "apodo": "DELFIN",
+        "aliases": [
+            "DELFIN"
+        ]
+    },
+    {
+        "id": "2496",
+        "nombre_oficial": "PACIFIC",
+        "apodo": "PACIFIC",
+        "aliases": [
+            "PACIFIC"
+        ]
+    },
+    {
+        "id": "2497",
+        "nombre_oficial": "AREZZO",
+        "apodo": "AREZZO",
+        "aliases": [
+            "AREZZO"
+        ]
+    },
+    {
+        "id": "2498",
+        "nombre_oficial": "CAGLIARI",
+        "apodo": "CAGLIARI",
+        "aliases": [
+            "CAGLIARI"
+        ]
+    },
+    {
+        "id": "2499",
+        "nombre_oficial": "FIORENTINA",
+        "apodo": "FIORENTINA",
+        "aliases": [
+            "FIORENTINA"
+        ]
+    },
+    {
+        "id": "2500",
+        "nombre_oficial": "BENEVENTO",
+        "apodo": "BENEVENTO",
+        "aliases": [
+            "BENEVENTO"
+        ]
+    },
+    {
+        "id": "2501",
+        "nombre_oficial": "GETAFE",
+        "apodo": "GETAFE",
+        "aliases": [
+            "GETAFE"
+        ]
+    },
+    {
+        "id": "2502",
+        "nombre_oficial": "DEPORTIVO ALAVES",
+        "apodo": "DEPORTIVO ALAVES",
+        "aliases": [
+            "DEPORTIVO ALAVES"
+        ]
+    },
+    {
+        "id": "2503",
+        "nombre_oficial": "RAYO VALLECANO",
+        "apodo": "RAYO VALLECANO",
+        "aliases": [
+            "RAYO VALLECANO",
+            "RAYO BALLECANO"
+        ]
+    },
+    {
+        "id": "2504",
+        "nombre_oficial": "SEVILLA",
+        "apodo": "SEVILLA",
+        "aliases": [
+            "SEVILLA"
+        ]
+    },
+    {
+        "id": "2505",
+        "nombre_oficial": "CEUTA",
+        "apodo": "CEUTA",
+        "aliases": [
+            "CEUTA"
+        ]
+    },
+    {
+        "id": "2506",
+        "nombre_oficial": "FC ANDORRA",
+        "apodo": "FC ANDORRA",
+        "aliases": [
+            "FC ANDORRA"
+        ]
+    },
+    {
+        "id": "2507",
+        "nombre_oficial": "SANDVIKEN",
+        "apodo": "SANDVIKEN",
+        "aliases": [
+            "SANDVIKEN"
+        ]
+    },
+    {
+        "id": "2508",
+        "nombre_oficial": "NORRBY",
+        "apodo": "NORRBY",
+        "aliases": [
+            "NORRBY"
+        ]
+    },
+    {
+        "id": "2509",
+        "nombre_oficial": "FALKENBERG",
+        "apodo": "FALKENBERG",
+        "aliases": [
+            "FALKENBERG"
+        ]
+    },
+    {
+        "id": "2510",
+        "nombre_oficial": "SJK.",
+        "apodo": "SJK.",
+        "aliases": [
+            "SJK."
+        ]
+    },
+    {
+        "id": "2511",
+        "nombre_oficial": "SUDTIROL",
+        "apodo": "SUDTIROL",
+        "aliases": [
+            "SUDTIROL"
+        ]
+    },
+    {
+        "id": "2512",
+        "nombre_oficial": "CATANZARO",
+        "apodo": "CATANZARO",
+        "aliases": [
+            "CATANZARO"
+        ]
+    },
+    {
+        "id": "2513",
+        "nombre_oficial": "TRABZONSPOR",
+        "apodo": "TRABZONSPOR",
+        "aliases": [
+            "TRABZONSPOR"
+        ]
+    },
+    {
+        "id": "2514",
+        "nombre_oficial": "KASIMPASA",
+        "apodo": "KASIMPASA",
+        "aliases": [
+            "KASIMPASA"
+        ]
+    },
+    {
+        "id": "2515",
+        "nombre_oficial": "CAYKUR RIZESPOR",
+        "apodo": "CAYKUR RIZESPOR",
+        "aliases": [
+            "CAYKUR RIZESPOR"
+        ]
+    },
+    {
+        "id": "2516",
+        "nombre_oficial": "TORKU KONYASPOF",
+        "apodo": "TORKU KONYASPOF",
+        "aliases": [
+            "TORKU KONYASPOF"
+        ]
+    },
+    {
+        "id": "2517",
+        "nombre_oficial": "ZILINA",
+        "apodo": "ZILINA",
+        "aliases": [
+            "ZILINA"
+        ]
+    },
+    {
+        "id": "2518",
+        "nombre_oficial": "DUKLA BANSKA BYSTRICA",
+        "apodo": "DUKLA BANSKA BYSTRICA",
+        "aliases": [
+            "DUKLA BANSKA BYSTRICA"
+        ]
+    },
+    {
+        "id": "2519",
+        "nombre_oficial": "FC KOSICE",
+        "apodo": "FC KOSICE",
+        "aliases": [
+            "FC KOSICE"
+        ]
+    },
+    {
+        "id": "2520",
+        "nombre_oficial": "SKALICA",
+        "apodo": "SKALICA",
+        "aliases": [
+            "SKALICA"
+        ]
+    },
+    {
+        "id": "2521",
+        "nombre_oficial": "ANTWERP1",
+        "apodo": "ANTWERP1",
+        "aliases": [
+            "ANTWERP1"
+        ]
+    },
+    {
+        "id": "2522",
+        "nombre_oficial": "SLAVEN BELUPO",
+        "apodo": "SLAVEN BELUPO",
+        "aliases": [
+            "SLAVEN BELUPO"
+        ]
+    },
+    {
+        "id": "2523",
+        "nombre_oficial": "ISTRA 1961",
+        "apodo": "ISTRA 1961",
+        "aliases": [
+            "ISTRA 1961"
+        ]
+    },
+    {
+        "id": "2524",
+        "nombre_oficial": "SHEFFIELD UNITED",
+        "apodo": "SHEFFIELD UNITED",
+        "aliases": [
+            "SHEFFIELD UNITED"
+        ]
+    },
+    {
+        "id": "2525",
+        "nombre_oficial": "FC UTRECHT",
+        "apodo": "FC UTRECHT",
+        "aliases": [
+            "FC UTRECHT"
+        ]
+    },
+    {
+        "id": "2526",
+        "nombre_oficial": "GRANADA",
+        "apodo": "GRANADA",
+        "aliases": [
+            "GRANADA"
+        ]
+    },
+    {
+        "id": "2527",
+        "nombre_oficial": "REAL OVIEDO",
+        "apodo": "REAL OVIEDO",
+        "aliases": [
+            "REAL OVIEDO"
+        ]
+    },
+    {
+        "id": "2528",
+        "nombre_oficial": "MACVA SABAC",
+        "apodo": "MACVA SABAC",
+        "aliases": [
+            "MACVA SABAC"
+        ]
+    },
+    {
+        "id": "2529",
+        "nombre_oficial": "RADNIK SURDULICA",
+        "apodo": "RADNIK SURDULICA",
+        "aliases": [
+            "RADNIK SURDULICA"
+        ]
+    },
+    {
+        "id": "2530",
+        "nombre_oficial": "SAN LORENZO",
+        "apodo": "SAN LORENZO",
+        "aliases": [
+            "SAN LORENZO"
+        ]
+    },
+    {
+        "id": "2531",
+        "nombre_oficial": "ALMAGRO",
+        "apodo": "ALMAGRO",
+        "aliases": [
+            "ALMAGRO"
+        ]
+    },
+    {
+        "id": "2532",
+        "nombre_oficial": "DEPORTIVO MORON",
+        "apodo": "DEPORTIVO MORON",
+        "aliases": [
+            "DEPORTIVO MORON"
+        ]
+    },
+    {
+        "id": "2533",
+        "nombre_oficial": "COLEGIALES",
+        "apodo": "COLEGIALES",
+        "aliases": [
+            "COLEGIALES"
+        ]
+    },
+    {
+        "id": "2534",
+        "nombre_oficial": "SAN MIGUEL",
+        "apodo": "SAN MIGUEL",
+        "aliases": [
+            "SAN MIGUEL"
+        ]
+    },
+    {
+        "id": "2535",
+        "nombre_oficial": "ATLETICO ATLANTA",
+        "apodo": "ATLETICO ATLANTA",
+        "aliases": [
+            "ATLETICO ATLANTA"
+        ]
+    },
+    {
+        "id": "2536",
+        "nombre_oficial": "FERRO CARRIL OESTE",
+        "apodo": "FERRO CARRIL OESTE",
+        "aliases": [
+            "FERRO CARRIL OESTE",
+            "FERROCARRIL OESTE"
+        ]
+    },
+    {
+        "id": "2537",
+        "nombre_oficial": "BOTEV PLOVDIV",
+        "apodo": "BOTEV PLOVDIV",
+        "aliases": [
+            "BOTEV PLOVDIV"
+        ]
+    },
+    {
+        "id": "2538",
+        "nombre_oficial": "WIDZEW LODZ",
+        "apodo": "WIDZEW LODZ",
+        "aliases": [
+            "WIDZEW LODZ"
+        ]
+    },
+    {
+        "id": "2539",
+        "nombre_oficial": "KARLSRUHER SC",
+        "apodo": "KARLSRUHER SC",
+        "aliases": [
+            "KARLSRUHER SC"
+        ]
+    },
+    {
+        "id": "2540",
+        "nombre_oficial": "KAISERSLAUTERN",
+        "apodo": "KAISERSLAUTERN",
+        "aliases": [
+            "KAISERSLAUTERN"
+        ]
+    },
+    {
+        "id": "2541",
+        "nombre_oficial": "ALANYASPOR",
+        "apodo": "ALANYASPOR",
+        "aliases": [
+            "ALANYASPOR"
+        ]
+    },
+    {
+        "id": "2542",
+        "nombre_oficial": "GAZISEHIR GAZIANTEP",
+        "apodo": "GAZISEHIR GAZIANTEP",
+        "aliases": [
+            "GAZISEHIR GAZIANTEP"
+        ]
+    },
+    {
+        "id": "2543",
+        "nombre_oficial": "GENCLERBIRLIGI AN",
+        "apodo": "GENCLERBIRLIGI AN",
+        "aliases": [
+            "GENCLERBIRLIGI AN"
+        ]
+    },
+    {
+        "id": "2544",
+        "nombre_oficial": "TRENCIN",
+        "apodo": "TRENCIN",
+        "aliases": [
+            "TRENCIN"
+        ]
+    },
+    {
+        "id": "2545",
+        "nombre_oficial": "MODENA",
+        "apodo": "MODENA",
+        "aliases": [
+            "MODENA"
+        ]
+    },
+    {
+        "id": "2546",
+        "nombre_oficial": "VENEZIA",
+        "apodo": "VENEZIA",
+        "aliases": [
+            "VENEZIA"
+        ]
+    },
+    {
+        "id": "2547",
+        "nombre_oficial": "CLUB ATLETICO MITRE",
+        "apodo": "CLUB ATLETICO MITRE",
+        "aliases": [
+            "CLUB ATLETICO MITRE"
+        ]
+    },
+    {
+        "id": "2548",
+        "nombre_oficial": "MANTA",
+        "apodo": "MANTA",
+        "aliases": [
+            "MANTA"
+        ]
+    },
+    {
+        "id": "2549",
+        "nombre_oficial": "RUBIO NU",
+        "apodo": "RUBIO NU",
+        "aliases": [
+            "RUBIO NU"
+        ]
+    },
+    {
+        "id": "2550",
+        "nombre_oficial": "GUARANI ASUNCION",
+        "apodo": "GUARANI ASUNCION",
+        "aliases": [
+            "GUARANI ASUNCION"
+        ]
+    },
+    {
+        "id": "2551",
+        "nombre_oficial": "CARRARESE",
+        "apodo": "CARRARESE",
+        "aliases": [
+            "CARRARESE"
+        ]
+    },
+    {
+        "id": "2552",
+        "nombre_oficial": "TORINO",
+        "apodo": "TORINO",
+        "aliases": [
+            "TORINO"
+        ]
+    },
+    {
+        "id": "2553",
+        "nombre_oficial": "FC PORTO",
+        "apodo": "FC PORTO",
+        "aliases": [
+            "FC PORTO",
+            "PORTÓ"
+        ]
+    },
+    {
+        "id": "2554",
+        "nombre_oficial": "RIO AVE FC",
+        "apodo": "RIO AVE FC",
+        "aliases": [
+            "RIO AVE FC"
+        ]
+    },
+    {
+        "id": "2555",
+        "nombre_oficial": "REAL VALLADOLID",
+        "apodo": "REAL VALLADOLID",
+        "aliases": [
+            "REAL VALLADOLID"
+        ]
+    },
+    {
+        "id": "2556",
+        "nombre_oficial": "MALLORCA",
+        "apodo": "MALLORCA",
+        "aliases": [
+            "MALLORCA"
+        ]
+    },
+    {
+        "id": "2557",
+        "nombre_oficial": "PALMEIRAS",
+        "apodo": "PALMEIRAS",
+        "aliases": [
+            "PALMEIRAS"
+        ]
+    },
+    {
+        "id": "2558",
+        "nombre_oficial": "GIMNASIA LP",
+        "apodo": "GIMNASIA LP",
+        "aliases": [
+            "GIMNASIA LP"
+        ]
+    },
+    {
+        "id": "2559",
+        "nombre_oficial": "MELGAR",
+        "apodo": "MELGAR",
+        "aliases": [
+            "MELGAR"
+        ]
+    },
+    {
+        "id": "2560",
+        "nombre_oficial": "GODOY CRUZ",
+        "apodo": "GODOY CRUZ",
+        "aliases": [
+            "GODOY CRUZ"
+        ]
+    },
+    {
+        "id": "2561",
+        "nombre_oficial": "FORTALEZA",
+        "apodo": "FORTALEZA",
+        "aliases": [
+            "FORTALEZA"
+        ]
+    },
+    {
+        "id": "2562",
+        "nombre_oficial": "JUVENTUDE",
+        "apodo": "JUVENTUDE",
+        "aliases": [
+            "JUVENTUDE"
+        ]
+    },
+    {
+        "id": "2563",
+        "nombre_oficial": "UNIVERSIDAD CHILE",
+        "apodo": "UNIVERSIDAD CHILE",
+        "aliases": [
+            "UNIVERSIDAD CHILE"
+        ]
+    },
+    {
+        "id": "2564",
+        "nombre_oficial": "DEPORTES LIMACHE",
+        "apodo": "DEPORTES LIMACHE",
+        "aliases": [
+            "DEPORTES LIMACHE"
+        ]
+    },
+    {
+        "id": "2565",
+        "nombre_oficial": "LIBERTAD1",
+        "apodo": "LIBERTAD1",
+        "aliases": [
+            "LIBERTAD1"
+        ]
+    },
+    {
+        "id": "2566",
+        "nombre_oficial": "GUAYAQUIL CITY FC",
+        "apodo": "GUAYAQUIL CITY FC",
+        "aliases": [
+            "GUAYAQUIL CITY FC",
+            "GUAYAQUIL"
+        ]
+    },
+    {
+        "id": "2567",
+        "nombre_oficial": "RB BRAGANTINO",
+        "apodo": "RB BRAGANTINO",
+        "aliases": [
+            "RB BRAGANTINO"
+        ]
+    },
+    {
+        "id": "2568",
+        "nombre_oficial": "ATLETICO PR",
+        "apodo": "ATLETICO PR",
+        "aliases": [
+            "ATLETICO PR"
+        ]
+    },
+    {
+        "id": "2569",
+        "nombre_oficial": "NACIONAL ASUNCION",
+        "apodo": "NACIONAL ASUNCION",
+        "aliases": [
+            "NACIONAL ASUNCION"
+        ]
+    },
+    {
+        "id": "2570",
+        "nombre_oficial": "SPORTIVO",
+        "apodo": "SPORTIVO",
+        "aliases": [
+            "SPORTIVO"
+        ]
+    },
+    {
+        "id": "2571",
+        "nombre_oficial": "BELGRANO",
+        "apodo": "BELGRANO",
+        "aliases": [
+            "BELGRANO"
+        ]
+    },
+    {
+        "id": "2572",
+        "nombre_oficial": "NEWELLS OLD BOYS",
+        "apodo": "NEWELLS OLD BOYS",
+        "aliases": [
+            "NEWELLS OLD BOYS"
+        ]
+    },
+    {
+        "id": "2573",
+        "nombre_oficial": "SAN TELMO",
+        "apodo": "SAN TELMO",
+        "aliases": [
+            "SAN TELMO"
+        ]
+    },
+    {
+        "id": "2574",
+        "nombre_oficial": "QUILMES",
+        "apodo": "QUILMES",
+        "aliases": [
+            "QUILMES"
+        ]
+    },
+    {
+        "id": "2575",
+        "nombre_oficial": "TORONTO FC",
+        "apodo": "TORONTO FC",
+        "aliases": [
+            "TORONTO FC"
+        ]
+    },
+    {
+        "id": "2576",
+        "nombre_oficial": "NEW YORK",
+        "apodo": "NEW YORK",
+        "aliases": [
+            "NEW YORK"
+        ]
+    },
+    {
+        "id": "2577",
+        "nombre_oficial": "ATLANTA UNITED",
+        "apodo": "ATLANTA UNITED",
+        "aliases": [
+            "ATLANTA UNITED"
+        ]
+    },
+    {
+        "id": "2578",
+        "nombre_oficial": "COLUMBUS",
+        "apodo": "COLUMBUS",
+        "aliases": [
+            "COLUMBUS"
+        ]
+    },
+    {
+        "id": "2579",
+        "nombre_oficial": "CHARLOTTE FC",
+        "apodo": "CHARLOTTE FC",
+        "aliases": [
+            "CHARLOTTE FC"
+        ]
+    },
+    {
+        "id": "2580",
+        "nombre_oficial": "FC CINCINNATI",
+        "apodo": "FC CINCINNATI",
+        "aliases": [
+            "FC CINCINNATI"
+        ]
+    },
+    {
+        "id": "2581",
+        "nombre_oficial": "ORLANDO CITY SC",
+        "apodo": "ORLANDO CITY SC",
+        "aliases": [
+            "ORLANDO CITY SC"
+        ]
+    },
+    {
+        "id": "2582",
+        "nombre_oficial": "D.C. UNITED",
+        "apodo": "D.C. UNITED",
+        "aliases": [
+            "D.C. UNITED"
+        ]
+    },
+    {
+        "id": "2583",
+        "nombre_oficial": "CF MONTREAL",
+        "apodo": "CF MONTREAL",
+        "aliases": [
+            "CF MONTREAL"
+        ]
+    },
+    {
+        "id": "2584",
+        "nombre_oficial": "MUSHUC RUNA",
+        "apodo": "MUSHUC RUNA",
+        "aliases": [
+            "MUSHUC RUNA"
+        ]
+    },
+    {
+        "id": "2585",
+        "nombre_oficial": "LOS ANGELES GALAXY",
+        "apodo": "LOS ANGELES GALAXY",
+        "aliases": [
+            "LOS ANGELES GALAXY"
+        ]
+    },
+    {
+        "id": "2586",
+        "nombre_oficial": "NASHVILLE SC",
+        "apodo": "NASHVILLE SC",
+        "aliases": [
+            "NASHVILLE SC"
+        ]
+    },
+    {
+        "id": "2587",
+        "nombre_oficial": "KANSAS CITY",
+        "apodo": "KANSAS CITY",
+        "aliases": [
+            "KANSAS CITY"
+        ]
+    },
+    {
+        "id": "2588",
+        "nombre_oficial": "COLORADO",
+        "apodo": "COLORADO",
+        "aliases": [
+            "COLORADO"
+        ]
+    },
+    {
+        "id": "2589",
+        "nombre_oficial": "SAN DIEGO",
+        "apodo": "SAN DIEGO",
+        "aliases": [
+            "SAN DIEGO"
+        ]
+    },
+    {
+        "id": "2590",
+        "nombre_oficial": "ST. LOUIS CITY",
+        "apodo": "ST. LOUIS CITY",
+        "aliases": [
+            "ST. LOUIS CITY"
+        ]
+    },
+    {
+        "id": "2591",
+        "nombre_oficial": "SAN JOSE",
+        "apodo": "SAN JOSE",
+        "aliases": [
+            "SAN JOSE"
+        ]
+    },
+    {
+        "id": "2592",
+        "nombre_oficial": "UANL TIGRES",
+        "apodo": "UANL TIGRES",
+        "aliases": [
+            "UANL TIGRES"
+        ]
+    },
+    {
+        "id": "2593",
+        "nombre_oficial": "PATRONATO",
+        "apodo": "PATRONATO",
+        "aliases": [
+            "PATRONATO"
+        ]
+    },
+    {
+        "id": "2594",
+        "nombre_oficial": "COLON",
+        "apodo": "COLON",
+        "aliases": [
+            "COLON"
+        ]
+    },
+    {
+        "id": "2595",
+        "nombre_oficial": "KAA GENT",
+        "apodo": "KAA GENT",
+        "aliases": [
+            "KAA GENT"
+        ]
+    },
+    {
+        "id": "2596",
+        "nombre_oficial": "LA LOUVIERE",
+        "apodo": "LA LOUVIERE",
+        "aliases": [
+            "LA LOUVIERE"
+        ]
+    },
+    {
+        "id": "2597",
+        "nombre_oficial": "AVAI",
+        "apodo": "AVAI",
+        "aliases": [
+            "AVAI"
+        ]
+    },
+    {
+        "id": "2598",
+        "nombre_oficial": "FC MIDTJYLLAND",
+        "apodo": "FC MIDTJYLLAND",
+        "aliases": [
+            "FC MIDTJYLLAND"
+        ]
+    },
+    {
+        "id": "2599",
+        "nombre_oficial": "VAPRUS",
+        "apodo": "VAPRUS",
+        "aliases": [
+            "VAPRUS"
+        ]
+    },
+    {
+        "id": "2600",
+        "nombre_oficial": "LAHTI.",
+        "apodo": "LAHTI.",
+        "aliases": [
+            "LAHTI."
+        ]
+    },
+    {
+        "id": "2601",
+        "nombre_oficial": "INTER TURKU.",
+        "apodo": "INTER TURKU.",
+        "aliases": [
+            "INTER TURKU."
+        ]
+    },
+    {
+        "id": "2602",
+        "nombre_oficial": "DYNAMO MAKHACHKALA",
+        "apodo": "DYNAMO MAKHACHKALA",
+        "aliases": [
+            "DYNAMO MAKHACHKALA"
+        ]
+    },
+    {
+        "id": "2603",
+        "nombre_oficial": "KRYLIYA SOVETOV",
+        "apodo": "KRYLIYA SOVETOV",
+        "aliases": [
+            "KRYLIYA SOVETOV"
+        ]
+    },
+    {
+        "id": "2604",
+        "nombre_oficial": "BAHIA",
+        "apodo": "BAHIA",
+        "aliases": [
+            "BAHIA"
+        ]
+    },
+    {
+        "id": "2605",
+        "nombre_oficial": "MANCHESTER CITY",
+        "apodo": "MANCHESTER CITY",
+        "aliases": [
+            "MANCHESTER CITY"
+        ]
+    },
+    {
+        "id": "2606",
+        "nombre_oficial": "ARSENAL",
+        "apodo": "ARSENAL",
+        "aliases": [
+            "ARSENAL"
+        ]
+    },
+    {
+        "id": "2607",
+        "nombre_oficial": "GYORI ETO",
+        "apodo": "GYORI ETO",
+        "aliases": [
+            "GYORI ETO"
+        ]
+    },
+    {
+        "id": "2608",
+        "nombre_oficial": "CD NACIONAL",
+        "apodo": "CD NACIONAL",
+        "aliases": [
+            "CD NACIONAL"
+        ]
+    },
+    {
+        "id": "2609",
+        "nombre_oficial": "HAMMARBY IF",
+        "apodo": "HAMMARBY IF",
+        "aliases": [
+            "HAMMARBY IF"
+        ]
+    },
+    {
+        "id": "2610",
+        "nombre_oficial": "MALMO FF",
+        "apodo": "MALMO FF",
+        "aliases": [
+            "MALMO FF"
+        ]
+    },
+    {
+        "id": "2611",
+        "nombre_oficial": "SWAROVSKI TIROL",
+        "apodo": "SWAROVSKI TIROL",
+        "aliases": [
+            "SWAROVSKI TIROL"
+        ]
+    },
+    {
+        "id": "2612",
+        "nombre_oficial": "TROMSO",
+        "apodo": "TROMSO",
+        "aliases": [
+            "TROMSO"
+        ]
+    },
+    {
+        "id": "2613",
+        "nombre_oficial": "MOLDE",
+        "apodo": "MOLDE",
+        "aliases": [
+            "MOLDE"
+        ]
+    },
+    {
+        "id": "2614",
+        "nombre_oficial": "HAMKAM",
+        "apodo": "HAMKAM",
+        "aliases": [
+            "HAMKAM"
+        ]
+    },
+    {
+        "id": "2615",
+        "nombre_oficial": "Bradford",
+        "apodo": "Bradford",
+        "aliases": [
+            "branfor"
+        ]
+    },
+    {
+        "id": "2616",
+        "nombre_oficial": "TENERIFE",
+        "apodo": "TENERIFE",
+        "aliases": [
+            "TENERIFE"
+        ]
+    },
+    {
+        "id": "2617",
+        "nombre_oficial": "EIBAR",
+        "apodo": "EIBAR",
+        "aliases": [
+            "EIBAR"
+        ]
+    },
+    {
+        "id": "2618",
+        "nombre_oficial": "EGERSUND",
+        "apodo": "EGERSUND",
+        "aliases": [
+            "EGERSUND"
+        ]
+    },
+    {
+        "id": "2619",
+        "nombre_oficial": "RAUFOSS",
+        "apodo": "RAUFOSS",
+        "aliases": [
+            "RAUFOSS"
+        ]
+    },
+    {
+        "id": "2620",
+        "nombre_oficial": "SPARTAK TRNAVA",
+        "apodo": "SPARTAK TRNAVA",
+        "aliases": [
+            "SPARTAK TRNAVA"
+        ]
+    },
+    {
+        "id": "2621",
+        "nombre_oficial": "PUSKAS FC",
+        "apodo": "PUSKAS FC",
+        "aliases": [
+            "PUSKAS FC"
+        ]
+    },
+    {
+        "id": "2622",
+        "nombre_oficial": "CRACOVIA KRAKOW",
+        "apodo": "CRACOVIA KRAKOW",
+        "aliases": [
+            "CRACOVIA KRAKOW"
+        ]
+    },
+    {
+        "id": "2623",
+        "nombre_oficial": "ALUMINIJ",
+        "apodo": "ALUMINIJ",
+        "aliases": [
+            "ALUMINIJ"
+        ]
+    },
+    {
+        "id": "2624",
+        "nombre_oficial": "RADOMLJE",
+        "apodo": "RADOMLJE",
+        "aliases": [
+            "RADOMLJE"
+        ]
+    },
+    {
+        "id": "2625",
+        "nombre_oficial": "BOTEV VRATSA",
+        "apodo": "BOTEV VRATSA",
+        "aliases": [
+            "BOTEV VRATSA"
+        ]
+    },
+    {
+        "id": "2626",
+        "nombre_oficial": "JUVE STABIA",
+        "apodo": "JUVE STABIA",
+        "aliases": [
+            "JUVE STABIA"
+        ]
+    },
+    {
+        "id": "2627",
+        "nombre_oficial": "FROSINONE",
+        "apodo": "FROSINONE",
+        "aliases": [
+            "FROSINONE"
+        ]
+    },
+    {
+        "id": "2628",
+        "nombre_oficial": "KOCAELISPOR",
+        "apodo": "KOCAELISPOR",
+        "aliases": [
+            "KOCAELISPOR"
+        ]
+    },
+    {
+        "id": "2629",
+        "nombre_oficial": "ISTANBUL BASAKSEHIR",
+        "apodo": "ISTANBUL BASAKSEHIR",
+        "aliases": [
+            "ISTANBUL BASAKSEHIR"
+        ]
+    },
+    {
+        "id": "2630",
+        "nombre_oficial": "MURA",
+        "apodo": "MURA",
+        "aliases": [
+            "MURA"
+        ]
+    },
+    {
+        "id": "2631",
+        "nombre_oficial": "GROSUPLJE",
+        "apodo": "GROSUPLJE",
+        "aliases": [
+            "GROSUPLJE"
+        ]
+    },
+    {
+        "id": "2632",
+        "nombre_oficial": "KV MECHELEN",
+        "apodo": "KV MECHELEN",
+        "aliases": [
+            "KV MECHELEN"
+        ]
+    },
+    {
+        "id": "2633",
+        "nombre_oficial": "HNK RIJEKA",
+        "apodo": "HNK RIJEKA",
+        "aliases": [
+            "HNK RIJEKA"
+        ]
+    },
+    {
+        "id": "2634",
+        "nombre_oficial": "VARAZDIN",
+        "apodo": "VARAZDIN",
+        "aliases": [
+            "VARAZDIN"
+        ]
+    },
+    {
+        "id": "2635",
+        "nombre_oficial": "ELCHE",
+        "apodo": "ELCHE",
+        "aliases": [
+            "ELCHE"
+        ]
+    },
+    {
+        "id": "2636",
+        "nombre_oficial": "DEPORTIVO CORUNA",
+        "apodo": "DEPORTIVO CORUNA",
+        "aliases": [
+            "DEPORTIVO CORUNA"
+        ]
+    },
+    {
+        "id": "2637",
+        "nombre_oficial": "ZALAEGERSZEGI TE",
+        "apodo": "ZALAEGERSZEGI TE",
+        "aliases": [
+            "ZALAEGERSZEGI TE"
+        ]
+    },
+    {
+        "id": "2638",
+        "nombre_oficial": "UNIVERSITATEA CLUJ",
+        "apodo": "UNIVERSITATEA CLUJ",
+        "aliases": [
+            "UNIVERSITATEA CLUJ"
+        ]
+    },
+    {
+        "id": "2639",
+        "nombre_oficial": "FK SUDUVA",
+        "apodo": "FK SUDUVA",
+        "aliases": [
+            "FK SUDUVA"
+        ]
+    },
+    {
+        "id": "2640",
+        "nombre_oficial": "SEPTEMVRI SOFIA",
+        "apodo": "SEPTEMVRI SOFIA",
+        "aliases": [
+            "SEPTEMVRI SOFIA"
+        ]
+    },
+    {
+        "id": "2641",
+        "nombre_oficial": "SPARTAK VARNA",
+        "apodo": "SPARTAK VARNA",
+        "aliases": [
+            "SPARTAK VARNA"
+        ]
+    },
+    {
+        "id": "2642",
+        "nombre_oficial": "EMPOLI FC",
+        "apodo": "EMPOLI FC",
+        "aliases": [
+            "EMPOLI FC"
+        ]
+    },
+    {
+        "id": "2643",
+        "nombre_oficial": "PISA",
+        "apodo": "PISA",
+        "aliases": [
+            "PISA"
+        ]
+    },
+    {
+        "id": "2644",
+        "nombre_oficial": "CESENA",
+        "apodo": "CESENA",
+        "aliases": [
+            "CESENA"
+        ]
+    },
+    {
+        "id": "2645",
+        "nombre_oficial": "SASSUOLO",
+        "apodo": "SASSUOLO",
+        "aliases": [
+            "SASSUOLO"
+        ]
+    },
+    {
+        "id": "2646",
+        "nombre_oficial": "BRONDBY IF",
+        "apodo": "BRONDBY IF",
+        "aliases": [
+            "BRONDBY IF"
+        ]
+    },
+    {
+        "id": "2647",
+        "nombre_oficial": "SABADELL",
+        "apodo": "SABADELL",
+        "aliases": [
+            "SABADELL"
+        ]
+    },
+    {
+        "id": "2648",
+        "nombre_oficial": "SPORTING GIJON",
+        "apodo": "SPORTING GIJON",
+        "aliases": [
+            "SPORTING GIJON",
+            "ESPORTIN_GIJÓN"
+        ]
+    },
+    {
+        "id": "2649",
+        "nombre_oficial": "BK HACKEN",
+        "apodo": "BK HACKEN",
+        "aliases": [
+            "BK HACKEN"
+        ]
+    },
+    {
+        "id": "2650",
+        "nombre_oficial": "NUEVA CHICAGO",
+        "apodo": "NUEVA CHICAGO",
+        "aliases": [
+            "NUEVA CHICAGO"
+        ]
+    },
+    {
+        "id": "2651",
+        "nombre_oficial": "ALL BOYS",
+        "apodo": "ALL BOYS",
+        "aliases": [
+            "ALL BOYS"
+        ]
+    },
+    {
+        "id": "2652",
+        "nombre_oficial": "VOJVODINA",
+        "apodo": "VOJVODINA",
+        "aliases": [
+            "VOJVODINA"
+        ]
+    },
+    {
+        "id": "2653",
+        "nombre_oficial": "NOVI PAZAR",
+        "apodo": "NOVI PAZAR",
+        "aliases": [
+            "NOVI PAZAR"
+        ]
+    },
+    {
+        "id": "2654",
+        "nombre_oficial": "ARDA",
+        "apodo": "ARDA",
+        "aliases": [
+            "ARDA"
+        ]
+    },
+    {
+        "id": "2655",
+        "nombre_oficial": "BOTOSANI",
+        "apodo": "BOTOSANI",
+        "aliases": [
+            "BOTOSANI"
+        ]
+    },
+    {
+        "id": "2656",
+        "nombre_oficial": "STEAUA BUCURESTI",
+        "apodo": "STEAUA BUCURESTI",
+        "aliases": [
+            "STEAUA BUCURESTI"
+        ]
+    },
+    {
+        "id": "2657",
+        "nombre_oficial": "GOZTEPE",
+        "apodo": "GOZTEPE",
+        "aliases": [
+            "GOZTEPE"
+        ]
+    },
+    {
+        "id": "2658",
+        "nombre_oficial": "SAMSUNSPOR",
+        "apodo": "SAMSUNSPOR",
+        "aliases": [
+            "SAMSUNSPOR"
+        ]
+    },
+    {
+        "id": "2659",
+        "nombre_oficial": "SAMPDORIA",
+        "apodo": "SAMPDORIA",
+        "aliases": [
+            "SAMPDORIA"
+        ]
+    },
+    {
+        "id": "2660",
+        "nombre_oficial": "CREMONESE",
+        "apodo": "CREMONESE",
+        "aliases": [
+            "CREMONESE"
+        ]
+    },
+    {
+        "id": "2661",
+        "nombre_oficial": "LECCE",
+        "apodo": "LECCE",
+        "aliases": [
+            "LECCE"
+        ]
+    },
+    {
+        "id": "2662",
+        "nombre_oficial": "PALERMO",
+        "apodo": "PALERMO",
+        "aliases": [
+            "PALERMO"
+        ]
+    },
+    {
+        "id": "2663",
+        "nombre_oficial": "ELDENSE",
+        "apodo": "ELDENSE",
+        "aliases": [
+            "ELDENSE"
+        ]
+    },
+    {
+        "id": "2664",
+        "nombre_oficial": "ALMERIA",
+        "apodo": "ALMERIA",
+        "aliases": [
+            "ALMERIA"
+        ]
+    },
+    {
+        "id": "2665",
+        "nombre_oficial": "DEFENSA Y JUSTICIA",
+        "apodo": "DEFENSA Y JUSTICIA",
+        "aliases": [
+            "DEFENSA Y JUSTICIA"
+        ]
+    },
+    {
+        "id": "2666",
+        "nombre_oficial": "TALLERES CORDOBA",
+        "apodo": "TALLERES CORDOBA",
+        "aliases": [
+            "TALLERES CORDOBA"
+        ]
+    },
+    {
+        "id": "2667",
+        "nombre_oficial": "PALESTINO",
+        "apodo": "PALESTINO",
+        "aliases": [
+            "PALESTINO"
+        ]
+    },
+    {
+        "id": "2668",
+        "nombre_oficial": "MALAGA",
+        "apodo": "MALAGA",
+        "aliases": [
+            "MALAGA"
+        ]
+    },
+    {
+        "id": "2669",
+        "nombre_oficial": "ATLETICO MADRID",
+        "apodo": "ATLETICO MADRID",
+        "aliases": [
+            "ATLETICO MADRID"
+        ]
+    },
+    {
+        "id": "2670",
+        "nombre_oficial": "LASK",
+        "apodo": "LASK",
+        "aliases": [
+            "LASK"
+        ]
+    },
+    {
+        "id": "2671",
+        "nombre_oficial": "CELTIC",
+        "apodo": "CELTIC",
+        "aliases": [
+            "CELTIC"
+        ]
+    },
+    {
+        "id": "2672",
+        "nombre_oficial": "COQUIMBO",
+        "apodo": "COQUIMBO",
+        "aliases": [
+            "COQUIMBO"
+        ]
+    },
+    {
+        "id": "2673",
+        "nombre_oficial": "ATLETICO MINEIRO",
+        "apodo": "ATLETICO MINEIRO",
+        "aliases": [
+            "ATLETICO MINEIRO"
+        ]
+    },
+    {
+        "id": "2674",
+        "nombre_oficial": "ATLETICO OTTAWA",
+        "apodo": "ATLETICO OTTAWA",
+        "aliases": [
+            "ATLETICO OTTAWA"
+        ]
+    },
+    {
+        "id": "2675",
+        "nombre_oficial": "CUIABA",
+        "apodo": "CUIABA",
+        "aliases": [
+            "CUIABA"
+        ]
+    },
+    {
+        "id": "2676",
+        "nombre_oficial": "CHICAGO",
+        "apodo": "CHICAGO",
+        "aliases": [
+            "CHICAGO"
+        ]
+    },
+    {
+        "id": "2677",
+        "nombre_oficial": "PHILADELPHIA",
+        "apodo": "PHILADELPHIA",
+        "aliases": [
+            "PHILADELPHIA"
+        ]
+    },
+    {
+        "id": "2678",
+        "nombre_oficial": "ALIANZA PETROLERA",
+        "apodo": "ALIANZA PETROLERA",
+        "aliases": [
+            "ALIANZA PETROLERA"
+        ]
+    },
+    {
+        "id": "2679",
+        "nombre_oficial": "ONCE CALDAS",
+        "apodo": "ONCE CALDAS",
+        "aliases": [
+            "ONCE CALDAS"
+        ]
+    },
+    {
+        "id": "2680",
+        "nombre_oficial": "FLAMENGO",
+        "apodo": "FLAMENGO",
+        "aliases": [
+            "FLAMENGO",
+            "FLAMENCO"
+        ]
+    },
+    {
+        "id": "2681",
+        "nombre_oficial": "MONTEVIDEO CITY",
+        "apodo": "MONTEVIDEO CITY",
+        "aliases": [
+            "MONTEVIDEO CITY"
+        ]
+    },
+    {
+        "id": "2682",
+        "nombre_oficial": "SEATTLE",
+        "apodo": "SEATTLE",
+        "aliases": [
+            "SEATTLE"
+        ]
+    },
+    {
+        "id": "2683",
+        "nombre_oficial": "PHOENIX RISING FC",
+        "apodo": "PHOENIX RISING FC",
+        "aliases": [
+            "PHOENIX RISING FC"
+        ]
+    },
+    {
+        "id": "2684",
+        "nombre_oficial": "PORTLAND",
+        "apodo": "PORTLAND",
+        "aliases": [
+            "PORTLAND"
+        ]
+    },
+    {
+        "id": "2685",
+        "nombre_oficial": "RIONEGRO AGUILAS",
+        "apodo": "RIONEGRO AGUILAS",
+        "aliases": [
+            "RIONEGRO AGUILAS"
+        ]
+    },
+    {
+        "id": "2686",
+        "nombre_oficial": "LEEDS UNITED",
+        "apodo": "LEEDS UNITED",
+        "aliases": [
+            "LEEDS UNITED"
+        ]
+    },
+    {
+        "id": "2687",
+        "nombre_oficial": "NOTTINGHAM FOREST",
+        "apodo": "NOTTINGHAM FOREST",
+        "aliases": [
+            "NOTTINGHAM FOREST"
+        ]
+    },
+    {
+        "id": "2688",
+        "nombre_oficial": "SUNDERLAND",
+        "apodo": "SUNDERLAND",
+        "aliases": [
+            "SUNDERLAND"
+        ]
+    },
+    {
+        "id": "2689",
+        "nombre_oficial": "IPSWICH TOWN",
+        "apodo": "IPSWICH TOWN",
+        "aliases": [
+            "IPSWICH TOWN"
+        ]
+    },
+    {
+        "id": "2690",
+        "nombre_oficial": "CRYSTAL PALACE",
+        "apodo": "CRYSTAL PALACE",
+        "aliases": [
+            "CRYSTAL PALACE"
+        ]
+    },
+    {
+        "id": "2691",
+        "nombre_oficial": "ATH BILBAO",
+        "apodo": "ATH BILBAO",
+        "aliases": [
+            "ATH BILBAO"
+        ]
+    },
+    {
+        "id": "2692",
+        "nombre_oficial": "AUXERRE2",
+        "apodo": "AUXERRE2",
+        "aliases": [
+            "AUXERRE2"
+        ]
+    },
+    {
+        "id": "2693",
+        "nombre_oficial": "LENS1",
+        "apodo": "LENS1",
+        "aliases": [
+            "LENS1"
+        ]
+    },
+    {
+        "id": "2694",
+        "nombre_oficial": "TOTTENHAM",
+        "apodo": "TOTTENHAM",
+        "aliases": [
+            "TOTTENHAM"
+        ]
+    },
+    {
+        "id": "2695",
+        "nombre_oficial": "BRENTFORD",
+        "apodo": "BRENTFORD",
+        "aliases": [
+            "BRENTFORD"
+        ]
+    },
+    {
+        "id": "2696",
+        "nombre_oficial": "INTER MILAN",
+        "apodo": "INTER MILAN",
+        "aliases": [
+            "INTER MILAN"
+        ]
+    },
+    {
+        "id": "2697",
+        "nombre_oficial": "COMO",
+        "apodo": "COMO",
+        "aliases": [
+            "COMO"
+        ]
+    },
+    {
+        "id": "2698",
+        "nombre_oficial": "UDINESE",
+        "apodo": "UDINESE",
+        "aliases": [
+            "UDINESE"
+        ]
+    },
+    {
+        "id": "2699",
+        "nombre_oficial": "CELTA DE VIGO",
+        "apodo": "CELTA DE VIGO",
+        "aliases": [
+            "CELTA DE VIGO"
+        ]
+    },
+    {
+        "id": "2700",
+        "nombre_oficial": "VALENCIA",
+        "apodo": "VALENCIA",
+        "aliases": [
+            "VALENCIA"
+        ]
+    },
+    {
+        "id": "2701",
+        "nombre_oficial": "BAYERN MUNICH",
+        "apodo": "BAYERN MUNICH",
+        "aliases": [
+            "BAYERN MUNICH",
+            "BAYERN",
+            "BAYER"
+        ]
+    },
+    {
+        "id": "2702",
+        "nombre_oficial": "BORUSSIA DORTMUND",
+        "apodo": "BORUSSIA DORTMUND",
+        "aliases": [
+            "BORUSSIA DORTMUND",
+            "BORUSIA",
+            "DORMUNT",
+            "DORMUN"
+        ]
+    },
+    {
+        "id": "2703",
+        "nombre_oficial": "PARMA",
+        "apodo": "PARMA",
+        "aliases": [
+            "PARMA"
+        ]
+    },
+    {
+        "id": "2704",
+        "nombre_oficial": "NAPOLI",
+        "apodo": "NAPOLI",
+        "aliases": [
+            "NAPOLI"
+        ]
+    },
+    {
+        "id": "2705",
+        "nombre_oficial": "GENOA",
+        "apodo": "GENOA",
+        "aliases": [
+            "GENOA"
+        ]
+    },
+    {
+        "id": "2706",
+        "nombre_oficial": "TOULOUSE",
+        "apodo": "TOULOUSE",
+        "aliases": [
+            "TOULOUSE"
+        ]
+    },
+    {
+        "id": "2707",
+        "nombre_oficial": "LORIENT",
+        "apodo": "LORIENT",
+        "aliases": [
+            "LORIENT"
+        ]
+    },
+    {
+        "id": "2708",
+        "nombre_oficial": "NICE",
+        "apodo": "NICE",
+        "aliases": [
+            "NICE"
+        ]
+    },
+    {
+        "id": "2709",
+        "nombre_oficial": "PARIS FC",
+        "apodo": "PARIS FC",
+        "aliases": [
+            "PARIS FC"
+        ]
+    },
+    {
+        "id": "2710",
+        "nombre_oficial": "TROYES",
+        "apodo": "TROYES",
+        "aliases": [
+            "TROYES"
+        ]
+    },
+    {
+        "id": "2711",
+        "nombre_oficial": "REAL MADRID",
+        "apodo": "REAL MADRID",
+        "aliases": [
+            "REAL MADRID",
+            "MADRID",
+            "R MADRID"
+        ]
+    },
+    {
+        "id": "2712",
+        "nombre_oficial": "ESPANYOL",
+        "apodo": "ESPANYOL",
+        "aliases": [
+            "ESPANYOL"
+        ]
+    },
+    {
+        "id": "2713",
+        "nombre_oficial": "LEGANES",
+        "apodo": "LEGANES",
+        "aliases": [
+            "LEGANES"
+        ]
+    },
+    {
+        "id": "2714",
+        "nombre_oficial": "1860 MUNCHEN",
+        "apodo": "1860 MUNCHEN",
+        "aliases": [
+            "1860 MUNCHEN"
+        ]
+    },
+    {
+        "id": "2715",
+        "nombre_oficial": "MANTOVA",
+        "apodo": "MANTOVA",
+        "aliases": [
+            "MANTOVA"
+        ]
+    },
+    {
+        "id": "2716",
+        "nombre_oficial": "VIRTUS ENTELLA",
+        "apodo": "VIRTUS ENTELLA",
+        "aliases": [
+            "VIRTUS ENTELLA"
+        ]
+    },
+    {
+        "id": "2717",
+        "nombre_oficial": "ALBACETE",
+        "apodo": "ALBACETE",
+        "aliases": [
+            "ALBACETE"
+        ]
+    },
+    {
+        "id": "2718",
+        "nombre_oficial": "LAS PALMAS",
+        "apodo": "LAS PALMAS",
+        "aliases": [
+            "LAS PALMAS"
+        ]
+    },
+    {
+        "id": "2719",
+        "nombre_oficial": "EMPOLI",
+        "apodo": "EMPOLI",
+        "aliases": [
+            "EMPOLI"
+        ]
+    },
+    {
+        "id": "2720",
+        "nombre_oficial": "ALVERCA",
+        "apodo": "ALVERCA",
+        "aliases": [
+            "ALVERCA"
+        ]
+    },
+    {
+        "id": "2721",
+        "nombre_oficial": "STRASBOURG",
+        "apodo": "STRASBOURG",
+        "aliases": [
+            "STRASBOURG"
+        ]
+    },
+    {
+        "id": "2722",
+        "nombre_oficial": "MARSEILLE",
+        "apodo": "MARSEILLE",
+        "aliases": [
+            "MARSEILLE"
+        ]
+    },
+    {
+        "id": "2723",
+        "nombre_oficial": "REAL SOCIEDAD",
+        "apodo": "REAL SOCIEDAD",
+        "aliases": [
+            "REAL SOCIEDAD"
+        ]
+    },
+    {
+        "id": "2724",
+        "nombre_oficial": "BETIS",
+        "apodo": "BETIS",
+        "aliases": [
+            "BETIS",
+            "REAL_BETIS"
+        ]
+    },
+    {
+        "id": "2725",
+        "nombre_oficial": "MINSK",
+        "apodo": "MINSK",
+        "aliases": [
+            "MINSK"
+        ]
+    },
+    {
+        "id": "2726",
+        "nombre_oficial": "AAB",
+        "apodo": "AAB",
+        "aliases": [
+            "AAB"
+        ]
+    },
+    {
+        "id": "2727",
+        "nombre_oficial": "FCI LEVADIA TALLINN",
+        "apodo": "FCI LEVADIA TALLINN",
+        "aliases": [
+            "FCI LEVADIA TALLINN"
+        ]
+    },
+    {
+        "id": "2728",
+        "nombre_oficial": "WALDHOF MANNHEIM",
+        "apodo": "WALDHOF MANNHEIM",
+        "aliases": [
+            "WALDHOF MANNHEIM"
+        ]
+    },
+    {
+        "id": "2729",
+        "nombre_oficial": "AL ITTIHAD (EGYPT)",
+        "apodo": "AL ITTIHAD (EGYPT)",
+        "aliases": [
+            "AL ITTIHAD (EGYPT)"
+        ]
+    },
+    {
+        "id": "2730",
+        "nombre_oficial": "ZAMALEK",
+        "apodo": "ZAMALEK",
+        "aliases": [
+            "ZAMALEK"
+        ]
+    },
+    {
+        "id": "2731",
+        "nombre_oficial": "FC CAJAMARCA",
+        "apodo": "FC CAJAMARCA",
+        "aliases": [
+            "FC CAJAMARCA"
+        ]
+    },
+    {
+        "id": "2732",
+        "nombre_oficial": "SIRIUS",
+        "apodo": "SIRIUS",
+        "aliases": [
+            "SIRIUS"
+        ]
+    },
+    {
+        "id": "2733",
+        "nombre_oficial": "AL FAISALY",
+        "apodo": "AL FAISALY",
+        "aliases": [
+            "AL FAISALY"
+        ]
+    },
+    {
+        "id": "2734",
+        "nombre_oficial": "NK NAFTA LENDAVA",
+        "apodo": "NK NAFTA LENDAVA",
+        "aliases": [
+            "NK NAFTA LENDAVA"
+        ]
+    },
+    {
+        "id": "2735",
+        "nombre_oficial": "NAFTA",
+        "apodo": "NAFTA",
+        "aliases": [
+            "NAFTA"
+        ]
+    },
+    {
+        "id": "2736",
+        "nombre_oficial": "NK OLIMPIJA LJUBLJANA",
+        "apodo": "NK OLIMPIJA LJUBLJANA",
+        "aliases": [
+            "NK OLIMPIJA LJUBLJANA"
+        ]
+    },
+    {
+        "id": "2737",
+        "nombre_oficial": "GALATASARAY",
+        "apodo": "GALATASARAY",
+        "aliases": [
+            "GALATASARAY"
+        ]
+    },
+    {
+        "id": "2738",
+        "nombre_oficial": "BB ERZURUMSPOR",
+        "apodo": "BB ERZURUMSPOR",
+        "aliases": [
+            "BB ERZURUMSPOR"
+        ]
+    },
+    {
+        "id": "2739",
+        "nombre_oficial": "VFB STUTTGART",
+        "apodo": "VFB STUTTGART",
+        "aliases": [
+            "VFB STUTTGART",
+            "STTUGAR_FC",
+            "STTUGAR",
+            "STUTGAR",
+            "STTUTGAR"
+        ]
+    },
+    {
+        "id": "2740",
+        "nombre_oficial": "HANSA ROSTOCK",
+        "apodo": "HANSA ROSTOCK",
+        "aliases": [
+            "HANSA ROSTOCK"
+        ]
+    },
+    {
+        "id": "2741",
+        "nombre_oficial": "GLENTORAN",
+        "apodo": "GLENTORAN",
+        "aliases": [
+            "GLENTORAN"
+        ]
+    },
+    {
+        "id": "2742",
+        "nombre_oficial": "COLWYN BAY",
+        "apodo": "COLWYN BAY",
+        "aliases": [
+            "COLWYN BAY"
+        ]
+    },
+    {
+        "id": "2743",
+        "nombre_oficial": "LLANDUDNO",
+        "apodo": "LLANDUDNO",
+        "aliases": [
+            "LLANDUDNO"
+        ]
+    },
+    {
+        "id": "2744",
+        "nombre_oficial": "GIRONA",
+        "apodo": "GIRONA",
+        "aliases": [
+            "GIRONA"
+        ]
+    },
+    {
+        "id": "2745",
+        "nombre_oficial": "CORDOBA",
+        "apodo": "CORDOBA",
+        "aliases": [
+            "CORDOBA"
+        ]
+    },
+    {
+        "id": "2746",
+        "nombre_oficial": "JAGUARES DE CORDOBA",
+        "apodo": "JAGUARES DE CORDOBA",
+        "aliases": [
+            "JAGUARES DE CORDOBA"
+        ]
+    },
+    {
+        "id": "2747",
+        "nombre_oficial": "VILLARREAL",
+        "apodo": "VILLARREAL",
+        "aliases": [
+            "VILLARREAL",
+            "VILLA REAL"
+        ]
+    },
+    {
+        "id": "2748",
+        "nombre_oficial": "AS MONACO",
+        "apodo": "AS MONACO",
+        "aliases": [
+            "AS MONACO"
+        ]
+    },
+    {
+        "id": "2749",
+        "nombre_oficial": "LE HAVRE",
+        "apodo": "LE HAVRE",
+        "aliases": [
+            "LE HAVRE"
+        ]
+    },
+    {
+        "id": "2750",
+        "nombre_oficial": "LIVERPOOL",
+        "apodo": "LIVERPOOL",
+        "aliases": [
+            "LIVERPOOL"
+        ]
+    },
+    {
+        "id": "2751",
+        "nombre_oficial": "NEWCASTLE UNITED",
+        "apodo": "NEWCASTLE UNITED",
+        "aliases": [
+            "NEWCASTLE UNITED",
+            "NEWCASTLE",
+            "NEWCASEL"
+        ]
+    },
+    {
+        "id": "2752",
+        "nombre_oficial": "JUVENTUS",
+        "apodo": "JUVENTUS",
+        "aliases": [
+            "JUVENTUS"
+        ]
+    },
+    {
+        "id": "2753",
+        "nombre_oficial": "AC MILAN",
+        "apodo": "AC MILAN",
+        "aliases": [
+            "AC MILAN",
+            "MILAN"
+        ]
+    },
+    {
+        "id": "2754",
+        "nombre_oficial": "ATALANTA",
+        "apodo": "ATALANTA",
+        "aliases": [
+            "ATALANTA"
+        ]
+    },
+    {
+        "id": "2755",
+        "nombre_oficial": "STADE RENNES",
+        "apodo": "STADE RENNES",
+        "aliases": [
+            "STADE RENNES"
+        ]
+    },
+    {
+        "id": "2756",
+        "nombre_oficial": "PARIS ST GERMAIN",
+        "apodo": "PARIS ST GERMAIN",
+        "aliases": [
+            "PARIS ST GERMAIN",
+            "PSG",
+            "PARIS SAINT GERMAINT"
+        ]
+    },
+    {
+        "id": "2757",
+        "nombre_oficial": "BARCELONA FC",
+        "apodo": "BARCELONA FC",
+        "aliases": [
+            "BARCELONA FC",
+            "BARCA"
+        ]
+    },
+    {
+        "id": "2758",
+        "nombre_oficial": "SC FREIBURG",
+        "apodo": "SC FREIBURG",
+        "aliases": [
+            "SC FREIBURG",
+            "FREIBUR"
+        ]
+    },
+    {
+        "id": "2759",
+        "nombre_oficial": "FORTUNA DUSSELDORF",
+        "apodo": "FORTUNA DUSSELDORF",
+        "aliases": [
+            "FORTUNA DUSSELDORF"
+        ]
+    },
+    {
+        "id": "2760",
+        "nombre_oficial": "ROT-WEISS ESSEN",
+        "apodo": "ROT-WEISS ESSEN",
+        "aliases": [
+            "ROT-WEISS ESSEN"
+        ]
+    },
+    {
+        "id": "2761",
+        "nombre_oficial": "PADERBORN",
+        "apodo": "PADERBORN",
+        "aliases": [
+            "PADERBORN"
+        ]
+    },
+    {
+        "id": "2762",
+        "nombre_oficial": "PHONIX LUBECK",
+        "apodo": "PHONIX LUBECK",
+        "aliases": [
+            "PHONIX LUBECK"
+        ]
+    },
+    {
+        "id": "2763",
+        "nombre_oficial": "CALCIO PADOVA",
+        "apodo": "CALCIO PADOVA",
+        "aliases": [
+            "CALCIO PADOVA"
+        ]
+    },
+    {
+        "id": "2764",
+        "nombre_oficial": "ASCOLI PICCHIO",
+        "apodo": "ASCOLI PICCHIO",
+        "aliases": [
+            "ASCOLI PICCHIO"
+        ]
+    },
+    {
+        "id": "2765",
+        "nombre_oficial": "HELLAS VERONA",
+        "apodo": "HELLAS VERONA",
+        "aliases": [
+            "HELLAS VERONA"
+        ]
+    },
+    {
+        "id": "2766",
+        "nombre_oficial": "BURGOS",
+        "apodo": "BURGOS",
+        "aliases": [
+            "BURGOS"
+        ]
+    },
+    {
+        "id": "2767",
+        "nombre_oficial": "BARRACAS CENTRAL",
+        "apodo": "BARRACAS CENTRAL",
+        "aliases": [
+            "BARRACAS CENTRAL"
+        ]
+    },
+    {
+        "id": "2768",
+        "nombre_oficial": "ATLETICO SAN LUIS",
+        "apodo": "ATLETICO SAN LUIS",
+        "aliases": [
+            "ATLETICO SAN LUIS"
+        ]
+    },
+    {
+        "id": "2769",
+        "nombre_oficial": "VOLOS NFC",
+        "apodo": "VOLOS NFC",
+        "aliases": [
+            "VOLOS NFC"
+        ]
+    },
+    {
+        "id": "2770",
+        "nombre_oficial": "OFI",
+        "apodo": "OFI",
+        "aliases": [
+            "OFI"
+        ]
+    },
+    {
+        "id": "2771",
+        "nombre_oficial": "SANTA CLARA",
+        "apodo": "SANTA CLARA",
+        "aliases": [
+            "SANTA CLARA"
+        ]
+    },
+    {
+        "id": "2772",
+        "nombre_oficial": "LEVADIAKOS",
+        "apodo": "LEVADIAKOS",
+        "aliases": [
+            "LEVADIAKOS"
+        ]
+    },
+    {
+        "id": "2773",
+        "nombre_oficial": "ASTERAS TRIPOLIS",
+        "apodo": "ASTERAS TRIPOLIS",
+        "aliases": [
+            "ASTERAS TRIPOLIS"
+        ]
+    },
+    {
+        "id": "2774",
+        "nombre_oficial": "PANAITOLIKOS",
+        "apodo": "PANAITOLIKOS",
+        "aliases": [
+            "PANAITOLIKOS"
+        ]
+    },
+    {
+        "id": "2775",
+        "nombre_oficial": "VASCO DA GAMA",
+        "apodo": "VASCO DA GAMA",
+        "aliases": [
+            "VASCO DA GAMA"
+        ]
+    },
+    {
+        "id": "2776",
+        "nombre_oficial": "SANTOS FC",
+        "apodo": "SANTOS FC",
+        "aliases": [
+            "SANTOS FC"
+        ]
+    },
+    {
+        "id": "2777",
+        "nombre_oficial": "LAZIO",
+        "apodo": "LAZIO",
+        "aliases": [
+            "LAZIO"
+        ]
+    },
+    {
+        "id": "2778",
+        "nombre_oficial": "BOLOGNA",
+        "apodo": "BOLOGNA",
+        "aliases": [
+            "BOLOGNA"
+        ]
+    },
+    {
+        "id": "2779",
+        "nombre_oficial": "LEVANTE",
+        "apodo": "LEVANTE",
+        "aliases": [
+            "LEVANTE"
+        ]
+    },
+    {
+        "id": "2780",
+        "nombre_oficial": "OSASUNA",
+        "apodo": "OSASUNA",
+        "aliases": [
+            "OSASUNA"
+        ]
+    },
+    {
+        "id": "2781",
+        "nombre_oficial": "AS ROMA",
+        "apodo": "AS ROMA",
+        "aliases": [
+            "AS ROMA"
+        ]
+    },
+    {
+        "id": "2782",
+        "nombre_oficial": "CHELSEA",
+        "apodo": "CHELSEA",
+        "aliases": [
+            "CHELSEA"
+        ]
+    },
+    {
+        "id": "2783",
+        "nombre_oficial": "FULHAM1",
+        "apodo": "FULHAM1",
+        "aliases": [
+            "FULHAM1"
+        ]
+    },
+    {
+        "id": "2784",
+        "nombre_oficial": "AL QUADISIYA",
+        "apodo": "AL QUADISIYA",
+        "aliases": [
+            "AL QUADISIYA"
+        ]
+    },
+    {
+        "id": "2785",
+        "nombre_oficial": "BNEI SAKHNIN",
+        "apodo": "BNEI SAKHNIN",
+        "aliases": [
+            "BNEI SAKHNIN"
+        ]
+    },
+    {
+        "id": "2786",
+        "nombre_oficial": "MACCABI NETANYA",
+        "apodo": "MACCABI NETANYA",
+        "aliases": [
+            "MACCABI NETANYA"
+        ]
+    },
+    {
+        "id": "2787",
+        "nombre_oficial": "DJURGARDENS IF",
+        "apodo": "DJURGARDENS IF",
+        "aliases": [
+            "DJURGARDENS IF"
+        ]
+    },
+    {
+        "id": "2788",
+        "nombre_oficial": "LJUNGSKILE.",
+        "apodo": "LJUNGSKILE.",
+        "aliases": [
+            "LJUNGSKILE."
+        ]
+    },
+    {
+        "id": "2789",
+        "nombre_oficial": "FC RUBIN KAZAN",
+        "apodo": "FC RUBIN KAZAN",
+        "aliases": [
+            "FC RUBIN KAZAN"
+        ]
+    },
+    {
+        "id": "2790",
+        "nombre_oficial": "BALTIKA",
+        "apodo": "BALTIKA",
+        "aliases": [
+            "BALTIKA"
+        ]
+    },
+    {
+        "id": "2791",
+        "nombre_oficial": "SCHALKE 04",
+        "apodo": "SCHALKE 04",
+        "aliases": [
+            "SCHALKE 04"
+        ]
+    },
+    {
+        "id": "2792",
+        "nombre_oficial": "HALLESCHER FC",
+        "apodo": "HALLESCHER FC",
+        "aliases": [
+            "HALLESCHER FC"
+        ]
+    },
+    {
+        "id": "2793",
+        "nombre_oficial": "FRAM",
+        "apodo": "FRAM",
+        "aliases": [
+            "FRAM"
+        ]
+    },
+    {
+        "id": "2794",
+        "nombre_oficial": "BREIDABLIK.",
+        "apodo": "BREIDABLIK.",
+        "aliases": [
+            "BREIDABLIK."
+        ]
+    },
+    {
+        "id": "2795",
+        "nombre_oficial": "GIL VICENTE",
+        "apodo": "GIL VICENTE",
+        "aliases": [
+            "GIL VICENTE"
+        ]
+    },
+    {
+        "id": "2796",
+        "nombre_oficial": "CENTRAL CORDOBA SDE",
+        "apodo": "CENTRAL CORDOBA SDE",
+        "aliases": [
+            "CENTRAL CORDOBA SDE"
+        ]
+    },
+    {
+        "id": "2797",
+        "nombre_oficial": "NOVORIZONTINO",
+        "apodo": "NOVORIZONTINO",
+        "aliases": [
+            "NOVORIZONTINO"
+        ]
+    },
+    {
+        "id": "2798",
+        "nombre_oficial": "ATHLETIC CLUB MG",
+        "apodo": "ATHLETIC CLUB MG",
+        "aliases": [
+            "ATHLETIC CLUB MG"
+        ]
+    },
+    {
+        "id": "2799",
+        "nombre_oficial": "ARGENTINOS JUNIORS",
+        "apodo": "ARGENTINOS JUNIORS",
+        "aliases": [
+            "ARGENTINOS JUNIORS"
+        ]
+    },
+    {
+        "id": "2800",
+        "nombre_oficial": "SPORTIVO LUQUEÑO",
+        "apodo": "SPORTIVO LUQUEÑO",
+        "aliases": [
+            "SPORTIVO LUQUEÑO"
+        ]
+    },
+    {
+        "id": "2801",
+        "nombre_oficial": "SPORTIVO SAN LORENZO",
+        "apodo": "SPORTIVO SAN LORENZO",
+        "aliases": [
+            "SPORTIVO SAN LORENZO"
+        ]
+    },
+    {
+        "id": "2802",
+        "nombre_oficial": "LIBERTAD ASUNCION",
+        "apodo": "LIBERTAD ASUNCION",
+        "aliases": [
+            "LIBERTAD ASUNCION"
+        ]
+    },
+    {
+        "id": "2803",
+        "nombre_oficial": "SILKEBORG",
+        "apodo": "SILKEBORG",
+        "aliases": [
+            "SILKEBORG"
+        ]
+    },
+    {
+        "id": "2804",
+        "nombre_oficial": "AL HAZEM1",
+        "apodo": "AL HAZEM1",
+        "aliases": [
+            "AL HAZEM1"
+        ]
+    },
+    {
+        "id": "2805",
+        "nombre_oficial": "AL ITTIHAD",
+        "apodo": "AL ITTIHAD",
+        "aliases": [
+            "AL ITTIHAD"
+        ]
+    },
+    {
+        "id": "2806",
+        "nombre_oficial": "VARBERG",
+        "apodo": "VARBERG",
+        "aliases": [
+            "VARBERG"
+        ]
+    },
+    {
+        "id": "2807",
+        "nombre_oficial": "OSTERS IF",
+        "apodo": "OSTERS IF",
+        "aliases": [
+            "OSTERS IF"
+        ]
+    },
+    {
+        "id": "2808",
+        "nombre_oficial": "MILLWALL",
+        "apodo": "MILLWALL",
+        "aliases": [
+            "MILLWALL"
+        ]
+    },
+    {
+        "id": "2809",
+        "nombre_oficial": "CAMBRIDGE UNITED",
+        "apodo": "CAMBRIDGE UNITED",
+        "aliases": [
+            "CAMBRIDGE UNITED"
+        ]
+    },
+    {
+        "id": "2810",
+        "nombre_oficial": "SOUTHAMPTON",
+        "apodo": "SOUTHAMPTON",
+        "aliases": [
+            "SOUTHAMPTON"
+        ]
+    },
+    {
+        "id": "2811",
+        "nombre_oficial": "LEICESTER CITY",
+        "apodo": "LEICESTER CITY",
+        "aliases": [
+            "LEICESTER CITY"
+        ]
+    },
+    {
+        "id": "2812",
+        "nombre_oficial": "IPSWICH",
+        "apodo": "IPSWICH",
+        "aliases": [
+            "IPSWICH"
+        ]
+    },
+    {
+        "id": "2813",
+        "nombre_oficial": "STEVENAGE",
+        "apodo": "STEVENAGE",
+        "aliases": [
+            "STEVENAGE"
+        ]
+    },
+    {
+        "id": "2814",
+        "nombre_oficial": "BLACKPOOL",
+        "apodo": "BLACKPOOL",
+        "aliases": [
+            "BLACKPOOL"
+        ]
+    },
+    {
+        "id": "2815",
+        "nombre_oficial": "HULL CITY.",
+        "apodo": "HULL CITY.",
+        "aliases": [
+            "HULL CITY."
+        ]
+    },
+    {
+        "id": "2816",
+        "nombre_oficial": "COVENTRY CITY",
+        "apodo": "COVENTRY CITY",
+        "aliases": [
+            "COVENTRY CITY"
+        ]
+    },
+    {
+        "id": "2817",
+        "nombre_oficial": "PLYMOUTH",
+        "apodo": "PLYMOUTH",
+        "aliases": [
+            "PLYMOUTH"
+        ]
+    },
+    {
+        "id": "2818",
+        "nombre_oficial": "BRENTFORD FC",
+        "apodo": "BRENTFORD FC",
+        "aliases": [
+            "BRENTFORD FC"
+        ]
+    },
+    {
+        "id": "2819",
+        "nombre_oficial": "NOTTINGHAM",
+        "apodo": "NOTTINGHAM",
+        "aliases": [
+            "NOTTINGHAM"
+        ]
+    },
+    {
+        "id": "2820",
+        "nombre_oficial": "HEARTS",
+        "apodo": "HEARTS",
+        "aliases": [
+            "HEARTS"
+        ]
+    },
+    {
+        "id": "2821",
+        "nombre_oficial": "ODD",
+        "apodo": "ODD",
+        "aliases": [
+            "ODD"
+        ]
+    },
+    {
+        "id": "2822",
+        "nombre_oficial": "MOSS",
+        "apodo": "MOSS",
+        "aliases": [
+            "MOSS"
+        ]
+    },
+    {
+        "id": "2823",
+        "nombre_oficial": "CHACO FOR EVER",
+        "apodo": "CHACO FOR EVER",
+        "aliases": [
+            "CHACO FOR EVER"
+        ]
+    },
+    {
+        "id": "2824",
+        "nombre_oficial": "JUNIOR",
+        "apodo": "JUNIOR",
+        "aliases": [
+            "JUNIOR"
+        ]
+    },
+    {
+        "id": "2825",
+        "nombre_oficial": "AMERICA DE CALI",
+        "apodo": "AMERICA DE CALI",
+        "aliases": [
+            "AMERICA DE CALI"
+        ]
+    },
+    {
+        "id": "2826",
+        "nombre_oficial": "CENTRAL NORTE",
+        "apodo": "CENTRAL NORTE",
+        "aliases": [
+            "CENTRAL NORTE"
+        ]
+    },
+    {
+        "id": "2827",
+        "nombre_oficial": "ATLETICO NACIONAL",
+        "apodo": "ATLETICO NACIONAL",
+        "aliases": [
+            "ATLETICO NACIONAL"
+        ]
+    },
+    {
+        "id": "2828",
+        "nombre_oficial": "AL MASRY",
+        "apodo": "AL MASRY",
+        "aliases": [
+            "AL MASRY"
+        ]
+    },
+    {
+        "id": "2829",
+        "nombre_oficial": "AL MOKAWLOON",
+        "apodo": "AL MOKAWLOON",
+        "aliases": [
+            "AL MOKAWLOON"
+        ]
+    },
+    {
+        "id": "2830",
+        "nombre_oficial": "VIKTORIA PLZEN",
+        "apodo": "VIKTORIA PLZEN",
+        "aliases": [
+            "VIKTORIA PLZEN"
+        ]
+    },
+    {
+        "id": "2831",
+        "nombre_oficial": "BESIKTAS",
+        "apodo": "BESIKTAS",
+        "aliases": [
+            "BESIKTAS"
+        ]
+    },
+    {
+        "id": "2832",
+        "nombre_oficial": "ZALGIRIS VILNIUS",
+        "apodo": "ZALGIRIS VILNIUS",
+        "aliases": [
+            "ZALGIRIS VILNIUS"
+        ]
+    },
+    {
+        "id": "2833",
+        "nombre_oficial": "PAOK",
+        "apodo": "PAOK",
+        "aliases": [
+            "PAOK"
+        ]
+    },
+    {
+        "id": "2834",
+        "nombre_oficial": "VIKINGUR REYKJAVIK",
+        "apodo": "VIKINGUR REYKJAVIK",
+        "aliases": [
+            "VIKINGUR REYKJAVIK",
+            "VIKIGUR",
+            "VIKINGUR"
+        ]
+    },
+    {
+        "id": "2835",
+        "nombre_oficial": "BORAC BANJA LUKA",
+        "apodo": "BORAC BANJA LUKA",
+        "aliases": [
+            "BORAC BANJA LUKA"
+        ]
+    },
+    {
+        "id": "2836",
+        "nombre_oficial": "MIDTJYLLAND",
+        "apodo": "MIDTJYLLAND",
+        "aliases": [
+            "MIDTJYLLAND"
+        ]
+    },
+    {
+        "id": "2837",
+        "nombre_oficial": "FULHAM",
+        "apodo": "FULHAM",
+        "aliases": [
+            "FULHAM"
+        ]
+    },
+    {
+        "id": "2838",
+        "nombre_oficial": "GENT",
+        "apodo": "GENT",
+        "aliases": [
+            "GENT"
+        ]
+    },
+    {
+        "id": "2839",
+        "nombre_oficial": "MILLONARIOS",
+        "apodo": "MILLONARIOS",
+        "aliases": [
+            "MILLONARIOS"
+        ]
+    },
+    {
+        "id": "2840",
+        "nombre_oficial": "CANCUN",
+        "apodo": "CANCUN",
+        "aliases": [
+            "CANCUN"
+        ]
+    },
+    {
+        "id": "2841",
+        "nombre_oficial": "MTK",
+        "apodo": "MTK",
+        "aliases": [
+            "MTK"
+        ]
+    },
+    {
+        "id": "2842",
+        "nombre_oficial": "SLAVIA SOFIA",
+        "apodo": "SLAVIA SOFIA",
+        "aliases": [
+            "SLAVIA SOFIA"
+        ]
+    },
+    {
+        "id": "2843",
+        "nombre_oficial": "FC GRONINGEN",
+        "apodo": "FC GRONINGEN",
+        "aliases": [
+            "FC GRONINGEN"
+        ]
+    },
+    {
+        "id": "2844",
+        "nombre_oficial": "SLASK WROCLAW",
+        "apodo": "SLASK WROCLAW",
+        "aliases": [
+            "SLASK WROCLAW"
+        ]
+    },
+    {
+        "id": "2845",
+        "nombre_oficial": "RS WAASLAND",
+        "apodo": "RS WAASLAND",
+        "aliases": [
+            "RS WAASLAND"
+        ]
+    },
+    {
+        "id": "2846",
+        "nombre_oficial": "CARLISLE",
+        "apodo": "CARLISLE",
+        "aliases": [
+            "CARLISLE"
+        ]
+    },
+    {
+        "id": "2847",
+        "nombre_oficial": "KIDDERMINSTER HARRIERS",
+        "apodo": "KIDDERMINSTER HARRIERS",
+        "aliases": [
+            "KIDDERMINSTER HARRIERS"
+        ]
+    },
+    {
+        "id": "2848",
+        "nombre_oficial": "SOUTHEND UNITED",
+        "apodo": "SOUTHEND UNITED",
+        "aliases": [
+            "SOUTHEND UNITED"
+        ]
+    },
+    {
+        "id": "2849",
+        "nombre_oficial": "LILLE",
+        "apodo": "LILLE",
+        "aliases": [
+            "LILLE"
+        ]
+    },
+    {
+        "id": "2850",
+        "nombre_oficial": "GOIAS",
+        "apodo": "GOIAS",
+        "aliases": [
+            "GOIAS"
+        ]
+    },
+    {
+        "id": "2851",
+        "nombre_oficial": "SUPRA DU QUEBEC",
+        "apodo": "SUPRA DU QUEBEC",
+        "aliases": [
+            "SUPRA DU QUEBEC"
+        ]
+    },
+    {
+        "id": "2852",
+        "nombre_oficial": "GIMNASIA Y TIRO",
+        "apodo": "GIMNASIA Y TIRO",
+        "aliases": [
+            "GIMNASIA Y TIRO"
+        ]
+    },
+    {
+        "id": "2853",
+        "nombre_oficial": "ATLETICO MORELIA",
+        "apodo": "ATLETICO MORELIA",
+        "aliases": [
+            "ATLETICO MORELIA"
+        ]
+    },
+    {
+        "id": "2854",
+        "nombre_oficial": "DORADOS DE SINAOLA",
+        "apodo": "DORADOS DE SINAOLA",
+        "aliases": [
+            "DORADOS DE SINAOLA"
+        ]
+    },
+    {
+        "id": "2855",
+        "nombre_oficial": "AKHMAT GROZNY",
+        "apodo": "AKHMAT GROZNY",
+        "aliases": [
+            "AKHMAT GROZNY"
+        ]
+    },
+    {
+        "id": "2856",
+        "nombre_oficial": "DYNAMO MOSCOW",
+        "apodo": "DYNAMO MOSCOW",
+        "aliases": [
+            "DYNAMO MOSCOW"
+        ]
+    },
+    {
+        "id": "2857",
+        "nombre_oficial": "LOKOMOTIV MOSCOW",
+        "apodo": "LOKOMOTIV MOSCOW",
+        "aliases": [
+            "LOKOMOTIV MOSCOW"
+        ]
+    },
+    {
+        "id": "2858",
+        "nombre_oficial": "ARMINIA BIELEFELD",
+        "apodo": "ARMINIA BIELEFELD",
+        "aliases": [
+            "ARMINIA BIELEFELD"
+        ]
+    },
+    {
+        "id": "2859",
+        "nombre_oficial": "NURNBERG",
+        "apodo": "NURNBERG",
+        "aliases": [
+            "NURNBERG"
+        ]
+    },
+    {
+        "id": "2860",
+        "nombre_oficial": "D.BREST 1960",
+        "apodo": "D.BREST 1960",
+        "aliases": [
+            "D.BREST 1960"
+        ]
+    },
+    {
+        "id": "2861",
+        "nombre_oficial": "ANGERS SCO",
+        "apodo": "ANGERS SCO",
+        "aliases": [
+            "ANGERS SCO"
+        ]
+    },
+    {
+        "id": "2862",
+        "nombre_oficial": "TRISTAN SUAREZ",
+        "apodo": "TRISTAN SUAREZ",
+        "aliases": [
+            "TRISTAN SUAREZ"
+        ]
+    },
+    {
+        "id": "2863",
+        "nombre_oficial": "PEC ZWOLLE",
+        "apodo": "PEC ZWOLLE",
+        "aliases": [
+            "PEC ZWOLLE"
+        ]
+    },
+    {
+        "id": "2864",
+        "nombre_oficial": "TAMPA BAY ROWDIES",
+        "apodo": "TAMPA BAY ROWDIES",
+        "aliases": [
+            "TAMPA BAY ROWDIES"
+        ]
+    },
+    {
+        "id": "2865",
+        "nombre_oficial": "PITTSBURGH RIVERHOUNDS",
+        "apodo": "PITTSBURGH RIVERHOUNDS",
+        "aliases": [
+            "PITTSBURGH RIVERHOUNDS"
+        ]
+    },
+    {
+        "id": "2866",
+        "nombre_oficial": "HURACAN",
+        "apodo": "HURACAN",
+        "aliases": [
+            "HURACAN"
+        ]
+    },
+    {
+        "id": "2867",
+        "nombre_oficial": "QUERETARO",
+        "apodo": "QUERETARO",
+        "aliases": [
+            "QUERETARO"
+        ]
+    },
+    {
+        "id": "2868",
+        "nombre_oficial": "BIRMINGHAM LEGION FC",
+        "apodo": "BIRMINGHAM LEGION FC",
+        "aliases": [
+            "BIRMINGHAM LEGION FC"
+        ]
+    },
+    {
+        "id": "2869",
+        "nombre_oficial": "HARTFORD ATHLETIC",
+        "apodo": "HARTFORD ATHLETIC",
+        "aliases": [
+            "HARTFORD ATHLETIC"
+        ]
+    },
+    {
+        "id": "2870",
+        "nombre_oficial": "SPORTING JAX",
+        "apodo": "SPORTING JAX",
+        "aliases": [
+            "SPORTING JAX"
+        ]
+    },
+    {
+        "id": "2871",
+        "nombre_oficial": "BROOKLYN",
+        "apodo": "BROOKLYN",
+        "aliases": [
+            "BROOKLYN"
+        ]
+    },
+    {
+        "id": "2872",
+        "nombre_oficial": "COLORADO SPRINGS",
+        "apodo": "COLORADO SPRINGS",
+        "aliases": [
+            "COLORADO SPRINGS"
+        ]
+    },
+    {
+        "id": "2873",
+        "nombre_oficial": "LEXINGTON",
+        "apodo": "LEXINGTON",
+        "aliases": [
+            "LEXINGTON"
+        ]
+    },
+    {
+        "id": "2874",
+        "nombre_oficial": "DETROIT CITY FC",
+        "apodo": "DETROIT CITY FC",
+        "aliases": [
+            "DETROIT CITY FC"
+        ]
+    },
+    {
+        "id": "2875",
+        "nombre_oficial": "LOUISVILLE CITY",
+        "apodo": "LOUISVILLE CITY",
+        "aliases": [
+            "LOUISVILLE CITY"
+        ]
+    },
+    {
+        "id": "2876",
+        "nombre_oficial": "RHODE ISLAND FC",
+        "apodo": "RHODE ISLAND FC",
+        "aliases": [
+            "RHODE ISLAND FC"
+        ]
+    },
+    {
+        "id": "2877",
+        "nombre_oficial": "TULSA ROUGHNECKS",
+        "apodo": "TULSA ROUGHNECKS",
+        "aliases": [
+            "TULSA ROUGHNECKS"
+        ]
+    },
+    {
+        "id": "2878",
+        "nombre_oficial": "LOUDOUN UNITED FC",
+        "apodo": "LOUDOUN UNITED FC",
+        "aliases": [
+            "LOUDOUN UNITED FC"
+        ]
+    },
+    {
+        "id": "2879",
+        "nombre_oficial": "EL PASO LOCOMOTIVE FC",
+        "apodo": "EL PASO LOCOMOTIVE FC",
+        "aliases": [
+            "EL PASO LOCOMOTIVE FC"
+        ]
+    },
+    {
+        "id": "2880",
+        "nombre_oficial": "SAN ANTONIO FC",
+        "apodo": "SAN ANTONIO FC",
+        "aliases": [
+            "SAN ANTONIO FC"
+        ]
+    },
+    {
+        "id": "2881",
+        "nombre_oficial": "NEW MEXICO UNITED",
+        "apodo": "NEW MEXICO UNITED",
+        "aliases": [
+            "NEW MEXICO UNITED"
+        ]
+    },
+    {
+        "id": "2882",
+        "nombre_oficial": "SACRAMENTO REPUBLIC",
+        "apodo": "SACRAMENTO REPUBLIC",
+        "aliases": [
+            "SACRAMENTO REPUBLIC"
+        ]
+    },
+    {
+        "id": "2883",
+        "nombre_oficial": "MONTEREY BAY FC",
+        "apodo": "MONTEREY BAY FC",
+        "aliases": [
+            "MONTEREY BAY FC"
+        ]
+    },
+    {
+        "id": "2884",
+        "nombre_oficial": "CHARLESTON BATTERY",
+        "apodo": "CHARLESTON BATTERY",
+        "aliases": [
+            "CHARLESTON BATTERY"
+        ]
+    },
+    {
+        "id": "2885",
+        "nombre_oficial": "LAS VEGAS LIGHTS",
+        "apodo": "LAS VEGAS LIGHTS",
+        "aliases": [
+            "LAS VEGAS LIGHTS"
+        ]
+    },
+    {
+        "id": "2886",
+        "nombre_oficial": "INDY ELEVEN",
+        "apodo": "INDY ELEVEN",
+        "aliases": [
+            "INDY ELEVEN"
+        ]
+    },
+    {
+        "id": "2887",
+        "nombre_oficial": "BAYER LEVERKUSEN",
+        "apodo": "BAYER LEVERKUSEN",
+        "aliases": [
+            "BAYER LEVERKUSEN"
+        ]
+    },
+    {
+        "id": "2888",
+        "nombre_oficial": "ELVERSBERG",
+        "apodo": "ELVERSBERG",
+        "aliases": [
+            "ELVERSBERG"
+        ]
+    },
+    {
+        "id": "2889",
+        "nombre_oficial": "HOFFENHEIM",
+        "apodo": "HOFFENHEIM",
+        "aliases": [
+            "HOFFENHEIM",
+            "HOFFENHEIM_FC",
+            "HOFEINHEIM"
+        ]
+    },
+    {
+        "id": "2890",
+        "nombre_oficial": "COLOGNE",
+        "apodo": "COLOGNE",
+        "aliases": [
+            "COLOGNE"
+        ]
+    },
+    {
+        "id": "2891",
+        "nombre_oficial": "PADERBORN 07",
+        "apodo": "PADERBORN 07",
+        "aliases": [
+            "PADERBORN 07"
+        ]
+    },
+    {
+        "id": "2892",
+        "nombre_oficial": "FSV MAINZ 05",
+        "apodo": "FSV MAINZ 05",
+        "aliases": [
+            "FSV MAINZ 05",
+            "MAINZ",
+            "MAINZ 05",
+            "MAÍZ 05"
+        ]
+    },
+    {
+        "id": "2893",
+        "nombre_oficial": "MONCHENGLADBACH",
+        "apodo": "MONCHENGLADBACH",
+        "aliases": [
+            "MONCHENGLADBACH",
+            "MONCHEGLABAC"
+        ]
+    },
+    {
+        "id": "2894",
+        "nombre_oficial": "RB LEIPZIG",
+        "apodo": "RB LEIPZIG",
+        "aliases": [
+            "RB LEIPZIG",
+            "LEPZIP"
+        ]
+    },
+    {
+        "id": "2895",
+        "nombre_oficial": "EINTRACHT FRANKFURT",
+        "apodo": "EINTRACHT FRANKFURT",
+        "aliases": [
+            "EINTRACHT FRANKFURT",
+            "FRANKFURT",
+            "EINTRACHT",
+            "FRANFURT"
+        ]
+    },
+    {
+        "id": "2896",
+        "nombre_oficial": "UNION BERLIN",
+        "apodo": "UNION BERLIN",
+        "aliases": [
+            "UNION BERLIN"
+        ]
+    },
+    {
+        "id": "2897",
+        "nombre_oficial": "OFK BEOGRAD",
+        "apodo": "OFK BEOGRAD",
+        "aliases": [
+            "OFK BEOGRAD"
+        ]
+    },
+    {
+        "id": "2898",
+        "nombre_oficial": "PARTIZAN",
+        "apodo": "PARTIZAN",
+        "aliases": [
+            "PARTIZAN"
+        ]
+    },
+    {
+        "id": "2899",
+        "nombre_oficial": "TPS",
+        "apodo": "TPS",
+        "aliases": [
+            "TPS"
+        ]
+    },
+    {
+        "id": "2900",
+        "nombre_oficial": "GNISTAN",
+        "apodo": "GNISTAN",
+        "aliases": [
+            "GNISTAN"
+        ]
+    },
+    {
+        "id": "2901",
+        "nombre_oficial": "PYRAMIDS FC",
+        "apodo": "PYRAMIDS FC",
+        "aliases": [
+            "PYRAMIDS FC"
+        ]
+    },
+    {
+        "id": "2902",
+        "nombre_oficial": "PETROJET",
+        "apodo": "PETROJET",
+        "aliases": [
+            "PETROJET"
+        ]
+    },
+    {
+        "id": "2903",
+        "nombre_oficial": "BROMMAPOJKARNA1",
+        "apodo": "BROMMAPOJKARNA1",
+        "aliases": [
+            "BROMMAPOJKARNA1"
+        ]
+    },
+    {
+        "id": "2904",
+        "nombre_oficial": "MACCABI HAIFA",
+        "apodo": "MACCABI HAIFA",
+        "aliases": [
+            "MACCABI HAIFA"
+        ]
+    },
+    {
+        "id": "2905",
+        "nombre_oficial": "KR REYKJAVIK",
+        "apodo": "KR REYKJAVIK",
+        "aliases": [
+            "KR REYKJAVIK",
+            "REIKIAVIK FC",
+            "REIKIAVIK"
+        ]
+    },
+    {
+        "id": "2906",
+        "nombre_oficial": "ZÜRICH",
+        "apodo": "ZÜRICH",
+        "aliases": [
+            "ZÜRICH"
+        ]
+    },
+    {
+        "id": "2907",
+        "nombre_oficial": "WATFORD1",
+        "apodo": "WATFORD1",
+        "aliases": [
+            "WATFORD1"
+        ]
+    },
+    {
+        "id": "2908",
+        "nombre_oficial": "BRISTOL CITY",
+        "apodo": "BRISTOL CITY",
+        "aliases": [
+            "BRISTOL CITY"
+        ]
+    },
+    {
+        "id": "2909",
+        "nombre_oficial": "WALSALL",
+        "apodo": "WALSALL",
+        "aliases": [
+            "WALSALL"
+        ]
+    },
+    {
+        "id": "2910",
+        "nombre_oficial": "YORK CITY",
+        "apodo": "YORK CITY",
+        "aliases": [
+            "YORK CITY"
+        ]
+    },
+    {
+        "id": "2911",
+        "nombre_oficial": "SHREWSBURY",
+        "apodo": "SHREWSBURY",
+        "aliases": [
+            "SHREWSBURY"
+        ]
+    },
+    {
+        "id": "2912",
+        "nombre_oficial": "OLDHAM ATHLETIC",
+        "apodo": "OLDHAM ATHLETIC",
+        "aliases": [
+            "OLDHAM ATHLETIC"
+        ]
+    },
+    {
+        "id": "2913",
+        "nombre_oficial": "TECNICO UNIVERSITARIO",
+        "apodo": "TECNICO UNIVERSITARIO",
+        "aliases": [
+            "TECNICO UNIVERSITARIO"
+        ]
+    },
+    {
+        "id": "2914",
+        "nombre_oficial": "TAMMEKA",
+        "apodo": "TAMMEKA",
+        "aliases": [
+            "TAMMEKA"
+        ]
+    },
+    {
+        "id": "2915",
+        "nombre_oficial": "FC FLORA TALLINN",
+        "apodo": "FC FLORA TALLINN",
+        "aliases": [
+            "FC FLORA TALLINN"
+        ]
+    },
+    {
+        "id": "2916",
+        "nombre_oficial": "FUTURE FC",
+        "apodo": "FUTURE FC",
+        "aliases": [
+            "FUTURE FC"
+        ]
+    },
+    {
+        "id": "2917",
+        "nombre_oficial": "CERAMICA CLEOPATRA",
+        "apodo": "CERAMICA CLEOPATRA",
+        "aliases": [
+            "CERAMICA CLEOPATRA"
+        ]
+    },
+    {
+        "id": "2918",
+        "nombre_oficial": "HAPOEL HAIFA",
+        "apodo": "HAPOEL HAIFA",
+        "aliases": [
+            "HAPOEL HAIFA"
+        ]
+    },
+    {
+        "id": "2919",
+        "nombre_oficial": "SK RAPID WIEN",
+        "apodo": "SK RAPID WIEN",
+        "aliases": [
+            "SK RAPID WIEN"
+        ]
+    },
+    {
+        "id": "2920",
+        "nombre_oficial": "QUEENS PARK",
+        "apodo": "QUEENS PARK",
+        "aliases": [
+            "QUEENS PARK"
+        ]
+    },
+    {
+        "id": "2921",
+        "nombre_oficial": "WEST BROMWICH ALBION",
+        "apodo": "WEST BROMWICH ALBION",
+        "aliases": [
+            "WEST BROMWICH ALBION"
+        ]
+    },
+    {
+        "id": "2922",
+        "nombre_oficial": "OSNABRUCK",
+        "apodo": "OSNABRUCK",
+        "aliases": [
+            "OSNABRUCK"
+        ]
+    },
+    {
+        "id": "2923",
+        "nombre_oficial": "KILMARNOCK",
+        "apodo": "KILMARNOCK",
+        "aliases": [
+            "KILMARNOCK"
+        ]
+    },
+    {
+        "id": "2924",
+        "nombre_oficial": "MANSFIELD TOWN",
+        "apodo": "MANSFIELD TOWN",
+        "aliases": [
+            "MANSFIELD TOWN"
+        ]
+    },
+    {
+        "id": "2925",
+        "nombre_oficial": "DEPORTIVO CUENCA",
+        "apodo": "DEPORTIVO CUENCA",
+        "aliases": [
+            "DEPORTIVO CUENCA"
+        ]
+    },
+    {
+        "id": "2926",
+        "nombre_oficial": "DEPORTES QUINDIO",
+        "apodo": "DEPORTES QUINDIO",
+        "aliases": [
+            "DEPORTES QUINDIO"
+        ]
+    },
+    {
+        "id": "2927",
+        "nombre_oficial": "NUBLENSE",
+        "apodo": "NUBLENSE",
+        "aliases": [
+            "NUBLENSE"
+        ]
+    },
+    {
+        "id": "2928",
+        "nombre_oficial": "DEPORTIVO RECOLETA",
+        "apodo": "DEPORTIVO RECOLETA",
+        "aliases": [
+            "DEPORTIVO RECOLETA"
+        ]
+    },
+    {
+        "id": "2929",
+        "nombre_oficial": "AL KHOLOOD1",
+        "apodo": "AL KHOLOOD1",
+        "aliases": [
+            "AL KHOLOOD1"
+        ]
+    },
+    {
+        "id": "2930",
+        "nombre_oficial": "HAPOEL TEL AVIV",
+        "apodo": "HAPOEL TEL AVIV",
+        "aliases": [
+            "HAPOEL TEL AVIV"
+        ]
+    },
+    {
+        "id": "2931",
+        "nombre_oficial": "FC NORDSJAELLAND",
+        "apodo": "FC NORDSJAELLAND",
+        "aliases": [
+            "FC NORDSJAELLAND"
+        ]
+    },
+    {
+        "id": "2932",
+        "nombre_oficial": "FC LUGANO",
+        "apodo": "FC LUGANO",
+        "aliases": [
+            "FC LUGANO"
+        ]
+    },
+    {
+        "id": "2933",
+        "nombre_oficial": "INDEPENDIENTE MEDELLIN",
+        "apodo": "INDEPENDIENTE MEDELLIN",
+        "aliases": [
+            "INDEPENDIENTE MEDELLIN"
+        ]
+    },
+    {
+        "id": "2934",
+        "nombre_oficial": "DEPORTIVO PEREIRA",
+        "apodo": "DEPORTIVO PEREIRA",
+        "aliases": [
+            "DEPORTIVO PEREIRA"
+        ]
+    },
+    {
+        "id": "2935",
+        "nombre_oficial": "ORENSE",
+        "apodo": "ORENSE",
+        "aliases": [
+            "ORENSE"
+        ]
+    },
+    {
+        "id": "2936",
+        "nombre_oficial": "EMELEC",
+        "apodo": "EMELEC",
+        "aliases": [
+            "EMELEC"
+        ]
+    },
+    {
+        "id": "2937",
+        "nombre_oficial": "GANDZASAR1",
+        "apodo": "GANDZASAR1",
+        "aliases": [
+            "GANDZASAR1"
+        ]
+    },
+    {
+        "id": "2938",
+        "nombre_oficial": "FC NOAH",
+        "apodo": "FC NOAH",
+        "aliases": [
+            "FC NOAH"
+        ]
+    },
+    {
+        "id": "2939",
+        "nombre_oficial": "HVIDOVRE1",
+        "apodo": "HVIDOVRE1",
+        "aliases": [
+            "HVIDOVRE1"
+        ]
+    },
+    {
+        "id": "2940",
+        "nombre_oficial": "DINAMO BATUMI",
+        "apodo": "DINAMO BATUMI",
+        "aliases": [
+            "DINAMO BATUMI"
+        ]
+    },
+    {
+        "id": "2941",
+        "nombre_oficial": "RUSTAVI",
+        "apodo": "RUSTAVI",
+        "aliases": [
+            "RUSTAVI"
+        ]
+    },
+    {
+        "id": "2942",
+        "nombre_oficial": "KHORFAKKAN",
+        "apodo": "KHORFAKKAN",
+        "aliases": [
+            "KHORFAKKAN"
+        ]
+    },
+    {
+        "id": "2943",
+        "nombre_oficial": "AL WASL",
+        "apodo": "AL WASL",
+        "aliases": [
+            "AL WASL"
+        ]
+    },
+    {
+        "id": "2944",
+        "nombre_oficial": "HANNOVER 96",
+        "apodo": "HANNOVER 96",
+        "aliases": [
+            "HANNOVER 96"
+        ]
+    },
+    {
+        "id": "2945",
+        "nombre_oficial": "VASAS",
+        "apodo": "VASAS",
+        "aliases": [
+            "VASAS"
+        ]
+    },
+    {
+        "id": "2946",
+        "nombre_oficial": "SLAVIA",
+        "apodo": "SLAVIA",
+        "aliases": [
+            "SLAVIA"
+        ]
+    },
+    {
+        "id": "2947",
+        "nombre_oficial": "NORDIC UNITED",
+        "apodo": "NORDIC UNITED",
+        "aliases": [
+            "NORDIC UNITED"
+        ]
+    },
+    {
+        "id": "2948",
+        "nombre_oficial": "CFR CLUJ",
+        "apodo": "CFR CLUJ",
+        "aliases": [
+            "CFR CLUJ"
+        ]
+    },
+    {
+        "id": "2949",
+        "nombre_oficial": "HAPOEL NIR RAMAT HASHARON FC",
+        "apodo": "HAPOEL NIR RAMAT HASHARON FC",
+        "aliases": [
+            "HAPOEL NIR RAMAT HASHARON FC"
+        ]
+    },
+    {
+        "id": "2950",
+        "nombre_oficial": "KEFLAVIK IF",
+        "apodo": "KEFLAVIK IF",
+        "aliases": [
+            "KEFLAVIK IF"
+        ]
+    },
+    {
+        "id": "2951",
+        "nombre_oficial": "FC ELVA",
+        "apodo": "FC ELVA",
+        "aliases": [
+            "FC ELVA"
+        ]
+    },
+    {
+        "id": "2952",
+        "nombre_oficial": "RACING CORDOBA",
+        "apodo": "RACING CORDOBA",
+        "aliases": [
+            "RACING CORDOBA"
+        ]
+    },
+    {
+        "id": "2953",
+        "nombre_oficial": "FC COLOGNE",
+        "apodo": "FC COLOGNE",
+        "aliases": [
+            "FC COLOGNE"
+        ]
+    },
+    {
+        "id": "2954",
+        "nombre_oficial": "GKS KATOWICE",
+        "apodo": "GKS KATOWICE",
+        "aliases": [
+            "GKS KATOWICE"
+        ]
+    },
+    {
+        "id": "2955",
+        "nombre_oficial": "ZELEZNICAR PANCEVO",
+        "apodo": "ZELEZNICAR PANCEVO",
+        "aliases": [
+            "ZELEZNICAR PANCEVO"
+        ]
+    },
+    {
+        "id": "2956",
+        "nombre_oficial": "CONNAH'S QUAY",
+        "apodo": "CONNAH'S QUAY",
+        "aliases": [
+            "CONNAH'S QUAY"
+        ]
+    },
+    {
+        "id": "2957",
+        "nombre_oficial": "MOREIRENSE",
+        "apodo": "MOREIRENSE",
+        "aliases": [
+            "MOREIRENSE"
+        ]
+    },
+    {
+        "id": "2958",
+        "nombre_oficial": "TLAXCALA",
+        "apodo": "TLAXCALA",
+        "aliases": [
+            "TLAXCALA"
+        ]
+    },
+    {
+        "id": "2959",
+        "nombre_oficial": "DURANGO",
+        "apodo": "DURANGO",
+        "aliases": [
+            "DURANGO"
+        ]
+    },
+    {
+        "id": "2960",
+        "nombre_oficial": "DEGERFORS1",
+        "apodo": "DEGERFORS1",
+        "aliases": [
+            "DEGERFORS1"
+        ]
+    },
+    {
+        "id": "2961",
+        "nombre_oficial": "WERDER BREMEN",
+        "apodo": "WERDER BREMEN",
+        "aliases": [
+            "WERDER BREMEN"
+        ]
+    },
+    {
+        "id": "2962",
+        "nombre_oficial": "SC PADERBORN 07",
+        "apodo": "SC PADERBORN 07",
+        "aliases": [
+            "SC PADERBORN 07"
+        ]
+    },
+    {
+        "id": "2963",
+        "nombre_oficial": "CSKA MOSCOW",
+        "apodo": "CSKA MOSCOW",
+        "aliases": [
+            "CSKA MOSCOW"
+        ]
+    },
+    {
+        "id": "2964",
+        "nombre_oficial": "ZENIT PETERSBURG",
+        "apodo": "ZENIT PETERSBURG",
+        "aliases": [
+            "ZENIT PETERSBURG"
+        ]
+    },
+    {
+        "id": "2965",
+        "nombre_oficial": "BRIGHTON & HOVE ALBION",
+        "apodo": "BRIGHTON & HOVE ALBION",
+        "aliases": [
+            "BRIGHTON & HOVE ALBION",
+            "BRIGHTON"
+        ]
+    },
+    {
+        "id": "2966",
+        "nombre_oficial": "FEYENOORD",
+        "apodo": "FEYENOORD",
+        "aliases": [
+            "FEYENOORD"
+        ]
+    },
+    {
+        "id": "2967",
+        "nombre_oficial": "LILLESTROM",
+        "apodo": "LILLESTROM",
+        "aliases": [
+            "LILLESTROM"
+        ]
+    },
+    {
+        "id": "2968",
+        "nombre_oficial": "BRANN.",
+        "apodo": "BRANN.",
+        "aliases": [
+            "BRANN."
+        ]
+    },
+    {
+        "id": "2969",
+        "nombre_oficial": "FAKEL",
+        "apodo": "FAKEL",
+        "aliases": [
+            "FAKEL"
+        ]
+    },
+    {
+        "id": "2970",
+        "nombre_oficial": "FK ROSTOV",
+        "apodo": "FK ROSTOV",
+        "aliases": [
+            "FK ROSTOV"
+        ]
+    },
+    {
+        "id": "2971",
+        "nombre_oficial": "ASTON VILLA",
+        "apodo": "ASTON VILLA",
+        "aliases": [
+            "ASTON VILLA"
+        ]
+    },
+    {
+        "id": "2972",
+        "nombre_oficial": "ARIS THESSALONIKIS",
+        "apodo": "ARIS THESSALONIKIS",
+        "aliases": [
+            "ARIS THESSALONIKIS"
+        ]
+    },
+    {
+        "id": "2973",
+        "nombre_oficial": "AEK ATHENS",
+        "apodo": "AEK ATHENS",
+        "aliases": [
+            "AEK ATHENS"
+        ]
+    },
+    {
+        "id": "2974",
+        "nombre_oficial": "DYNAMO DRESDEN",
+        "apodo": "DYNAMO DRESDEN",
+        "aliases": [
+            "DYNAMO DRESDEN"
+        ]
+    },
+    {
+        "id": "2975",
+        "nombre_oficial": "RACING SANTANDER",
+        "apodo": "RACING SANTANDER",
+        "aliases": [
+            "RACING SANTANDER"
+        ]
+    },
+    {
+        "id": "2976",
+        "nombre_oficial": "MANCHESTER UNITED",
+        "apodo": "MANCHESTER UNITED",
+        "aliases": [
+            "MANCHESTER UNITED"
+        ]
+    },
+    {
+        "id": "2977",
+        "nombre_oficial": "HAMBURG SV",
+        "apodo": "HAMBURG SV",
+        "aliases": [
+            "HAMBURG SV"
+        ]
+    },
+    {
+        "id": "2978",
+        "nombre_oficial": "MIAMI FC",
+        "apodo": "MIAMI FC",
+        "aliases": [
+            "MIAMI FC"
+        ]
+    },
+    {
+        "id": "2979",
+        "nombre_oficial": "VALERENGA",
+        "apodo": "VALERENGA",
+        "aliases": [
+            "VALERENGA"
+        ]
+    },
+    {
+        "id": "2980",
+        "nombre_oficial": "FC AUGSBURG",
+        "apodo": "FC AUGSBURG",
+        "aliases": [
+            "FC AUGSBURG"
+        ]
+    },
+    {
+        "id": "2981",
+        "nombre_oficial": "SPARTAK MOSCOW",
+        "apodo": "SPARTAK MOSCOW",
+        "aliases": [
+            "SPARTAK MOSCOW"
+        ]
+    },
+    {
+        "id": "2982",
+        "nombre_oficial": "KRISTIANSUND",
+        "apodo": "KRISTIANSUND",
+        "aliases": [
+            "KRISTIANSUND"
+        ]
+    },
+    {
+        "id": "2983",
+        "nombre_oficial": "GIMNASIA JUJUY",
+        "apodo": "GIMNASIA JUJUY",
+        "aliases": [
+            "GIMNASIA JUJUY"
+        ]
+    },
+    {
+        "id": "2984",
+        "nombre_oficial": "SAN MARTIN SAN JUAN",
+        "apodo": "SAN MARTIN SAN JUAN",
+        "aliases": [
+            "SAN MARTIN SAN JUAN"
+        ]
+    },
+    {
+        "id": "2985",
+        "nombre_oficial": "DEPORTIVO GARCILASO1",
+        "apodo": "DEPORTIVO GARCILASO1",
+        "aliases": [
+            "DEPORTIVO GARCILASO1"
+        ]
+    },
+    {
+        "id": "2986",
+        "nombre_oficial": "CADIZ",
+        "apodo": "CADIZ",
+        "aliases": [
+            "CADIZ"
+        ]
+    },
+    {
+        "id": "2987",
+        "nombre_oficial": "FC DINAMO BREST",
+        "apodo": "FC DINAMO BREST",
+        "aliases": [
+            "FC DINAMO BREST"
+        ]
+    },
+    {
+        "id": "2988",
+        "nombre_oficial": "GHAZL EL MEHALLA",
+        "apodo": "GHAZL EL MEHALLA",
+        "aliases": [
+            "GHAZL EL MEHALLA"
+        ]
+    },
+    {
+        "id": "2989",
+        "nombre_oficial": "NATIONAL BANK EGYPT1",
+        "apodo": "NATIONAL BANK EGYPT1",
+        "aliases": [
+            "NATIONAL BANK EGYPT1"
+        ]
+    },
+    {
+        "id": "2990",
+        "nombre_oficial": "AIK STOCKHOLM",
+        "apodo": "AIK STOCKHOLM",
+        "aliases": [
+            "AIK STOCKHOLM"
+        ]
+    },
+    {
+        "id": "2991",
+        "nombre_oficial": "IMT NOVI BEOGRAD",
+        "apodo": "IMT NOVI BEOGRAD",
+        "aliases": [
+            "IMT NOVI BEOGRAD"
+        ]
+    },
+    {
+        "id": "2992",
+        "nombre_oficial": "CAVALRY",
+        "apodo": "CAVALRY",
+        "aliases": [
+            "CAVALRY"
+        ]
+    },
+    {
+        "id": "2993",
+        "nombre_oficial": "HFX WANDERERS",
+        "apodo": "HFX WANDERERS",
+        "aliases": [
+            "HFX WANDERERS"
+        ]
+    },
+    {
+        "id": "2994",
+        "nombre_oficial": "NOMME UNITED",
+        "apodo": "NOMME UNITED",
+        "aliases": [
+            "NOMME UNITED"
+        ]
+    },
+    {
+        "id": "2995",
+        "nombre_oficial": "SMOUHA",
+        "apodo": "SMOUHA",
+        "aliases": [
+            "SMOUHA"
+        ]
+    },
+    {
+        "id": "2996",
+        "nombre_oficial": "BOURNEMOUTH",
+        "apodo": "BOURNEMOUTH",
+        "aliases": [
+            "BOURNEMOUTH"
+        ]
+    },
+    {
+        "id": "2997",
+        "nombre_oficial": "BANGOR",
+        "apodo": "BANGOR",
+        "aliases": [
+            "BANGOR"
+        ]
+    },
+    {
+        "id": "2998",
+        "nombre_oficial": "LAAGRI",
+        "apodo": "LAAGRI",
+        "aliases": [
+            "LAAGRI"
+        ]
+    },
+    {
+        "id": "2999",
+        "nombre_oficial": "KURESSAARE",
+        "apodo": "KURESSAARE",
+        "aliases": [
+            "KURESSAARE"
+        ]
+    },
+    {
+        "id": "3000",
+        "nombre_oficial": "PAIDE LINNAMEESKOND",
+        "apodo": "PAIDE LINNAMEESKOND",
+        "aliases": [
+            "PAIDE LINNAMEESKOND"
+        ]
+    },
+    {
+        "id": "3001",
+        "nombre_oficial": "HRADEC KRALOVE",
+        "apodo": "HRADEC KRALOVE",
+        "aliases": [
+            "HRADEC KRALOVE"
+        ]
+    },
+    {
+        "id": "3002",
+        "nombre_oficial": "ZED FC",
+        "apodo": "ZED FC",
+        "aliases": [
+            "ZED FC"
+        ]
+    },
+    {
+        "id": "3003",
+        "nombre_oficial": "ENPPI",
+        "apodo": "ENPPI",
+        "aliases": [
+            "ENPPI"
+        ]
+    },
+    {
+        "id": "3004",
+        "nombre_oficial": "AL AHLY",
+        "apodo": "AL AHLY",
+        "aliases": [
+            "AL AHLY"
+        ]
+    },
+    {
+        "id": "3005",
+        "nombre_oficial": "LOS ANDES",
+        "apodo": "LOS ANDES",
+        "aliases": [
+            "LOS ANDES"
+        ]
+    },
+    {
+        "id": "3006",
+        "nombre_oficial": "GUASTATOYA",
+        "apodo": "GUASTATOYA",
+        "aliases": [
+            "GUASTATOYA"
+        ]
+    },
+    {
+        "id": "3007",
+        "nombre_oficial": "SUCHITEPEQUEZ",
+        "apodo": "SUCHITEPEQUEZ",
+        "aliases": [
+            "SUCHITEPEQUEZ"
+        ]
+    }
+]

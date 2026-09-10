@@ -1,0 +1,166 @@
+def inicializar_indice_normalizador():
+    global alias_to_oficial, candidatos_busqueda
+    
+    # Cargar únicamente MLB y Fútbol (UFC excluido del automatch)
+    todas_entidades = cargar_equipos_mlb() + cargar_equipos_futbol()
+    
+    alias_to_oficial.clear()
+    candidatos_tmp = set()
+
+    for item in todas_entidades:
+        nombre_oficial = item.get("nombre_oficial")
+        if not nombre_oficial:
+            continue
+
+        aliases = item.get("aliases", [])
+        nombres_asociados = set([nombre_oficial] + aliases)
+
+        for alias in nombres_asociados:
+            alias_clean = alias.strip().upper()
+            alias_to_oficial[alias_clean] = nombre_oficial
+            candidatos_tmp.add(alias_clean)
+
+    candidatos_busqueda = list(candidatos_tmp)  
+
+# Inicializar índice al arrancar el servidor
+inicializar_indice_normalizador()
+
+SUFIJOS_MERCADO = ["ALTA", "BAJA", "RL", "MLB", "PARLEY", "DIRECTA", "ML","PAREJO"]
+
+def normalizar_linea_apuesta(cadena_raw: str, umbral: int = 70) -> str:
+    """
+    Normaliza el nombre del equipo usando un pipeline multi-capa:
+    1. Filtro exacto / Mapa directo de alias (Alias -> Oficial)
+    2. Limpieza de ruida, acentos y sufijos de mercado
+    3. Fuzzy matching con thefuzz como fallback
+    """
+    if not cadena_raw or cadena_raw.upper() == "PARLEY" or not candidatos_busqueda:
+        return cadena_raw
+
+    # --- PASO 1: Extraer Sufijos (Monto, Mercado, Pikes) ---
+    partes = cadena_raw.split("_")
+    partes_equipo = []
+    partes_sufijo = []
+
+    for p in partes:
+        # Detectar números, pikes (+1.5, -0.5) o mercados
+        if any(char.isdigit() for char in p) or p.upper() in SUFIJOS_MERCADO or p.startswith(('+', '-')):
+            partes_sufijo.append(p)
+        else:
+            partes_equipo.append(p)
+
+    nombre_bruto = " ".join(partes_equipo).strip()
+    
+    # --- PASO 2: Sanitización de Texto (Acentos, Puntos, Ruido) ---
+    nombre_limpio = sanitizar_texto_equipo(nombre_bruto)
+
+    if not nombre_limpio:
+        return cadena_raw
+
+    # --- PASO 3: Búsqueda Exacta Directa en Alias (Rápida y 100% Precisa) ---
+    # Si el alias exacto existe en el diccionario global (ej: "REAL MADRID", "R MADRID")
+    if nombre_limpio in alias_to_oficial:
+        nombre_oficial = alias_to_oficial[nombre_limpio]
+        return f"{nombre_oficial}_{'_'.join(partes_sufijo)}" if partes_sufijo else nombre_oficial
+
+    # --- PASO 4: Fallback con TheFuzz (Fuzzy Matching) ---
+    match, score = process.extractOne(
+        nombre_limpio, 
+        candidatos_busqueda, 
+        scorer=fuzz.token_sort_ratio
+    )
+
+    if score >= umbral:
+        nombre_oficial = alias_to_oficial[match]
+        return f"{nombre_oficial}_{'_'.join(partes_sufijo)}" if partes_sufijo else nombre_oficial
+    if score < umbral:
+        print(f"⚠️ [NO RECONOCIDO] Texto: '{cadena_raw}' | Limpio: '{nombre_limpio}' | Mejor intento: '{match}' (Score: {score})")
+    # Si no superó el umbral, devolver el texto original para no corromperlo
+    return cadena_raw
+
+
+# ==============================================================================
+# 3. FUNCIONES DE LÓGICA INTERNA (OCR, LIMPIEZA Y MANEJO DE DATOS)
+# ==============================================================================
+
+def limpiar_jugadas(texto_crudo):
+    """
+    Procesa un texto crudo de jugada, extrae montos, detecta si es Parley/Línea,
+    sustituye FUTBOL/FÚTBOL por FC, remueve RL/ML/PAREJO, aplica corrección mediante
+    el diccionario, normaliza equipos y estandariza la cadena resultante.
+    """
+    if pd.isna(texto_crudo) or str(texto_crudo).strip() == '' or str(texto_crudo).strip().lower() == 'nan':
+        return pd.Series([np.nan, np.nan, np.nan, np.nan, "Pendiente", False])
+
+    texto = str(texto_crudo).strip()
+
+    # 1. Detección de Encabezado (Nombre de Cliente/Jugador)
+    match_header = re.search(r'\]\s*Deportes:\s*(.*)', texto, re.IGNORECASE)
+    if match_header:
+        nombre = match_header.group(1).strip().upper()
+        nombre = re.sub(r'[^\w\s]', '', nombre).strip()
+        return pd.Series([nombre, np.nan, np.nan, np.nan, "Pendiente", True])
+
+    # 2. Reemplazo de palabras clave de montos
+    texto_modificado = re.sub(r'(?i)(\d+)\s*mil\b', r'\g<1>000', texto)
+
+    # 3. Detección de ALTA / BAJA
+    tipo_ab = None
+    match_ab = re.search(r'\b(ALTA|BAJA)\b', texto_modificado, re.IGNORECASE)
+    if match_ab:
+        tipo_ab = match_ab.group(1).upper()
+        texto_modificado = re.sub(r'\b(ALTA|BAJA)\b', '', texto_modificado, flags=re.IGNORECASE)
+
+    # 4. Extracción de Monto
+    numeros_aislados = re.findall(r'\b\d+\b', texto_modificado)
+    monto = np.nan
+    jugada = texto_modificado.upper()
+
+    if numeros_aislados:
+        for num_str in reversed(numeros_aislados):
+            if int(num_str) >= 10:
+                monto = float(num_str)
+                jugada = re.sub(rf'\b{num_str}\b', '', jugada, count=1).strip()
+                break
+
+    # 5. Identificación de Parley / Jugadas Múltiples y Extracción de Pikes (Línea)
+    es_parley = re.search(r'\b(TRIPLE|TRIPLETE|SESTETA|TRIPLETA|TRIPLETAS|CUARTETA|CUARTETAS|QUINTETA|QUINTETAS|SEXTETA|SEXTETAS|\d+\s*CON)\b', jugada, re.IGNORECASE)
+    if es_parley:
+        jugada = "PARLEY"
+        linea = np.nan
+    else:
+        # Extraer pikes / líneas numéricas (ej: -1.5, +1.5, 8.5) antes de limpiar
+        match_linea = re.search(r'([+-]?\d+(?:\.\d+)?)', jugada)
+        if match_linea:
+            linea = match_linea.group(1)
+            jugada = re.sub(r'[+-]?\d+(?:\.\d+)?', '', jugada).strip()
+        else:
+            tiene_ml_o_parejo = bool(re.search(r'\b(ML|PAREJO)\b', jugada, re.IGNORECASE))
+            linea = 'ML' if tiene_ml_o_parejo else '0.0'
+
+        # --- CAMBIOS REALIZADOS ---
+        # A. Sustituir FÚTBOL o FUTBOL por FC
+        jugada = re.sub(r'\bF[ÚU]TBOL\b', 'FC', jugada, flags=re.IGNORECASE).strip()
+
+        # B. Eliminar las palabras ML, RL o PAREJO del texto
+        jugada = re.sub(r'\b(ML|RL|PAREJO)\b', '', jugada, flags=re.IGNORECASE).strip()
+        # --------------------------
+
+        tiene_mlb = bool(re.search(r'\bMLB\b', jugada, re.IGNORECASE))
+        jugada = re.sub(r'\bMLB\b', '', jugada, flags=re.IGNORECASE).strip()
+
+        # Aplicar reglas del diccionario OCR
+        jugada = aplicar_correcciones_diccionario(jugada)
+
+        if tiene_mlb and "MLB" not in jugada:
+            jugada = (jugada + " MLB").strip() if jugada else "MLB"
+
+        jugada = re.sub(r'\s+', '_', jugada).strip('_')
+
+        if tipo_ab:
+            jugada = f"{jugada}_{tipo_ab}" if jugada else tipo_ab
+
+        # Normalización con Fuzzy Matching (thefuzz)
+        jugada = normalizar_linea_apuesta(jugada)
+
+    return pd.Series([jugada, monto, linea, np.nan, "Pendiente", False])

@@ -1,0 +1,651 @@
+{
+    "fecha_actualizacion": "2026-09-10 06:09:58",
+    "deporte": "FUTBOL",
+    "total_lineas": 92,
+    "pikes": [
+        {
+            "id": "15883",
+            "equipo": "Feyenoord",
+            "pike1": "4.5",
+            "pike2": "-120",
+            "pike3": "-120"
+        },
+        {
+            "id": "3668",
+            "equipo": "Barcelona Fc",
+            "pike1": "-3",
+            "pike2": "-120",
+            "pike3": "-120"
+        },
+        {
+            "id": "1991",
+            "equipo": "Arsenal",
+            "pike1": "-1",
+            "pike2": "-105",
+            "pike3": "-120"
+        },
+        {
+            "id": "2603",
+            "equipo": "Napoli",
+            "pike1": "2.5",
+            "pike2": "-125",
+            "pike3": "-120"
+        },
+        {
+            "id": "3377",
+            "equipo": "Galatasaray",
+            "pike1": "3",
+            "pike2": "115",
+            "pike3": "-120"
+        },
+        {
+            "id": "3375",
+            "equipo": "Sporting Lisbon",
+            "pike1": "-0.5",
+            "pike2": "-145",
+            "pike3": "-110"
+        },
+        {
+            "id": "19293",
+            "equipo": "Slovan Bratislava",
+            "pike1": "4.5",
+            "pike2": "110",
+            "pike3": "-120"
+        },
+        {
+            "id": "2990",
+            "equipo": "Paris St Germain",
+            "pike1": "-3.5",
+            "pike2": "-140",
+            "pike3": "-120"
+        },
+        {
+            "id": "3024",
+            "equipo": "Atletico Madrid",
+            "pike1": "3",
+            "pike2": "105",
+            "pike3": "-120"
+        },
+        {
+            "id": "15538",
+            "equipo": "Liverpool",
+            "pike1": "-0.5",
+            "pike2": "-135",
+            "pike3": "-120"
+        },
+        {
+            "id": "11871",
+            "equipo": "FK Suduva",
+            "pike1": "2.5",
+            "pike2": "-120",
+            "pike3": "110"
+        },
+        {
+            "id": "14219",
+            "equipo": "Kauno Zalgiris",
+            "pike1": "-0.5",
+            "pike2": "-120",
+            "pike3": "-140"
+        },
+        {
+            "id": "34622",
+            "equipo": "Laagri",
+            "pike1": "-0.5",
+            "pike2": "145",
+            "pike3": "-130"
+        },
+        {
+            "id": "33183",
+            "equipo": "Vaprus",
+            "pike1": "3",
+            "pike2": "-175",
+            "pike3": "100"
+        },
+        {
+            "id": "16684",
+            "equipo": "Kuressaare",
+            "pike1": "4",
+            "pike2": "-120",
+            "pike3": "110"
+        },
+        {
+            "id": "10028",
+            "equipo": "FCI Levadia Tallinn",
+            "pike1": "-2.5",
+            "pike2": "-120",
+            "pike3": "-140"
+        },
+        {
+            "id": "11669",
+            "equipo": "Paide Linnameeskond",
+            "pike1": "-0.5",
+            "pike2": "105",
+            "pike3": "110"
+        },
+        {
+            "id": "11665",
+            "equipo": "Tammeka",
+            "pike1": "3",
+            "pike2": "-135",
+            "pike3": "-140"
+        },
+        {
+            "id": "34918",
+            "equipo": "Telstar",
+            "pike1": "3.5",
+            "pike2": "-120",
+            "pike3": "-140"
+        },
+        {
+            "id": "4450",
+            "equipo": "Fc Twente",
+            "pike1": "-2",
+            "pike2": "-110",
+            "pike3": "110"
+        },
+        {
+            "id": "5798",
+            "equipo": "Viktoria Plzen",
+            "pike1": "-0.5",
+            "pike2": "120",
+            "pike3": "-135"
+        },
+        {
+            "id": "12466",
+            "equipo": "Hradec Kralove",
+            "pike1": "2.5",
+            "pike2": "-150",
+            "pike3": "105"
+        },
+        {
+            "id": "19902",
+            "equipo": "Zed Fc",
+            "pike1": "-0.5",
+            "pike2": "150",
+            "pike3": "-120"
+        },
+        {
+            "id": "11649",
+            "equipo": "ENPPI",
+            "pike1": "1.5",
+            "pike2": "-180",
+            "pike3": "-110"
+        },
+        {
+            "id": "11662",
+            "equipo": "Al Ahly",
+            "pike1": "-1.5",
+            "pike2": "110",
+            "pike3": "100"
+        },
+        {
+            "id": "11646",
+            "equipo": "Al Mokawloon",
+            "pike1": "2.5",
+            "pike2": "-140",
+            "pike3": "-130"
+        },
+        {
+            "id": "32835",
+            "equipo": "Oddevold",
+            "pike1": "2.5",
+            "pike2": "-120",
+            "pike3": "-135"
+        },
+        {
+            "id": "30430",
+            "equipo": "Sandviken",
+            "pike1": "-0.5",
+            "pike2": "-120",
+            "pike3": "105"
+        },
+        {
+            "id": "14184",
+            "equipo": "Helsingborg",
+            "pike1": "2.5",
+            "pike2": "-120",
+            "pike3": "-140"
+        },
+        {
+            "id": "16510",
+            "equipo": "Landskrona",
+            "pike1": "-0.5",
+            "pike2": "-120",
+            "pike3": "110"
+        },
+        {
+            "id": "14188",
+            "equipo": "Norrby",
+            "pike1": "3",
+            "pike2": "-135",
+            "pike3": "-120"
+        },
+        {
+            "id": "11391",
+            "equipo": "Ljungskile.",
+            "pike1": "-0.5",
+            "pike2": "105",
+            "pike3": "-120"
+        },
+        {
+            "id": "11384",
+            "equipo": "Varnamo.",
+            "pike1": "3",
+            "pike2": "-140",
+            "pike3": "105"
+        },
+        {
+            "id": "32633",
+            "equipo": "Nordic United",
+            "pike1": "-0.5",
+            "pike2": "110",
+            "pike3": "-135"
+        },
+        {
+            "id": "10427",
+            "equipo": "Los Andes",
+            "pike1": "1.5",
+            "pike2": "-160",
+            "pike3": "-145"
+        },
+        {
+            "id": "18058",
+            "equipo": "Defensores de Belgrano",
+            "pike1": "-0.5",
+            "pike2": "130",
+            "pike3": "115"
+        },
+        {
+            "id": "1993",
+            "equipo": "Birmingham City",
+            "pike1": "2.5",
+            "pike2": "-120",
+            "pike3": "-135"
+        },
+        {
+            "id": "2892",
+            "equipo": "Norwich City",
+            "pike1": "-0.5",
+            "pike2": "-120",
+            "pike3": "105"
+        },
+        {
+            "id": "17567",
+            "equipo": "West Bromwich Albion",
+            "pike1": "-0.5",
+            "pike2": "115",
+            "pike3": "-120"
+        },
+        {
+            "id": "2116",
+            "equipo": "Derby County",
+            "pike1": "2.5",
+            "pike2": "-145",
+            "pike3": "-120"
+        },
+        {
+            "id": "17446",
+            "equipo": "St. Mirren",
+            "pike1": "3",
+            "pike2": "-120",
+            "pike3": "-140"
+        },
+        {
+            "id": "11237",
+            "equipo": "Rangers",
+            "pike1": "-1.5",
+            "pike2": "-120",
+            "pike3": "110"
+        },
+        {
+            "id": "5544",
+            "equipo": "Queens Park",
+            "pike1": "-0.5",
+            "pike2": "125",
+            "pike3": "-120"
+        },
+        {
+            "id": "1996",
+            "equipo": "Charlton",
+            "pike1": "2.5",
+            "pike2": "-155",
+            "pike3": "-120"
+        },
+        {
+            "id": "2000",
+            "equipo": "Leeds United",
+            "pike1": "3",
+            "pike2": "-120",
+            "pike3": "-110"
+        },
+        {
+            "id": "1997",
+            "equipo": "Chelsea",
+            "pike1": "-1",
+            "pike2": "-120",
+            "pike3": "-120"
+        },
+        {
+            "id": "2985",
+            "equipo": "Celtic",
+            "pike1": "-1.5",
+            "pike2": "110",
+            "pike3": "-120"
+        },
+        {
+            "id": "9831",
+            "equipo": "St. Johnstone",
+            "pike1": "3",
+            "pike2": "-140",
+            "pike3": "-120"
+        },
+        {
+            "id": "8705",
+            "equipo": "Ldu Quito",
+            "pike1": "2.5",
+            "pike2": "-145",
+            "pike3": "110"
+        },
+        {
+            "id": "4852",
+            "equipo": "Palmeiras",
+            "pike1": "-1.5",
+            "pike2": "115",
+            "pike3": "-140"
+        },
+        {
+            "id": "16608",
+            "equipo": "Atletico Mineiro",
+            "pike1": "2",
+            "pike2": "-145",
+            "pike3": "-120"
+        },
+        {
+            "id": "36708",
+            "equipo": "Santos",
+            "pike1": "-0.5",
+            "pike2": "115",
+            "pike3": "-120"
+        },
+        {
+            "id": "4900",
+            "equipo": "Avai",
+            "pike1": "2",
+            "pike2": "-125",
+            "pike3": "-140"
+        },
+        {
+            "id": "16826",
+            "equipo": "Fortaleza",
+            "pike1": "-1",
+            "pike2": "-105",
+            "pike3": "110"
+        },
+        {
+            "id": "27447",
+            "equipo": "Novorizontino",
+            "pike1": "-0.5",
+            "pike2": "120",
+            "pike3": "115"
+        },
+        {
+            "id": "18714",
+            "equipo": "Botafogo SP",
+            "pike1": "2.5",
+            "pike2": "-150",
+            "pike3": "-145"
+        },
+        {
+            "id": "3550",
+            "equipo": "Columbus",
+            "pike1": "3",
+            "pike2": "-185",
+            "pike3": "110"
+        },
+        {
+            "id": "3551",
+            "equipo": "D.C. United",
+            "pike1": "-0.5",
+            "pike2": "155",
+            "pike3": "-140"
+        },
+        {
+            "id": "7449",
+            "equipo": "Orlando City Sc",
+            "pike1": "3",
+            "pike2": "-145",
+            "pike3": "-140"
+        },
+        {
+            "id": "14100",
+            "equipo": "Atlanta United",
+            "pike1": "-0.5",
+            "pike2": "115",
+            "pike3": "110"
+        },
+        {
+            "id": "20487",
+            "equipo": "Nashville Sc",
+            "pike1": "-0.5",
+            "pike2": "110",
+            "pike3": "-135"
+        },
+        {
+            "id": "3555",
+            "equipo": "Toronto Fc",
+            "pike1": "2.5",
+            "pike2": "-140",
+            "pike3": "105"
+        },
+        {
+            "id": "18554",
+            "equipo": "FC Cincinnati",
+            "pike1": "3.5",
+            "pike2": "120",
+            "pike3": "-120"
+        },
+        {
+            "id": "4762",
+            "equipo": "Philadelphia",
+            "pike1": "-0.5",
+            "pike2": "-150",
+            "pike3": "-110"
+        },
+        {
+            "id": "27599",
+            "equipo": "Charlotte FC",
+            "pike1": "3",
+            "pike2": "-170",
+            "pike3": "-120"
+        },
+        {
+            "id": "6041",
+            "equipo": "Cf Montreal",
+            "pike1": "-0.5",
+            "pike2": "140",
+            "pike3": "-120"
+        },
+        {
+            "id": "10590",
+            "equipo": "Alianza Petrolera",
+            "pike1": "2.5",
+            "pike2": "-120",
+            "pike3": "110"
+        },
+        {
+            "id": "8242",
+            "equipo": "Once Caldas",
+            "pike1": "-1",
+            "pike2": "-120",
+            "pike3": "-140"
+        },
+        {
+            "id": "3553",
+            "equipo": "New England",
+            "pike1": "3",
+            "pike2": "-175",
+            "pike3": "110"
+        },
+        {
+            "id": "7450",
+            "equipo": "New York City Fc",
+            "pike1": "-0.5",
+            "pike2": "145",
+            "pike3": "-140"
+        },
+        {
+            "id": "4847",
+            "equipo": "Corinthians",
+            "pike1": "1.5",
+            "pike2": "-160",
+            "pike3": "-120"
+        },
+        {
+            "id": "4827",
+            "equipo": "Estudiantes",
+            "pike1": "-0.5",
+            "pike2": "130",
+            "pike3": "-120"
+        },
+        {
+            "id": "20488",
+            "equipo": "Inter Miami",
+            "pike1": "4",
+            "pike2": "-155",
+            "pike3": "-110"
+        },
+        {
+            "id": "3549",
+            "equipo": "Chicago",
+            "pike1": "-0.5",
+            "pike2": "125",
+            "pike3": "-120"
+        },
+        {
+            "id": "3557",
+            "equipo": "Colorado",
+            "pike1": "2.5",
+            "pike2": "-185",
+            "pike3": "-120"
+        },
+        {
+            "id": "25105",
+            "equipo": "Austin",
+            "pike1": "-0.5",
+            "pike2": "155",
+            "pike3": "-120"
+        },
+        {
+            "id": "3561",
+            "equipo": "Real Salt Lake",
+            "pike1": "2.5",
+            "pike2": "-120",
+            "pike3": "-135"
+        },
+        {
+            "id": "3559",
+            "equipo": "Houston",
+            "pike1": "-0.5",
+            "pike2": "-120",
+            "pike3": "105"
+        },
+        {
+            "id": "3558",
+            "equipo": "Fc Dallas",
+            "pike1": "3",
+            "pike2": "-120",
+            "pike3": "-120"
+        },
+        {
+            "id": "14073",
+            "equipo": "Minnesota United",
+            "pike1": "-0.5",
+            "pike2": "-120",
+            "pike3": "-120"
+        },
+        {
+            "id": "13201",
+            "equipo": "Independiente Medellin",
+            "pike1": "-0.5",
+            "pike2": "115",
+            "pike3": "110"
+        },
+        {
+            "id": "10569",
+            "equipo": "Deportivo Pasto",
+            "pike1": "2.5",
+            "pike2": "-145",
+            "pike3": "-140"
+        },
+        {
+            "id": "11688",
+            "equipo": "Guastatoya",
+            "pike1": "1.5",
+            "pike2": "-150",
+            "pike3": "-140"
+        },
+        {
+            "id": "11685",
+            "equipo": "Suchitepequez",
+            "pike1": "-0.5",
+            "pike2": "120",
+            "pike3": "110"
+        },
+        {
+            "id": "3800",
+            "equipo": "San Jose",
+            "pike1": "3.5",
+            "pike2": "-105",
+            "pike3": "105"
+        },
+        {
+            "id": "34495",
+            "equipo": "San Diego",
+            "pike1": "-0.5",
+            "pike2": "-125",
+            "pike3": "-135"
+        },
+        {
+            "id": "3560",
+            "equipo": "Los Angeles Galaxy",
+            "pike1": "3.5",
+            "pike2": "-110",
+            "pike3": "-120"
+        },
+        {
+            "id": "13445",
+            "equipo": "Vancouver",
+            "pike1": "-1.5",
+            "pike2": "-120",
+            "pike3": "-120"
+        },
+        {
+            "id": "3554",
+            "equipo": "New York",
+            "pike1": "3.5",
+            "pike2": "-125",
+            "pike3": "-120"
+        },
+        {
+            "id": "16629",
+            "equipo": "Los Angeles FC",
+            "pike1": "-1.5",
+            "pike2": "-105",
+            "pike3": "-120"
+        },
+        {
+            "id": "30630",
+            "equipo": "St. Louis City",
+            "pike1": "3",
+            "pike2": "-175",
+            "pike3": "-135"
+        },
+        {
+            "id": "5315",
+            "equipo": "Portland",
+            "pike1": "-0.5",
+            "pike2": "145",
+            "pike3": "105"
+        }
+    ]
+}

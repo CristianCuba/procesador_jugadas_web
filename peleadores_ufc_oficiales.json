@@ -1,0 +1,4960 @@
+[
+    {
+        "id": "ufc_wiki_21",
+        "nombre_oficial": "ALIBI IDIRIS",
+        "aliases": [
+            "IDIRIS",
+            "ALIBI IDIRIS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_22",
+        "nombre_oficial": "BASSIL HAFEZ",
+        "aliases": [
+            "HAFEZ",
+            "BASSIL HAFEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_23",
+        "nombre_oficial": "VOLKAN OEZDEMIR",
+        "aliases": [
+            "VOLKAN OEZDEMIR",
+            "OEZDEMIR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_24",
+        "nombre_oficial": "TOTAL",
+        "aliases": [
+            "TOTAL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_25",
+        "nombre_oficial": "CIRYL GANE",
+        "aliases": [
+            "GANE",
+            "CIRYL GANE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_26",
+        "nombre_oficial": "DERRICK LEWIS",
+        "aliases": [
+            "LEWIS",
+            "DERRICK LEWIS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_27",
+        "nombre_oficial": "CURTIS BLAYDES",
+        "aliases": [
+            "BLAYDES",
+            "CURTIS BLAYDES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_28",
+        "nombre_oficial": "MARCIN TYBURA",
+        "aliases": [
+            "MARCIN TYBURA",
+            "TYBURA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_29",
+        "nombre_oficial": "ALEXANDER VOLKOV",
+        "aliases": [
+            "ALEXANDER VOLKOV",
+            "VOLKOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_30",
+        "nombre_oficial": "TAI TUIVASA",
+        "aliases": [
+            "TAI TUIVASA",
+            "TUIVASA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_31",
+        "nombre_oficial": "ALEKSANDAR RAKIĆ",
+        "aliases": [
+            "ALEKSANDAR RAKIĆ",
+            "RAKIĆ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_32",
+        "nombre_oficial": "RYAN SPANN",
+        "aliases": [
+            "RYAN SPANN",
+            "SPANN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_33",
+        "nombre_oficial": "SERGEI PAVLOVICH",
+        "aliases": [
+            "PAVLOVICH",
+            "SERGEI PAVLOVICH"
+        ]
+    },
+    {
+        "id": "ufc_wiki_34",
+        "nombre_oficial": "KENNEDY NZECHUKWU",
+        "aliases": [
+            "KENNEDY NZECHUKWU",
+            "NZECHUKWU"
+        ]
+    },
+    {
+        "id": "ufc_wiki_35",
+        "nombre_oficial": "SERGHEI SPIVAC",
+        "aliases": [
+            "SERGHEI SPIVAC",
+            "SPIVAC"
+        ]
+    },
+    {
+        "id": "ufc_wiki_36",
+        "nombre_oficial": "TANNER BOSER",
+        "aliases": [
+            "TANNER BOSER",
+            "BOSER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_37",
+        "nombre_oficial": "TOM ASPINALL",
+        "aliases": [
+            "TOM ASPINALL",
+            "ASPINALL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_38",
+        "nombre_oficial": "ALEX PEREIRA",
+        "aliases": [
+            "ALEX PEREIRA",
+            "PEREIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_39",
+        "nombre_oficial": "WALDO CORTESACOSTA",
+        "aliases": [
+            "WALDO CORTESACOSTA",
+            "CORTESACOSTA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_40",
+        "nombre_oficial": "VITOR PETRINO",
+        "aliases": [
+            "VITOR PETRINO",
+            "PETRINO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_41",
+        "nombre_oficial": "MICK PARKIN",
+        "aliases": [
+            "PARKIN",
+            "MICK PARKIN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_42",
+        "nombre_oficial": "SHAMIL GAZIEV",
+        "aliases": [
+            "GAZIEV",
+            "SHAMIL GAZIEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_43",
+        "nombre_oficial": "THOMAS PETERSEN",
+        "aliases": [
+            "THOMAS PETERSEN",
+            "PETERSEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_44",
+        "nombre_oficial": "VALTER WALKER",
+        "aliases": [
+            "WALKER",
+            "VALTER WALKER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_45",
+        "nombre_oficial": "JHONATA DINIZ",
+        "aliases": [
+            "JHONATA DINIZ",
+            "DINIZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_46",
+        "nombre_oficial": "SEAN SHARAF",
+        "aliases": [
+            "SEAN SHARAF",
+            "SHARAF"
+        ]
+    },
+    {
+        "id": "ufc_wiki_47",
+        "nombre_oficial": "TALLISON TEIXEIRA",
+        "aliases": [
+            "TEIXEIRA",
+            "TALLISON TEIXEIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_48",
+        "nombre_oficial": "MÁRIO PINTO",
+        "aliases": [
+            "PINTO",
+            "MÁRIO PINTO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_49",
+        "nombre_oficial": "RIZVAN KUNIEV",
+        "aliases": [
+            "RIZVAN KUNIEV",
+            "KUNIEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_50",
+        "nombre_oficial": "ALVIN HINES",
+        "aliases": [
+            "ALVIN HINES",
+            "HINES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_51",
+        "nombre_oficial": "MARCUS BUCHECHA",
+        "aliases": [
+            "MARCUS BUCHECHA",
+            "BUCHECHA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_52",
+        "nombre_oficial": "ANTE DELIJA",
+        "aliases": [
+            "ANTE DELIJA",
+            "DELIJA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_53",
+        "nombre_oficial": "BRANDO PERIČIĆ",
+        "aliases": [
+            "BRANDO PERIČIĆ",
+            "PERIČIĆ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_54",
+        "nombre_oficial": "ELISHA ELLISON",
+        "aliases": [
+            "ELLISON",
+            "ELISHA ELLISON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_55",
+        "nombre_oficial": "LOUIE SUTHERLAND",
+        "aliases": [
+            "LOUIE SUTHERLAND",
+            "SUTHERLAND"
+        ]
+    },
+    {
+        "id": "ufc_wiki_56",
+        "nombre_oficial": "JOSH HOKIT",
+        "aliases": [
+            "HOKIT",
+            "JOSH HOKIT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_57",
+        "nombre_oficial": "MAX GIMENIS",
+        "aliases": [
+            "GIMENIS",
+            "MAX GIMENIS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_58",
+        "nombre_oficial": "DENZEL FREEMAN",
+        "aliases": [
+            "FREEMAN",
+            "DENZEL FREEMAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_59",
+        "nombre_oficial": "GUILHERME PAT",
+        "aliases": [
+            "GUILHERME PAT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_60",
+        "nombre_oficial": "ALLEN FRYE JR",
+        "aliases": [
+            "ALLEN FRYE JR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_61",
+        "nombre_oficial": "STEVEN ASPLUND",
+        "aliases": [
+            "STEVEN ASPLUND",
+            "ASPLUND"
+        ]
+    },
+    {
+        "id": "ufc_wiki_62",
+        "nombre_oficial": "TYRELL FORTUNE",
+        "aliases": [
+            "TYRELL FORTUNE",
+            "FORTUNE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_63",
+        "nombre_oficial": "GÖKHAN SARICAM",
+        "aliases": [
+            "GÖKHAN SARICAM",
+            "SARICAM"
+        ]
+    },
+    {
+        "id": "ufc_wiki_64",
+        "nombre_oficial": "GABLE STEVESON",
+        "aliases": [
+            "GABLE STEVESON",
+            "STEVESON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_65",
+        "nombre_oficial": "RJ HARRIS",
+        "aliases": [
+            "HARRIS",
+            "RJ HARRIS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_66",
+        "nombre_oficial": "JOVAN LEKA",
+        "aliases": [
+            "LEKA",
+            "JOVAN LEKA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_67",
+        "nombre_oficial": "ALEXANDER POPPECK",
+        "aliases": [
+            "ALEXANDER POPPECK",
+            "POPPECK"
+        ]
+    },
+    {
+        "id": "ufc_wiki_68",
+        "nombre_oficial": "DUSTIN JACOBY",
+        "aliases": [
+            "JACOBY",
+            "DUSTIN JACOBY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_69",
+        "nombre_oficial": "ROBERT WHITTAKER",
+        "aliases": [
+            "ROBERT WHITTAKER",
+            "WHITTAKER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_70",
+        "nombre_oficial": "NIKITA KRYLOV",
+        "aliases": [
+            "KRYLOV",
+            "NIKITA KRYLOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_71",
+        "nombre_oficial": "JAN BŁACHOWICZ",
+        "aliases": [
+            "BŁACHOWICZ",
+            "JAN BŁACHOWICZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_72",
+        "nombre_oficial": "ION CUȚELABA",
+        "aliases": [
+            "ION CUȚELABA",
+            "CUȚELABA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_73",
+        "nombre_oficial": "KHALIL ROUNTREE JR",
+        "aliases": [
+            "KHALIL ROUNTREE JR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_74",
+        "nombre_oficial": "PAULO COSTA",
+        "aliases": [
+            "PAULO COSTA",
+            "COSTA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_75",
+        "nombre_oficial": "DOMINICK REYES",
+        "aliases": [
+            "DOMINICK REYES",
+            "REYES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_76",
+        "nombre_oficial": "MAGOMED ANKALAEV",
+        "aliases": [
+            "MAGOMED ANKALAEV",
+            "ANKALAEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_77",
+        "nombre_oficial": "JOHNNY WALKER",
+        "aliases": [
+            "JOHNNY WALKER",
+            "WALKER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_78",
+        "nombre_oficial": "JIMMY CRUTE",
+        "aliases": [
+            "JIMMY CRUTE",
+            "CRUTE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_79",
+        "nombre_oficial": "ALONZO MENIFIELD",
+        "aliases": [
+            "ALONZO MENIFIELD",
+            "MENIFIELD"
+        ]
+    },
+    {
+        "id": "ufc_wiki_80",
+        "nombre_oficial": "JAMAHAL HILL",
+        "aliases": [
+            "JAMAHAL HILL",
+            "HILL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_81",
+        "nombre_oficial": "JIŘÍ PROCHÁZKA",
+        "aliases": [
+            "JIŘÍ PROCHÁZKA",
+            "PROCHÁZKA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_82",
+        "nombre_oficial": "MODESTAS BUKAUSKAS",
+        "aliases": [
+            "BUKAUSKAS",
+            "MODESTAS BUKAUSKAS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_83",
+        "nombre_oficial": "CARLOS ULBERG",
+        "aliases": [
+            "ULBERG",
+            "CARLOS ULBERG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_84",
+        "nombre_oficial": "AZAMAT MURZAKANOV",
+        "aliases": [
+            "MURZAKANOV",
+            "AZAMAT MURZAKANOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_85",
+        "nombre_oficial": "JUNIOR TAFA",
+        "aliases": [
+            "JUNIOR TAFA",
+            "TAFA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_86",
+        "nombre_oficial": "BOGDAN GUSKOV",
+        "aliases": [
+            "BOGDAN GUSKOV",
+            "GUSKOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_87",
+        "nombre_oficial": "RODOLFO BELLATO",
+        "aliases": [
+            "RODOLFO BELLATO",
+            "BELLATO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_88",
+        "nombre_oficial": "ZHANG MINGYANG",
+        "aliases": [
+            "MINGYANG",
+            "ZHANG MINGYANG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_89",
+        "nombre_oficial": "BRENDSON RIBEIRO",
+        "aliases": [
+            "BRENDSON RIBEIRO",
+            "RIBEIRO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_90",
+        "nombre_oficial": "İBO ASLAN",
+        "aliases": [
+            "İBO ASLAN",
+            "ASLAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_91",
+        "nombre_oficial": "OUMAR SY",
+        "aliases": [
+            "OUMAR SY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_92",
+        "nombre_oficial": "NAVAJO STIRLING",
+        "aliases": [
+            "STIRLING",
+            "NAVAJO STIRLING"
+        ]
+    },
+    {
+        "id": "ufc_wiki_93",
+        "nombre_oficial": "BRUNO LOPES",
+        "aliases": [
+            "BRUNO LOPES",
+            "LOPES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_94",
+        "nombre_oficial": "BILLY ELEKANA",
+        "aliases": [
+            "ELEKANA",
+            "BILLY ELEKANA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_95",
+        "nombre_oficial": "JULIUS WALKER",
+        "aliases": [
+            "WALKER",
+            "JULIUS WALKER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_96",
+        "nombre_oficial": "DIYAR NURGOZHAY",
+        "aliases": [
+            "NURGOZHAY",
+            "DIYAR NURGOZHAY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_97",
+        "nombre_oficial": "URAN SATYBALDIEV",
+        "aliases": [
+            "SATYBALDIEV",
+            "URAN SATYBALDIEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_98",
+        "nombre_oficial": "KEVIN CHRISTIAN",
+        "aliases": [
+            "CHRISTIAN",
+            "KEVIN CHRISTIAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_99",
+        "nombre_oficial": "ABDULRAKHMAN YAKHYAEV",
+        "aliases": [
+            "YAKHYAEV",
+            "ABDULRAKHMAN YAKHYAEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_100",
+        "nombre_oficial": "IWO BARANIEWSKI",
+        "aliases": [
+            "BARANIEWSKI",
+            "IWO BARANIEWSKI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_101",
+        "nombre_oficial": "LUKE FERNANDEZ",
+        "aliases": [
+            "LUKE FERNANDEZ",
+            "FERNANDEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_102",
+        "nombre_oficial": "RAFAEL TOBIAS",
+        "aliases": [
+            "RAFAEL TOBIAS",
+            "TOBIAS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_103",
+        "nombre_oficial": "FELIPE FRANCO",
+        "aliases": [
+            "FRANCO",
+            "FELIPE FRANCO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_104",
+        "nombre_oficial": "CHRISTIAN EDWARDS",
+        "aliases": [
+            "CHRISTIAN EDWARDS",
+            "EDWARDS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_105",
+        "nombre_oficial": "LEVI RODRIGUES JR",
+        "aliases": [
+            "LEVI RODRIGUES JR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_106",
+        "nombre_oficial": "MAGOMED TUCHALOV",
+        "aliases": [
+            "TUCHALOV",
+            "MAGOMED TUCHALOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_107",
+        "nombre_oficial": "MUHAMMAD SAIDOV",
+        "aliases": [
+            "MUHAMMAD SAIDOV",
+            "SAIDOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_108",
+        "nombre_oficial": "BRAD TAVARES",
+        "aliases": [
+            "BRAD TAVARES",
+            "TAVARES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_109",
+        "nombre_oficial": "KELVIN GASTELUM",
+        "aliases": [
+            "KELVIN GASTELUM",
+            "GASTELUM"
+        ]
+    },
+    {
+        "id": "ufc_wiki_110",
+        "nombre_oficial": "SEAN STRICKLAND",
+        "aliases": [
+            "STRICKLAND",
+            "SEAN STRICKLAND"
+        ]
+    },
+    {
+        "id": "ufc_wiki_111",
+        "nombre_oficial": "JARED CANNONIER",
+        "aliases": [
+            "CANNONIER",
+            "JARED CANNONIER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_112",
+        "nombre_oficial": "VICENTE LUQUE",
+        "aliases": [
+            "LUQUE",
+            "VICENTE LUQUE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_113",
+        "nombre_oficial": "KAMARU USMAN",
+        "aliases": [
+            "USMAN",
+            "KAMARU USMAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_114",
+        "nombre_oficial": "MARVIN VETTORI",
+        "aliases": [
+            "MARVIN VETTORI",
+            "VETTORI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_115",
+        "nombre_oficial": "GERALD MEERSCHAERT",
+        "aliases": [
+            "MEERSCHAERT",
+            "GERALD MEERSCHAERT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_116",
+        "nombre_oficial": "MICHAŁ OLEKSIEJCZUK",
+        "aliases": [
+            "MICHAŁ OLEKSIEJCZUK",
+            "OLEKSIEJCZUK"
+        ]
+    },
+    {
+        "id": "ufc_wiki_117",
+        "nombre_oficial": "ISRAEL ADESANYA",
+        "aliases": [
+            "ADESANYA",
+            "ISRAEL ADESANYA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_118",
+        "nombre_oficial": "EDMEN SHAHBAZYAN",
+        "aliases": [
+            "SHAHBAZYAN",
+            "EDMEN SHAHBAZYAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_119",
+        "nombre_oficial": "ANTHONY HERNANDEZ",
+        "aliases": [
+            "ANTHONY HERNANDEZ",
+            "HERNANDEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_120",
+        "nombre_oficial": "ISMAIL NAURDIEV",
+        "aliases": [
+            "NAURDIEV",
+            "ISMAIL NAURDIEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_121",
+        "nombre_oficial": "MARCANDRÉ BARRIAULT",
+        "aliases": [
+            "MARCANDRÉ BARRIAULT",
+            "BARRIAULT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_122",
+        "nombre_oficial": "RODOLFO VIEIRA",
+        "aliases": [
+            "RODOLFO VIEIRA",
+            "VIEIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_123",
+        "nombre_oficial": "PARK JUNYONG",
+        "aliases": [
+            "PARK JUNYONG",
+            "JUNYONG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_124",
+        "nombre_oficial": "BRENDAN ALLEN",
+        "aliases": [
+            "BRENDAN ALLEN",
+            "ALLEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_125",
+        "nombre_oficial": "ROMAN KOPYLOV",
+        "aliases": [
+            "ROMAN KOPYLOV",
+            "KOPYLOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_126",
+        "nombre_oficial": "KYLE DAUKAUS",
+        "aliases": [
+            "KYLE DAUKAUS",
+            "DAUKAUS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_127",
+        "nombre_oficial": "KHAMZAT CHIMAEV",
+        "aliases": [
+            "KHAMZAT CHIMAEV",
+            "CHIMAEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_128",
+        "nombre_oficial": "ROMAN DOLIDZE",
+        "aliases": [
+            "ROMAN DOLIDZE",
+            "DOLIDZE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_129",
+        "nombre_oficial": "NASSOURDINE IMAVOV",
+        "aliases": [
+            "NASSOURDINE IMAVOV",
+            "IMAVOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_130",
+        "nombre_oficial": "DUŠKO TODOROVIĆ",
+        "aliases": [
+            "DUŠKO TODOROVIĆ",
+            "TODOROVIĆ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_131",
+        "nombre_oficial": "DRICUS DU PLESSIS",
+        "aliases": [
+            "DRICUS DU PLESSIS",
+            "PLESSIS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_132",
+        "nombre_oficial": "GILBERT URBINA",
+        "aliases": [
+            "URBINA",
+            "GILBERT URBINA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_133",
+        "nombre_oficial": "CODY BRUNDAGE",
+        "aliases": [
+            "CODY BRUNDAGE",
+            "BRUNDAGE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_134",
+        "nombre_oficial": "JACOB MALKOUN",
+        "aliases": [
+            "MALKOUN",
+            "JACOB MALKOUN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_135",
+        "nombre_oficial": "DUSTIN STOLTZFUS",
+        "aliases": [
+            "DUSTIN STOLTZFUS",
+            "STOLTZFUS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_136",
+        "nombre_oficial": "GREGORY RODRIGUES",
+        "aliases": [
+            "RODRIGUES",
+            "GREGORY RODRIGUES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_137",
+        "nombre_oficial": "ANDRE PETROSKI",
+        "aliases": [
+            "PETROSKI",
+            "ANDRE PETROSKI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_138",
+        "nombre_oficial": "TRESEAN GORE",
+        "aliases": [
+            "GORE",
+            "TRESEAN GORE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_139",
+        "nombre_oficial": "CAIO BORRALHO",
+        "aliases": [
+            "CAIO BORRALHO",
+            "BORRALHO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_140",
+        "nombre_oficial": "ABUSUPIYAN MAGOMEDOV",
+        "aliases": [
+            "ABUSUPIYAN MAGOMEDOV",
+            "MAGOMEDOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_141",
+        "nombre_oficial": "JOE PYFER",
+        "aliases": [
+            "PYFER",
+            "JOE PYFER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_142",
+        "nombre_oficial": "BRUNNO FERREIRA",
+        "aliases": [
+            "BRUNNO FERREIRA",
+            "FERREIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_143",
+        "nombre_oficial": "BO NICKAL",
+        "aliases": [
+            "BO NICKAL",
+            "NICKAL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_144",
+        "nombre_oficial": "CHRISTIAN LEROY DUNCAN",
+        "aliases": [
+            "DUNCAN",
+            "CHRISTIAN LEROY DUNCAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_145",
+        "nombre_oficial": "IKRAM ALISKEROV",
+        "aliases": [
+            "ALISKEROV",
+            "IKRAM ALISKEROV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_146",
+        "nombre_oficial": "NURSULTON RUZIBOEV",
+        "aliases": [
+            "RUZIBOEV",
+            "NURSULTON RUZIBOEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_147",
+        "nombre_oficial": "SHARABUTDIN MAGOMEDOV",
+        "aliases": [
+            "MAGOMEDOV",
+            "SHARABUTDIN MAGOMEDOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_148",
+        "nombre_oficial": "ZACHARY REESE",
+        "aliases": [
+            "REESE",
+            "ZACHARY REESE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_149",
+        "nombre_oficial": "ROBERT BRYCZEK",
+        "aliases": [
+            "ROBERT BRYCZEK",
+            "BRYCZEK"
+        ]
+    },
+    {
+        "id": "ufc_wiki_150",
+        "nombre_oficial": "CÉSAR ALMEIDA",
+        "aliases": [
+            "CÉSAR ALMEIDA",
+            "ALMEIDA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_151",
+        "nombre_oficial": "ROBERT VALENTIN",
+        "aliases": [
+            "VALENTIN",
+            "ROBERT VALENTIN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_152",
+        "nombre_oficial": "RYAN LODER",
+        "aliases": [
+            "LODER",
+            "RYAN LODER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_153",
+        "nombre_oficial": "MANSUR ABDULMALIK",
+        "aliases": [
+            "MANSUR ABDULMALIK",
+            "ABDULMALIK"
+        ]
+    },
+    {
+        "id": "ufc_wiki_154",
+        "nombre_oficial": "REINIER DE RIDDER",
+        "aliases": [
+            "RIDDER",
+            "REINIER DE RIDDER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_155",
+        "nombre_oficial": "OSMAN DIAZ",
+        "aliases": [
+            "DIAZ",
+            "OSMAN DIAZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_156",
+        "nombre_oficial": "MARCO TULIO",
+        "aliases": [
+            "TULIO",
+            "MARCO TULIO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_157",
+        "nombre_oficial": "AZAMAT BEKOEV",
+        "aliases": [
+            "BEKOEV",
+            "AZAMAT BEKOEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_158",
+        "nombre_oficial": "ERIC MCCONICO",
+        "aliases": [
+            "MCCONICO",
+            "ERIC MCCONICO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_159",
+        "nombre_oficial": "NICK KLEIN",
+        "aliases": [
+            "NICK KLEIN",
+            "KLEIN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_160",
+        "nombre_oficial": "DJORDEN SANTOS",
+        "aliases": [
+            "DJORDEN SANTOS",
+            "SANTOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_161",
+        "nombre_oficial": "ANDREY PULYAEV",
+        "aliases": [
+            "PULYAEV",
+            "ANDREY PULYAEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_162",
+        "nombre_oficial": "ATEBA GAUTIER",
+        "aliases": [
+            "GAUTIER",
+            "ATEBA GAUTIER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_163",
+        "nombre_oficial": "TORREZ FINNEY",
+        "aliases": [
+            "TORREZ FINNEY",
+            "FINNEY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_164",
+        "nombre_oficial": "JACKSON MCVEY",
+        "aliases": [
+            "JACKSON MCVEY",
+            "MCVEY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_165",
+        "nombre_oficial": "BAISANGUR SUSURKAEV",
+        "aliases": [
+            "SUSURKAEV",
+            "BAISANGUR SUSURKAEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_166",
+        "nombre_oficial": "CAMERON ROWSTON",
+        "aliases": [
+            "CAMERON ROWSTON",
+            "ROWSTON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_167",
+        "nombre_oficial": "TRESTON VINES",
+        "aliases": [
+            "VINES",
+            "TRESTON VINES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_168",
+        "nombre_oficial": "YOUSRI BELGAROUI",
+        "aliases": [
+            "YOUSRI BELGAROUI",
+            "BELGAROUI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_169",
+        "nombre_oficial": "DONTE JOHNSON",
+        "aliases": [
+            "DONTE JOHNSON",
+            "JOHNSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_170",
+        "nombre_oficial": "CEZARY OLEKSIEJCZUK",
+        "aliases": [
+            "OLEKSIEJCZUK",
+            "CEZARY OLEKSIEJCZUK"
+        ]
+    },
+    {
+        "id": "ufc_wiki_171",
+        "nombre_oficial": "DAMIAN PINAS",
+        "aliases": [
+            "DAMIAN PINAS",
+            "PINAS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_172",
+        "nombre_oficial": "WESLEY SCHULTZ",
+        "aliases": [
+            "WESLEY SCHULTZ",
+            "SCHULTZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_173",
+        "nombre_oficial": "RYAN GANDRA",
+        "aliases": [
+            "GANDRA",
+            "RYAN GANDRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_174",
+        "nombre_oficial": "MANTAS KONDRATAVIČIUS",
+        "aliases": [
+            "KONDRATAVIČIUS",
+            "MANTAS KONDRATAVIČIUS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_175",
+        "nombre_oficial": "JULIEN LEBLANC",
+        "aliases": [
+            "LEBLANC",
+            "JULIEN LEBLANC"
+        ]
+    },
+    {
+        "id": "ufc_wiki_176",
+        "nombre_oficial": "BEN JOHNSTON",
+        "aliases": [
+            "BEN JOHNSTON",
+            "JOHNSTON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_177",
+        "nombre_oficial": "LEE YISAK",
+        "aliases": [
+            "YISAK",
+            "LEE YISAK"
+        ]
+    },
+    {
+        "id": "ufc_wiki_178",
+        "nombre_oficial": "LUIS FELIPE DIAS",
+        "aliases": [
+            "LUIS FELIPE DIAS",
+            "DIAS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_179",
+        "nombre_oficial": "VLASTO ČEPO",
+        "aliases": [
+            "ČEPO",
+            "VLASTO ČEPO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_180",
+        "nombre_oficial": "RAFAEL DOS ANJOS",
+        "aliases": [
+            "ANJOS",
+            "RAFAEL DOS ANJOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_181",
+        "nombre_oficial": "COURT MCGEE",
+        "aliases": [
+            "MCGEE",
+            "COURT MCGEE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_182",
+        "nombre_oficial": "STEPHEN THOMPSON",
+        "aliases": [
+            "STEPHEN THOMPSON",
+            "THOMPSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_183",
+        "nombre_oficial": "MAX HOLLOWAY",
+        "aliases": [
+            "MAX HOLLOWAY",
+            "HOLLOWAY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_184",
+        "nombre_oficial": "TIM MEANS",
+        "aliases": [
+            "MEANS",
+            "TIM MEANS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_185",
+        "nombre_oficial": "GUNNAR NELSON",
+        "aliases": [
+            "NELSON",
+            "GUNNAR NELSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_186",
+        "nombre_oficial": "NEIL MAGNY",
+        "aliases": [
+            "NEIL MAGNY",
+            "MAGNY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_187",
+        "nombre_oficial": "CONOR MCGREGOR",
+        "aliases": [
+            "MCGREGOR",
+            "CONOR MCGREGOR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_188",
+        "nombre_oficial": "SANTIAGO PONZINIBBIO",
+        "aliases": [
+            "SANTIAGO PONZINIBBIO",
+            "PONZINIBBIO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_189",
+        "nombre_oficial": "LI JINGLIANG",
+        "aliases": [
+            "JINGLIANG",
+            "LI JINGLIANG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_190",
+        "nombre_oficial": "JAKE MATTHEWS",
+        "aliases": [
+            "JAKE MATTHEWS",
+            "MATTHEWS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_191",
+        "nombre_oficial": "LEON EDWARDS",
+        "aliases": [
+            "LEON EDWARDS",
+            "EDWARDS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_192",
+        "nombre_oficial": "ISLAM MAKHACHEV",
+        "aliases": [
+            "ISLAM MAKHACHEV",
+            "MAKHACHEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_193",
+        "nombre_oficial": "NICOLAS DALBY",
+        "aliases": [
+            "DALBY",
+            "NICOLAS DALBY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_194",
+        "nombre_oficial": "RANDY BROWN",
+        "aliases": [
+            "BROWN",
+            "RANDY BROWN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_195",
+        "nombre_oficial": "MICKEY GALL",
+        "aliases": [
+            "MICKEY GALL",
+            "GALL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_196",
+        "nombre_oficial": "BELAL MUHAMMAD",
+        "aliases": [
+            "MUHAMMAD",
+            "BELAL MUHAMMAD"
+        ]
+    },
+    {
+        "id": "ufc_wiki_197",
+        "nombre_oficial": "JACK HERMANSSON",
+        "aliases": [
+            "HERMANSSON",
+            "JACK HERMANSSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_198",
+        "nombre_oficial": "SONG KENAN",
+        "aliases": [
+            "KENAN",
+            "SONG KENAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_199",
+        "nombre_oficial": "MUSLIM SALIKHOV",
+        "aliases": [
+            "SALIKHOV",
+            "MUSLIM SALIKHOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_200",
+        "nombre_oficial": "GEOFF NEAL",
+        "aliases": [
+            "NEAL",
+            "GEOFF NEAL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_201",
+        "nombre_oficial": "KEVIN HOLLAND",
+        "aliases": [
+            "KEVIN HOLLAND",
+            "HOLLAND"
+        ]
+    },
+    {
+        "id": "ufc_wiki_202",
+        "nombre_oficial": "JOEL ÁLVAREZ",
+        "aliases": [
+            "JOEL ÁLVAREZ",
+            "ÁLVAREZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_203",
+        "nombre_oficial": "WELLINGTON TURMAN",
+        "aliases": [
+            "WELLINGTON TURMAN",
+            "TURMAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_204",
+        "nombre_oficial": "SEAN BRADY",
+        "aliases": [
+            "BRADY",
+            "SEAN BRADY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_205",
+        "nombre_oficial": "PUNAHELE SORIANO",
+        "aliases": [
+            "PUNAHELE SORIANO",
+            "SORIANO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_206",
+        "nombre_oficial": "KHAOS WILLIAMS",
+        "aliases": [
+            "WILLIAMS",
+            "KHAOS WILLIAMS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_207",
+        "nombre_oficial": "JOAQUIN BUCKLEY",
+        "aliases": [
+            "JOAQUIN BUCKLEY",
+            "BUCKLEY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_208",
+        "nombre_oficial": "DANIEL RODRIGUEZ",
+        "aliases": [
+            "DANIEL RODRIGUEZ",
+            "RODRIGUEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_209",
+        "nombre_oficial": "SHAVKAT RAKHMONOV",
+        "aliases": [
+            "RAKHMONOV",
+            "SHAVKAT RAKHMONOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_210",
+        "nombre_oficial": "RAMIZ BRAHIMAJ",
+        "aliases": [
+            "RAMIZ BRAHIMAJ",
+            "BRAHIMAJ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_211",
+        "nombre_oficial": "UROŠ MEDIĆ",
+        "aliases": [
+            "MEDIĆ",
+            "UROŠ MEDIĆ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_212",
+        "nombre_oficial": "JEREMIAH WELLS",
+        "aliases": [
+            "WELLS",
+            "JEREMIAH WELLS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_213",
+        "nombre_oficial": "CHRIS CURTIS",
+        "aliases": [
+            "CHRIS CURTIS",
+            "CURTIS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_214",
+        "nombre_oficial": "IAN MACHADO GARRY",
+        "aliases": [
+            "GARRY",
+            "IAN MACHADO GARRY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_215",
+        "nombre_oficial": "JACK DELLA MADDALENA",
+        "aliases": [
+            "MADDALENA",
+            "JACK DELLA MADDALENA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_216",
+        "nombre_oficial": "MICHAEL MORALES",
+        "aliases": [
+            "MICHAEL MORALES",
+            "MORALES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_217",
+        "nombre_oficial": "CHIDI NJOKUANI",
+        "aliases": [
+            "CHIDI NJOKUANI",
+            "NJOKUANI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_218",
+        "nombre_oficial": "MIKE MALOTT",
+        "aliases": [
+            "MIKE MALOTT",
+            "MALOTT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_219",
+        "nombre_oficial": "GABRIEL BONFIM",
+        "aliases": [
+            "GABRIEL BONFIM",
+            "BONFIM"
+        ]
+    },
+    {
+        "id": "ufc_wiki_220",
+        "nombre_oficial": "FRANCISCO PRADO",
+        "aliases": [
+            "FRANCISCO PRADO",
+            "PRADO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_221",
+        "nombre_oficial": "SAM PATTERSON",
+        "aliases": [
+            "PATTERSON",
+            "SAM PATTERSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_222",
+        "nombre_oficial": "BILLY RAY GOFF",
+        "aliases": [
+            "GOFF",
+            "BILLY RAY GOFF"
+        ]
+    },
+    {
+        "id": "ufc_wiki_223",
+        "nombre_oficial": "CHARLES RADTKE",
+        "aliases": [
+            "RADTKE",
+            "CHARLES RADTKE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_224",
+        "nombre_oficial": "MYKTYBEK OROLBAI",
+        "aliases": [
+            "OROLBAI",
+            "MYKTYBEK OROLBAI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_225",
+        "nombre_oficial": "CARLOS PRATES",
+        "aliases": [
+            "CARLOS PRATES",
+            "PRATES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_226",
+        "nombre_oficial": "OBAN ELLIOTT",
+        "aliases": [
+            "OBAN ELLIOTT",
+            "ELLIOTT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_227",
+        "nombre_oficial": "MICHAEL PAGE",
+        "aliases": [
+            "PAGE",
+            "MICHAEL PAGE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_228",
+        "nombre_oficial": "NIKOLAY VERETENNIKOV",
+        "aliases": [
+            "VERETENNIKOV",
+            "NIKOLAY VERETENNIKOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_229",
+        "nombre_oficial": "CARLOS LEAL MIRANDA",
+        "aliases": [
+            "CARLOS LEAL MIRANDA",
+            "MIRANDA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_230",
+        "nombre_oficial": "JACOBE SMITH",
+        "aliases": [
+            "SMITH",
+            "JACOBE SMITH"
+        ]
+    },
+    {
+        "id": "ufc_wiki_231",
+        "nombre_oficial": "JONATHAN MICALLEF",
+        "aliases": [
+            "MICALLEF",
+            "JONATHAN MICALLEF"
+        ]
+    },
+    {
+        "id": "ufc_wiki_232",
+        "nombre_oficial": "AUSTIN VANDERFORD",
+        "aliases": [
+            "VANDERFORD",
+            "AUSTIN VANDERFORD"
+        ]
+    },
+    {
+        "id": "ufc_wiki_233",
+        "nombre_oficial": "DANIEL FRUNZA",
+        "aliases": [
+            "FRUNZA",
+            "DANIEL FRUNZA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_234",
+        "nombre_oficial": "KO SEOKHYEON",
+        "aliases": [
+            "KO SEOKHYEON",
+            "SEOKHYEON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_235",
+        "nombre_oficial": "ISLAM DULATOV",
+        "aliases": [
+            "DULATOV",
+            "ISLAM DULATOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_236",
+        "nombre_oficial": "ERIC NOLAN",
+        "aliases": [
+            "ERIC NOLAN",
+            "NOLAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_237",
+        "nombre_oficial": "TAIYILAKE NUERAJI",
+        "aliases": [
+            "NUERAJI",
+            "TAIYILAKE NUERAJI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_238",
+        "nombre_oficial": "RODRIGO SEZINANDO",
+        "aliases": [
+            "RODRIGO SEZINANDO",
+            "SEZINANDO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_239",
+        "nombre_oficial": "DANIIL DONCHENKO",
+        "aliases": [
+            "DONCHENKO",
+            "DANIIL DONCHENKO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_240",
+        "nombre_oficial": "SAYGID IZAGAKHMAEV",
+        "aliases": [
+            "IZAGAKHMAEV",
+            "SAYGID IZAGAKHMAEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_241",
+        "nombre_oficial": "YAROSLAV AMOSOV",
+        "aliases": [
+            "AMOSOV",
+            "YAROSLAV AMOSOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_242",
+        "nombre_oficial": "TY MILLER",
+        "aliases": [
+            "TY MILLER",
+            "MILLER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_243",
+        "nombre_oficial": "JEANPAUL LEBOSNOYANI",
+        "aliases": [
+            "JEANPAUL LEBOSNOYANI",
+            "LEBOSNOYANI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_244",
+        "nombre_oficial": "JOSIAH HARRELL",
+        "aliases": [
+            "JOSIAH HARRELL",
+            "HARRELL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_245",
+        "nombre_oficial": "VICTOR VALENZUELA",
+        "aliases": [
+            "VALENZUELA",
+            "VICTOR VALENZUELA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_246",
+        "nombre_oficial": "DING MENG",
+        "aliases": [
+            "DING MENG",
+            "MENG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_247",
+        "nombre_oficial": "JOSÉ HENRIQUE SOUZA",
+        "aliases": [
+            "JOSÉ HENRIQUE SOUZA",
+            "SOUZA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_248",
+        "nombre_oficial": "LEON SHAHBAZYAN",
+        "aliases": [
+            "SHAHBAZYAN",
+            "LEON SHAHBAZYAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_249",
+        "nombre_oficial": "LEVAN CHOKHELI",
+        "aliases": [
+            "LEVAN CHOKHELI",
+            "CHOKHELI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_250",
+        "nombre_oficial": "TAHIR ABDULLAYEV",
+        "aliases": [
+            "TAHIR ABDULLAYEV",
+            "ABDULLAYEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_251",
+        "nombre_oficial": "JEFFERSON NASCIMENTO",
+        "aliases": [
+            "NASCIMENTO",
+            "JEFFERSON NASCIMENTO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_252",
+        "nombre_oficial": "THEODOR BERGGREN",
+        "aliases": [
+            "THEODOR BERGGREN",
+            "BERGGREN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_253",
+        "nombre_oficial": "FARMAN HASANOV",
+        "aliases": [
+            "FARMAN HASANOV",
+            "HASANOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_254",
+        "nombre_oficial": "ABUBAKAR VAGAEV",
+        "aliases": [
+            "VAGAEV",
+            "ABUBAKAR VAGAEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_255",
+        "nombre_oficial": "MICHAEL OLIVEIRA",
+        "aliases": [
+            "MICHAEL OLIVEIRA",
+            "OLIVEIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_256",
+        "nombre_oficial": "JEREMY STEPHENS",
+        "aliases": [
+            "STEPHENS",
+            "JEREMY STEPHENS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_257",
+        "nombre_oficial": "JIM MILLER",
+        "aliases": [
+            "MILLER",
+            "JIM MILLER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_258",
+        "nombre_oficial": "CHARLES OLIVEIRA",
+        "aliases": [
+            "CHARLES OLIVEIRA",
+            "OLIVEIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_259",
+        "nombre_oficial": "EDSON BARBOZA",
+        "aliases": [
+            "EDSON BARBOZA",
+            "BARBOZA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_260",
+        "nombre_oficial": "MICHAEL JOHNSON",
+        "aliases": [
+            "MICHAEL JOHNSON",
+            "JOHNSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_261",
+        "nombre_oficial": "KING GREEN",
+        "aliases": [
+            "GREEN",
+            "KING GREEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_262",
+        "nombre_oficial": "DREW DOBER",
+        "aliases": [
+            "DREW DOBER",
+            "DOBER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_263",
+        "nombre_oficial": "BENEIL DARIUSH",
+        "aliases": [
+            "BENEIL DARIUSH",
+            "DARIUSH"
+        ]
+    },
+    {
+        "id": "ufc_wiki_264",
+        "nombre_oficial": "DAN HOOKER",
+        "aliases": [
+            "DAN HOOKER",
+            "HOOKER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_265",
+        "nombre_oficial": "CARLOS DIEGO FERREIRA",
+        "aliases": [
+            "CARLOS DIEGO FERREIRA",
+            "FERREIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_266",
+        "nombre_oficial": "RENATO MOICANO",
+        "aliases": [
+            "RENATO MOICANO",
+            "MOICANO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_267",
+        "nombre_oficial": "JOAQUIM SILVA",
+        "aliases": [
+            "SILVA",
+            "JOAQUIM SILVA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_268",
+        "nombre_oficial": "DAMIR HADŽOVIĆ",
+        "aliases": [
+            "DAMIR HADŽOVIĆ",
+            "HADŽOVIĆ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_269",
+        "nombre_oficial": "CLAUDIO PUELLES",
+        "aliases": [
+            "PUELLES",
+            "CLAUDIO PUELLES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_270",
+        "nombre_oficial": "DRAKKAR KLOSE",
+        "aliases": [
+            "KLOSE",
+            "DRAKKAR KLOSE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_271",
+        "nombre_oficial": "JARED GORDON",
+        "aliases": [
+            "GORDON",
+            "JARED GORDON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_272",
+        "nombre_oficial": "JUSTIN GAETHJE",
+        "aliases": [
+            "GAETHJE",
+            "JUSTIN GAETHJE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_273",
+        "nombre_oficial": "ALEX REYES",
+        "aliases": [
+            "REYES",
+            "ALEX REYES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_274",
+        "nombre_oficial": "NASRAT HAQPARAST",
+        "aliases": [
+            "NASRAT HAQPARAST",
+            "HAQPARAST"
+        ]
+    },
+    {
+        "id": "ufc_wiki_275",
+        "nombre_oficial": "MATT FREVOLA",
+        "aliases": [
+            "FREVOLA",
+            "MATT FREVOLA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_276",
+        "nombre_oficial": "ALEXANDER HERNANDEZ",
+        "aliases": [
+            "HERNANDEZ",
+            "ALEXANDER HERNANDEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_277",
+        "nombre_oficial": "JALIN TURNER",
+        "aliases": [
+            "TURNER",
+            "JALIN TURNER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_278",
+        "nombre_oficial": "SODIQ YUSUFF",
+        "aliases": [
+            "SODIQ YUSUFF",
+            "YUSUFF"
+        ]
+    },
+    {
+        "id": "ufc_wiki_279",
+        "nombre_oficial": "KYLE NELSON",
+        "aliases": [
+            "NELSON",
+            "KYLE NELSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_280",
+        "nombre_oficial": "GRANT DAWSON",
+        "aliases": [
+            "DAWSON",
+            "GRANT DAWSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_281",
+        "nombre_oficial": "RAFAEL FIZIEV",
+        "aliases": [
+            "RAFAEL FIZIEV",
+            "FIZIEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_282",
+        "nombre_oficial": "ARMAN TSARUKYAN",
+        "aliases": [
+            "TSARUKYAN",
+            "ARMAN TSARUKYAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_283",
+        "nombre_oficial": "MIKE DAVIS",
+        "aliases": [
+            "MIKE DAVIS",
+            "DAVIS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_284",
+        "nombre_oficial": "KYLE PREPOLEC",
+        "aliases": [
+            "KYLE PREPOLEC",
+            "PREPOLEC"
+        ]
+    },
+    {
+        "id": "ufc_wiki_285",
+        "nombre_oficial": "FARÈS ZIAM",
+        "aliases": [
+            "FARÈS ZIAM",
+            "ZIAM"
+        ]
+    },
+    {
+        "id": "ufc_wiki_286",
+        "nombre_oficial": "OTTMAN AZAITAR",
+        "aliases": [
+            "OTTMAN AZAITAR",
+            "AZAITAR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_287",
+        "nombre_oficial": "CHASE HOOPER",
+        "aliases": [
+            "HOOPER",
+            "CHASE HOOPER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_288",
+        "nombre_oficial": "GABRIEL GREEN",
+        "aliases": [
+            "GREEN",
+            "GABRIEL GREEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_289",
+        "nombre_oficial": "JAI HERBERT",
+        "aliases": [
+            "HERBERT",
+            "JAI HERBERT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_290",
+        "nombre_oficial": "ĽUDOVÍT KLEIN",
+        "aliases": [
+            "ĽUDOVÍT KLEIN",
+            "KLEIN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_291",
+        "nombre_oficial": "ILIA TOPURIA",
+        "aliases": [
+            "TOPURIA",
+            "ILIA TOPURIA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_292",
+        "nombre_oficial": "MATEUSZ GAMROT",
+        "aliases": [
+            "MATEUSZ GAMROT",
+            "GAMROT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_293",
+        "nombre_oficial": "MASON JONES",
+        "aliases": [
+            "JONES",
+            "MASON JONES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_294",
+        "nombre_oficial": "MICHAEL CHANDLER",
+        "aliases": [
+            "CHANDLER",
+            "MICHAEL CHANDLER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_295",
+        "nombre_oficial": "RAFA GARCÍA",
+        "aliases": [
+            "GARCÍA",
+            "RAFA GARCÍA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_296",
+        "nombre_oficial": "IGNACIO BAHAMONDES",
+        "aliases": [
+            "BAHAMONDES",
+            "IGNACIO BAHAMONDES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_297",
+        "nombre_oficial": "RONG ZHU",
+        "aliases": [
+            "RONG ZHU"
+        ]
+    },
+    {
+        "id": "ufc_wiki_298",
+        "nombre_oficial": "TERRANCE MCKINNEY",
+        "aliases": [
+            "TERRANCE MCKINNEY",
+            "MCKINNEY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_299",
+        "nombre_oficial": "PADDY PIMBLETT",
+        "aliases": [
+            "PIMBLETT",
+            "PADDY PIMBLETT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_300",
+        "nombre_oficial": "BENOÎT SAINT DENIS",
+        "aliases": [
+            "BENOÎT SAINT DENIS",
+            "DENIS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_301",
+        "nombre_oficial": "NIKOLAS MOTTA",
+        "aliases": [
+            "MOTTA",
+            "NIKOLAS MOTTA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_302",
+        "nombre_oficial": "TREY OGDEN",
+        "aliases": [
+            "TREY OGDEN",
+            "OGDEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_303",
+        "nombre_oficial": "EVAN ELDER",
+        "aliases": [
+            "EVAN ELDER",
+            "ELDER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_304",
+        "nombre_oficial": "MANUEL TORRES",
+        "aliases": [
+            "MANUEL TORRES",
+            "TORRES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_305",
+        "nombre_oficial": "DANIEL ZELLHUBER",
+        "aliases": [
+            "DANIEL ZELLHUBER",
+            "ZELLHUBER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_306",
+        "nombre_oficial": "FRANCIS MARSHALL",
+        "aliases": [
+            "FRANCIS MARSHALL",
+            "MARSHALL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_307",
+        "nombre_oficial": "MATEUSZ RĘBECKI",
+        "aliases": [
+            "RĘBECKI",
+            "MATEUSZ RĘBECKI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_308",
+        "nombre_oficial": "ISMAEL BONFIM",
+        "aliases": [
+            "ISMAEL BONFIM",
+            "BONFIM"
+        ]
+    },
+    {
+        "id": "ufc_wiki_309",
+        "nombre_oficial": "ANSHUL JUBLI",
+        "aliases": [
+            "JUBLI",
+            "ANSHUL JUBLI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_310",
+        "nombre_oficial": "ELVES BRENER",
+        "aliases": [
+            "ELVES BRENER",
+            "BRENER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_311",
+        "nombre_oficial": "NAZIM SADYKHOV",
+        "aliases": [
+            "SADYKHOV",
+            "NAZIM SADYKHOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_312",
+        "nombre_oficial": "NURULLO ALIEV",
+        "aliases": [
+            "NURULLO ALIEV",
+            "ALIEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_313",
+        "nombre_oficial": "TREVOR PEEK",
+        "aliases": [
+            "TREVOR PEEK",
+            "PEEK"
+        ]
+    },
+    {
+        "id": "ufc_wiki_314",
+        "nombre_oficial": "ESTEBAN RIBOVICS",
+        "aliases": [
+            "ESTEBAN RIBOVICS",
+            "RIBOVICS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_315",
+        "nombre_oficial": "CHRIS DUNCAN",
+        "aliases": [
+            "DUNCAN",
+            "CHRIS DUNCAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_316",
+        "nombre_oficial": "DARRIUS FLOWERS",
+        "aliases": [
+            "DARRIUS FLOWERS",
+            "FLOWERS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_317",
+        "nombre_oficial": "CHARLIE CAMPBELL",
+        "aliases": [
+            "CAMPBELL",
+            "CHARLIE CAMPBELL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_318",
+        "nombre_oficial": "KAUÊ FERNANDES",
+        "aliases": [
+            "KAUÊ FERNANDES",
+            "FERNANDES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_319",
+        "nombre_oficial": "TOM NOLAN",
+        "aliases": [
+            "TOM NOLAN",
+            "NOLAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_320",
+        "nombre_oficial": "MARQUEL MEDEROS",
+        "aliases": [
+            "MEDEROS",
+            "MARQUEL MEDEROS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_321",
+        "nombre_oficial": "BOLAJI OKI",
+        "aliases": [
+            "BOLAJI OKI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_322",
+        "nombre_oficial": "ABDULKAREEM ALSELWADY",
+        "aliases": [
+            "ALSELWADY",
+            "ABDULKAREEM ALSELWADY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_323",
+        "nombre_oficial": "MITCH RAMIREZ",
+        "aliases": [
+            "MITCH RAMIREZ",
+            "RAMIREZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_324",
+        "nombre_oficial": "CHRIS PADILLA",
+        "aliases": [
+            "PADILLA",
+            "CHRIS PADILLA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_325",
+        "nombre_oficial": "MAURÍCIO RUFFY",
+        "aliases": [
+            "MAURÍCIO RUFFY",
+            "RUFFY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_326",
+        "nombre_oficial": "QUILLAN SALKILLD",
+        "aliases": [
+            "QUILLAN SALKILLD",
+            "SALKILLD"
+        ]
+    },
+    {
+        "id": "ufc_wiki_327",
+        "nombre_oficial": "KODY STEELE",
+        "aliases": [
+            "KODY STEELE",
+            "STEELE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_328",
+        "nombre_oficial": "GAUGE YOUNG",
+        "aliases": [
+            "YOUNG",
+            "GAUGE YOUNG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_329",
+        "nombre_oficial": "MATHEUS CAMILO",
+        "aliases": [
+            "CAMILO",
+            "MATHEUS CAMILO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_330",
+        "nombre_oficial": "MARK CHOINSKI",
+        "aliases": [
+            "CHOINSKI",
+            "MARK CHOINSKI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_331",
+        "nombre_oficial": "TOFIQ MUSAYEV",
+        "aliases": [
+            "MUSAYEV",
+            "TOFIQ MUSAYEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_332",
+        "nombre_oficial": "AXEL SOLA",
+        "aliases": [
+            "SOLA",
+            "AXEL SOLA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_333",
+        "nombre_oficial": "LANCE GIBSON JR",
+        "aliases": [
+            "LANCE GIBSON JR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_334",
+        "nombre_oficial": "DOM MAR FAN",
+        "aliases": [
+            "DOM MAR FAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_335",
+        "nombre_oficial": "MANOEL SOUSA",
+        "aliases": [
+            "MANOEL SOUSA",
+            "SOUSA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_336",
+        "nombre_oficial": "DAKOTA HOPE",
+        "aliases": [
+            "DAKOTA HOPE",
+            "HOPE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_337",
+        "nombre_oficial": "MANDEL NALLO",
+        "aliases": [
+            "NALLO",
+            "MANDEL NALLO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_338",
+        "nombre_oficial": "LUCAS BRENNAN",
+        "aliases": [
+            "BRENNAN",
+            "LUCAS BRENNAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_339",
+        "nombre_oficial": "THOMAS GANTT",
+        "aliases": [
+            "GANTT",
+            "THOMAS GANTT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_340",
+        "nombre_oficial": "ARTUR MINEV",
+        "aliases": [
+            "ARTUR MINEV",
+            "MINEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_341",
+        "nombre_oficial": "MAGOMED ZAYNUKOV",
+        "aliases": [
+            "ZAYNUKOV",
+            "MAGOMED ZAYNUKOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_342",
+        "nombre_oficial": "DAMIAN RZEPECKI",
+        "aliases": [
+            "RZEPECKI",
+            "DAMIAN RZEPECKI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_343",
+        "nombre_oficial": "MILOŠ JANIČIĆ",
+        "aliases": [
+            "MILOŠ JANIČIĆ",
+            "JANIČIĆ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_344",
+        "nombre_oficial": "NOAH GUGNON",
+        "aliases": [
+            "GUGNON",
+            "NOAH GUGNON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_345",
+        "nombre_oficial": "DARREN ELKINS",
+        "aliases": [
+            "ELKINS",
+            "DARREN ELKINS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_346",
+        "nombre_oficial": "ANDRE FILI",
+        "aliases": [
+            "FILI",
+            "ANDRE FILI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_347",
+        "nombre_oficial": "DOUGLAS SILVA DE ANDRADE",
+        "aliases": [
+            "ANDRADE",
+            "DOUGLAS SILVA DE ANDRADE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_348",
+        "nombre_oficial": "ALJAMAIN STERLING",
+        "aliases": [
+            "STERLING",
+            "ALJAMAIN STERLING"
+        ]
+    },
+    {
+        "id": "ufc_wiki_349",
+        "nombre_oficial": "BRIAN ORTEGA",
+        "aliases": [
+            "BRIAN ORTEGA",
+            "ORTEGA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_350",
+        "nombre_oficial": "YAIR RODRÍGUEZ",
+        "aliases": [
+            "RODRÍGUEZ",
+            "YAIR RODRÍGUEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_351",
+        "nombre_oficial": "CHOI DOOHO",
+        "aliases": [
+            "CHOI DOOHO",
+            "DOOHO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_352",
+        "nombre_oficial": "ARNOLD ALLEN",
+        "aliases": [
+            "ARNOLD ALLEN",
+            "ALLEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_353",
+        "nombre_oficial": "JULIAN EROSA",
+        "aliases": [
+            "EROSA",
+            "JULIAN EROSA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_354",
+        "nombre_oficial": "JOSH EMMETT",
+        "aliases": [
+            "EMMETT",
+            "JOSH EMMETT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_355",
+        "nombre_oficial": "ALEXANDER VOLKANOVSKI",
+        "aliases": [
+            "ALEXANDER VOLKANOVSKI",
+            "VOLKANOVSKI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_356",
+        "nombre_oficial": "CALVIN KATTAR",
+        "aliases": [
+            "KATTAR",
+            "CALVIN KATTAR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_357",
+        "nombre_oficial": "DAN IGE",
+        "aliases": [
+            "DAN IGE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_358",
+        "nombre_oficial": "NATHANIEL WOOD",
+        "aliases": [
+            "WOOD",
+            "NATHANIEL WOOD"
+        ]
+    },
+    {
+        "id": "ufc_wiki_359",
+        "nombre_oficial": "MOVSAR EVLOEV",
+        "aliases": [
+            "EVLOEV",
+            "MOVSAR EVLOEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_360",
+        "nombre_oficial": "LERONE MURPHY",
+        "aliases": [
+            "MURPHY",
+            "LERONE MURPHY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_361",
+        "nombre_oficial": "GIGA CHIKADZE",
+        "aliases": [
+            "GIGA CHIKADZE",
+            "CHIKADZE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_362",
+        "nombre_oficial": "SEAN WOODSON",
+        "aliases": [
+            "SEAN WOODSON",
+            "WOODSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_363",
+        "nombre_oficial": "BILLY QUARANTILLO",
+        "aliases": [
+            "BILLY QUARANTILLO",
+            "QUARANTILLO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_364",
+        "nombre_oficial": "NATE LANDWEHR",
+        "aliases": [
+            "LANDWEHR",
+            "NATE LANDWEHR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_365",
+        "nombre_oficial": "YOUSSEF ZALAL",
+        "aliases": [
+            "ZALAL",
+            "YOUSSEF ZALAL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_366",
+        "nombre_oficial": "STEVE GARCIA",
+        "aliases": [
+            "GARCIA",
+            "STEVE GARCIA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_367",
+        "nombre_oficial": "JAMALL EMMERS",
+        "aliases": [
+            "EMMERS",
+            "JAMALL EMMERS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_368",
+        "nombre_oficial": "KAI KAMAKA III",
+        "aliases": [
+            "KAI KAMAKA III"
+        ]
+    },
+    {
+        "id": "ufc_wiki_369",
+        "nombre_oficial": "JORDAN LEAVITT",
+        "aliases": [
+            "JORDAN LEAVITT",
+            "LEAVITT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_370",
+        "nombre_oficial": "PAT SABATINI",
+        "aliases": [
+            "SABATINI",
+            "PAT SABATINI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_371",
+        "nombre_oficial": "MELSIK BAGHDASARYAN",
+        "aliases": [
+            "MELSIK BAGHDASARYAN",
+            "BAGHDASARYAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_372",
+        "nombre_oficial": "RICKY TURCIOS",
+        "aliases": [
+            "TURCIOS",
+            "RICKY TURCIOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_373",
+        "nombre_oficial": "DAVID ONAMA",
+        "aliases": [
+            "DAVID ONAMA",
+            "ONAMA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_374",
+        "nombre_oficial": "JOANDERSON BRITO",
+        "aliases": [
+            "JOANDERSON BRITO",
+            "BRITO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_375",
+        "nombre_oficial": "CHRISTIAN RODRIGUEZ",
+        "aliases": [
+            "CHRISTIAN RODRIGUEZ",
+            "RODRIGUEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_376",
+        "nombre_oficial": "DANIEL SANTOS",
+        "aliases": [
+            "DANIEL SANTOS",
+            "SANTOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_377",
+        "nombre_oficial": "WILLIAM GOMIS",
+        "aliases": [
+            "WILLIAM GOMIS",
+            "GOMIS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_378",
+        "nombre_oficial": "MELQUIZAEL COSTA",
+        "aliases": [
+            "MELQUIZAEL COSTA",
+            "COSTA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_379",
+        "nombre_oficial": "LEE JEONGYEONG",
+        "aliases": [
+            "JEONGYEONG",
+            "LEE JEONGYEONG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_380",
+        "nombre_oficial": "YI ZHA",
+        "aliases": [
+            "YI ZHA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_381",
+        "nombre_oficial": "JACK JENKINS",
+        "aliases": [
+            "JACK JENKINS",
+            "JENKINS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_382",
+        "nombre_oficial": "GABRIEL SANTOS",
+        "aliases": [
+            "GABRIEL SANTOS",
+            "SANTOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_383",
+        "nombre_oficial": "GASTÓN BOLAÑOS",
+        "aliases": [
+            "BOLAÑOS",
+            "GASTÓN BOLAÑOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_384",
+        "nombre_oficial": "FERNANDO PADILLA",
+        "aliases": [
+            "PADILLA",
+            "FERNANDO PADILLA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_385",
+        "nombre_oficial": "DIEGO LOPES",
+        "aliases": [
+            "DIEGO LOPES",
+            "LOPES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_386",
+        "nombre_oficial": "MUHAMMAD NAIMOV",
+        "aliases": [
+            "MUHAMMAD NAIMOV",
+            "NAIMOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_387",
+        "nombre_oficial": "CHEPE MARISCAL",
+        "aliases": [
+            "MARISCAL",
+            "CHEPE MARISCAL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_388",
+        "nombre_oficial": "DENNIS BUZUKJA",
+        "aliases": [
+            "DENNIS BUZUKJA",
+            "BUZUKJA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_389",
+        "nombre_oficial": "MORGAN CHARRIÈRE",
+        "aliases": [
+            "CHARRIÈRE",
+            "MORGAN CHARRIÈRE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_390",
+        "nombre_oficial": "MANOLO ZECCHINI",
+        "aliases": [
+            "MANOLO ZECCHINI",
+            "ZECCHINI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_391",
+        "nombre_oficial": "JEAN SILVA",
+        "aliases": [
+            "JEAN SILVA",
+            "SILVA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_392",
+        "nombre_oficial": "RAMON TAVERAS",
+        "aliases": [
+            "RAMON TAVERAS",
+            "TAVERAS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_393",
+        "nombre_oficial": "HYDER AMIL",
+        "aliases": [
+            "HYDER AMIL",
+            "AMIL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_394",
+        "nombre_oficial": "VINICIUS OLIVEIRA",
+        "aliases": [
+            "OLIVEIRA",
+            "VINICIUS OLIVEIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_395",
+        "nombre_oficial": "DANNY SILVA",
+        "aliases": [
+            "DANNY SILVA",
+            "SILVA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_396",
+        "nombre_oficial": "STEVEN NGUYEN",
+        "aliases": [
+            "STEVEN NGUYEN",
+            "NGUYEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_397",
+        "nombre_oficial": "MAIRON SANTOS",
+        "aliases": [
+            "MAIRON SANTOS",
+            "SANTOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_398",
+        "nombre_oficial": "KAAN OFLI",
+        "aliases": [
+            "OFLI",
+            "KAAN OFLI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_399",
+        "nombre_oficial": "ROBERTO ROMERO",
+        "aliases": [
+            "ROMERO",
+            "ROBERTO ROMERO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_400",
+        "nombre_oficial": "AUSTIN BASHI",
+        "aliases": [
+            "AUSTIN BASHI",
+            "BASHI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_401",
+        "nombre_oficial": "BOGDAN GRAD",
+        "aliases": [
+            "GRAD",
+            "BOGDAN GRAD"
+        ]
+    },
+    {
+        "id": "ufc_wiki_402",
+        "nombre_oficial": "JOSE MIGUEL DELGADO",
+        "aliases": [
+            "DELGADO",
+            "JOSE MIGUEL DELGADO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_403",
+        "nombre_oficial": "KEVIN VALLEJOS",
+        "aliases": [
+            "KEVIN VALLEJOS",
+            "VALLEJOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_404",
+        "nombre_oficial": "PATRÍCIO PITBULL",
+        "aliases": [
+            "PITBULL",
+            "PATRÍCIO PITBULL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_405",
+        "nombre_oficial": "YADIER DEL VALLE",
+        "aliases": [
+            "VALLE",
+            "YADIER DEL VALLE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_406",
+        "nombre_oficial": "MICHAEL ASWELL JR",
+        "aliases": [
+            "MICHAEL ASWELL JR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_407",
+        "nombre_oficial": "YOO JOOSANG",
+        "aliases": [
+            "YOO JOOSANG",
+            "JOOSANG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_408",
+        "nombre_oficial": "AARON PICO",
+        "aliases": [
+            "AARON PICO",
+            "PICO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_409",
+        "nombre_oficial": "HARRY HARDWICK",
+        "aliases": [
+            "HARDWICK",
+            "HARRY HARDWICK"
+        ]
+    },
+    {
+        "id": "ufc_wiki_410",
+        "nombre_oficial": "ROBERT RUCHAŁA",
+        "aliases": [
+            "ROBERT RUCHAŁA",
+            "RUCHAŁA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_411",
+        "nombre_oficial": "LUKE RILEY",
+        "aliases": [
+            "RILEY",
+            "LUKE RILEY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_412",
+        "nombre_oficial": "ISAAC THOMSON",
+        "aliases": [
+            "ISAAC THOMSON",
+            "THOMSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_413",
+        "nombre_oficial": "KEIICHIRO NAKAMURA",
+        "aliases": [
+            "NAKAMURA",
+            "KEIICHIRO NAKAMURA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_414",
+        "nombre_oficial": "JAVIER REYES",
+        "aliases": [
+            "REYES",
+            "JAVIER REYES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_415",
+        "nombre_oficial": "ALBERTO MONTES",
+        "aliases": [
+            "ALBERTO MONTES",
+            "MONTES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_416",
+        "nombre_oficial": "MARWAN RAHIKI",
+        "aliases": [
+            "RAHIKI",
+            "MARWAN RAHIKI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_417",
+        "nombre_oficial": "LOSENE KEITA",
+        "aliases": [
+            "LOSENE KEITA",
+            "KEITA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_418",
+        "nombre_oficial": "KURTIS CAMPBELL",
+        "aliases": [
+            "CAMPBELL",
+            "KURTIS CAMPBELL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_419",
+        "nombre_oficial": "LERRYAN DOUGLAS",
+        "aliases": [
+            "DOUGLAS",
+            "LERRYAN DOUGLAS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_420",
+        "nombre_oficial": "JOSÉ MAURO DELANO",
+        "aliases": [
+            "DELANO",
+            "JOSÉ MAURO DELANO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_421",
+        "nombre_oficial": "TOMMY MCMILLEN",
+        "aliases": [
+            "MCMILLEN",
+            "TOMMY MCMILLEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_422",
+        "nombre_oficial": "MÁRCIO BARBOSA",
+        "aliases": [
+            "MÁRCIO BARBOSA",
+            "BARBOSA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_423",
+        "nombre_oficial": "OLLIE SCHMID",
+        "aliases": [
+            "OLLIE SCHMID",
+            "SCHMID"
+        ]
+    },
+    {
+        "id": "ufc_wiki_424",
+        "nombre_oficial": "ZHU KANGJIE",
+        "aliases": [
+            "KANGJIE",
+            "ZHU KANGJIE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_425",
+        "nombre_oficial": "RODRIGO VERA",
+        "aliases": [
+            "RODRIGO VERA",
+            "VERA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_426",
+        "nombre_oficial": "SHANE COLLINS",
+        "aliases": [
+            "SHANE COLLINS",
+            "COLLINS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_427",
+        "nombre_oficial": "OTARI TANZILOVI",
+        "aliases": [
+            "TANZILOVI",
+            "OTARI TANZILOVI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_428",
+        "nombre_oficial": "MURTAZALI MAGOMEDOV",
+        "aliases": [
+            "MURTAZALI MAGOMEDOV",
+            "MAGOMEDOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_429",
+        "nombre_oficial": "EZRA ELLIOTT",
+        "aliases": [
+            "ELLIOTT",
+            "EZRA ELLIOTT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_430",
+        "nombre_oficial": "DAMIEN ANDERSON",
+        "aliases": [
+            "DAMIEN ANDERSON",
+            "ANDERSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_431",
+        "nombre_oficial": "DAVEY GRANT",
+        "aliases": [
+            "GRANT",
+            "DAVEY GRANT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_432",
+        "nombre_oficial": "CODY GIBSON",
+        "aliases": [
+            "CODY GIBSON",
+            "GIBSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_433",
+        "nombre_oficial": "ROB FONT",
+        "aliases": [
+            "ROB FONT",
+            "FONT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_434",
+        "nombre_oficial": "MARLON VERA",
+        "aliases": [
+            "MARLON VERA",
+            "VERA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_435",
+        "nombre_oficial": "CODY GARBRANDT",
+        "aliases": [
+            "GARBRANDT",
+            "CODY GARBRANDT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_436",
+        "nombre_oficial": "AIEMANN ZAHABI",
+        "aliases": [
+            "ZAHABI",
+            "AIEMANN ZAHABI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_437",
+        "nombre_oficial": "DEIVESON FIGUEIREDO",
+        "aliases": [
+            "DEIVESON FIGUEIREDO",
+            "FIGUEIREDO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_438",
+        "nombre_oficial": "SONG YADONG",
+        "aliases": [
+            "SONG YADONG",
+            "YADONG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_439",
+        "nombre_oficial": "SEAN OMALLEY",
+        "aliases": [
+            "SEAN OMALLEY",
+            "OMALLEY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_440",
+        "nombre_oficial": "MERAB DVALISHVILI",
+        "aliases": [
+            "MERAB DVALISHVILI",
+            "DVALISHVILI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_441",
+        "nombre_oficial": "CORY SANDHAGEN",
+        "aliases": [
+            "SANDHAGEN",
+            "CORY SANDHAGEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_442",
+        "nombre_oficial": "RICKY SIMÓN",
+        "aliases": [
+            "RICKY SIMÓN",
+            "SIMÓN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_443",
+        "nombre_oficial": "BRYCE MITCHELL",
+        "aliases": [
+            "MITCHELL",
+            "BRYCE MITCHELL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_444",
+        "nombre_oficial": "RAONI BARCELOS",
+        "aliases": [
+            "RAONI BARCELOS",
+            "BARCELOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_445",
+        "nombre_oficial": "PETR YAN",
+        "aliases": [
+            "PETR YAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_446",
+        "nombre_oficial": "SAID NURMAGOMEDOV",
+        "aliases": [
+            "NURMAGOMEDOV",
+            "SAID NURMAGOMEDOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_447",
+        "nombre_oficial": "MONTEL JACKSON",
+        "aliases": [
+            "JACKSON",
+            "MONTEL JACKSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_448",
+        "nombre_oficial": "CHRIS GUTIÉRREZ",
+        "aliases": [
+            "GUTIÉRREZ",
+            "CHRIS GUTIÉRREZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_449",
+        "nombre_oficial": "JONATHAN MARTINEZ",
+        "aliases": [
+            "MARTINEZ",
+            "JONATHAN MARTINEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_450",
+        "nombre_oficial": "MARIO BAUTISTA",
+        "aliases": [
+            "BAUTISTA",
+            "MARIO BAUTISTA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_451",
+        "nombre_oficial": "CHARLES JOURDAIN",
+        "aliases": [
+            "JOURDAIN",
+            "CHARLES JOURDAIN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_452",
+        "nombre_oficial": "ALATENG HEILI",
+        "aliases": [
+            "ALATENG HEILI",
+            "HEILI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_453",
+        "nombre_oficial": "MILES JOHNS",
+        "aliases": [
+            "MILES JOHNS",
+            "JOHNS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_454",
+        "nombre_oficial": "KYLER PHILLIPS",
+        "aliases": [
+            "KYLER PHILLIPS",
+            "PHILLIPS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_455",
+        "nombre_oficial": "JOHN CASTAÑEDA",
+        "aliases": [
+            "CASTAÑEDA",
+            "JOHN CASTAÑEDA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_456",
+        "nombre_oficial": "ADRIAN YAÑEZ",
+        "aliases": [
+            "YAÑEZ",
+            "ADRIAN YAÑEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_457",
+        "nombre_oficial": "UMAR NURMAGOMEDOV",
+        "aliases": [
+            "NURMAGOMEDOV",
+            "UMAR NURMAGOMEDOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_458",
+        "nombre_oficial": "AORI QILENG",
+        "aliases": [
+            "QILENG",
+            "AORI QILENG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_459",
+        "nombre_oficial": "SAIMON OLIVEIRA",
+        "aliases": [
+            "SAIMON OLIVEIRA",
+            "OLIVEIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_460",
+        "nombre_oficial": "VICTOR HENRY",
+        "aliases": [
+            "HENRY",
+            "VICTOR HENRY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_461",
+        "nombre_oficial": "CHAD ANHELIGER",
+        "aliases": [
+            "CHAD ANHELIGER",
+            "ANHELIGER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_462",
+        "nombre_oficial": "GARRETT ARMFIELD",
+        "aliases": [
+            "GARRETT ARMFIELD",
+            "ARMFIELD"
+        ]
+    },
+    {
+        "id": "ufc_wiki_463",
+        "nombre_oficial": "DAMON BLACKSHEAR",
+        "aliases": [
+            "DAMON BLACKSHEAR",
+            "BLACKSHEAR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_464",
+        "nombre_oficial": "CRISTIAN QUIÑÓNEZ",
+        "aliases": [
+            "CRISTIAN QUIÑÓNEZ",
+            "QUIÑÓNEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_465",
+        "nombre_oficial": "CAMERON SAAIMAN",
+        "aliases": [
+            "SAAIMAN",
+            "CAMERON SAAIMAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_466",
+        "nombre_oficial": "RAUL ROSAS JR",
+        "aliases": [
+            "RAUL ROSAS JR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_467",
+        "nombre_oficial": "RINYA NAKAMURA",
+        "aliases": [
+            "NAKAMURA",
+            "RINYA NAKAMURA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_468",
+        "nombre_oficial": "TOSHIOMI KAZAMA",
+        "aliases": [
+            "TOSHIOMI KAZAMA",
+            "KAZAMA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_469",
+        "nombre_oficial": "FARID BASHARAT",
+        "aliases": [
+            "BASHARAT",
+            "FARID BASHARAT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_470",
+        "nombre_oficial": "JAFEL FILHO",
+        "aliases": [
+            "JAFEL FILHO",
+            "FILHO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_471",
+        "nombre_oficial": "MARCUS MCGHEE",
+        "aliases": [
+            "MCGHEE",
+            "MARCUS MCGHEE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_472",
+        "nombre_oficial": "MUIN GAFUROV",
+        "aliases": [
+            "MUIN GAFUROV",
+            "GAFUROV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_473",
+        "nombre_oficial": "RAFAEL ESTEVAM",
+        "aliases": [
+            "RAFAEL ESTEVAM",
+            "ESTEVAM"
+        ]
+    },
+    {
+        "id": "ufc_wiki_474",
+        "nombre_oficial": "PAYTON TALBOTT",
+        "aliases": [
+            "PAYTON TALBOTT",
+            "TALBOTT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_475",
+        "nombre_oficial": "SERHIY SIDEY",
+        "aliases": [
+            "SIDEY",
+            "SERHIY SIDEY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_476",
+        "nombre_oficial": "TIMOTHY CUAMBA",
+        "aliases": [
+            "TIMOTHY CUAMBA",
+            "CUAMBA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_477",
+        "nombre_oficial": "CARLOS VERA",
+        "aliases": [
+            "VERA",
+            "CARLOS VERA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_478",
+        "nombre_oficial": "BERNARDO SOPAJ",
+        "aliases": [
+            "SOPAJ",
+            "BERNARDO SOPAJ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_479",
+        "nombre_oficial": "BEKZAT ALMAKHAN",
+        "aliases": [
+            "ALMAKHAN",
+            "BEKZAT ALMAKHAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_480",
+        "nombre_oficial": "ANGEL PACHECO",
+        "aliases": [
+            "PACHECO",
+            "ANGEL PACHECO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_481",
+        "nombre_oficial": "JEAN MATSUMOTO",
+        "aliases": [
+            "JEAN MATSUMOTO",
+            "MATSUMOTO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_482",
+        "nombre_oficial": "REI TSURUYA",
+        "aliases": [
+            "TSURUYA",
+            "REI TSURUYA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_483",
+        "nombre_oficial": "FELIPE LIMA",
+        "aliases": [
+            "FELIPE LIMA",
+            "LIMA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_484",
+        "nombre_oficial": "LEE CHANGHO",
+        "aliases": [
+            "LEE CHANGHO",
+            "CHANGHO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_485",
+        "nombre_oficial": "XIAO LONG",
+        "aliases": [
+            "XIAO LONG",
+            "LONG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_486",
+        "nombre_oficial": "CODY HADDON",
+        "aliases": [
+            "CODY HADDON",
+            "HADDON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_487",
+        "nombre_oficial": "YOU SUYOUNG",
+        "aliases": [
+            "YOU SUYOUNG",
+            "SUYOUNG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_488",
+        "nombre_oficial": "KAI ASAKURA",
+        "aliases": [
+            "KAI ASAKURA",
+            "ASAKURA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_489",
+        "nombre_oficial": "COLBY THICKNESSE",
+        "aliases": [
+            "COLBY THICKNESSE",
+            "THICKNESSE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_490",
+        "nombre_oficial": "ALEKSANDRE TOPURIA",
+        "aliases": [
+            "ALEKSANDRE TOPURIA",
+            "TOPURIA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_491",
+        "nombre_oficial": "ELIJAH SMITH",
+        "aliases": [
+            "SMITH",
+            "ELIJAH SMITH"
+        ]
+    },
+    {
+        "id": "ufc_wiki_492",
+        "nombre_oficial": "JOSIAS MUSASA",
+        "aliases": [
+            "JOSIAS MUSASA",
+            "MUSASA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_493",
+        "nombre_oficial": "DAVID MARTÍNEZ",
+        "aliases": [
+            "MARTÍNEZ",
+            "DAVID MARTÍNEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_494",
+        "nombre_oficial": "LUIS GURULE",
+        "aliases": [
+            "GURULE",
+            "LUIS GURULE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_495",
+        "nombre_oficial": "MALCOLM WELLMAKER",
+        "aliases": [
+            "MALCOLM WELLMAKER",
+            "WELLMAKER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_496",
+        "nombre_oficial": "JOHN YANNIS",
+        "aliases": [
+            "JOHN YANNIS",
+            "YANNIS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_497",
+        "nombre_oficial": "SANTIAGO LUNA",
+        "aliases": [
+            "SANTIAGO LUNA",
+            "LUNA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_498",
+        "nombre_oficial": "JAKUB WIKŁACZ",
+        "aliases": [
+            "JAKUB WIKŁACZ",
+            "WIKŁACZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_499",
+        "nombre_oficial": "ETHYN EWING",
+        "aliases": [
+            "ETHYN EWING",
+            "EWING"
+        ]
+    },
+    {
+        "id": "ufc_wiki_500",
+        "nombre_oficial": "LAWRENCE LUI",
+        "aliases": [
+            "LAWRENCE LUI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_501",
+        "nombre_oficial": "HECHER SOSA",
+        "aliases": [
+            "HECHER SOSA",
+            "SOSA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_502",
+        "nombre_oficial": "JAMIE SIRAJ",
+        "aliases": [
+            "SIRAJ",
+            "JAMIE SIRAJ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_503",
+        "nombre_oficial": "MARK VOLOGDIN",
+        "aliases": [
+            "VOLOGDIN",
+            "MARK VOLOGDIN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_504",
+        "nombre_oficial": "ADRIÁN LUNA MARTINETTI",
+        "aliases": [
+            "ADRIÁN LUNA MARTINETTI",
+            "MARTINETTI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_505",
+        "nombre_oficial": "JUAN DÍAZ",
+        "aliases": [
+            "DÍAZ",
+            "JUAN DÍAZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_506",
+        "nombre_oficial": "JOHN GARZA",
+        "aliases": [
+            "JOHN GARZA",
+            "GARZA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_507",
+        "nombre_oficial": "ABDUL HUSSEIN",
+        "aliases": [
+            "HUSSEIN",
+            "ABDUL HUSSEIN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_508",
+        "nombre_oficial": "BORISLAV NIKOLIĆ",
+        "aliases": [
+            "NIKOLIĆ",
+            "BORISLAV NIKOLIĆ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_509",
+        "nombre_oficial": "TIM ELLIOTT",
+        "aliases": [
+            "TIM ELLIOTT",
+            "ELLIOTT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_510",
+        "nombre_oficial": "KYOJI HORIGUCHI",
+        "aliases": [
+            "HORIGUCHI",
+            "KYOJI HORIGUCHI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_511",
+        "nombre_oficial": "BRANDON MORENO",
+        "aliases": [
+            "BRANDON MORENO",
+            "MORENO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_512",
+        "nombre_oficial": "ALEXANDRE PANTOJA",
+        "aliases": [
+            "ALEXANDRE PANTOJA",
+            "PANTOJA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_513",
+        "nombre_oficial": "JOSEPH MORALES",
+        "aliases": [
+            "JOSEPH MORALES",
+            "MORALES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_514",
+        "nombre_oficial": "ALEX PEREZ",
+        "aliases": [
+            "ALEX PEREZ",
+            "PEREZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_515",
+        "nombre_oficial": "SU MUDAERJI",
+        "aliases": [
+            "MUDAERJI",
+            "SU MUDAERJI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_516",
+        "nombre_oficial": "KAI KARAFRANCE",
+        "aliases": [
+            "KAI KARAFRANCE",
+            "KARAFRANCE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_517",
+        "nombre_oficial": "BRUNO GUSTAVO DA SILVA",
+        "aliases": [
+            "SILVA",
+            "BRUNO GUSTAVO DA SILVA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_518",
+        "nombre_oficial": "ODE OSBOURNE",
+        "aliases": [
+            "OSBOURNE",
+            "ODE OSBOURNE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_519",
+        "nombre_oficial": "BRANDON ROYVAL",
+        "aliases": [
+            "BRANDON ROYVAL",
+            "ROYVAL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_520",
+        "nombre_oficial": "AMIR ALBAZI",
+        "aliases": [
+            "ALBAZI",
+            "AMIR ALBAZI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_521",
+        "nombre_oficial": "CODY DURDEN",
+        "aliases": [
+            "CODY DURDEN",
+            "DURDEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_522",
+        "nombre_oficial": "TAGIR ULANBEKOV",
+        "aliases": [
+            "ULANBEKOV",
+            "TAGIR ULANBEKOV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_523",
+        "nombre_oficial": "MANEL KAPE",
+        "aliases": [
+            "MANEL KAPE",
+            "KAPE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_524",
+        "nombre_oficial": "ALLAN NASCIMENTO",
+        "aliases": [
+            "NASCIMENTO",
+            "ALLAN NASCIMENTO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_525",
+        "nombre_oficial": "TATSURO TAIRA",
+        "aliases": [
+            "TAIRA",
+            "TATSURO TAIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_526",
+        "nombre_oficial": "CHARLES JOHNSON",
+        "aliases": [
+            "CHARLES JOHNSON",
+            "JOHNSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_527",
+        "nombre_oficial": "ALESSANDRO COSTA",
+        "aliases": [
+            "COSTA",
+            "ALESSANDRO COSTA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_528",
+        "nombre_oficial": "PARK HYUNSUNG",
+        "aliases": [
+            "PARK HYUNSUNG",
+            "HYUNSUNG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_529",
+        "nombre_oficial": "CLAYTON CARPENTER",
+        "aliases": [
+            "CARPENTER",
+            "CLAYTON CARPENTER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_530",
+        "nombre_oficial": "STEVE ERCEG",
+        "aliases": [
+            "STEVE ERCEG",
+            "ERCEG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_531",
+        "nombre_oficial": "JOSHUA VAN",
+        "aliases": [
+            "JOSHUA VAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_532",
+        "nombre_oficial": "ÉDGAR CHÁIREZ",
+        "aliases": [
+            "CHÁIREZ",
+            "ÉDGAR CHÁIREZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_533",
+        "nombre_oficial": "ASU ALMABAYEV",
+        "aliases": [
+            "ALMABAYEV",
+            "ASU ALMABAYEV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_534",
+        "nombre_oficial": "KEVIN BORJAS",
+        "aliases": [
+            "KEVIN BORJAS",
+            "BORJAS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_535",
+        "nombre_oficial": "RONALDO RODRÍGUEZ",
+        "aliases": [
+            "RODRÍGUEZ",
+            "RONALDO RODRÍGUEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_536",
+        "nombre_oficial": "ANDRÉ LIMA",
+        "aliases": [
+            "LIMA",
+            "ANDRÉ LIMA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_537",
+        "nombre_oficial": "MITCH RAPOSO",
+        "aliases": [
+            "MITCH RAPOSO",
+            "RAPOSO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_538",
+        "nombre_oficial": "STEWART NICOLL",
+        "aliases": [
+            "NICOLL",
+            "STEWART NICOLL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_539",
+        "nombre_oficial": "LUCAS ROCHA",
+        "aliases": [
+            "ROCHA",
+            "LUCAS ROCHA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_540",
+        "nombre_oficial": "RAMAZAN TEMIROV",
+        "aliases": [
+            "TEMIROV",
+            "RAMAZAN TEMIROV"
+        ]
+    },
+    {
+        "id": "ufc_wiki_541",
+        "nombre_oficial": "LONEER KAVANAGH",
+        "aliases": [
+            "LONEER KAVANAGH",
+            "KAVANAGH"
+        ]
+    },
+    {
+        "id": "ufc_wiki_542",
+        "nombre_oficial": "JOSE OCHOA",
+        "aliases": [
+            "OCHOA",
+            "JOSE OCHOA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_543",
+        "nombre_oficial": "NYAMJARGAL TUMENDEMBEREL",
+        "aliases": [
+            "NYAMJARGAL TUMENDEMBEREL",
+            "TUMENDEMBEREL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_544",
+        "nombre_oficial": "CHOI DONGHUN",
+        "aliases": [
+            "CHOI DONGHUN",
+            "DONGHUN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_545",
+        "nombre_oficial": "ALDEN CORIA",
+        "aliases": [
+            "CORIA",
+            "ALDEN CORIA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_546",
+        "nombre_oficial": "IMANOL RODRÍGUEZ",
+        "aliases": [
+            "RODRÍGUEZ",
+            "IMANOL RODRÍGUEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_547",
+        "nombre_oficial": "MIESHA TATE",
+        "aliases": [
+            "MIESHA TATE",
+            "TATE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_548",
+        "nombre_oficial": "JULIANNA PEÑA",
+        "aliases": [
+            "JULIANNA PEÑA",
+            "PEÑA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_549",
+        "nombre_oficial": "RAQUEL PENNINGTON",
+        "aliases": [
+            "RAQUEL PENNINGTON",
+            "PENNINGTON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_550",
+        "nombre_oficial": "PRISCILA CACHOEIRA",
+        "aliases": [
+            "CACHOEIRA",
+            "PRISCILA CACHOEIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_551",
+        "nombre_oficial": "YANA SANTOS",
+        "aliases": [
+            "YANA SANTOS",
+            "SANTOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_552",
+        "nombre_oficial": "MACY CHIASSON",
+        "aliases": [
+            "CHIASSON",
+            "MACY CHIASSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_553",
+        "nombre_oficial": "KAROL ROSA",
+        "aliases": [
+            "KAROL ROSA",
+            "ROSA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_554",
+        "nombre_oficial": "NORMA DUMONT",
+        "aliases": [
+            "DUMONT",
+            "NORMA DUMONT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_555",
+        "nombre_oficial": "JOSELYNE EDWARDS",
+        "aliases": [
+            "JOSELYNE EDWARDS",
+            "EDWARDS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_556",
+        "nombre_oficial": "JOSIANE NUNES",
+        "aliases": [
+            "JOSIANE NUNES",
+            "NUNES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_557",
+        "nombre_oficial": "AILÍN PÉREZ",
+        "aliases": [
+            "PÉREZ",
+            "AILÍN PÉREZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_558",
+        "nombre_oficial": "CHELSEA CHANDLER",
+        "aliases": [
+            "CHANDLER",
+            "CHELSEA CHANDLER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_559",
+        "nombre_oficial": "HAILEY COWAN",
+        "aliases": [
+            "COWAN",
+            "HAILEY COWAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_560",
+        "nombre_oficial": "TAINARA LISBOA",
+        "aliases": [
+            "TAINARA LISBOA",
+            "LISBOA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_561",
+        "nombre_oficial": "LUANA SANTOS",
+        "aliases": [
+            "LUANA SANTOS",
+            "SANTOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_562",
+        "nombre_oficial": "JACQUELINE CAVALCANTI",
+        "aliases": [
+            "CAVALCANTI",
+            "JACQUELINE CAVALCANTI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_563",
+        "nombre_oficial": "NORA CORNOLLE",
+        "aliases": [
+            "NORA CORNOLLE",
+            "CORNOLLE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_564",
+        "nombre_oficial": "MELISSA MULLINS",
+        "aliases": [
+            "MELISSA MULLINS",
+            "MULLINS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_565",
+        "nombre_oficial": "DARYA ZHELEZNYAKOVA",
+        "aliases": [
+            "ZHELEZNYAKOVA",
+            "DARYA ZHELEZNYAKOVA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_566",
+        "nombre_oficial": "KAYLA HARRISON",
+        "aliases": [
+            "KAYLA HARRISON",
+            "HARRISON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_567",
+        "nombre_oficial": "KLAUDIA SYGUŁA",
+        "aliases": [
+            "KLAUDIA SYGUŁA",
+            "SYGUŁA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_568",
+        "nombre_oficial": "ALICE PEREIRA",
+        "aliases": [
+            "PEREIRA",
+            "ALICE PEREIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_569",
+        "nombre_oficial": "MICHELLE MONTAGUE",
+        "aliases": [
+            "MICHELLE MONTAGUE",
+            "MONTAGUE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_570",
+        "nombre_oficial": "BEATRIZ MESQUITA",
+        "aliases": [
+            "BEATRIZ MESQUITA",
+            "MESQUITA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_571",
+        "nombre_oficial": "MELISSA CRODEN",
+        "aliases": [
+            "MELISSA CRODEN",
+            "CRODEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_572",
+        "nombre_oficial": "NINA NIKOLIJA MILOŠEVIĆ",
+        "aliases": [
+            "MILOŠEVIĆ",
+            "NINA NIKOLIJA MILOŠEVIĆ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_573",
+        "nombre_oficial": "ROSE NAMAJUNAS",
+        "aliases": [
+            "ROSE NAMAJUNAS",
+            "NAMAJUNAS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_574",
+        "nombre_oficial": "VALENTINA SHEVCHENKO",
+        "aliases": [
+            "SHEVCHENKO",
+            "VALENTINA SHEVCHENKO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_575",
+        "nombre_oficial": "VERONICA HARDY",
+        "aliases": [
+            "HARDY",
+            "VERONICA HARDY"
+        ]
+    },
+    {
+        "id": "ufc_wiki_576",
+        "nombre_oficial": "ALEXA GRASSO",
+        "aliases": [
+            "GRASSO",
+            "ALEXA GRASSO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_577",
+        "nombre_oficial": "JJ ALDRICH",
+        "aliases": [
+            "JJ ALDRICH",
+            "ALDRICH"
+        ]
+    },
+    {
+        "id": "ufc_wiki_578",
+        "nombre_oficial": "ZHANG WEILI",
+        "aliases": [
+            "ZHANG WEILI",
+            "WEILI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_579",
+        "nombre_oficial": "MAYCEE BARBER",
+        "aliases": [
+            "BARBER",
+            "MAYCEE BARBER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_580",
+        "nombre_oficial": "TRACY CORTEZ",
+        "aliases": [
+            "CORTEZ",
+            "TRACY CORTEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_581",
+        "nombre_oficial": "MIRANDA MAVERICK",
+        "aliases": [
+            "MAVERICK",
+            "MIRANDA MAVERICK"
+        ]
+    },
+    {
+        "id": "ufc_wiki_582",
+        "nombre_oficial": "MANON FIOROT",
+        "aliases": [
+            "MANON FIOROT",
+            "FIOROT"
+        ]
+    },
+    {
+        "id": "ufc_wiki_583",
+        "nombre_oficial": "CASEY ONEILL",
+        "aliases": [
+            "CASEY ONEILL",
+            "ONEILL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_584",
+        "nombre_oficial": "MELISSA GATTO",
+        "aliases": [
+            "GATTO",
+            "MELISSA GATTO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_585",
+        "nombre_oficial": "VANESSA DEMOPOULOS",
+        "aliases": [
+            "DEMOPOULOS",
+            "VANESSA DEMOPOULOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_586",
+        "nombre_oficial": "ERIN BLANCHFIELD",
+        "aliases": [
+            "BLANCHFIELD",
+            "ERIN BLANCHFIELD"
+        ]
+    },
+    {
+        "id": "ufc_wiki_587",
+        "nombre_oficial": "JASMINE JASUDAVICIUS",
+        "aliases": [
+            "JASUDAVICIUS",
+            "JASMINE JASUDAVICIUS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_588",
+        "nombre_oficial": "KARINE SILVA",
+        "aliases": [
+            "SILVA",
+            "KARINE SILVA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_589",
+        "nombre_oficial": "NATÁLIA SILVA",
+        "aliases": [
+            "SILVA",
+            "NATÁLIA SILVA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_590",
+        "nombre_oficial": "JULIANA MILLER",
+        "aliases": [
+            "MILLER",
+            "JULIANA MILLER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_591",
+        "nombre_oficial": "TEREZA BLEDÁ",
+        "aliases": [
+            "TEREZA BLEDÁ",
+            "BLEDÁ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_592",
+        "nombre_oficial": "GABRIELLA FERNANDES",
+        "aliases": [
+            "GABRIELLA FERNANDES",
+            "FERNANDES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_593",
+        "nombre_oficial": "JAMEYLYN HORTH",
+        "aliases": [
+            "JAMEYLYN HORTH",
+            "HORTH"
+        ]
+    },
+    {
+        "id": "ufc_wiki_594",
+        "nombre_oficial": "DIONE BARBOSA",
+        "aliases": [
+            "DIONE BARBOSA",
+            "BARBOSA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_595",
+        "nombre_oficial": "ERNESTA KARECKAITĖ",
+        "aliases": [
+            "KARECKAITĖ",
+            "ERNESTA KARECKAITĖ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_596",
+        "nombre_oficial": "EDUARDA MOURA",
+        "aliases": [
+            "EDUARDA MOURA",
+            "MOURA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_597",
+        "nombre_oficial": "CARLI JUDICE",
+        "aliases": [
+            "CARLI JUDICE",
+            "JUDICE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_598",
+        "nombre_oficial": "WANG CONG",
+        "aliases": [
+            "WANG CONG",
+            "CONG"
+        ]
+    },
+    {
+        "id": "ufc_wiki_599",
+        "nombre_oficial": "YUNEISY DUBEN",
+        "aliases": [
+            "YUNEISY DUBEN",
+            "DUBEN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_600",
+        "nombre_oficial": "REGINA TARIN",
+        "aliases": [
+            "REGINA TARIN",
+            "TARIN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_601",
+        "nombre_oficial": "JEISLA CHAVES",
+        "aliases": [
+            "CHAVES",
+            "JEISLA CHAVES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_602",
+        "nombre_oficial": "ANNA MELISANO",
+        "aliases": [
+            "ANNA MELISANO",
+            "MELISANO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_603",
+        "nombre_oficial": "JÉSSICA ANDRADE",
+        "aliases": [
+            "ANDRADE",
+            "JÉSSICA ANDRADE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_604",
+        "nombre_oficial": "ANGELA HILL",
+        "aliases": [
+            "ANGELA HILL",
+            "HILL"
+        ]
+    },
+    {
+        "id": "ufc_wiki_605",
+        "nombre_oficial": "KAROLINA KOWALKIEWICZ",
+        "aliases": [
+            "KOWALKIEWICZ",
+            "KAROLINA KOWALKIEWICZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_606",
+        "nombre_oficial": "TATIANA SUAREZ",
+        "aliases": [
+            "SUAREZ",
+            "TATIANA SUAREZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_607",
+        "nombre_oficial": "AMANDA LEMOS",
+        "aliases": [
+            "LEMOS",
+            "AMANDA LEMOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_608",
+        "nombre_oficial": "YAN XIAONAN",
+        "aliases": [
+            "YAN XIAONAN",
+            "XIAONAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_609",
+        "nombre_oficial": "GILLIAN ROBERTSON",
+        "aliases": [
+            "ROBERTSON",
+            "GILLIAN ROBERTSON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_610",
+        "nombre_oficial": "POLYANA VIANA",
+        "aliases": [
+            "POLYANA VIANA",
+            "VIANA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_611",
+        "nombre_oficial": "MACKENZIE DERN",
+        "aliases": [
+            "MACKENZIE DERN",
+            "DERN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_612",
+        "nombre_oficial": "VIRNA JANDIROBA",
+        "aliases": [
+            "VIRNA JANDIROBA",
+            "JANDIROBA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_613",
+        "nombre_oficial": "AMANDA RIBAS",
+        "aliases": [
+            "AMANDA RIBAS",
+            "RIBAS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_614",
+        "nombre_oficial": "MIZUKI INOUE",
+        "aliases": [
+            "MIZUKI INOUE",
+            "INOUE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_615",
+        "nombre_oficial": "LOMA LOOKBOONMEE",
+        "aliases": [
+            "LOMA LOOKBOONMEE",
+            "LOOKBOONMEE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_616",
+        "nombre_oficial": "SAM HUGHES",
+        "aliases": [
+            "HUGHES",
+            "SAM HUGHES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_617",
+        "nombre_oficial": "MONTSERRAT RUIZ",
+        "aliases": [
+            "MONTSERRAT RUIZ",
+            "RUIZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_618",
+        "nombre_oficial": "LOOPY GODINEZ",
+        "aliases": [
+            "LOOPY GODINEZ",
+            "GODINEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_619",
+        "nombre_oficial": "LUANA PINHEIRO",
+        "aliases": [
+            "PINHEIRO",
+            "LUANA PINHEIRO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_620",
+        "nombre_oficial": "TABATHA RICCI",
+        "aliases": [
+            "TABATHA RICCI",
+            "RICCI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_621",
+        "nombre_oficial": "ELISE REED",
+        "aliases": [
+            "ELISE REED",
+            "REED"
+        ]
+    },
+    {
+        "id": "ufc_wiki_622",
+        "nombre_oficial": "PIERA RODRIGUEZ",
+        "aliases": [
+            "PIERA RODRIGUEZ",
+            "RODRIGUEZ"
+        ]
+    },
+    {
+        "id": "ufc_wiki_623",
+        "nombre_oficial": "YAZMIN JAUREGUI",
+        "aliases": [
+            "YAZMIN JAUREGUI",
+            "JAUREGUI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_624",
+        "nombre_oficial": "IASMIN LUCINDO",
+        "aliases": [
+            "LUCINDO",
+            "IASMIN LUCINDO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_625",
+        "nombre_oficial": "DENISE GOMES",
+        "aliases": [
+            "GOMES",
+            "DENISE GOMES"
+        ]
+    },
+    {
+        "id": "ufc_wiki_626",
+        "nombre_oficial": "JAQUELINE AMORIM",
+        "aliases": [
+            "AMORIM",
+            "JAQUELINE AMORIM"
+        ]
+    },
+    {
+        "id": "ufc_wiki_627",
+        "nombre_oficial": "KETLEN SOUZA",
+        "aliases": [
+            "KETLEN SOUZA",
+            "SOUZA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_628",
+        "nombre_oficial": "SHAUNA BANNON",
+        "aliases": [
+            "BANNON",
+            "SHAUNA BANNON"
+        ]
+    },
+    {
+        "id": "ufc_wiki_629",
+        "nombre_oficial": "RAVENA OLIVEIRA",
+        "aliases": [
+            "OLIVEIRA",
+            "RAVENA OLIVEIRA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_630",
+        "nombre_oficial": "TALITA ALENCAR",
+        "aliases": [
+            "TALITA ALENCAR",
+            "ALENCAR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_631",
+        "nombre_oficial": "RAYANNE DOS SANTOS",
+        "aliases": [
+            "SANTOS",
+            "RAYANNE DOS SANTOS"
+        ]
+    },
+    {
+        "id": "ufc_wiki_632",
+        "nombre_oficial": "PUJA TOMAR",
+        "aliases": [
+            "TOMAR",
+            "PUJA TOMAR"
+        ]
+    },
+    {
+        "id": "ufc_wiki_633",
+        "nombre_oficial": "JULIA POLASTRI",
+        "aliases": [
+            "JULIA POLASTRI",
+            "POLASTRI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_634",
+        "nombre_oficial": "FATIMA KLINE",
+        "aliases": [
+            "KLINE",
+            "FATIMA KLINE"
+        ]
+    },
+    {
+        "id": "ufc_wiki_635",
+        "nombre_oficial": "NICOLLE CALIARI",
+        "aliases": [
+            "CALIARI",
+            "NICOLLE CALIARI"
+        ]
+    },
+    {
+        "id": "ufc_wiki_636",
+        "nombre_oficial": "ALICE ARDELEAN",
+        "aliases": [
+            "ALICE ARDELEAN",
+            "ARDELEAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_637",
+        "nombre_oficial": "STEPHANIE LUCIANO",
+        "aliases": [
+            "LUCIANO",
+            "STEPHANIE LUCIANO"
+        ]
+    },
+    {
+        "id": "ufc_wiki_638",
+        "nombre_oficial": "SHI MING",
+        "aliases": [
+            "SHI MING",
+            "MING"
+        ]
+    },
+    {
+        "id": "ufc_wiki_639",
+        "nombre_oficial": "ALEXIA THAINARA",
+        "aliases": [
+            "THAINARA",
+            "ALEXIA THAINARA"
+        ]
+    },
+    {
+        "id": "ufc_wiki_640",
+        "nombre_oficial": "SHANELLE DYER",
+        "aliases": [
+            "SHANELLE DYER",
+            "DYER"
+        ]
+    },
+    {
+        "id": "ufc_wiki_641",
+        "nombre_oficial": "XIONG JINGNAN",
+        "aliases": [
+            "JINGNAN",
+            "XIONG JINGNAN"
+        ]
+    },
+    {
+        "id": "ufc_wiki_642",
+        "nombre_oficial": "MARINA SPASIĆ",
+        "aliases": [
+            "MARINA SPASIĆ",
+            "SPASIĆ"
+        ]
+    }
+]

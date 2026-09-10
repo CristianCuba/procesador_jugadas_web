@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Importador de Equipos por Liga</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background: #121212;
+            color: #e0e0e0;
+            padding: 25px;
+        }
+
+        .card-custom {
+            background: #1e1e1e;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-4" style="max-width: 800px;">
+        <div class="card card-custom p-4">
+            <h3 class="mb-3 text-warning">⚽ Importador de Equipos por Liga</h3>
+            <p class="text-secondary">Paso 1: Descarga el catálogo global de ligas. Paso 2: Selecciona una liga para
+                guardar sus equipos con su ID único permanente.</p>
+
+            <!-- Cargar Ligas -->
+            <div class="d-flex gap-3 mb-4">
+                <button id="btnCargarLigas" class="btn btn-outline-info" onclick="cargarLigas()">
+                    1. Cargar/Actualizar Ligas de Fútbol
+                </button>
+                <span id="lblLigasCount" class="align-self-center badge bg-secondary">0 ligas disponibles</span>
+            </div>
+
+            <!-- Dropdown y Botón Importar -->
+            <div class="mb-3">
+                <label for="selectLiga" class="form-label">Selecciona una Liga:</label>
+                <select id="selectLiga" class="form-select bg-dark text-white border-secondary" disabled>
+                    <option value="">-- Primero presiona 'Cargar Ligas' --</option>
+                </select>
+            </div>
+
+            <button id="btnImportar" class="btn btn-success w-100 fw-bold" onclick="importarEquiposLiga()" disabled>
+                2. Importar Equipos de la Liga Seleccionada
+            </button>
+
+            <!-- Consola de Resultados -->
+            <div id="boxResultado" class="mt-4 p-3 bg-black rounded text-monospace d-none"></div>
+        </div>
+    </div>
+
+    <script>
+       async function cargarLigas() {
+            const btn = document.getElementById('btnCargarLigas');
+            const select = document.getElementById('selectLiga');
+            btn.disabled = true;
+            btn.innerText = "Consultando ligas...";
+
+            try {
+                const res = await fetch('/obtener_ligas_futbol');
+                const text = await res.text(); // Leer como texto primero
+
+                let data;
+                try {
+                    data = JSON.parse(text); // Intentar convertir a JSON
+                } catch (err) {
+                    console.error("Respuesta no válida del servidor:", text);
+                    alert("Error 500 del servidor. Revisa la consola del navegador o la terminal de Flask.");
+                    return;
+                }
+
+                if (data.success) {
+                    select.innerHTML = '<option value="">-- Selecciona una Liga --</option>';
+                    data.ligas.forEach(l => {
+                        select.innerHTML += `<option value="${l.nombre_liga}">${l.nombre_liga}</option>`;
+                    });
+                    select.disabled = false;
+                    document.getElementById('btnImportar').disabled = false;
+                    document.getElementById('lblLigasCount').innerText = `${data.total} ligas cargadas`;
+                } else {
+                    alert('Error: ' + data.mensaje);
+                }
+            } catch (e) {
+                alert('Excepción: ' + e.message);
+            } finally {
+                btn.disabled = false;
+                btn.innerText = "1. Cargar/Actualizar Ligas de Fútbol";
+            }
+        }
+
+        async function importarEquiposLiga() {
+            const select = document.getElementById('selectLiga');
+            const nombreLiga = select.value;
+            const box = document.getElementById('boxResultado');
+
+            if (!nombreLiga) {
+                alert('Selecciona una liga de la lista.');
+                return;
+            }
+
+            box.classList.remove('d-none');
+            box.innerHTML = `<span class="text-info">⏳ Consultando equipos para: <b>${nombreLiga}</b>...</span>`;
+
+            try {
+                const res = await fetch('/importar_equipos_por_liga', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ nombre_liga: nombreLiga })
+                });
+
+                const data = await res.json();
+                if (data.success) {
+                    box.innerHTML = `
+                        <div class="text-success">✅ ¡Importación completada!</div>
+                        <div><b>Liga:</b> ${data.liga}</div>
+                        <div><b>Equipos devueltos por la API:</b> ${data.equipos_recibidos}</div>
+                        <div><b>Nuevos registrados:</b> ${data.nuevos_guardados}</div>
+                        <div><b>Total global en JSON:</b> ${data.total_equipos_db} equipos</div>
+                    `;
+                } else {
+                    box.innerHTML = `<span class="text-danger">❌ Error: ${data.mensaje}</span>`;
+                }
+            } catch (e) {
+                box.innerHTML = `<span class="text-danger">💥 Excepción: ${e.message}</span>`;
+            }
+        }
+    </script>
+</body>
+
+</html>

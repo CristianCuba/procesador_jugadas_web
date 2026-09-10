@@ -1,0 +1,5678 @@
+[
+  {
+    "fila": 1,
+    "raw": "[11:48 a.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 2,
+    "raw": "Fc kauno zalgiria alta 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FC_KAUNO_ZALGIRIA_ALTA'",
+      "      ├─ Nombre extraído: 'FC KAUNO ZALGIRIA' | Sanitizado: 'FC KAUNO ZALGIRIA'",
+      "      └─ 🎯 FUZZY MATCH (84%): Match 'KAUNO ZALGIRIS' ──> Oficial 'KAUNO ZALGIRIS' | Final: 'KAUNO ZALGIRIS_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'KAUNO ZALGIRIS_ALTA' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "KAUNO ZALGIRIS_ALTA",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 3,
+    "raw": "[11:49 a.m., 9/9/2026] Deportes: Johnny",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JOHNNY'"
+    ],
+    "resultado": {
+      "jugada": "JOHNNY",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 4,
+    "raw": "Feyenord  4000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FEYENORD'",
+      "      ├─ Nombre extraído: 'FEYENORD' | Sanitizado: 'FEYENORD'",
+      "      └─ 🎯 FUZZY MATCH (94%): Match 'FEYENOORD' ──> Oficial 'FEYENOORD' | Final: 'FEYENOORD'",
+      "📊 RESULTADO FINAL -> Jugada: 'FEYENOORD' | Monto: 4000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "FEYENOORD",
+      "monto": 4000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 5,
+    "raw": "[11:49 a.m., 9/9/2026] Deportes: Aballe",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ABALLE'"
+    ],
+    "resultado": {
+      "jugada": "ABALLE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 6,
+    "raw": "Barcelona baja 2000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA_BAJA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC_BAJA'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC_BAJA' | Monto: 2000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC_BAJA",
+      "monto": 2000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 7,
+    "raw": "[11:50 a.m., 9/9/2026] Deportes: papito",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'PAPITO'"
+    ],
+    "resultado": {
+      "jugada": "PAPITO",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 8,
+    "raw": "arsenal 10000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: 10000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": 10000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 9,
+    "raw": "[11:54 a.m., 9/9/2026] Deportes: papito",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'PAPITO'"
+    ],
+    "resultado": {
+      "jugada": "PAPITO",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 10,
+    "raw": "Tripleta de 4000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 4000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 4000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 11,
+    "raw": "Arsenal",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 12,
+    "raw": "Arsenal alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL_ALTA'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 13,
+    "raw": "Liverpool",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL'",
+      "      ├─ Nombre extraído: 'LIVERPOOL' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 14,
+    "raw": "Slovan bratislava",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SLOVAN_BRATISLAVA'",
+      "      ├─ Nombre extraído: 'SLOVAN BRATISLAVA' | Sanitizado: 'SLOVAN BRATISLAVA'",
+      "      └─ ✅ MATCH EXACTO: 'SLOVAN BRATISLAVA' ──> 'SLOVAN BRATISLAVA' | Final: 'SLOVAN BRATISLAVA'",
+      "📊 RESULTADO FINAL -> Jugada: 'SLOVAN BRATISLAVA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SLOVAN BRATISLAVA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 15,
+    "raw": "[11:58 a.m., 9/9/2026] Deportes: Niche",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'NICHE'"
+    ],
+    "resultado": {
+      "jugada": "NICHE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 16,
+    "raw": "Tripleta 545",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 545.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 545.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 17,
+    "raw": "Arsenal futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL_FC'",
+      "      ├─ Nombre extraído: 'ARSENAL FC' | Sanitizado: 'ARSENAL FC'",
+      "      └─ 🎯 FUZZY MATCH (82%): Match 'ARSENAL' ──> Oficial 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 18,
+    "raw": "Liverpool fútbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL_FC'",
+      "      ├─ Nombre extraído: 'LIVERPOOL FC' | Sanitizado: 'LIVERPOOL FC'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'LIVERPOOL' ──> Oficial 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 19,
+    "raw": "Barcelona alta fútbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA_FC_ALTA'",
+      "      ├─ Nombre extraído: 'BARCELONA FC' | Sanitizado: 'BARCELONA FC'",
+      "      └─ ✅ MATCH EXACTO: 'BARCELONA FC' ──> 'BARCELONA FC' | Final: 'BARCELONA FC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 20,
+    "raw": "Garatasaray fútbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'GARATASARAY_FC'",
+      "      ├─ Nombre extraído: 'GARATASARAY FC' | Sanitizado: 'GARATASARAY FC'",
+      "      └─ 🎯 FUZZY MATCH (80%): Match 'GALATASARAY' ──> Oficial 'GALATASARAY' | Final: 'GALATASARAY'",
+      "📊 RESULTADO FINAL -> Jugada: 'GALATASARAY' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "GALATASARAY",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 21,
+    "raw": "Chelsea futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CHELSEA_FC'",
+      "      ├─ Nombre extraído: 'CHELSEA FC' | Sanitizado: 'CHELSEA FC'",
+      "      └─ 🎯 FUZZY MATCH (82%): Match 'CHELSEA' ──> Oficial 'CHELSEA' | Final: 'CHELSEA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHELSEA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CHELSEA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 22,
+    "raw": "[11:59 a.m., 9/9/2026] Deportes: papito",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'PAPITO'"
+    ],
+    "resultado": {
+      "jugada": "PAPITO",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 23,
+    "raw": "tripleta 2000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 2000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 2000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 24,
+    "raw": "Feyenoord",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FEYENOORD'",
+      "      ├─ Nombre extraído: 'FEYENOORD' | Sanitizado: 'FEYENOORD'",
+      "      └─ ✅ MATCH EXACTO: 'FEYENOORD' ──> 'FEYENOORD' | Final: 'FEYENOORD'",
+      "📊 RESULTADO FINAL -> Jugada: 'FEYENOORD' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "FEYENOORD",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 25,
+    "raw": "galatasaray",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'GALATASARAY'",
+      "      ├─ Nombre extraído: 'GALATASARAY' | Sanitizado: 'GALATASARAY'",
+      "      └─ ✅ MATCH EXACTO: 'GALATASARAY' ──> 'GALATASARAY' | Final: 'GALATASARAY'",
+      "📊 RESULTADO FINAL -> Jugada: 'GALATASARAY' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "GALATASARAY",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 26,
+    "raw": "arsenal",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 27,
+    "raw": "arsenal alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL_ALTA'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 28,
+    "raw": "[12:00 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 29,
+    "raw": "Fc tammeka alta 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FC_TAMMEKA_ALTA'",
+      "      ├─ Nombre extraído: 'FC TAMMEKA' | Sanitizado: 'FC TAMMEKA'",
+      "      └─ 🎯 FUZZY MATCH (82%): Match 'TAMMEKA' ──> Oficial 'TAMMEKA' | Final: 'TAMMEKA_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'TAMMEKA_ALTA' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "TAMMEKA_ALTA",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 30,
+    "raw": "[12:11 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 31,
+    "raw": "Fc twente 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FC_TWENTE'",
+      "      ├─ Nombre extraído: 'FC TWENTE' | Sanitizado: 'FC TWENTE'",
+      "      └─ ✅ MATCH EXACTO: 'FC TWENTE' ──> 'FC TWENTE' | Final: 'FC TWENTE'",
+      "📊 RESULTADO FINAL -> Jugada: 'FC TWENTE' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "FC TWENTE",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 32,
+    "raw": "[12:16 p.m., 9/9/2026] Deportes: Rober",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ROBER'"
+    ],
+    "resultado": {
+      "jugada": "ROBER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 33,
+    "raw": "Tripleta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 500.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 500.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 34,
+    "raw": "St Louis cardenales ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ST_LOUIS_CARDENALES'",
+      "      ├─ Nombre extraído: 'ST LOUIS CARDENALES' | Sanitizado: 'ST LOUIS CARDENALES'",
+      "      └─ 🎯 FUZZY MATCH (92%): Match 'ST. LOUIS CARDINALS' ──> Oficial 'ST. LOUIS CARDINALS' | Final: 'ST. LOUIS CARDINALS'",
+      "📊 RESULTADO FINAL -> Jugada: 'ST. LOUIS CARDINALS' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ST. LOUIS CARDINALS",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 35,
+    "raw": "Padres mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PADRES_MLB'",
+      "      ├─ Nombre extraído: 'PADRES' | Sanitizado: 'PADRES'",
+      "      └─ ✅ MATCH EXACTO: 'PADRES' ──> 'SAN DIEGO PADRES' | Final: 'SAN DIEGO PADRES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'SAN DIEGO PADRES_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SAN DIEGO PADRES_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 36,
+    "raw": "Victoria plzen",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'VICTORIA_PLZEN'",
+      "      ├─ Nombre extraído: 'VICTORIA PLZEN' | Sanitizado: 'VICTORIA PLZEN'",
+      "      └─ 🎯 FUZZY MATCH (93%): Match 'VIKTORIA PLZEN' ──> Oficial 'VIKTORIA PLZEN' | Final: 'VIKTORIA PLZEN'",
+      "📊 RESULTADO FINAL -> Jugada: 'VIKTORIA PLZEN' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "VIKTORIA PLZEN",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 37,
+    "raw": "Barcelona",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 38,
+    "raw": "Arcenal",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARCENAL'",
+      "      ├─ Nombre extraído: 'ARCENAL' | Sanitizado: 'ARCENAL'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'ARSENAL' ──> Oficial 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 39,
+    "raw": "Liverpool",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL'",
+      "      ├─ Nombre extraído: 'LIVERPOOL' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 40,
+    "raw": "Celtic alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CELTIC_ALTA'",
+      "      ├─ Nombre extraído: 'CELTIC' | Sanitizado: 'CELTIC'",
+      "      └─ ✅ MATCH EXACTO: 'CELTIC' ──> 'CELTIC' | Final: 'CELTIC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CELTIC_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CELTIC_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 41,
+    "raw": "Chelsea",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CHELSEA'",
+      "      ├─ Nombre extraído: 'CHELSEA' | Sanitizado: 'CHELSEA'",
+      "      └─ ✅ MATCH EXACTO: 'CHELSEA' ──> 'CHELSEA' | Final: 'CHELSEA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHELSEA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CHELSEA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 42,
+    "raw": "Barcelona 2500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC' | Monto: 2500.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC",
+      "monto": 2500.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 43,
+    "raw": "[12:18 p.m., 9/9/2026] Deportes: Juaquin",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JUAQUIN'"
+    ],
+    "resultado": {
+      "jugada": "JUAQUIN",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 44,
+    "raw": "Tripleta500",
+    "tipo": "ADVERTENCIA",
+    "detalles": [
+      "   🔍 Normalizando: 'TRIPLETA'",
+      "      ├─ Nombre extraído: 'TRIPLETA' | Sanitizado: 'TRIPLETA'",
+      "      └─ ⚠️ NO RECONOCIDO (62% < Umbral 70%). Mejor intento: 'RECOLETA'",
+      "📊 RESULTADO FINAL -> Jugada: 'TRIPLETA' | Monto: nan | Línea: 500"
+    ],
+    "resultado": {
+      "jugada": "TRIPLETA",
+      "monto": "",
+      "linea": "500"
+    }
+  },
+  {
+    "fila": 45,
+    "raw": "Arsenal",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 46,
+    "raw": "Liverpool",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL'",
+      "      ├─ Nombre extraído: 'LIVERPOOL' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 47,
+    "raw": "Toronto mlb ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'TORONTO_MLB'",
+      "      ├─ Nombre extraído: 'TORONTO' | Sanitizado: 'TORONTO'",
+      "      └─ ✅ MATCH EXACTO: 'TORONTO' ──> 'TORONTO BLUE JAYS' | Final: 'TORONTO BLUE JAYS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'TORONTO BLUE JAYS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "TORONTO BLUE JAYS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 48,
+    "raw": "Padres San Diego mlb ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PADRES_SAN_DIEGO_MLB'",
+      "      ├─ Nombre extraído: 'PADRES SAN DIEGO' | Sanitizado: 'PADRES SAN DIEGO'",
+      "      └─ 🎯 FUZZY MATCH (100%): Match 'SAN DIEGO PADRES' ──> Oficial 'SAN DIEGO PADRES' | Final: 'SAN DIEGO PADRES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'SAN DIEGO PADRES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "SAN DIEGO PADRES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 49,
+    "raw": "[12:19 p.m., 9/9/2026] Deportes: dariel",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'DARIEL'"
+    ],
+    "resultado": {
+      "jugada": "DARIEL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 50,
+    "raw": "feyenoord 2000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FEYENOORD'",
+      "      ├─ Nombre extraído: 'FEYENOORD' | Sanitizado: 'FEYENOORD'",
+      "      └─ ✅ MATCH EXACTO: 'FEYENOORD' ──> 'FEYENOORD' | Final: 'FEYENOORD'",
+      "📊 RESULTADO FINAL -> Jugada: 'FEYENOORD' | Monto: 2000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "FEYENOORD",
+      "monto": 2000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 51,
+    "raw": "[12:20 p.m., 9/9/2026] Deportes: Miguel (Fútbol)",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'MIGUEL FÚTBOL'"
+    ],
+    "resultado": {
+      "jugada": "MIGUEL FÚTBOL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 52,
+    "raw": "Barcelona 3500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC' | Monto: 3500.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC",
+      "monto": 3500.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 53,
+    "raw": "[12:21 p.m., 9/9/2026] Deportes: Luisito fútbol",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'LUISITO FÚTBOL'"
+    ],
+    "resultado": {
+      "jugada": "LUISITO FÚTBOL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 54,
+    "raw": "Barcelona fc 2500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA_FC'",
+      "      ├─ Nombre extraído: 'BARCELONA FC' | Sanitizado: 'BARCELONA FC'",
+      "      └─ ✅ MATCH EXACTO: 'BARCELONA FC' ──> 'BARCELONA FC' | Final: 'BARCELONA FC'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC' | Monto: 2500.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC",
+      "monto": 2500.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 55,
+    "raw": "[12:24 p.m., 9/9/2026] Deportes: dariel",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'DARIEL'"
+    ],
+    "resultado": {
+      "jugada": "DARIEL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 56,
+    "raw": "cuarteta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 500.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 500.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 57,
+    "raw": "feyenoord",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FEYENOORD'",
+      "      ├─ Nombre extraído: 'FEYENOORD' | Sanitizado: 'FEYENOORD'",
+      "      └─ ✅ MATCH EXACTO: 'FEYENOORD' ──> 'FEYENOORD' | Final: 'FEYENOORD'",
+      "📊 RESULTADO FINAL -> Jugada: 'FEYENOORD' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "FEYENOORD",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 58,
+    "raw": "galatasaray",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'GALATASARAY'",
+      "      ├─ Nombre extraído: 'GALATASARAY' | Sanitizado: 'GALATASARAY'",
+      "      └─ ✅ MATCH EXACTO: 'GALATASARAY' ──> 'GALATASARAY' | Final: 'GALATASARAY'",
+      "📊 RESULTADO FINAL -> Jugada: 'GALATASARAY' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "GALATASARAY",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 59,
+    "raw": "telstar",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'TELSTAR'",
+      "      ├─ Nombre extraído: 'TELSTAR' | Sanitizado: 'TELSTAR'",
+      "      └─ ✅ MATCH EXACTO: 'TELSTAR' ──> 'TELSTAR' | Final: 'TELSTAR'",
+      "📊 RESULTADO FINAL -> Jugada: 'TELSTAR' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "TELSTAR",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 60,
+    "raw": "al mokawloon",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'AL_MOKAWLOON'",
+      "      ├─ Nombre extraído: 'AL MOKAWLOON' | Sanitizado: 'AL MOKAWLOON'",
+      "      └─ ✅ MATCH EXACTO: 'AL MOKAWLOON' ──> 'AL MOKAWLOON' | Final: 'AL MOKAWLOON'",
+      "📊 RESULTADO FINAL -> Jugada: 'AL MOKAWLOON' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "AL MOKAWLOON",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 61,
+    "raw": "[12:27 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 62,
+    "raw": "Fc Barcelona 10000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FC_BARCELONA'",
+      "      ├─ Nombre extraído: 'FC BARCELONA' | Sanitizado: 'FC BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (100%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC' | Monto: 10000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC",
+      "monto": 10000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 63,
+    "raw": "[12:29 p.m., 9/9/2026] Deportes: Marlon",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'MARLON'"
+    ],
+    "resultado": {
+      "jugada": "MARLON",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 64,
+    "raw": "Liverpool futbol 6350",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL_FC'",
+      "      ├─ Nombre extraído: 'LIVERPOOL FC' | Sanitizado: 'LIVERPOOL FC'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'LIVERPOOL' ──> Oficial 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: 6350.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": 6350.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 65,
+    "raw": "[12:31 p.m., 9/9/2026] Deportes: Juan Carlos",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JUAN CARLOS'"
+    ],
+    "resultado": {
+      "jugada": "JUAN CARLOS",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 66,
+    "raw": "Barcelona alta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA_ALTA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC_ALTA' | Monto: 500.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC_ALTA",
+      "monto": 500.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 67,
+    "raw": "[12:34 p.m., 9/9/2026] Deportes: Calvin",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CALVIN'"
+    ],
+    "resultado": {
+      "jugada": "CALVIN",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 68,
+    "raw": "Barcelona 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 69,
+    "raw": "Barcelona alta 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA_ALTA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC_ALTA' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC_ALTA",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 70,
+    "raw": "[12:34 p.m., 9/9/2026] Deportes: Lester",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'LESTER'"
+    ],
+    "resultado": {
+      "jugada": "LESTER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 71,
+    "raw": "Barca 8 mil alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCA_ALTA'",
+      "      ├─ Nombre extraído: 'BARCA' | Sanitizado: 'BARCA'",
+      "      └─ ✅ MATCH EXACTO: 'BARCA' ──> 'BARCELONA FC' | Final: 'BARCELONA FC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC_ALTA' | Monto: 8000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC_ALTA",
+      "monto": 8000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 72,
+    "raw": "[12:39 p.m., 9/9/2026] Deportes: Erick",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ERICK'"
+    ],
+    "resultado": {
+      "jugada": "ERICK",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 73,
+    "raw": "Feyenoord 10000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FEYENOORD'",
+      "      ├─ Nombre extraído: 'FEYENOORD' | Sanitizado: 'FEYENOORD'",
+      "      └─ ✅ MATCH EXACTO: 'FEYENOORD' ──> 'FEYENOORD' | Final: 'FEYENOORD'",
+      "📊 RESULTADO FINAL -> Jugada: 'FEYENOORD' | Monto: 10000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "FEYENOORD",
+      "monto": 10000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 74,
+    "raw": "[12:42 p.m., 9/9/2026] Deportes: Cristian Roy",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CRISTIAN ROY'"
+    ],
+    "resultado": {
+      "jugada": "CRISTIAN ROY",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 75,
+    "raw": "Victoria plzen 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'VICTORIA_PLZEN'",
+      "      ├─ Nombre extraído: 'VICTORIA PLZEN' | Sanitizado: 'VICTORIA PLZEN'",
+      "      └─ 🎯 FUZZY MATCH (93%): Match 'VIKTORIA PLZEN' ──> Oficial 'VIKTORIA PLZEN' | Final: 'VIKTORIA PLZEN'",
+      "📊 RESULTADO FINAL -> Jugada: 'VIKTORIA PLZEN' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "VIKTORIA PLZEN",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 76,
+    "raw": "Quinteta 800",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 800.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 800.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 78,
+    "raw": "Arsenal",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 79,
+    "raw": "Victoria plzen",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'VICTORIA_PLZEN'",
+      "      ├─ Nombre extraído: 'VICTORIA PLZEN' | Sanitizado: 'VICTORIA PLZEN'",
+      "      └─ 🎯 FUZZY MATCH (93%): Match 'VIKTORIA PLZEN' ──> Oficial 'VIKTORIA PLZEN' | Final: 'VIKTORIA PLZEN'",
+      "📊 RESULTADO FINAL -> Jugada: 'VIKTORIA PLZEN' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "VIKTORIA PLZEN",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 80,
+    "raw": "Chelsea",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CHELSEA'",
+      "      ├─ Nombre extraído: 'CHELSEA' | Sanitizado: 'CHELSEA'",
+      "      └─ ✅ MATCH EXACTO: 'CHELSEA' ──> 'CHELSEA' | Final: 'CHELSEA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHELSEA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CHELSEA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 81,
+    "raw": "Celtic alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CELTIC_ALTA'",
+      "      ├─ Nombre extraído: 'CELTIC' | Sanitizado: 'CELTIC'",
+      "      └─ ✅ MATCH EXACTO: 'CELTIC' ──> 'CELTIC' | Final: 'CELTIC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CELTIC_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CELTIC_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 82,
+    "raw": "Celtic",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CELTIC'",
+      "      ├─ Nombre extraído: 'CELTIC' | Sanitizado: 'CELTIC'",
+      "      └─ ✅ MATCH EXACTO: 'CELTIC' ──> 'CELTIC' | Final: 'CELTIC'",
+      "📊 RESULTADO FINAL -> Jugada: 'CELTIC' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CELTIC",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 84,
+    "raw": "Tripleta 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 1000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 1000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 86,
+    "raw": "Napoli",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NAPOLI'",
+      "      ├─ Nombre extraído: 'NAPOLI' | Sanitizado: 'NAPOLI'",
+      "      └─ ✅ MATCH EXACTO: 'NAPOLI' ──> 'NAPOLI' | Final: 'NAPOLI'",
+      "📊 RESULTADO FINAL -> Jugada: 'NAPOLI' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NAPOLI",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 87,
+    "raw": "Victoria plzen",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'VICTORIA_PLZEN'",
+      "      ├─ Nombre extraído: 'VICTORIA PLZEN' | Sanitizado: 'VICTORIA PLZEN'",
+      "      └─ 🎯 FUZZY MATCH (93%): Match 'VIKTORIA PLZEN' ──> Oficial 'VIKTORIA PLZEN' | Final: 'VIKTORIA PLZEN'",
+      "📊 RESULTADO FINAL -> Jugada: 'VIKTORIA PLZEN' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "VIKTORIA PLZEN",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 88,
+    "raw": "Chelsea",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CHELSEA'",
+      "      ├─ Nombre extraído: 'CHELSEA' | Sanitizado: 'CHELSEA'",
+      "      └─ ✅ MATCH EXACTO: 'CHELSEA' ──> 'CHELSEA' | Final: 'CHELSEA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHELSEA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CHELSEA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 89,
+    "raw": "[12:43 p.m., 9/9/2026] Deportes: Pepe",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'PEPE'"
+    ],
+    "resultado": {
+      "jugada": "PEPE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 90,
+    "raw": "Telstar 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'TELSTAR'",
+      "      ├─ Nombre extraído: 'TELSTAR' | Sanitizado: 'TELSTAR'",
+      "      └─ ✅ MATCH EXACTO: 'TELSTAR' ──> 'TELSTAR' | Final: 'TELSTAR'",
+      "📊 RESULTADO FINAL -> Jugada: 'TELSTAR' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "TELSTAR",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 91,
+    "raw": "Futboll Barcelona alta 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FUTBOLL_BARCELONA_ALTA'",
+      "      ├─ Nombre extraído: 'FUTBOLL BARCELONA' | Sanitizado: 'FUTBOLL BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (76%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC_ALTA' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC_ALTA",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 92,
+    "raw": "[12:43 p.m., 9/9/2026] Deportes: Chichi",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CHICHI'"
+    ],
+    "resultado": {
+      "jugada": "CHICHI",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 93,
+    "raw": "Barcelona alta 20000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA_ALTA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC_ALTA' | Monto: 20000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC_ALTA",
+      "monto": 20000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 94,
+    "raw": "[12:44 p.m., 9/9/2026] Deportes: Juaquin",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JUAQUIN'"
+    ],
+    "resultado": {
+      "jugada": "JUAQUIN",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 95,
+    "raw": "Tripleta500",
+    "tipo": "ADVERTENCIA",
+    "detalles": [
+      "   🔍 Normalizando: 'TRIPLETA'",
+      "      ├─ Nombre extraído: 'TRIPLETA' | Sanitizado: 'TRIPLETA'",
+      "      └─ ⚠️ NO RECONOCIDO (62% < Umbral 70%). Mejor intento: 'RECOLETA'",
+      "📊 RESULTADO FINAL -> Jugada: 'TRIPLETA' | Monto: nan | Línea: 500"
+    ],
+    "resultado": {
+      "jugada": "TRIPLETA",
+      "monto": "",
+      "linea": "500"
+    }
+  },
+  {
+    "fila": 96,
+    "raw": "Arsenal",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 97,
+    "raw": "Liverpool",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL'",
+      "      ├─ Nombre extraído: 'LIVERPOOL' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 98,
+    "raw": "Toronto mlb ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'TORONTO_MLB'",
+      "      ├─ Nombre extraído: 'TORONTO' | Sanitizado: 'TORONTO'",
+      "      └─ ✅ MATCH EXACTO: 'TORONTO' ──> 'TORONTO BLUE JAYS' | Final: 'TORONTO BLUE JAYS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'TORONTO BLUE JAYS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "TORONTO BLUE JAYS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 99,
+    "raw": "Padres San Diego mlb ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PADRES_SAN_DIEGO_MLB'",
+      "      ├─ Nombre extraído: 'PADRES SAN DIEGO' | Sanitizado: 'PADRES SAN DIEGO'",
+      "      └─ 🎯 FUZZY MATCH (100%): Match 'SAN DIEGO PADRES' ──> Oficial 'SAN DIEGO PADRES' | Final: 'SAN DIEGO PADRES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'SAN DIEGO PADRES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "SAN DIEGO PADRES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 100,
+    "raw": "Padres San Diego mlb 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PADRES_SAN_DIEGO_MLB'",
+      "      ├─ Nombre extraído: 'PADRES SAN DIEGO' | Sanitizado: 'PADRES SAN DIEGO'",
+      "      └─ 🎯 FUZZY MATCH (100%): Match 'SAN DIEGO PADRES' ──> Oficial 'SAN DIEGO PADRES' | Final: 'SAN DIEGO PADRES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'SAN DIEGO PADRES_MLB' | Monto: 1000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SAN DIEGO PADRES_MLB",
+      "monto": 1000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 101,
+    "raw": "[12:46 p.m., 9/9/2026] Deportes: Chichi",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CHICHI'"
+    ],
+    "resultado": {
+      "jugada": "CHICHI",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 102,
+    "raw": "Tripleta 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 5000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 5000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 103,
+    "raw": "Victoria plzen alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'VICTORIA_PLZEN_ALTA'",
+      "      ├─ Nombre extraído: 'VICTORIA PLZEN' | Sanitizado: 'VICTORIA PLZEN'",
+      "      └─ 🎯 FUZZY MATCH (93%): Match 'VIKTORIA PLZEN' ──> Oficial 'VIKTORIA PLZEN' | Final: 'VIKTORIA PLZEN_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'VIKTORIA PLZEN_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "VIKTORIA PLZEN_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 104,
+    "raw": "Barcelona alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA_ALTA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 105,
+    "raw": "Arsenal alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL_ALTA'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 106,
+    "raw": "[12:46 p.m., 9/9/2026] Deportes: Juaquin",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JUAQUIN'"
+    ],
+    "resultado": {
+      "jugada": "JUAQUIN",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 107,
+    "raw": "Padres mlb1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PADRES_MLB'",
+      "      ├─ Nombre extraído: 'PADRES' | Sanitizado: 'PADRES'",
+      "      └─ ✅ MATCH EXACTO: 'PADRES' ──> 'SAN DIEGO PADRES' | Final: 'SAN DIEGO PADRES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'SAN DIEGO PADRES_MLB' | Monto: nan | Línea: 1000"
+    ],
+    "resultado": {
+      "jugada": "SAN DIEGO PADRES_MLB",
+      "monto": "",
+      "linea": "1000"
+    }
+  },
+  {
+    "fila": 108,
+    "raw": "[12:46 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 109,
+    "raw": "Barcelona 50000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 110,
+    "raw": "[12:46 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 111,
+    "raw": "Barcelona 50000 alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BARCELONA_ALTA'",
+      "      ├─ Nombre extraído: 'BARCELONA' | Sanitizado: 'BARCELONA'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'BARCELONA FC' ──> Oficial 'BARCELONA FC' | Final: 'BARCELONA FC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'BARCELONA FC_ALTA' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BARCELONA FC_ALTA",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 112,
+    "raw": "[12:56 p.m., 9/9/2026] Deportes: Chichi",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CHICHI'"
+    ],
+    "resultado": {
+      "jugada": "CHICHI",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 113,
+    "raw": "Victoria plzen alta 15 000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'VICTORIA_PLZEN_ALTA'",
+      "      ├─ Nombre extraído: 'VICTORIA PLZEN' | Sanitizado: 'VICTORIA PLZEN'",
+      "      └─ 🎯 FUZZY MATCH (93%): Match 'VIKTORIA PLZEN' ──> Oficial 'VIKTORIA PLZEN' | Final: 'VIKTORIA PLZEN_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'VIKTORIA PLZEN_ALTA' | Monto: 15.0 | Línea: 000"
+    ],
+    "resultado": {
+      "jugada": "VIKTORIA PLZEN_ALTA",
+      "monto": 15.0,
+      "linea": "000"
+    }
+  },
+  {
+    "fila": 114,
+    "raw": "[1:00 p.m., 9/9/2026] Deportes: Royler",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ROYLER'"
+    ],
+    "resultado": {
+      "jugada": "ROYLER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 115,
+    "raw": "Tripleta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 500.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 500.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 116,
+    "raw": "Ditroit MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'DITROIT_MLB'",
+      "      ├─ Nombre extraído: 'DITROIT' | Sanitizado: 'DITROIT'",
+      "      └─ ✅ MATCH EXACTO: 'DITROIT' ──> 'DETROIT TIGERS' | Final: 'DETROIT TIGERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'DETROIT TIGERS_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "DETROIT TIGERS_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 117,
+    "raw": "Blue Jays MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BLUE_JAYS_MLB'",
+      "      ├─ Nombre extraído: 'BLUE JAYS' | Sanitizado: 'BLUE JAYS'",
+      "      └─ 🎯 FUZZY MATCH (94%): Match 'BLU JAYS' ──> Oficial 'TORONTO BLUE JAYS' | Final: 'TORONTO BLUE JAYS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'TORONTO BLUE JAYS_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "TORONTO BLUE JAYS_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 118,
+    "raw": "Cardenales MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CARDENALES_MLB'",
+      "      ├─ Nombre extraído: 'CARDENALES' | Sanitizado: 'CARDENALES'",
+      "      └─ 🎯 FUZZY MATCH (84%): Match 'CARDINALS' ──> Oficial 'ST. LOUIS CARDINALS' | Final: 'ST. LOUIS CARDINALS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ST. LOUIS CARDINALS_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ST. LOUIS CARDINALS_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 119,
+    "raw": "Padres MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PADRES_MLB'",
+      "      ├─ Nombre extraído: 'PADRES' | Sanitizado: 'PADRES'",
+      "      └─ ✅ MATCH EXACTO: 'PADRES' ──> 'SAN DIEGO PADRES' | Final: 'SAN DIEGO PADRES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'SAN DIEGO PADRES_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SAN DIEGO PADRES_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 120,
+    "raw": "Seatle MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SEATLE_MLB'",
+      "      ├─ Nombre extraído: 'SEATLE' | Sanitizado: 'SEATLE'",
+      "      └─ 🎯 FUZZY MATCH (92%): Match 'SEATTLE' ──> Oficial 'SEATTLE' | Final: 'SEATTLE_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'SEATTLE_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SEATTLE_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 121,
+    "raw": "[1:05 p.m., 9/9/2026] Deportes: Wilser",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'WILSER'"
+    ],
+    "resultado": {
+      "jugada": "WILSER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 123,
+    "raw": "Minnesota 3420",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'MINNESOTA'",
+      "      ├─ Nombre extraído: 'MINNESOTA' | Sanitizado: 'MINNESOTA'",
+      "      └─ 🎯 FUZZY MATCH (94%): Match 'MINESOTA' ──> Oficial 'MINNESOTA TWINS' | Final: 'MINNESOTA TWINS'",
+      "📊 RESULTADO FINAL -> Jugada: 'MINNESOTA TWINS' | Monto: 3420.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "MINNESOTA TWINS",
+      "monto": 3420.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 124,
+    "raw": "[1:06 p.m., 9/9/2026] Deportes: Royler",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ROYLER'"
+    ],
+    "resultado": {
+      "jugada": "ROYLER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 125,
+    "raw": "Toronto MLB 2mil",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'TORONTO_MLB'",
+      "      ├─ Nombre extraído: 'TORONTO' | Sanitizado: 'TORONTO'",
+      "      └─ ✅ MATCH EXACTO: 'TORONTO' ──> 'TORONTO BLUE JAYS' | Final: 'TORONTO BLUE JAYS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'TORONTO BLUE JAYS_MLB' | Monto: 2000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "TORONTO BLUE JAYS_MLB",
+      "monto": 2000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 126,
+    "raw": "[1:07 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 127,
+    "raw": "San luis cardinales 50000 parejo mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SAN_LUIS_CARDINALES_MLB'",
+      "      ├─ Nombre extraído: 'SAN LUIS CARDINALES' | Sanitizado: 'SAN LUIS CARDINALES'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'ST. LOUIS CARDINALS' ──> Oficial 'ST. LOUIS CARDINALS' | Final: 'ST. LOUIS CARDINALS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ST. LOUIS CARDINALS_MLB' | Monto: 50000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ST. LOUIS CARDINALS_MLB",
+      "monto": 50000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 128,
+    "raw": "[1:07 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 129,
+    "raw": "San luis cardinales 50000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SAN_LUIS_CARDINALES'",
+      "      ├─ Nombre extraído: 'SAN LUIS CARDINALES' | Sanitizado: 'SAN LUIS CARDINALES'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'ST. LOUIS CARDINALS' ──> Oficial 'ST. LOUIS CARDINALS' | Final: 'ST. LOUIS CARDINALS'",
+      "📊 RESULTADO FINAL -> Jugada: 'ST. LOUIS CARDINALS' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ST. LOUIS CARDINALS",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 130,
+    "raw": "[1:07 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 131,
+    "raw": "San luis cardinales 50000 alta mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SAN_LUIS_CARDINALES_MLB_ALTA'",
+      "      ├─ Nombre extraído: 'SAN LUIS CARDINALES' | Sanitizado: 'SAN LUIS CARDINALES'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'ST. LOUIS CARDINALS' ──> Oficial 'ST. LOUIS CARDINALS' | Final: 'ST. LOUIS CARDINALS_MLB_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'ST. LOUIS CARDINALS_MLB_ALTA' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ST. LOUIS CARDINALS_MLB_ALTA",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 132,
+    "raw": "[1:14 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 133,
+    "raw": "Mlb Detroit ML 4000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'DETROIT_MLB'",
+      "      ├─ Nombre extraído: 'DETROIT' | Sanitizado: 'DETROIT'",
+      "      └─ ✅ MATCH EXACTO: 'DETROIT' ──> 'DETROIT TIGERS' | Final: 'DETROIT TIGERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'DETROIT TIGERS_MLB' | Monto: 4000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "DETROIT TIGERS_MLB",
+      "monto": 4000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 134,
+    "raw": "[1:15 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 135,
+    "raw": "Chelse 50000 futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CHELSE_FC'",
+      "      ├─ Nombre extraído: 'CHELSE FC' | Sanitizado: 'CHELSE FC'",
+      "      └─ 🎯 FUZZY MATCH (75%): Match 'CHELSEA' ──> Oficial 'CHELSEA' | Final: 'CHELSEA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHELSEA' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CHELSEA",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 136,
+    "raw": "[1:15 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 137,
+    "raw": "Chelse 50000 alta futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CHELSE_FC_ALTA'",
+      "      ├─ Nombre extraído: 'CHELSE FC' | Sanitizado: 'CHELSE FC'",
+      "      └─ 🎯 FUZZY MATCH (75%): Match 'CHELSEA' ──> Oficial 'CHELSEA' | Final: 'CHELSEA_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHELSEA_ALTA' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CHELSEA_ALTA",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 138,
+    "raw": "[1:19 p.m., 9/9/2026] Deportes: Ale papa",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE PAPA'"
+    ],
+    "resultado": {
+      "jugada": "ALE PAPA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 139,
+    "raw": "Chelse 20000 fútbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CHELSE_FC'",
+      "      ├─ Nombre extraído: 'CHELSE FC' | Sanitizado: 'CHELSE FC'",
+      "      └─ 🎯 FUZZY MATCH (75%): Match 'CHELSEA' ──> Oficial 'CHELSEA' | Final: 'CHELSEA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHELSEA' | Monto: 20000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CHELSEA",
+      "monto": 20000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 140,
+    "raw": "[1:19 p.m., 9/9/2026] Deportes: Ale papa",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE PAPA'"
+    ],
+    "resultado": {
+      "jugada": "ALE PAPA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 141,
+    "raw": "Chelse 20000 alta fútbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CHELSE_FC_ALTA'",
+      "      ├─ Nombre extraído: 'CHELSE FC' | Sanitizado: 'CHELSE FC'",
+      "      └─ 🎯 FUZZY MATCH (75%): Match 'CHELSEA' ──> Oficial 'CHELSEA' | Final: 'CHELSEA_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHELSEA_ALTA' | Monto: 20000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CHELSEA_ALTA",
+      "monto": 20000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 142,
+    "raw": "[1:19 p.m., 9/9/2026] Deportes: Ale papa",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE PAPA'"
+    ],
+    "resultado": {
+      "jugada": "ALE PAPA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 143,
+    "raw": "Cardenales san luis 20000 parejo mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CARDENALES_SAN_LUIS_MLB'",
+      "      ├─ Nombre extraído: 'CARDENALES SAN LUIS' | Sanitizado: 'CARDENALES SAN LUIS'",
+      "      └─ 🎯 FUZZY MATCH (81%): Match 'ST. LOUIS CARDINALS' ──> Oficial 'ST. LOUIS CARDINALS' | Final: 'ST. LOUIS CARDINALS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ST. LOUIS CARDINALS_MLB' | Monto: 20000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ST. LOUIS CARDINALS_MLB",
+      "monto": 20000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 144,
+    "raw": "[1:20 p.m., 9/9/2026] Deportes: Ale papa",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE PAPA'"
+    ],
+    "resultado": {
+      "jugada": "ALE PAPA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 145,
+    "raw": "Cardenales san.luis 20000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CARDENALES_SAN.LUIS'",
+      "      ├─ Nombre extraído: 'CARDENALES SAN.LUIS' | Sanitizado: 'CARDENALES SAN LUIS'",
+      "      └─ 🎯 FUZZY MATCH (81%): Match 'ST. LOUIS CARDINALS' ──> Oficial 'ST. LOUIS CARDINALS' | Final: 'ST. LOUIS CARDINALS'",
+      "📊 RESULTADO FINAL -> Jugada: 'ST. LOUIS CARDINALS' | Monto: 20000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ST. LOUIS CARDINALS",
+      "monto": 20000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 146,
+    "raw": "[1:20 p.m., 9/9/2026] Deportes: Ale  papa",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE  PAPA'"
+    ],
+    "resultado": {
+      "jugada": "ALE  PAPA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 147,
+    "raw": "Cardenales san luis 20000 alta mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CARDENALES_SAN_LUIS_MLB_ALTA'",
+      "      ├─ Nombre extraído: 'CARDENALES SAN LUIS' | Sanitizado: 'CARDENALES SAN LUIS'",
+      "      └─ 🎯 FUZZY MATCH (81%): Match 'ST. LOUIS CARDINALS' ──> Oficial 'ST. LOUIS CARDINALS' | Final: 'ST. LOUIS CARDINALS_MLB_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'ST. LOUIS CARDINALS_MLB_ALTA' | Monto: 20000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ST. LOUIS CARDINALS_MLB_ALTA",
+      "monto": 20000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 148,
+    "raw": "[1:23 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 149,
+    "raw": "Liverpol 50000 futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOL_FC'",
+      "      ├─ Nombre extraído: 'LIVERPOL FC' | Sanitizado: 'LIVERPOL FC'",
+      "      └─ 🎯 FUZZY MATCH (80%): Match 'LIVERPOOL' ──> Oficial 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 150,
+    "raw": "[1:23 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 151,
+    "raw": "Liverpol 50000 alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOL_ALTA'",
+      "      ├─ Nombre extraído: 'LIVERPOL' | Sanitizado: 'LIVERPOL'",
+      "      └─ 🎯 FUZZY MATCH (94%): Match 'LIVERPOOL' ──> Oficial 'LIVERPOOL' | Final: 'LIVERPOOL_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL_ALTA' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL_ALTA",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 152,
+    "raw": "[1:25 p.m., 9/9/2026] Deportes: Ale papa",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE PAPA'"
+    ],
+    "resultado": {
+      "jugada": "ALE PAPA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 153,
+    "raw": "Liverpol 20000 fútbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOL_FC'",
+      "      ├─ Nombre extraído: 'LIVERPOL FC' | Sanitizado: 'LIVERPOL FC'",
+      "      └─ 🎯 FUZZY MATCH (80%): Match 'LIVERPOOL' ──> Oficial 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: 20000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": 20000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 154,
+    "raw": "[1:25 p.m., 9/9/2026] Deportes: Ale papa",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE PAPA'"
+    ],
+    "resultado": {
+      "jugada": "ALE PAPA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 155,
+    "raw": "Liverpol 20000alta fútbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOL_ALTA_FC'",
+      "      ├─ Nombre extraído: 'LIVERPOL FC' | Sanitizado: 'LIVERPOL FC'",
+      "      └─ 🎯 FUZZY MATCH (80%): Match 'LIVERPOOL' ──> Oficial 'LIVERPOOL' | Final: 'LIVERPOOL_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL_ALTA' | Monto: nan | Línea: 20000"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL_ALTA",
+      "monto": "",
+      "linea": "20000"
+    }
+  },
+  {
+    "fila": 156,
+    "raw": "[1:28 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 157,
+    "raw": "Celtic 50000 futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CELTIC_FC'",
+      "      ├─ Nombre extraído: 'CELTIC FC' | Sanitizado: 'CELTIC FC'",
+      "      └─ 🎯 FUZZY MATCH (80%): Match 'CELTIC' ──> Oficial 'CELTIC' | Final: 'CELTIC'",
+      "📊 RESULTADO FINAL -> Jugada: 'CELTIC' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CELTIC",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 158,
+    "raw": "[1:28 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 159,
+    "raw": "Celtic 50000 alta futbol.",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CELTIC_FC._ALTA'",
+      "      ├─ Nombre extraído: 'CELTIC FC.' | Sanitizado: 'CELTIC FC'",
+      "      └─ 🎯 FUZZY MATCH (80%): Match 'CELTIC' ──> Oficial 'CELTIC' | Final: 'CELTIC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CELTIC_ALTA' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CELTIC_ALTA",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 160,
+    "raw": "[1:49 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 161,
+    "raw": "Psg 50000 baja futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PSG_FC_BAJA'",
+      "      ├─ Nombre extraído: 'PSG FC' | Sanitizado: 'PSG FC'",
+      "      └─ 🎯 FUZZY MATCH (71%): Match 'PARIS FC' ──> Oficial 'PARIS FC' | Final: 'PARIS FC_BAJA'",
+      "📊 RESULTADO FINAL -> Jugada: 'PARIS FC_BAJA' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "PARIS FC_BAJA",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 162,
+    "raw": "[2:09 p.m., 9/9/2026] Deportes: Aballe",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ABALLE'"
+    ],
+    "resultado": {
+      "jugada": "ABALLE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 163,
+    "raw": "PSG baja 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PSG_BAJA'",
+      "      ├─ Nombre extraído: 'PSG' | Sanitizado: 'PSG'",
+      "      └─ ✅ MATCH EXACTO: 'PSG' ──> 'PARIS ST GERMAIN' | Final: 'PARIS ST GERMAIN_BAJA'",
+      "📊 RESULTADO FINAL -> Jugada: 'PARIS ST GERMAIN_BAJA' | Monto: 1000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "PARIS ST GERMAIN_BAJA",
+      "monto": 1000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 164,
+    "raw": "[2:14 p.m., 9/9/2026] Deportes: Amed",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'AMED'"
+    ],
+    "resultado": {
+      "jugada": "AMED",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 165,
+    "raw": "Napoles baja 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NAPOLES_BAJA'",
+      "      ├─ Nombre extraído: 'NAPOLES' | Sanitizado: 'NAPOLES'",
+      "      └─ 🎯 FUZZY MATCH (77%): Match 'NAPOLI' ──> Oficial 'NAPOLI' | Final: 'NAPOLI_BAJA'",
+      "📊 RESULTADO FINAL -> Jugada: 'NAPOLI_BAJA' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NAPOLI_BAJA",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 166,
+    "raw": "[2:20 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 167,
+    "raw": "Fc Norwich alta 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FC_NORWICH_ALTA'",
+      "      ├─ Nombre extraído: 'FC NORWICH' | Sanitizado: 'FC NORWICH'",
+      "      └─ 🎯 FUZZY MATCH (82%): Match 'NORWICH CITY' ──> Oficial 'NORWICH CITY' | Final: 'NORWICH CITY_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'NORWICH CITY_ALTA' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NORWICH CITY_ALTA",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 168,
+    "raw": "[2:29 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 169,
+    "raw": "Slovan bratislava 50000 futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SLOVAN_BRATISLAVA_FC'",
+      "      ├─ Nombre extraído: 'SLOVAN BRATISLAVA FC' | Sanitizado: 'SLOVAN BRATISLAVA FC'",
+      "      └─ 🎯 FUZZY MATCH (92%): Match 'SLOVAN BRATISLAVA' ──> Oficial 'SLOVAN BRATISLAVA' | Final: 'SLOVAN BRATISLAVA'",
+      "📊 RESULTADO FINAL -> Jugada: 'SLOVAN BRATISLAVA' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SLOVAN BRATISLAVA",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 170,
+    "raw": "[2:31 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 171,
+    "raw": "Fc Rangers alta 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FC_RANGERS_ALTA'",
+      "      ├─ Nombre extraído: 'FC RANGERS' | Sanitizado: 'FC RANGERS'",
+      "      └─ 🎯 FUZZY MATCH (90%): Match 'RANDERS FC' ──> Oficial 'RANDERS FC' | Final: 'RANDERS FC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'RANDERS FC_ALTA' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "RANDERS FC_ALTA",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 172,
+    "raw": "[2:35 p.m., 9/9/2026] Deportes: Rober",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ROBER'"
+    ],
+    "resultado": {
+      "jugada": "ROBER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 173,
+    "raw": "Arcenal 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARCENAL'",
+      "      ├─ Nombre extraído: 'ARCENAL' | Sanitizado: 'ARCENAL'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'ARSENAL' ──> Oficial 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 174,
+    "raw": "[2:38 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 175,
+    "raw": "Fc Derby county 2000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FC_DERBY_COUNTY'",
+      "      ├─ Nombre extraído: 'FC DERBY COUNTY' | Sanitizado: 'FC DERBY COUNTY'",
+      "      └─ 🎯 FUZZY MATCH (89%): Match 'DERBY COUNTY' ──> Oficial 'DERBY COUNTY' | Final: 'DERBY COUNTY'",
+      "📊 RESULTADO FINAL -> Jugada: 'DERBY COUNTY' | Monto: 2000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "DERBY COUNTY",
+      "monto": 2000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 176,
+    "raw": "[2:38 p.m., 9/9/2026] Deportes: Juan Carlos",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JUAN CARLOS'"
+    ],
+    "resultado": {
+      "jugada": "JUAN CARLOS",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 177,
+    "raw": "Arsenal 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: 500.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": 500.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 178,
+    "raw": "[2:38 p.m., 9/9/2026] Deportes: Aballe",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ABALLE'"
+    ],
+    "resultado": {
+      "jugada": "ABALLE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 179,
+    "raw": "Liverpool 2000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL'",
+      "      ├─ Nombre extraído: 'LIVERPOOL' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: 2000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": 2000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 180,
+    "raw": "[2:44 p.m., 9/9/2026] Deportes: Alberto",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALBERTO'"
+    ],
+    "resultado": {
+      "jugada": "ALBERTO",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 181,
+    "raw": "Detroit tigers MLB 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'DETROIT_TIGERS_MLB'",
+      "      ├─ Nombre extraído: 'DETROIT TIGERS' | Sanitizado: 'DETROIT TIGERS'",
+      "      └─ ✅ MATCH EXACTO: 'DETROIT TIGERS' ──> 'DETROIT TIGERS' | Final: 'DETROIT TIGERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'DETROIT TIGERS_MLB' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "DETROIT TIGERS_MLB",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 182,
+    "raw": "[2:45 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 183,
+    "raw": "Fc psg 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FC_PSG'",
+      "      ├─ Nombre extraído: 'FC PSG' | Sanitizado: 'FC PSG'",
+      "      └─ 🎯 FUZZY MATCH (71%): Match 'PARIS FC' ──> Oficial 'PARIS FC' | Final: 'PARIS FC'",
+      "📊 RESULTADO FINAL -> Jugada: 'PARIS FC' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "PARIS FC",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 184,
+    "raw": "[2:46 p.m., 9/9/2026] Deportes: Jose cesar",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JOSE CESAR'"
+    ],
+    "resultado": {
+      "jugada": "JOSE CESAR",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 185,
+    "raw": "Tripleta 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 1000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 1000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 186,
+    "raw": "Toronto mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'TORONTO_MLB'",
+      "      ├─ Nombre extraído: 'TORONTO' | Sanitizado: 'TORONTO'",
+      "      └─ ✅ MATCH EXACTO: 'TORONTO' ──> 'TORONTO BLUE JAYS' | Final: 'TORONTO BLUE JAYS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'TORONTO BLUE JAYS_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "TORONTO BLUE JAYS_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 187,
+    "raw": "Padres mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PADRES_MLB'",
+      "      ├─ Nombre extraído: 'PADRES' | Sanitizado: 'PADRES'",
+      "      └─ ✅ MATCH EXACTO: 'PADRES' ──> 'SAN DIEGO PADRES' | Final: 'SAN DIEGO PADRES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'SAN DIEGO PADRES_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SAN DIEGO PADRES_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 188,
+    "raw": "Celtic alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CELTIC_ALTA'",
+      "      ├─ Nombre extraído: 'CELTIC' | Sanitizado: 'CELTIC'",
+      "      └─ ✅ MATCH EXACTO: 'CELTIC' ──> 'CELTIC' | Final: 'CELTIC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CELTIC_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CELTIC_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 189,
+    "raw": "[2:48 p.m., 9/9/2026] Deportes: Aliandro ⚾",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALIANDRO'"
+    ],
+    "resultado": {
+      "jugada": "ALIANDRO",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 190,
+    "raw": "Tripleta 800",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 800.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 800.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 191,
+    "raw": "Toronto ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'TORONTO'",
+      "      ├─ Nombre extraído: 'TORONTO' | Sanitizado: 'TORONTO'",
+      "      └─ ✅ MATCH EXACTO: 'TORONTO' ──> 'TORONTO BLUE JAYS' | Final: 'TORONTO BLUE JAYS'",
+      "📊 RESULTADO FINAL -> Jugada: 'TORONTO BLUE JAYS' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "TORONTO BLUE JAYS",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 192,
+    "raw": "Padres ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PADRES'",
+      "      ├─ Nombre extraído: 'PADRES' | Sanitizado: 'PADRES'",
+      "      └─ ✅ MATCH EXACTO: 'PADRES' ──> 'SAN DIEGO PADRES' | Final: 'SAN DIEGO PADRES'",
+      "📊 RESULTADO FINAL -> Jugada: 'SAN DIEGO PADRES' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "SAN DIEGO PADRES",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 193,
+    "raw": "Slovan Bratislava ⚽",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SLOVAN_BRATISLAVA_⚽'",
+      "      ├─ Nombre extraído: 'SLOVAN BRATISLAVA ⚽' | Sanitizado: 'SLOVAN BRATISLAVA'",
+      "      └─ ✅ MATCH EXACTO: 'SLOVAN BRATISLAVA' ──> 'SLOVAN BRATISLAVA' | Final: 'SLOVAN BRATISLAVA'",
+      "📊 RESULTADO FINAL -> Jugada: 'SLOVAN BRATISLAVA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SLOVAN BRATISLAVA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 194,
+    "raw": "Cardenals ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CARDENALS'",
+      "      ├─ Nombre extraído: 'CARDENALS' | Sanitizado: 'CARDENALS'",
+      "      └─ 🎯 FUZZY MATCH (89%): Match 'CARDINALS' ──> Oficial 'ST. LOUIS CARDINALS' | Final: 'ST. LOUIS CARDINALS'",
+      "📊 RESULTADO FINAL -> Jugada: 'ST. LOUIS CARDINALS' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ST. LOUIS CARDINALS",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 195,
+    "raw": "Liverpool alta ⚽",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL_⚽_ALTA'",
+      "      ├─ Nombre extraído: 'LIVERPOOL ⚽' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 196,
+    "raw": "Liverpool ⚽",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL_⚽'",
+      "      ├─ Nombre extraído: 'LIVERPOOL ⚽' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 197,
+    "raw": "Texas RL",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'TEXAS'",
+      "      ├─ Nombre extraído: 'TEXAS' | Sanitizado: 'TEXAS'",
+      "      └─ ✅ MATCH EXACTO: 'TEXAS' ──> 'TEXAS RANGERS' | Final: 'TEXAS RANGERS'",
+      "📊 RESULTADO FINAL -> Jugada: 'TEXAS RANGERS' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "TEXAS RANGERS",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 199,
+    "raw": "Slovan Bratislava 1000⚽",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SLOVAN_BRATISLAVA_⚽'",
+      "      ├─ Nombre extraído: 'SLOVAN BRATISLAVA ⚽' | Sanitizado: 'SLOVAN BRATISLAVA'",
+      "      └─ ✅ MATCH EXACTO: 'SLOVAN BRATISLAVA' ──> 'SLOVAN BRATISLAVA' | Final: 'SLOVAN BRATISLAVA'",
+      "📊 RESULTADO FINAL -> Jugada: 'SLOVAN BRATISLAVA' | Monto: 1000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SLOVAN BRATISLAVA",
+      "monto": 1000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 200,
+    "raw": "[2:48 p.m., 9/9/2026] Deportes: Calvin",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CALVIN'"
+    ],
+    "resultado": {
+      "jugada": "CALVIN",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 201,
+    "raw": "Sportin de lisbon 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SPORTIN_DE_LISBON'",
+      "      ├─ Nombre extraído: 'SPORTIN DE LISBON' | Sanitizado: 'SPORTIN DE LISBON'",
+      "      └─ 🎯 FUZZY MATCH (88%): Match 'SPORTING LISBON' ──> Oficial 'SPORTING LISBON' | Final: 'SPORTING LISBON'",
+      "📊 RESULTADO FINAL -> Jugada: 'SPORTING LISBON' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SPORTING LISBON",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 202,
+    "raw": "Liverpool 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL'",
+      "      ├─ Nombre extraído: 'LIVERPOOL' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 204,
+    "raw": "Tripleta de 2000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 2000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 2000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 205,
+    "raw": "Liverpool",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL'",
+      "      ├─ Nombre extraído: 'LIVERPOOL' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 206,
+    "raw": "Psg",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PSG'",
+      "      ├─ Nombre extraído: 'PSG' | Sanitizado: 'PSG'",
+      "      └─ ✅ MATCH EXACTO: 'PSG' ──> 'PARIS ST GERMAIN' | Final: 'PARIS ST GERMAIN'",
+      "📊 RESULTADO FINAL -> Jugada: 'PARIS ST GERMAIN' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "PARIS ST GERMAIN",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 207,
+    "raw": "Arsenal",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 208,
+    "raw": "[2:50 p.m., 9/9/2026] Deportes: dariel",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'DARIEL'"
+    ],
+    "resultado": {
+      "jugada": "DARIEL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 209,
+    "raw": "liverpool 2500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL'",
+      "      ├─ Nombre extraído: 'LIVERPOOL' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: 2500.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": 2500.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 210,
+    "raw": "[2:50 p.m., 9/9/2026] Deportes: Miguel (Fútbol)",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'MIGUEL FÚTBOL'"
+    ],
+    "resultado": {
+      "jugada": "MIGUEL FÚTBOL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 211,
+    "raw": "Galatasarai 5mil",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'GALATASARAI'",
+      "      ├─ Nombre extraído: 'GALATASARAI' | Sanitizado: 'GALATASARAI'",
+      "      └─ 🎯 FUZZY MATCH (91%): Match 'GALATASARAY' ──> Oficial 'GALATASARAY' | Final: 'GALATASARAY'",
+      "📊 RESULTADO FINAL -> Jugada: 'GALATASARAY' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "GALATASARAY",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 212,
+    "raw": "[2:50 p.m., 9/9/2026] Deportes: Miguel (Fútbol)",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'MIGUEL FÚTBOL'"
+    ],
+    "resultado": {
+      "jugada": "MIGUEL FÚTBOL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 213,
+    "raw": "Atlético Madrid 3500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ATLÉTICO_MADRID'",
+      "      ├─ Nombre extraído: 'ATLÉTICO MADRID' | Sanitizado: 'ATLETICO MADRID'",
+      "      └─ ✅ MATCH EXACTO: 'ATLETICO MADRID' ──> 'ATLETICO MADRID' | Final: 'ATLETICO MADRID'",
+      "📊 RESULTADO FINAL -> Jugada: 'ATLETICO MADRID' | Monto: 3500.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ATLETICO MADRID",
+      "monto": 3500.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 214,
+    "raw": "[2:52 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 215,
+    "raw": "Fc Sporting lisboa 2000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FC_SPORTING_LISBOA'",
+      "      ├─ Nombre extraído: 'FC SPORTING LISBOA' | Sanitizado: 'FC SPORTING LISBOA'",
+      "      └─ 🎯 FUZZY MATCH (85%): Match 'SPORTING LISBON' ──> Oficial 'SPORTING LISBON' | Final: 'SPORTING LISBON'",
+      "📊 RESULTADO FINAL -> Jugada: 'SPORTING LISBON' | Monto: 2000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SPORTING LISBON",
+      "monto": 2000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 216,
+    "raw": "[2:54 p.m., 9/9/2026] Deportes: Jose cesar",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JOSE CESAR'"
+    ],
+    "resultado": {
+      "jugada": "JOSE CESAR",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 217,
+    "raw": "Celtic alta 3 mil",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CELTIC_ALTA'",
+      "      ├─ Nombre extraído: 'CELTIC' | Sanitizado: 'CELTIC'",
+      "      └─ ✅ MATCH EXACTO: 'CELTIC' ──> 'CELTIC' | Final: 'CELTIC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CELTIC_ALTA' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CELTIC_ALTA",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 218,
+    "raw": "[2:55 p.m., 9/9/2026] Deportes: Amed",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'AMED'"
+    ],
+    "resultado": {
+      "jugada": "AMED",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 219,
+    "raw": "Slovan Bratislava 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SLOVAN_BRATISLAVA'",
+      "      ├─ Nombre extraído: 'SLOVAN BRATISLAVA' | Sanitizado: 'SLOVAN BRATISLAVA'",
+      "      └─ ✅ MATCH EXACTO: 'SLOVAN BRATISLAVA' ──> 'SLOVAN BRATISLAVA' | Final: 'SLOVAN BRATISLAVA'",
+      "📊 RESULTADO FINAL -> Jugada: 'SLOVAN BRATISLAVA' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SLOVAN BRATISLAVA",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 220,
+    "raw": "[2:58 p.m., 9/9/2026] Deportes: Chichi",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CHICHI'"
+    ],
+    "resultado": {
+      "jugada": "CHICHI",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 221,
+    "raw": "Arsenal alta 20000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL_ALTA'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL_ALTA' | Monto: 20000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL_ALTA",
+      "monto": 20000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 222,
+    "raw": "[2:59 p.m., 9/9/2026] Deportes: Rober",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ROBER'"
+    ],
+    "resultado": {
+      "jugada": "ROBER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 223,
+    "raw": "Tripleta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 500.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 500.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 224,
+    "raw": "Galatasaray",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'GALATASARAY'",
+      "      ├─ Nombre extraído: 'GALATASARAY' | Sanitizado: 'GALATASARAY'",
+      "      └─ ✅ MATCH EXACTO: 'GALATASARAY' ──> 'GALATASARAY' | Final: 'GALATASARAY'",
+      "📊 RESULTADO FINAL -> Jugada: 'GALATASARAY' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "GALATASARAY",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 225,
+    "raw": "Arcenal",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARCENAL'",
+      "      ├─ Nombre extraído: 'ARCENAL' | Sanitizado: 'ARCENAL'",
+      "      └─ 🎯 FUZZY MATCH (86%): Match 'ARSENAL' ──> Oficial 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 226,
+    "raw": "Chelsea",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CHELSEA'",
+      "      ├─ Nombre extraído: 'CHELSEA' | Sanitizado: 'CHELSEA'",
+      "      └─ ✅ MATCH EXACTO: 'CHELSEA' ──> 'CHELSEA' | Final: 'CHELSEA'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHELSEA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CHELSEA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 227,
+    "raw": "Liverpool",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'LIVERPOOL'",
+      "      ├─ Nombre extraído: 'LIVERPOOL' | Sanitizado: 'LIVERPOOL'",
+      "      └─ ✅ MATCH EXACTO: 'LIVERPOOL' ──> 'LIVERPOOL' | Final: 'LIVERPOOL'",
+      "📊 RESULTADO FINAL -> Jugada: 'LIVERPOOL' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LIVERPOOL",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 228,
+    "raw": "Cardenales mlb ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CARDENALES_MLB'",
+      "      ├─ Nombre extraído: 'CARDENALES' | Sanitizado: 'CARDENALES'",
+      "      └─ 🎯 FUZZY MATCH (84%): Match 'CARDINALS' ──> Oficial 'ST. LOUIS CARDINALS' | Final: 'ST. LOUIS CARDINALS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ST. LOUIS CARDINALS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ST. LOUIS CARDINALS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 229,
+    "raw": "Padres mlb ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PADRES_MLB'",
+      "      ├─ Nombre extraído: 'PADRES' | Sanitizado: 'PADRES'",
+      "      └─ ✅ MATCH EXACTO: 'PADRES' ──> 'SAN DIEGO PADRES' | Final: 'SAN DIEGO PADRES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'SAN DIEGO PADRES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "SAN DIEGO PADRES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 230,
+    "raw": "[2:59 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 231,
+    "raw": "Sporting de lisboa 50000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SPORTING_DE_LISBOA'",
+      "      ├─ Nombre extraído: 'SPORTING DE LISBOA' | Sanitizado: 'SPORTING DE LISBOA'",
+      "      └─ 🎯 FUZZY MATCH (85%): Match 'SPORTING LISBON' ──> Oficial 'SPORTING LISBON' | Final: 'SPORTING LISBON'",
+      "📊 RESULTADO FINAL -> Jugada: 'SPORTING LISBON' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SPORTING LISBON",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 232,
+    "raw": "[2:59 p.m., 9/9/2026] Deportes: Luisito fútbol",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'LUISITO FÚTBOL'"
+    ],
+    "resultado": {
+      "jugada": "LUISITO FÚTBOL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 233,
+    "raw": "Napoli alta 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NAPOLI_ALTA'",
+      "      ├─ Nombre extraído: 'NAPOLI' | Sanitizado: 'NAPOLI'",
+      "      └─ ✅ MATCH EXACTO: 'NAPOLI' ──> 'NAPOLI' | Final: 'NAPOLI_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'NAPOLI_ALTA' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NAPOLI_ALTA",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 234,
+    "raw": "Tripleta de 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 1000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 1000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 235,
+    "raw": "Napoli",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NAPOLI'",
+      "      ├─ Nombre extraído: 'NAPOLI' | Sanitizado: 'NAPOLI'",
+      "      └─ ✅ MATCH EXACTO: 'NAPOLI' ──> 'NAPOLI' | Final: 'NAPOLI'",
+      "📊 RESULTADO FINAL -> Jugada: 'NAPOLI' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NAPOLI",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 236,
+    "raw": "Napoli alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NAPOLI_ALTA'",
+      "      ├─ Nombre extraído: 'NAPOLI' | Sanitizado: 'NAPOLI'",
+      "      └─ ✅ MATCH EXACTO: 'NAPOLI' ──> 'NAPOLI' | Final: 'NAPOLI_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'NAPOLI_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NAPOLI_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 237,
+    "raw": "Galatasaray",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'GALATASARAY'",
+      "      ├─ Nombre extraído: 'GALATASARAY' | Sanitizado: 'GALATASARAY'",
+      "      └─ ✅ MATCH EXACTO: 'GALATASARAY' ──> 'GALATASARAY' | Final: 'GALATASARAY'",
+      "📊 RESULTADO FINAL -> Jugada: 'GALATASARAY' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "GALATASARAY",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 238,
+    "raw": "Galatasaray alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'GALATASARAY_ALTA'",
+      "      ├─ Nombre extraído: 'GALATASARAY' | Sanitizado: 'GALATASARAY'",
+      "      └─ ✅ MATCH EXACTO: 'GALATASARAY' ──> 'GALATASARAY' | Final: 'GALATASARAY_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'GALATASARAY_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "GALATASARAY_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 239,
+    "raw": "[3:00 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 240,
+    "raw": "Arsenal 50000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 241,
+    "raw": "[3:00 p.m., 9/9/2026] Deportes: Ale",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ALE'"
+    ],
+    "resultado": {
+      "jugada": "ALE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 242,
+    "raw": "Arsenal 50000 alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARSENAL_ALTA'",
+      "      ├─ Nombre extraído: 'ARSENAL' | Sanitizado: 'ARSENAL'",
+      "      └─ ✅ MATCH EXACTO: 'ARSENAL' ──> 'ARSENAL' | Final: 'ARSENAL_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARSENAL_ALTA' | Monto: 50000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARSENAL_ALTA",
+      "monto": 50000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 243,
+    "raw": "[3:01 p.m., 9/9/2026] Deportes: Jose cesar",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JOSE CESAR'"
+    ],
+    "resultado": {
+      "jugada": "JOSE CESAR",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 244,
+    "raw": "Galatazaray alta 3 mil",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'GALATAZARAY_ALTA'",
+      "      ├─ Nombre extraído: 'GALATAZARAY' | Sanitizado: 'GALATAZARAY'",
+      "      └─ 🎯 FUZZY MATCH (91%): Match 'GALATASARAY' ──> Oficial 'GALATASARAY' | Final: 'GALATASARAY_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'GALATASARAY_ALTA' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "GALATASARAY_ALTA",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 245,
+    "raw": "[3:01 p.m., 9/9/2026] Deportes: Jose cesar",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JOSE CESAR'"
+    ],
+    "resultado": {
+      "jugada": "JOSE CESAR",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 246,
+    "raw": "Toronto mlb 5 mil",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'TORONTO_MLB'",
+      "      ├─ Nombre extraído: 'TORONTO' | Sanitizado: 'TORONTO'",
+      "      └─ ✅ MATCH EXACTO: 'TORONTO' ──> 'TORONTO BLUE JAYS' | Final: 'TORONTO BLUE JAYS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'TORONTO BLUE JAYS_MLB' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "TORONTO BLUE JAYS_MLB",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 247,
+    "raw": "[3:01 p.m., 9/9/2026] Deportes: Jose cesar",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JOSE CESAR'"
+    ],
+    "resultado": {
+      "jugada": "JOSE CESAR",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 248,
+    "raw": "Celtic 2 mil",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CELTIC'",
+      "      ├─ Nombre extraído: 'CELTIC' | Sanitizado: 'CELTIC'",
+      "      └─ ✅ MATCH EXACTO: 'CELTIC' ──> 'CELTIC' | Final: 'CELTIC'",
+      "📊 RESULTADO FINAL -> Jugada: 'CELTIC' | Monto: 2000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CELTIC",
+      "monto": 2000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 249,
+    "raw": "[3:01 p.m., 9/9/2026] Deportes: Chichi",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CHICHI'"
+    ],
+    "resultado": {
+      "jugada": "CHICHI",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 250,
+    "raw": "Slovan bratislava 20000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'SLOVAN_BRATISLAVA'",
+      "      ├─ Nombre extraído: 'SLOVAN BRATISLAVA' | Sanitizado: 'SLOVAN BRATISLAVA'",
+      "      └─ ✅ MATCH EXACTO: 'SLOVAN BRATISLAVA' ──> 'SLOVAN BRATISLAVA' | Final: 'SLOVAN BRATISLAVA'",
+      "📊 RESULTADO FINAL -> Jugada: 'SLOVAN BRATISLAVA' | Monto: 20000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "SLOVAN BRATISLAVA",
+      "monto": 20000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 251,
+    "raw": "[4:11 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 252,
+    "raw": "Mlb padre ML 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PADRE_MLB'",
+      "      ├─ Nombre extraído: 'PADRE' | Sanitizado: 'PADRE'",
+      "      └─ 🎯 FUZZY MATCH (91%): Match 'PADRES' ──> Oficial 'SAN DIEGO PADRES' | Final: 'SAN DIEGO PADRES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'SAN DIEGO PADRES_MLB' | Monto: 3000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "SAN DIEGO PADRES_MLB",
+      "monto": 3000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 253,
+    "raw": "[4:59 p.m., 9/9/2026] Deportes: papito",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'PAPITO'"
+    ],
+    "resultado": {
+      "jugada": "PAPITO",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 254,
+    "raw": "philies 5000 MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PHILIES_MLB'",
+      "      ├─ Nombre extraído: 'PHILIES' | Sanitizado: 'PHILIES'",
+      "      └─ 🎯 FUZZY MATCH (93%): Match 'PHILLIES' ──> Oficial 'PHILADELPHIA PHILLIES' | Final: 'PHILADELPHIA PHILLIES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'PHILADELPHIA PHILLIES_MLB' | Monto: 5000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "PHILADELPHIA PHILLIES_MLB",
+      "monto": 5000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 255,
+    "raw": "[4:59 p.m., 9/9/2026] Deportes: papito",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'PAPITO'"
+    ],
+    "resultado": {
+      "jugada": "PAPITO",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 256,
+    "raw": "tripleta 5000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 5000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 5000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 257,
+    "raw": "philies MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PHILIES_MLB'",
+      "      ├─ Nombre extraído: 'PHILIES' | Sanitizado: 'PHILIES'",
+      "      └─ 🎯 FUZZY MATCH (93%): Match 'PHILLIES' ──> Oficial 'PHILADELPHIA PHILLIES' | Final: 'PHILADELPHIA PHILLIES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'PHILADELPHIA PHILLIES_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "PHILADELPHIA PHILLIES_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 258,
+    "raw": "Miami MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'MIAMI_MLB'",
+      "      ├─ Nombre extraído: 'MIAMI' | Sanitizado: 'MIAMI'",
+      "      └─ ✅ MATCH EXACTO: 'MIAMI' ──> 'MIAMI MARLINS' | Final: 'MIAMI MARLINS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'MIAMI MARLINS_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "MIAMI MARLINS_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 259,
+    "raw": "BostonMLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTONMLB'",
+      "      ├─ Nombre extraído: 'BOSTONMLB' | Sanitizado: 'BOSTONMLB'",
+      "      └─ 🎯 FUZZY MATCH (80%): Match 'BOSTON' ──> Oficial 'BOSTON RED SOX' | Final: 'BOSTON RED SOX'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 260,
+    "raw": "[5:09 p.m., 9/9/2026] Deportes: Luisito fútbol",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'LUISITO FÚTBOL'"
+    ],
+    "resultado": {
+      "jugada": "LUISITO FÚTBOL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 261,
+    "raw": "Tripleta de 900",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 900.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 900.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 262,
+    "raw": "New York city fc",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NEW_YORK_CITY_FC'",
+      "      ├─ Nombre extraído: 'NEW YORK CITY FC' | Sanitizado: 'NEW YORK CITY FC'",
+      "      └─ ✅ MATCH EXACTO: 'NEW YORK CITY FC' ──> 'NEW YORK CITY FC' | Final: 'NEW YORK CITY FC'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK CITY FC' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK CITY FC",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 263,
+    "raw": "New York city fc alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NEW_YORK_CITY_FC_ALTA'",
+      "      ├─ Nombre extraído: 'NEW YORK CITY FC' | Sanitizado: 'NEW YORK CITY FC'",
+      "      └─ ✅ MATCH EXACTO: 'NEW YORK CITY FC' ──> 'NEW YORK CITY FC' | Final: 'NEW YORK CITY FC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK CITY FC_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK CITY FC_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 264,
+    "raw": "Alianza petrolera",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ALIANZA_PETROLERA'",
+      "      ├─ Nombre extraído: 'ALIANZA PETROLERA' | Sanitizado: 'ALIANZA PETROLERA'",
+      "      └─ ✅ MATCH EXACTO: 'ALIANZA PETROLERA' ──> 'ALIANZA PETROLERA' | Final: 'ALIANZA PETROLERA'",
+      "📊 RESULTADO FINAL -> Jugada: 'ALIANZA PETROLERA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ALIANZA PETROLERA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 265,
+    "raw": "Alianza petrolera alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ALIANZA_PETROLERA_ALTA'",
+      "      ├─ Nombre extraído: 'ALIANZA PETROLERA' | Sanitizado: 'ALIANZA PETROLERA'",
+      "      └─ ✅ MATCH EXACTO: 'ALIANZA PETROLERA' ──> 'ALIANZA PETROLERA' | Final: 'ALIANZA PETROLERA_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'ALIANZA PETROLERA_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ALIANZA PETROLERA_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 266,
+    "raw": "[5:26 p.m., 9/9/2026] Deportes: Jose cesar",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JOSE CESAR'"
+    ],
+    "resultado": {
+      "jugada": "JOSE CESAR",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 267,
+    "raw": "Tripleta 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 1000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 1000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 268,
+    "raw": "Filadelfia ML mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'FILADELFIA_MLB'",
+      "      ├─ Nombre extraído: 'FILADELFIA' | Sanitizado: 'FILADELFIA'",
+      "      └─ ✅ MATCH EXACTO: 'FILADELFIA' ──> 'PHILADELPHIA PHILLIES' | Final: 'PHILADELPHIA PHILLIES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'PHILADELPHIA PHILLIES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "PHILADELPHIA PHILLIES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 269,
+    "raw": "Boston mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 270,
+    "raw": "Bravo ML mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BRAVO_MLB'",
+      "      ├─ Nombre extraído: 'BRAVO' | Sanitizado: 'BRAVO'",
+      "      └─ 🎯 FUZZY MATCH (91%): Match 'BRAVOS' ──> Oficial 'ATLANTA BRAVES' | Final: 'ATLANTA BRAVES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ATLANTA BRAVES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ATLANTA BRAVES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 271,
+    "raw": "[5:35 p.m., 9/9/2026] Deportes: Jose cesar",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JOSE CESAR'"
+    ],
+    "resultado": {
+      "jugada": "JOSE CESAR",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 272,
+    "raw": "Boston mlb 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_MLB' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_MLB",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 273,
+    "raw": "[5:37 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 274,
+    "raw": "Mlb Boston ML 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_MLB' | Monto: 3000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_MLB",
+      "monto": 3000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 275,
+    "raw": "[5:37 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 276,
+    "raw": "Mlb Philips ML 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PHILIPS_MLB'",
+      "      ├─ Nombre extraído: 'PHILIPS' | Sanitizado: 'PHILIPS'",
+      "      └─ 🎯 FUZZY MATCH (88%): Match 'D_PHILIPS' ──> Oficial 'PHILADELPHIA PHILLIES' | Final: 'PHILADELPHIA PHILLIES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'PHILADELPHIA PHILLIES_MLB' | Monto: 3000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "PHILADELPHIA PHILLIES_MLB",
+      "monto": 3000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 277,
+    "raw": "[5:37 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 278,
+    "raw": "Mlb Guardianes ML 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'GUARDIANES_MLB'",
+      "      ├─ Nombre extraído: 'GUARDIANES' | Sanitizado: 'GUARDIANES'",
+      "      └─ 🎯 FUZZY MATCH (95%): Match 'GUARDIANS' ──> Oficial 'CLEVELAND GUARDIANS' | Final: 'CLEVELAND GUARDIANS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'CLEVELAND GUARDIANS_MLB' | Monto: 3000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "CLEVELAND GUARDIANS_MLB",
+      "monto": 3000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 279,
+    "raw": "[5:38 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 280,
+    "raw": "Mlb Miami Marlins ML 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'MIAMI_MARLINS_MLB'",
+      "      ├─ Nombre extraído: 'MIAMI MARLINS' | Sanitizado: 'MIAMI MARLINS'",
+      "      └─ ✅ MATCH EXACTO: 'MIAMI MARLINS' ──> 'MIAMI MARLINS' | Final: 'MIAMI MARLINS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'MIAMI MARLINS_MLB' | Monto: 3000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "MIAMI MARLINS_MLB",
+      "monto": 3000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 281,
+    "raw": "[5:41 p.m., 9/9/2026] Deportes: dariel",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'DARIEL'"
+    ],
+    "resultado": {
+      "jugada": "DARIEL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 282,
+    "raw": "boston red sox mlb 2000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_RED_SOX_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON RED SOX' | Sanitizado: 'BOSTON RED SOX'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON RED SOX' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_MLB' | Monto: 2000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_MLB",
+      "monto": 2000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 283,
+    "raw": "[5:41 p.m., 9/9/2026] Deportes: yasel",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'YASEL'"
+    ],
+    "resultado": {
+      "jugada": "YASEL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 284,
+    "raw": "Sesteta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 500.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 500.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 285,
+    "raw": "Nasville sc alta futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NASVILLE_SC_FC_ALTA'",
+      "      ├─ Nombre extraído: 'NASVILLE SC FC' | Sanitizado: 'NASVILLE SC FC'",
+      "      └─ 🎯 FUZZY MATCH (85%): Match 'NASHVILLE SC' ──> Oficial 'NASHVILLE SC' | Final: 'NASHVILLE SC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'NASHVILLE SC_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NASHVILLE SC_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 286,
+    "raw": "Nasville sc futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NASVILLE_SC_FC'",
+      "      ├─ Nombre extraído: 'NASVILLE SC FC' | Sanitizado: 'NASVILLE SC FC'",
+      "      └─ 🎯 FUZZY MATCH (85%): Match 'NASHVILLE SC' ──> Oficial 'NASHVILLE SC' | Final: 'NASHVILLE SC'",
+      "📊 RESULTADO FINAL -> Jugada: 'NASHVILLE SC' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NASHVILLE SC",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 287,
+    "raw": "Philadelfia futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PHILADELFIA_FC'",
+      "      ├─ Nombre extraído: 'PHILADELFIA FC' | Sanitizado: 'PHILADELFIA FC'",
+      "      └─ 🎯 FUZZY MATCH (83%): Match 'FILADELFIA' ──> Oficial 'PHILADELPHIA PHILLIES' | Final: 'PHILADELPHIA PHILLIES'",
+      "📊 RESULTADO FINAL -> Jugada: 'PHILADELPHIA PHILLIES' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "PHILADELPHIA PHILLIES",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 288,
+    "raw": "New england futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NEW_ENGLAND_FC'",
+      "      ├─ Nombre extraído: 'NEW ENGLAND FC' | Sanitizado: 'NEW ENGLAND FC'",
+      "      └─ 🎯 FUZZY MATCH (88%): Match 'NEW ENGLAND' ──> Oficial 'NEW ENGLAND' | Final: 'NEW ENGLAND'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW ENGLAND' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NEW ENGLAND",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 289,
+    "raw": "Houston futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'HOUSTON_FC'",
+      "      ├─ Nombre extraído: 'HOUSTON FC' | Sanitizado: 'HOUSTON FC'",
+      "      └─ 🎯 FUZZY MATCH (82%): Match 'HOUSTON' ──> Oficial 'HOUSTON' | Final: 'HOUSTON'",
+      "📊 RESULTADO FINAL -> Jugada: 'HOUSTON' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "HOUSTON",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 290,
+    "raw": "Colorado futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'COLORADO_FC'",
+      "      ├─ Nombre extraído: 'COLORADO FC' | Sanitizado: 'COLORADO FC'",
+      "      └─ 🎯 FUZZY MATCH (84%): Match 'COLORADO' ──> Oficial 'COLORADO' | Final: 'COLORADO'",
+      "📊 RESULTADO FINAL -> Jugada: 'COLORADO' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "COLORADO",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 291,
+    "raw": "Deportivo pasto baja futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'DEPORTIVO_PASTO_FC_BAJA'",
+      "      ├─ Nombre extraído: 'DEPORTIVO PASTO FC' | Sanitizado: 'DEPORTIVO PASTO FC'",
+      "      └─ 🎯 FUZZY MATCH (91%): Match 'DEPORTIVO PASTO' ──> Oficial 'DEPORTIVO PASTO' | Final: 'DEPORTIVO PASTO_BAJA'",
+      "📊 RESULTADO FINAL -> Jugada: 'DEPORTIVO PASTO_BAJA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "DEPORTIVO PASTO_BAJA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 292,
+    "raw": "Boston ml mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 293,
+    "raw": "Yanki ml mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'YANKI_MLB'",
+      "      ├─ Nombre extraído: 'YANKI' | Sanitizado: 'YANKI'",
+      "      └─ 🎯 FUZZY MATCH (91%): Match 'YANKIS' ──> Oficial 'NEW YORK YANKEES' | Final: 'NEW YORK YANKEES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK YANKEES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK YANKEES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 294,
+    "raw": "Kansas mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'KANSAS_MLB'",
+      "      ├─ Nombre extraído: 'KANSAS' | Sanitizado: 'KANSAS'",
+      "      └─ ✅ MATCH EXACTO: 'KANSAS' ──> 'KANSAS CITY ROYALS' | Final: 'KANSAS CITY ROYALS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'KANSAS CITY ROYALS_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "KANSAS CITY ROYALS_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 295,
+    "raw": "Sesteta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 500.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 500.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 296,
+    "raw": "Boston ml mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 297,
+    "raw": "Yanki ml mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'YANKI_MLB'",
+      "      ├─ Nombre extraído: 'YANKI' | Sanitizado: 'YANKI'",
+      "      └─ 🎯 FUZZY MATCH (91%): Match 'YANKIS' ──> Oficial 'NEW YORK YANKEES' | Final: 'NEW YORK YANKEES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK YANKEES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK YANKEES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 298,
+    "raw": "Kansas mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'KANSAS_MLB'",
+      "      ├─ Nombre extraído: 'KANSAS' | Sanitizado: 'KANSAS'",
+      "      └─ ✅ MATCH EXACTO: 'KANSAS' ──> 'KANSAS CITY ROYALS' | Final: 'KANSAS CITY ROYALS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'KANSAS CITY ROYALS_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "KANSAS CITY ROYALS_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 299,
+    "raw": "Phili ml mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PHILI_MLB'",
+      "      ├─ Nombre extraído: 'PHILI' | Sanitizado: 'PHILI'",
+      "      └─ 🎯 FUZZY MATCH (77%): Match 'PHILLIES' ──> Oficial 'PHILADELPHIA PHILLIES' | Final: 'PHILADELPHIA PHILLIES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'PHILADELPHIA PHILLIES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "PHILADELPHIA PHILLIES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 300,
+    "raw": "Bravo ml mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BRAVO_MLB'",
+      "      ├─ Nombre extraído: 'BRAVO' | Sanitizado: 'BRAVO'",
+      "      └─ 🎯 FUZZY MATCH (91%): Match 'BRAVOS' ──> Oficial 'ATLANTA BRAVES' | Final: 'ATLANTA BRAVES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ATLANTA BRAVES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ATLANTA BRAVES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 301,
+    "raw": "Cleveland ml mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CLEVELAND_MLB'",
+      "      ├─ Nombre extraído: 'CLEVELAND' | Sanitizado: 'CLEVELAND'",
+      "      └─ ✅ MATCH EXACTO: 'CLEVELAND' ──> 'CLEVELAND GUARDIANS' | Final: 'CLEVELAND GUARDIANS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'CLEVELAND GUARDIANS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "CLEVELAND GUARDIANS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 302,
+    "raw": "Milwoke ml mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'MILWOKE_MLB'",
+      "      ├─ Nombre extraído: 'MILWOKE' | Sanitizado: 'MILWOKE'",
+      "      └─ ✅ MATCH EXACTO: 'MILWOKE' ──> 'MILWAUKEE BREWERS' | Final: 'MILWAUKEE BREWERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'MILWAUKEE BREWERS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 303,
+    "raw": "Whitesox ml mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'WHITESOX_MLB'",
+      "      ├─ Nombre extraído: 'WHITESOX' | Sanitizado: 'WHITESOX'",
+      "      └─ 🎯 FUZZY MATCH (88%): Match 'WHIRESOX' ──> Oficial 'CHICAGO WHITE SOX' | Final: 'CHICAGO WHITE SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHICAGO WHITE SOX_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "CHICAGO WHITE SOX_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 304,
+    "raw": "Philadelfia futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PHILADELFIA_FC'",
+      "      ├─ Nombre extraído: 'PHILADELFIA FC' | Sanitizado: 'PHILADELFIA FC'",
+      "      └─ 🎯 FUZZY MATCH (83%): Match 'FILADELFIA' ──> Oficial 'PHILADELPHIA PHILLIES' | Final: 'PHILADELPHIA PHILLIES'",
+      "📊 RESULTADO FINAL -> Jugada: 'PHILADELPHIA PHILLIES' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "PHILADELPHIA PHILLIES",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 305,
+    "raw": "Houston futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'HOUSTON_FC'",
+      "      ├─ Nombre extraído: 'HOUSTON FC' | Sanitizado: 'HOUSTON FC'",
+      "      └─ 🎯 FUZZY MATCH (82%): Match 'HOUSTON' ──> Oficial 'HOUSTON' | Final: 'HOUSTON'",
+      "📊 RESULTADO FINAL -> Jugada: 'HOUSTON' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "HOUSTON",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 306,
+    "raw": "[6:18 p.m., 9/9/2026] Deportes: Royler",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ROYLER'"
+    ],
+    "resultado": {
+      "jugada": "ROYLER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 307,
+    "raw": "Tripleta 525",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 525.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 525.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 308,
+    "raw": "Cleveland MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CLEVELAND_MLB'",
+      "      ├─ Nombre extraído: 'CLEVELAND' | Sanitizado: 'CLEVELAND'",
+      "      └─ ✅ MATCH EXACTO: 'CLEVELAND' ──> 'CLEVELAND GUARDIANS' | Final: 'CLEVELAND GUARDIANS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'CLEVELAND GUARDIANS_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "CLEVELAND GUARDIANS_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 309,
+    "raw": "Boston MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 310,
+    "raw": "Yankee MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'YANKEE_MLB'",
+      "      ├─ Nombre extraído: 'YANKEE' | Sanitizado: 'YANKEE'",
+      "      └─ 🎯 FUZZY MATCH (92%): Match 'YANKEES' ──> Oficial 'NEW YORK YANKEES' | Final: 'NEW YORK YANKEES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK YANKEES_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK YANKEES_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 311,
+    "raw": "Bravos MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BRAVOS_MLB'",
+      "      ├─ Nombre extraído: 'BRAVOS' | Sanitizado: 'BRAVOS'",
+      "      └─ ✅ MATCH EXACTO: 'BRAVOS' ──> 'ATLANTA BRAVES' | Final: 'ATLANTA BRAVES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ATLANTA BRAVES_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ATLANTA BRAVES_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 312,
+    "raw": "Kansas MLB ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'KANSAS_MLB'",
+      "      ├─ Nombre extraído: 'KANSAS' | Sanitizado: 'KANSAS'",
+      "      └─ ✅ MATCH EXACTO: 'KANSAS' ──> 'KANSAS CITY ROYALS' | Final: 'KANSAS CITY ROYALS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'KANSAS CITY ROYALS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "KANSAS CITY ROYALS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 313,
+    "raw": "Mets mlb ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'METS_MLB'",
+      "      ├─ Nombre extraído: 'METS' | Sanitizado: 'METS'",
+      "      └─ ✅ MATCH EXACTO: 'METS' ──> 'NEW YORK METS' | Final: 'NEW YORK METS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK METS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK METS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 314,
+    "raw": "[6:24 p.m., 9/9/2026] Deportes: Lucas",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'LUCAS'"
+    ],
+    "resultado": {
+      "jugada": "LUCAS",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 315,
+    "raw": "Tripleta 2000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 2000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 2000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 316,
+    "raw": "Pirata MLB-ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PIRATA_-_MLB'",
+      "      ├─ Nombre extraído: 'PIRATA' | Sanitizado: 'PIRATA'",
+      "      └─ 🎯 FUZZY MATCH (77%): Match 'PIRATES' ──> Oficial 'PITTSBURGH PIRATES' | Final: 'PITTSBURGH PIRATES_-_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'PITTSBURGH PIRATES_-_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "PITTSBURGH PIRATES_-_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 317,
+    "raw": "Yankees MLB-ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'YANKEES_-_MLB'",
+      "      ├─ Nombre extraído: 'YANKEES' | Sanitizado: 'YANKEES'",
+      "      └─ ✅ MATCH EXACTO: 'YANKEES' ──> 'NEW YORK YANKEES' | Final: 'NEW YORK YANKEES_-_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK YANKEES_-_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK YANKEES_-_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 318,
+    "raw": "Arizona  MLB-ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARIZONA_-_MLB'",
+      "      ├─ Nombre extraído: 'ARIZONA' | Sanitizado: 'ARIZONA'",
+      "      └─ ✅ MATCH EXACTO: 'ARIZONA' ──> 'ARIZONA DIAMONDBACKS' | Final: 'ARIZONA DIAMONDBACKS_-_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARIZONA DIAMONDBACKS_-_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ARIZONA DIAMONDBACKS_-_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 319,
+    "raw": "Sexteta 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 1000.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 1000.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 320,
+    "raw": "Pirata MLB-ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PIRATA_-_MLB'",
+      "      ├─ Nombre extraído: 'PIRATA' | Sanitizado: 'PIRATA'",
+      "      └─ 🎯 FUZZY MATCH (77%): Match 'PIRATES' ──> Oficial 'PITTSBURGH PIRATES' | Final: 'PITTSBURGH PIRATES_-_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'PITTSBURGH PIRATES_-_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "PITTSBURGH PIRATES_-_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 321,
+    "raw": "Yankees MLB-ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'YANKEES_-_MLB'",
+      "      ├─ Nombre extraído: 'YANKEES' | Sanitizado: 'YANKEES'",
+      "      └─ ✅ MATCH EXACTO: 'YANKEES' ──> 'NEW YORK YANKEES' | Final: 'NEW YORK YANKEES_-_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK YANKEES_-_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK YANKEES_-_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 322,
+    "raw": "Mest MLB-ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'MEST_-_MLB'",
+      "      ├─ Nombre extraído: 'MEST' | Sanitizado: 'MEST'",
+      "      └─ 🎯 FUZZY MATCH (75%): Match 'METS' ──> Oficial 'NEW YORK METS' | Final: 'NEW YORK METS_-_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK METS_-_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK METS_-_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 323,
+    "raw": "Boston MLB-ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_-_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_-_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_-_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_-_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 324,
+    "raw": "Bravo MLB-ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BRAVO_-_MLB'",
+      "      ├─ Nombre extraído: 'BRAVO' | Sanitizado: 'BRAVO'",
+      "      └─ 🎯 FUZZY MATCH (91%): Match 'BRAVOS' ──> Oficial 'ATLANTA BRAVES' | Final: 'ATLANTA BRAVES_-_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ATLANTA BRAVES_-_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ATLANTA BRAVES_-_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 325,
+    "raw": "Arizona MLB-ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARIZONA_-_MLB'",
+      "      ├─ Nombre extraído: 'ARIZONA' | Sanitizado: 'ARIZONA'",
+      "      └─ ✅ MATCH EXACTO: 'ARIZONA' ──> 'ARIZONA DIAMONDBACKS' | Final: 'ARIZONA DIAMONDBACKS_-_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARIZONA DIAMONDBACKS_-_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ARIZONA DIAMONDBACKS_-_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 326,
+    "raw": "[6:31 p.m., 9/9/2026] Deportes: Yasmani",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'YASMANI'"
+    ],
+    "resultado": {
+      "jugada": "YASMANI",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 327,
+    "raw": "Boston MLB  ML 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_MLB' | Monto: 1000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_MLB",
+      "monto": 1000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 328,
+    "raw": "Tripleta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 500.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 500.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 329,
+    "raw": "Boston MLB  ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 330,
+    "raw": "Yankee mlb ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'YANKEE_MLB'",
+      "      ├─ Nombre extraído: 'YANKEE' | Sanitizado: 'YANKEE'",
+      "      └─ 🎯 FUZZY MATCH (92%): Match 'YANKEES' ──> Oficial 'NEW YORK YANKEES' | Final: 'NEW YORK YANKEES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK YANKEES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK YANKEES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 331,
+    "raw": "Arizona mlb alta",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARIZONA_MLB_ALTA'",
+      "      ├─ Nombre extraído: 'ARIZONA' | Sanitizado: 'ARIZONA'",
+      "      └─ ✅ MATCH EXACTO: 'ARIZONA' ──> 'ARIZONA DIAMONDBACKS' | Final: 'ARIZONA DIAMONDBACKS_MLB_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARIZONA DIAMONDBACKS_MLB_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "ARIZONA DIAMONDBACKS_MLB_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 332,
+    "raw": "Cleveland mlb ML",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CLEVELAND_MLB'",
+      "      ├─ Nombre extraído: 'CLEVELAND' | Sanitizado: 'CLEVELAND'",
+      "      └─ ✅ MATCH EXACTO: 'CLEVELAND' ──> 'CLEVELAND GUARDIANS' | Final: 'CLEVELAND GUARDIANS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'CLEVELAND GUARDIANS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "CLEVELAND GUARDIANS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 333,
+    "raw": "[6:38 p.m., 9/9/2026] Deportes: Rober",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ROBER'"
+    ],
+    "resultado": {
+      "jugada": "ROBER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 334,
+    "raw": "Philadelphia mlb ML 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PHILADELPHIA_MLB'",
+      "      ├─ Nombre extraído: 'PHILADELPHIA' | Sanitizado: 'PHILADELPHIA'",
+      "      └─ ✅ MATCH EXACTO: 'PHILADELPHIA' ──> 'PHILADELPHIA' | Final: 'PHILADELPHIA_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'PHILADELPHIA_MLB' | Monto: 1000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "PHILADELPHIA_MLB",
+      "monto": 1000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 335,
+    "raw": "[6:41 p.m., 9/9/2026] Deportes: Wilser",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'WILSER'"
+    ],
+    "resultado": {
+      "jugada": "WILSER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 337,
+    "raw": "Boston 4600",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX' | Monto: 4600.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX",
+      "monto": 4600.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 338,
+    "raw": "[6:44 p.m., 9/9/2026] Deportes: Niche",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'NICHE'"
+    ],
+    "resultado": {
+      "jugada": "NICHE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 339,
+    "raw": "Tripleta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 500.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 500.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 340,
+    "raw": "Waixos MLB ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'WAIXOS_MLB'",
+      "      ├─ Nombre extraído: 'WAIXOS' | Sanitizado: 'WAIXOS'",
+      "      └─ ✅ MATCH EXACTO: 'WAIXOS' ──> 'CHICAGO WHITE SOX' | Final: 'CHICAGO WHITE SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHICAGO WHITE SOX_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "CHICAGO WHITE SOX_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 341,
+    "raw": "Cerveza MLB ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CERVEZA_MLB'",
+      "      ├─ Nombre extraído: 'CERVEZA' | Sanitizado: 'CERVEZA'",
+      "      └─ ✅ MATCH EXACTO: 'CERVEZA' ──> 'MILWAUKEE BREWERS' | Final: 'MILWAUKEE BREWERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'MILWAUKEE BREWERS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 342,
+    "raw": "Boston MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BOSTON_MLB'",
+      "      ├─ Nombre extraído: 'BOSTON' | Sanitizado: 'BOSTON'",
+      "      └─ ✅ MATCH EXACTO: 'BOSTON' ──> 'BOSTON RED SOX' | Final: 'BOSTON RED SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'BOSTON RED SOX_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "BOSTON RED SOX_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 343,
+    "raw": "Yankes Mlb",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'YANKES_MLB'",
+      "      ├─ Nombre extraído: 'YANKES' | Sanitizado: 'YANKES'",
+      "      └─ 🎯 FUZZY MATCH (92%): Match 'YANKEES' ──> Oficial 'NEW YORK YANKEES' | Final: 'NEW YORK YANKEES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK YANKEES_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK YANKEES_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 344,
+    "raw": "Atlanta MLB ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ATLANTA_MLB'",
+      "      ├─ Nombre extraído: 'ATLANTA' | Sanitizado: 'ATLANTA'",
+      "      └─ ✅ MATCH EXACTO: 'ATLANTA' ──> 'ATLANTA BRAVES' | Final: 'ATLANTA BRAVES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ATLANTA BRAVES_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ATLANTA BRAVES_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 345,
+    "raw": "[6:59 p.m., 9/9/2026] Deportes: Carlitos",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CARLITOS'"
+    ],
+    "resultado": {
+      "jugada": "CARLITOS",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 346,
+    "raw": "Ny yankees mlb 20mil ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NY_YANKEES_MLB'",
+      "      ├─ Nombre extraído: 'NY YANKEES' | Sanitizado: 'NY YANKEES'",
+      "      └─ 🎯 FUZZY MATCH (82%): Match 'YANKEES' ──> Oficial 'NEW YORK YANKEES' | Final: 'NEW YORK YANKEES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK YANKEES_MLB' | Monto: 20000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK YANKEES_MLB",
+      "monto": 20000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 347,
+    "raw": "[7:05 p.m., 9/9/2026] Deportes: Rober",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'ROBER'"
+    ],
+    "resultado": {
+      "jugada": "ROBER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 348,
+    "raw": "Atlanta bravo mlb ml 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ATLANTA_BRAVO_MLB'",
+      "      ├─ Nombre extraído: 'ATLANTA BRAVO' | Sanitizado: 'ATLANTA BRAVO'",
+      "      └─ 🎯 FUZZY MATCH (89%): Match 'ATLANTA BRAVES' ──> Oficial 'ATLANTA BRAVES' | Final: 'ATLANTA BRAVES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ATLANTA BRAVES_MLB' | Monto: 1000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ATLANTA BRAVES_MLB",
+      "monto": 1000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 349,
+    "raw": "Inter Miami 1000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'INTER_MIAMI'",
+      "      ├─ Nombre extraído: 'INTER MIAMI' | Sanitizado: 'INTER MIAMI'",
+      "      └─ ✅ MATCH EXACTO: 'INTER MIAMI' ──> 'INTER MIAMI' | Final: 'INTER MIAMI'",
+      "📊 RESULTADO FINAL -> Jugada: 'INTER MIAMI' | Monto: 1000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "INTER MIAMI",
+      "monto": 1000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 350,
+    "raw": "[7:05 p.m., 9/9/2026] Deportes: Maikol",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'MAIKOL'"
+    ],
+    "resultado": {
+      "jugada": "MAIKOL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 351,
+    "raw": "Yankees RL 3000 MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'YANKEES_MLB'",
+      "      ├─ Nombre extraído: 'YANKEES' | Sanitizado: 'YANKEES'",
+      "      └─ ✅ MATCH EXACTO: 'YANKEES' ──> 'NEW YORK YANKEES' | Final: 'NEW YORK YANKEES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'NEW YORK YANKEES_MLB' | Monto: 3000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NEW YORK YANKEES_MLB",
+      "monto": 3000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 352,
+    "raw": "[7:06 p.m., 9/9/2026] Deportes: Maikol",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'MAIKOL'"
+    ],
+    "resultado": {
+      "jugada": "MAIKOL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 353,
+    "raw": "Braves ML 3000 MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'BRAVES_MLB'",
+      "      ├─ Nombre extraído: 'BRAVES' | Sanitizado: 'BRAVES'",
+      "      └─ ✅ MATCH EXACTO: 'BRAVES' ──> 'ATLANTA BRAVES' | Final: 'ATLANTA BRAVES_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ATLANTA BRAVES_MLB' | Monto: 3000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ATLANTA BRAVES_MLB",
+      "monto": 3000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 354,
+    "raw": "[7:14 p.m., 9/9/2026] Deportes: Carlitos",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CARLITOS'"
+    ],
+    "resultado": {
+      "jugada": "CARLITOS",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 355,
+    "raw": "White sox mlb 20mil ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'WHITE_SOX_MLB'",
+      "      ├─ Nombre extraído: 'WHITE SOX' | Sanitizado: 'WHITE SOX'",
+      "      └─ 🎯 FUZZY MATCH (89%): Match 'WHTIE SOX' ──> Oficial 'CHICAGO WHITE SOX' | Final: 'CHICAGO WHITE SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHICAGO WHITE SOX_MLB' | Monto: 20000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "CHICAGO WHITE SOX_MLB",
+      "monto": 20000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 356,
+    "raw": "Dodger mlb 20mil ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'DODGER_MLB'",
+      "      ├─ Nombre extraído: 'DODGER' | Sanitizado: 'DODGER'",
+      "      └─ 🎯 FUZZY MATCH (92%): Match 'DODGERS' ──> Oficial 'LOS ANGELES DODGERS' | Final: 'LOS ANGELES DODGERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'LOS ANGELES DODGERS_MLB' | Monto: 20000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "LOS ANGELES DODGERS_MLB",
+      "monto": 20000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 357,
+    "raw": "[7:15 p.m., 9/9/2026] Deportes: Juaquin",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JUAQUIN'"
+    ],
+    "resultado": {
+      "jugada": "JUAQUIN",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 358,
+    "raw": "Tripleta500",
+    "tipo": "ADVERTENCIA",
+    "detalles": [
+      "   🔍 Normalizando: 'TRIPLETA'",
+      "      ├─ Nombre extraído: 'TRIPLETA' | Sanitizado: 'TRIPLETA'",
+      "      └─ ⚠️ NO RECONOCIDO (62% < Umbral 70%). Mejor intento: 'RECOLETA'",
+      "📊 RESULTADO FINAL -> Jugada: 'TRIPLETA' | Monto: nan | Línea: 500"
+    ],
+    "resultado": {
+      "jugada": "TRIPLETA",
+      "monto": "",
+      "linea": "500"
+    }
+  },
+  {
+    "fila": 359,
+    "raw": "Dodgers mlb ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'DODGERS_MLB'",
+      "      ├─ Nombre extraído: 'DODGERS' | Sanitizado: 'DODGERS'",
+      "      └─ ✅ MATCH EXACTO: 'DODGERS' ──> 'LOS ANGELES DODGERS' | Final: 'LOS ANGELES DODGERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'LOS ANGELES DODGERS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "LOS ANGELES DODGERS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 360,
+    "raw": "Cerveceros mlb ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CERVECEROS_MLB'",
+      "      ├─ Nombre extraído: 'CERVECEROS' | Sanitizado: 'CERVECEROS'",
+      "      └─ ✅ MATCH EXACTO: 'CERVECEROS' ──> 'MILWAUKEE BREWERS' | Final: 'MILWAUKEE BREWERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'MILWAUKEE BREWERS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 361,
+    "raw": "Alta Cerveceros",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CERVECEROS_ALTA'",
+      "      ├─ Nombre extraído: 'CERVECEROS' | Sanitizado: 'CERVECEROS'",
+      "      └─ ✅ MATCH EXACTO: 'CERVECEROS' ──> 'MILWAUKEE BREWERS' | Final: 'MILWAUKEE BREWERS_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'MILWAUKEE BREWERS_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "MILWAUKEE BREWERS_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 362,
+    "raw": "Dodgers mlb 2000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'DODGERS_MLB'",
+      "      ├─ Nombre extraído: 'DODGERS' | Sanitizado: 'DODGERS'",
+      "      └─ ✅ MATCH EXACTO: 'DODGERS' ──> 'LOS ANGELES DODGERS' | Final: 'LOS ANGELES DODGERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'LOS ANGELES DODGERS_MLB' | Monto: 2000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LOS ANGELES DODGERS_MLB",
+      "monto": 2000.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 363,
+    "raw": "[7:16 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 364,
+    "raw": "Mlb Arizona ML 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARIZONA_MLB'",
+      "      ├─ Nombre extraído: 'ARIZONA' | Sanitizado: 'ARIZONA'",
+      "      └─ ✅ MATCH EXACTO: 'ARIZONA' ──> 'ARIZONA DIAMONDBACKS' | Final: 'ARIZONA DIAMONDBACKS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARIZONA DIAMONDBACKS_MLB' | Monto: 3000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ARIZONA DIAMONDBACKS_MLB",
+      "monto": 3000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 365,
+    "raw": "[7:17 p.m., 9/9/2026] Deportes: Ceboolita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOOLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOOLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 366,
+    "raw": "Mlb chicago Whithe Sox ml 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CHICAGO_WHITHE_SOX_MLB'",
+      "      ├─ Nombre extraído: 'CHICAGO WHITHE SOX' | Sanitizado: 'CHICAGO WHITHE SOX'",
+      "      └─ 🎯 FUZZY MATCH (97%): Match 'CHICAGO WHITE SOX' ──> Oficial 'CHICAGO WHITE SOX' | Final: 'CHICAGO WHITE SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHICAGO WHITE SOX_MLB' | Monto: 3000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "CHICAGO WHITE SOX_MLB",
+      "monto": 3000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 367,
+    "raw": "[7:18 p.m., 9/9/2026] Deportes: Cebollita",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'CEBOLLITA'"
+    ],
+    "resultado": {
+      "jugada": "CEBOLLITA",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 368,
+    "raw": "Mlvb Milwaukee Brewers ML 3000",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'MLVB_MILWAUKEE_BREWERS'",
+      "      ├─ Nombre extraído: 'MLVB MILWAUKEE BREWERS' | Sanitizado: 'MLVB MILWAUKEE BREWERS'",
+      "      └─ 🎯 FUZZY MATCH (87%): Match 'MILWAUKEE BREWERS' ──> Oficial 'MILWAUKEE BREWERS' | Final: 'MILWAUKEE BREWERS'",
+      "📊 RESULTADO FINAL -> Jugada: 'MILWAUKEE BREWERS' | Monto: 3000.0 | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "MILWAUKEE BREWERS",
+      "monto": 3000.0,
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 369,
+    "raw": "[7:27 p.m., 9/9/2026] Deportes: Juan Carlos",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JUAN CARLOS'"
+    ],
+    "resultado": {
+      "jugada": "JUAN CARLOS",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 370,
+    "raw": "Tripleta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 500.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 500.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 371,
+    "raw": "Philadelphia futbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'PHILADELPHIA_FC'",
+      "      ├─ Nombre extraído: 'PHILADELPHIA FC' | Sanitizado: 'PHILADELPHIA FC'",
+      "      └─ 🎯 FUZZY MATCH (89%): Match 'PHILADELPHIA' ──> Oficial 'PHILADELPHIA' | Final: 'PHILADELPHIA'",
+      "📊 RESULTADO FINAL -> Jugada: 'PHILADELPHIA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "PHILADELPHIA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 372,
+    "raw": "Nasville alta fútbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NASVILLE_FC_ALTA'",
+      "      ├─ Nombre extraído: 'NASVILLE FC' | Sanitizado: 'NASVILLE FC'",
+      "      └─ 🎯 FUZZY MATCH (70%): Match 'NASHVILLE SC' ──> Oficial 'NASHVILLE SC' | Final: 'NASHVILLE SC_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'NASHVILLE SC_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NASHVILLE SC_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 373,
+    "raw": "Austin alta fútbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'AUSTIN_FC_ALTA'",
+      "      ├─ Nombre extraído: 'AUSTIN FC' | Sanitizado: 'AUSTIN FC'",
+      "      └─ 🎯 FUZZY MATCH (80%): Match 'AUSTIN' ──> Oficial 'AUSTIN' | Final: 'AUSTIN_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'AUSTIN_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "AUSTIN_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 374,
+    "raw": "[7:27 p.m., 9/9/2026] Deportes: dariel",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'DARIEL'"
+    ],
+    "resultado": {
+      "jugada": "DARIEL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 375,
+    "raw": "nashville sc 1400",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'NASHVILLE_SC'",
+      "      ├─ Nombre extraído: 'NASHVILLE SC' | Sanitizado: 'NASHVILLE SC'",
+      "      └─ ✅ MATCH EXACTO: 'NASHVILLE SC' ──> 'NASHVILLE SC' | Final: 'NASHVILLE SC'",
+      "📊 RESULTADO FINAL -> Jugada: 'NASHVILLE SC' | Monto: 1400.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "NASHVILLE SC",
+      "monto": 1400.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 376,
+    "raw": "[7:29 p.m., 9/9/2026] Deportes: Niche",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'NICHE'"
+    ],
+    "resultado": {
+      "jugada": "NICHE",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 377,
+    "raw": "Tripleta 500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "📊 RESULTADO FINAL -> Jugada: 'PARLEY' | Monto: 500.0 | Línea: nan"
+    ],
+    "resultado": {
+      "jugada": "PARLEY",
+      "monto": 500.0,
+      "linea": ""
+    }
+  },
+  {
+    "fila": 378,
+    "raw": "Waixos ML MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'WAIXOS_MLB'",
+      "      ├─ Nombre extraído: 'WAIXOS' | Sanitizado: 'WAIXOS'",
+      "      └─ ✅ MATCH EXACTO: 'WAIXOS' ──> 'CHICAGO WHITE SOX' | Final: 'CHICAGO WHITE SOX_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'CHICAGO WHITE SOX_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "CHICAGO WHITE SOX_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 379,
+    "raw": "Cerveza MLB ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'CERVEZA_MLB'",
+      "      ├─ Nombre extraído: 'CERVEZA' | Sanitizado: 'CERVEZA'",
+      "      └─ ✅ MATCH EXACTO: 'CERVEZA' ──> 'MILWAUKEE BREWERS' | Final: 'MILWAUKEE BREWERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'MILWAUKEE BREWERS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 380,
+    "raw": "Arizona MLB ml",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'ARIZONA_MLB'",
+      "      ├─ Nombre extraído: 'ARIZONA' | Sanitizado: 'ARIZONA'",
+      "      └─ ✅ MATCH EXACTO: 'ARIZONA' ──> 'ARIZONA DIAMONDBACKS' | Final: 'ARIZONA DIAMONDBACKS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'ARIZONA DIAMONDBACKS_MLB' | Monto: nan | Línea: ML"
+    ],
+    "resultado": {
+      "jugada": "ARIZONA DIAMONDBACKS_MLB",
+      "monto": "",
+      "linea": "ML"
+    }
+  },
+  {
+    "fila": 381,
+    "raw": "Inter Miami alta fútbol",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'INTER_MIAMI_FC_ALTA'",
+      "      ├─ Nombre extraído: 'INTER MIAMI FC' | Sanitizado: 'INTER MIAMI FC'",
+      "      └─ 🎯 FUZZY MATCH (88%): Match 'INTER MIAMI' ──> Oficial 'INTER MIAMI' | Final: 'INTER MIAMI_ALTA'",
+      "📊 RESULTADO FINAL -> Jugada: 'INTER MIAMI_ALTA' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "INTER MIAMI_ALTA",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 382,
+    "raw": "Dodgers MLB",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'DODGERS_MLB'",
+      "      ├─ Nombre extraído: 'DODGERS' | Sanitizado: 'DODGERS'",
+      "      └─ ✅ MATCH EXACTO: 'DODGERS' ──> 'LOS ANGELES DODGERS' | Final: 'LOS ANGELES DODGERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'LOS ANGELES DODGERS_MLB' | Monto: nan | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LOS ANGELES DODGERS_MLB",
+      "monto": "",
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 383,
+    "raw": "[7:54 p.m., 9/9/2026] Deportes: Wilser",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'WILSER'"
+    ],
+    "resultado": {
+      "jugada": "WILSER",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 385,
+    "raw": "Dodgers 3800",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'DODGERS'",
+      "      ├─ Nombre extraído: 'DODGERS' | Sanitizado: 'DODGERS'",
+      "      └─ ✅ MATCH EXACTO: 'DODGERS' ──> 'LOS ANGELES DODGERS' | Final: 'LOS ANGELES DODGERS'",
+      "📊 RESULTADO FINAL -> Jugada: 'LOS ANGELES DODGERS' | Monto: 3800.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LOS ANGELES DODGERS",
+      "monto": 3800.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 386,
+    "raw": "[8:00 p.m., 9/9/2026] Deportes: dariel",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'DARIEL'"
+    ],
+    "resultado": {
+      "jugada": "DARIEL",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 387,
+    "raw": "inter de miami 2500",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'INTER_DE_MIAMI'",
+      "      ├─ Nombre extraído: 'INTER DE MIAMI' | Sanitizado: 'INTER DE MIAMI'",
+      "      └─ 🎯 FUZZY MATCH (88%): Match 'INTER MIAMI' ──> Oficial 'INTER MIAMI' | Final: 'INTER MIAMI'",
+      "📊 RESULTADO FINAL -> Jugada: 'INTER MIAMI' | Monto: 2500.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "INTER MIAMI",
+      "monto": 2500.0,
+      "linea": "0.0"
+    }
+  },
+  {
+    "fila": 388,
+    "raw": "[8:01 p.m., 9/9/2026] Deportes: Jose cesar",
+    "tipo": "CLIENTE",
+    "detalles": [
+      "👤 ENCABEZADO DETECTADO: Jugador 'JOSE CESAR'"
+    ],
+    "resultado": {
+      "jugada": "JOSE CESAR",
+      "monto": "",
+      "linea": ""
+    }
+  },
+  {
+    "fila": 389,
+    "raw": "Dogger mlb 4 mil",
+    "tipo": "NORMALIZADO",
+    "detalles": [
+      "   🔍 Normalizando: 'DOGGER_MLB'",
+      "      ├─ Nombre extraído: 'DOGGER' | Sanitizado: 'DOGGER'",
+      "      └─ 🎯 FUZZY MATCH (77%): Match 'DODGERS' ──> Oficial 'LOS ANGELES DODGERS' | Final: 'LOS ANGELES DODGERS_MLB'",
+      "📊 RESULTADO FINAL -> Jugada: 'LOS ANGELES DODGERS_MLB' | Monto: 4000.0 | Línea: 0.0"
+    ],
+    "resultado": {
+      "jugada": "LOS ANGELES DODGERS_MLB",
+      "monto": 4000.0,
+      "linea": "0.0"
+    }
+  }
+]

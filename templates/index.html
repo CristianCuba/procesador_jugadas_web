@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesador de Jugadas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="app-header">
+        <header class="app-banner">
+            <h1>🏆 Procesador de Apuestas</h1>
+        </header>
+        <div style="display: flex; gap: 10px;">
+            <a href="/ocr" class="btn btn-outline">
+                <i class="bi bi-camera-fill"></i> Pikes MLB
+            </a>
+            <a href="{{ url_for('ocr_futbol_bp.vista_ocr_futbol') }}" class="btn btn-outline">
+                <i class="bi bi-camera-fill"></i> Pikes Futbol
+            </a>
+            <a href="/deportes" class="btn btn-outline">
+                <i class="bi bi-database-fill"></i> Administrar Listas
+            </a>
+            <a href="/reporte" class="btn btn-outline-info ms-2" target="_blank">
+                <i class="bi bi-clipboard-check"></i>Procesado
+            </a>
+            <a href="/reporte_pikes_futbol" class="btn btn-outline-info ms-2" target="_blank">
+                <i class="bi bi-clipboard-check"></i>R. Futbol
+            </a>
+            <a href="/reporte_marcadores" class="btn btn-outline-info ms-2" target="_blank">
+                <i class="bi bi-clipboard-check"></i> Marcadores
+            </a>
+            <a href="/gestor_equipos" class="btn btn-outline-info ms-2" target="_blank">
+                <i class="bi bi-clipboard-check"></i>Equipos Api
+            </a>
+        </div>
+    </div>
+
+    <div class="contenedor-principal">
+
+        <!-- COLUMNA IZQUIERDA: Cargar Excel, Controles y Tabla de Resultados -->
+        <div class="columna-izquierda">
+            <div class="seccion-card">
+                <h2>PASO 1: Cargar y Organizar Jugadas (Excel)</h2>
+                <form action="/" method="POST" enctype="multipart/form-data">
+                    <div class="form-grupo">
+                        <label class="btn-file-custom">
+                            <i class="bi bi-cloud-arrow-up-fill"></i>
+                            <span id="texto-archivo">Seleccionar Archivo Excel...</span>
+                            <input name="archivo" type="file" id="archivo-excel" accept=".xlsx, .xls"
+                                style="display: none;" onchange="actualizarNombreArchivo(this)">
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-verde">
+                        <i class="bi bi-file-earmark-excel-fill"></i> Cargar y Procesar Excel
+                    </button>
+                </form>
+            </div>
+
+            {% set lista_filas = filas if filas else jugadas %}
+            {% if lista_filas %}
+            <div class="seccion-card">
+                <h2>PASO 2: Consultar Resultados</h2>
+
+                <!-- BARRA SUPERIOR: FECHA Y ACCIONES GENERALES -->
+                <div style="display: flex; gap: 15px; align-items: flex-end; margin-bottom: 15px; flex-wrap: wrap;">
+                    <div class="form-grupo" style="margin-bottom: 0; min-width: 160px;">
+                        <label for="fecha_consulta"
+                            style="font-size: 12px; font-weight: 600; color: #94a3b8; display: block; margin-bottom: 4px;">Fecha
+                            de partidos:</label>
+                        <select id="fecha_consulta" style="padding: 6px 10px; font-size: 13px;">
+                            <option value="ayer" selected>Ayer</option>
+                            <option value="hoy">Hoy</option>
+                        </select>
+                    </div>
+
+                    <div style="display: flex; gap: 8px;">
+                        <button id="btn-buscar" class="btn btn-azul" onclick="guardarResultadosEnJSON()">
+                            <i class="bi bi-search"></i> Resultados
+                        </button>
+                        <button id="btn-copiar" class="btn btn-verde" onclick="copiarTabla()">
+                            <i class="bi bi-clipboard-check"></i> Copiar Tabla
+                        </button>
+                        <button id="btn_calcular_balance" class="btn btn-primary" onclick="calcularBalanceTabla()">
+                            <i class="bi bi-calculator"></i> Balance
+                        </button>
+                        <!-- Botón para desencadenar la evaluación -->
+                        <button onclick="calcularParleysEnTabla()" class="btn-calcular">
+                            🧮 Parleys
+                        </button>
+                    </div>
+                </div>
+
+                <!-- SUB-BLOQUES COMPACTOS POR DEPORTE -->
+                <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 15px;">
+
+                    <!-- MÓDULO MLB -->
+                    <div
+                        style="flex: 1; min-width: 260px; border: 1px solid #1e293b; padding: 8px 12px; border-radius: 6px; background-color: #0f172a;">
+                        <span
+                            style="color: #38bdf8; font-size: 11px; font-weight: 700; display: block; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px;">
+                            ⚾ MÓDULO MLB
+                        </span>
+                        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+                            <button type="button" class="btn btn-amber" onclick="cargarPikesML()">
+                                <i class="bi bi-lightning-charge-fill"></i> ML
+                            </button>
+                            <button type="button" class="btn btn-amber" onclick="cargarPikesRL()">
+                                <i class="bi bi-shield-slash-fill"></i> RL
+                            </button>
+                            <button type="button" class="btn btn-amber" onclick="cargarPikesAltasBajas()">
+                                <i class="bi bi-arrow-down-up"></i> High/Low
+                            </button>
+                            <button id="btn_asignar_resultados" class="btn btn-success"
+                                onclick="pintarResultadosEnTabla()">
+                                Resultado
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- MÓDULO FÚTBOL -->
+                    <div
+                        style="flex: 1; min-width: 240px; border: 1px solid #1e293b; padding: 8px 12px; border-radius: 6px; background-color: #0f172a;">
+                        <span
+                            style="color: #4ade80; font-size: 11px; font-weight: 700; display: block; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px;">
+                            ⚽ MÓDULO FÚTBOL
+                        </span>
+                        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+                            <button type="button" class="btn btn-amber" onclick="cargarPikesRLFutbol()">
+                                <i class="bi bi-shield-slash-fill"></i> RL
+                            </button>
+                            <button type="button" class="btn btn-amber" onclick="cargarPikesOUFutbol()">
+                                <i class="bi bi-arrow-down-up"></i> High/Low
+                            </button>
+                            <button id="btn_asignar_resultados_futbol" class="btn btn-success"
+                                onclick="pintarResultadosEnTablaFutbol()">
+                                Resultado
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- BLOQUE UNIFICADO: FILTRO + GRÁFICO RESUMEN -->
+                <div
+                    style="display: flex; gap: 20px; align-items: center; justify-content: space-between; background-color: #1a232e; padding: 15px; border-radius: 8px; margin: 15px 0;">
+
+                    <!-- Filtro a la Izquierda -->
+                    <div style="flex: 1; min-width: 250px;">
+                        <label for="filtro-tabla"
+                            style="color: #9ca3af; font-size: 13px; font-weight: bold; margin-bottom: 5px; display: block;">
+                            <i class="bi bi-funnel-fill"></i> Filtrar jugadas:
+                        </label>
+                        <div style="position: relative;">
+                            <input type="text" id="filtro-tabla"
+                                placeholder="Buscar por equipo, jugador, tipo (ML, RL, ALTA)..."
+                                onkeyup="filtrarTablaResultados()"
+                                style="width: 100%; padding: 8px 12px 8px 36px; background-color: #0f172a; border: 1px solid #334155; border-radius: 6px; color: #fff;">
+                            <i class="bi bi-search"
+                                style="position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #9ca3af;"></i>
+                        </div>
+                    </div>
+
+                    <!-- Gráfico y Resumen a la Derecha -->
+                    <div
+                        style="display: flex; align-items: center; gap: 15px; background-color: #0f172a; padding: 10px 18px; border-radius: 8px; border: 1px solid #1e293b;">
+                        <div style="width: 85px; height: 85px; position: relative;">
+                            <canvas id="graficoBalance"></canvas>
+                        </div>
+
+                        <div style="font-size: 13px;">
+                            <div
+                                style="color: #9ca3af; font-size: 11px; text-transform: uppercase; font-weight: bold; margin-bottom: 4px;">
+                                Resumen Financiero
+                            </div>
+                            <div style="margin-bottom: 2px;">
+                                <span style="color: #9ca3af;">Ganancias (G):</span>
+                                <strong id="txt_total_ganado" style="color: #10b981;">+$0.00</strong>
+                            </div>
+                            <div style="margin-bottom: 4px;">
+                                <span style="color: #9ca3af;">Pérdidas (P):</span>
+                                <strong id="txt_total_perdido" style="color: #ef4444;">-$0.00</strong>
+                            </div>
+                            <div style="border-top: 1px solid #334155; padding-top: 4px; margin-top: 4px;">
+                                <span style="color: #fff; font-weight: bold;">Total Neto:</span>
+                                <strong id="txt_total_neto" style="color: #38bdf8;">$0.00</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Tabla -->
+                <div style="overflow-x: auto;">
+                    <table class="table-estilo" id="tabla-datos">
+                        <thead>
+                            <tr>
+                                <th>JUGADOR</th>
+                                <th>JUGADA</th>
+                                <th>MONTO</th>
+                                <th>LINEA</th>
+                                <th>LOGRO</th>
+                                <th>RESULTADO</th>
+                                <th>Balance ($)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for fila in lista_filas %}
+                            {% if fila.es_head or fila.es_encabezado %}
+                            <tr class="fila-jugador-celda">
+                                <td colspan="7"><b>{{ fila.jugador or fila.jugada }}</b></td>
+                            </tr>
+                            {% else %}
+                            <tr>
+                                <td>{{ fila.jugador }}</td>
+                                <!-- Celdas editables en caliente -->
+                                <td class="celda-jugada" contenteditable="true" spellcheck="false">{{ fila.jugada }}</td>
+                                <td class="celda-monto" contenteditable="true" spellcheck="false">{{ fila.monto }}</td>
+                                <td class="celda-linea" contenteditable="true" spellcheck="false">{{ fila.linea }}</td>
+                                <td class="celda-logro" contenteditable="true" spellcheck="false">{{ fila.logro }}</td>
+                                <td class="celda-resultado" contenteditable="true" spellcheck="false"><i>{{ fila.resultado or 'Pendiente' }}</i>
+                                </td>
+                                <td class="celda-balance">0.00</td>
+                            </tr>
+                            {% endif %}
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- COLUMNA DERECHA: Módulos de Equivalencias y Fútbol -->
+        <div class="columna-derecha">
+
+            <!-- Módulo Equivalencias MLB -->
+            <div class="seccion-card">
+                <h2>Módulo de Equivalencias MLB</h2>
+                <p style="font-size: 0.85em; color: #666;">Agrega un apodo a un equipo oficial:</p>
+
+                <div class="form-grupo">
+                    <label for="equipo_oficial">Equipo Oficial (MLB):</label>
+                    <select id="equipo_oficial">
+                        <option value="">-- Selecciona un equipo MLB --</option>
+                        {% for nombre in nombres_oficiales %}
+                        <option value="{{ nombre }}">{{ nombre }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-grupo">
+                    <label for="nuevo_alias">Nuevo Alias / Apodo:</label>
+                    <input type="text" id="nuevo_alias" placeholder="Ej: TIGRES">
+                </div>
+                <button type="button" class="btn btn-verde" onclick="agregarAlias()">Guardar Alias</button>
+                <div id="mensaje-respuesta" class="mensaje-alerta"></div>
+            </div>
+
+            <!-- Módulo Equivalencias Fútbol -->
+            <div class="alias-card shadow-lg mb-4">
+                <div class="alias-header">
+                    <span class="alias-icon">⚽</span>
+                    <h5>Agregar Alias a Equipos de Fútbol</h5>
+                </div>
+
+                <form id="formAliasFutbol" class="alias-body">
+                    <div class="alias-grid">
+                        <!-- Campo Equipo Oficial -->
+                        <div class="input-group-custom">
+                            <label for="oficialFutbol"><i class="bi bi-shield-check"></i> Equipo Oficial</label>
+                            <input class="form-control-dark" list="listaEquiposFutbol" id="oficialFutbol" name="oficial"
+                                placeholder="Escribe para buscar equipo..." required autocomplete="off">
+                            <datalist id="listaEquiposFutbol">
+                                {% for nombre in nombres_futbol %}
+                                <option value="{{ nombre }}">
+                                    {% endfor %}
+                            </datalist>
+                        </div>
+
+                        <!-- Campo Nuevo Alias -->
+                        <div class="input-group-custom">
+                            <label for="aliasFutbol"><i class="bi bi-tag-fill"></i> Nuevo Alias</label>
+                            <input type="text" class="form-control-dark" id="aliasFutbol" name="alias"
+                                placeholder="Ej: REAL MADRID, BARCA..." required>
+                        </div>
+
+                        <!-- Botón Guardar -->
+                        <div class="input-group-custom btn-container">
+                            <button type="submit" class="btn-pacotilla">
+                                <span class="btn-text">Guardar</span>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="mensajeAliasFutbol" class="mt-2 px-3"></div>
+            </div>
+
+            <!-- Módulo Extraer / Importar Fútbol -->
+            <div class="seccion-card">
+                <h2>Alimentar Equipos de Fútbol</h2>
+                <p style="font-size: 0.85em; color: #666;">Pega aquí el bloque de texto raspado con los IDs y Nombres:
+                </p>
+
+                <div class="form-grupo">
+                    <textarea id="texto_raw_futbol" rows="6"
+                        placeholder="Ejemplo:&#10;4868 Guadalajara&#10;4874 Puebla"></textarea>
+                </div>
+
+                <button type="button" class="btn btn-verde" onclick="procesarTextoFutbol()">Procesar e Importar
+                    Equipos</button>
+                <div id="mensaje-futbol" class="mensaje-alerta"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Contenedor de Notificaciones Toast -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <script>
+        // Variables globales que vienen de Flask
+        window.datosFilas = {{ filas | tojson | safe if filas else '[]' }};
+    </script>
+
+    <!-- Carga del JS principal -->
+    <script src="/static/js/main.js"></script>
+
+    <!-- Botón Flotante para Volver Arriba -->
+    <button id="btn-scroll-top" class="btn-scroll-top" onclick="volverArriba()" title="Volver arriba">
+        <i class="bi bi-arrow-up-short"></i>
+    </button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const formAliasFutbol = document.getElementById('formAliasFutbol');
+
+            if (formAliasFutbol) {
+                formAliasFutbol.addEventListener('submit', async function (e) {
+                    e.preventDefault();
+                    const oficial = document.getElementById('oficialFutbol').value.trim();
+                    const alias = document.getElementById('aliasFutbol').value.trim();
+
+                    const response = await fetch('/agregar_equivalencia_futbol', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ oficial, alias })
+                    });
+
+                    const resultado = await response.json();
+                    const mensajeDiv = document.getElementById('mensajeAliasFutbol');
+
+                    if (resultado.success) {
+                        mensajeDiv.innerHTML = `<div class="alert alert-success">${resultado.mensaje}</div>`;
+                        document.getElementById('aliasFutbol').value = '';
+                    } else {
+                        mensajeDiv.innerHTML = `<div class="alert alert-danger">${resultado.mensaje}</div>`;
+                    }
+                });
+            }
+        });
+
+        
+    </script>
+    {% if logs_excel %}
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <div id="excel-logs-data" data-logs="{{ logs_excel }}" style="display: none;"></div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const logElement = document.getElementById('excel-logs-data');
+            if (logElement && logElement.dataset.logs) {
+                try {
+                    const logs = JSON.parse(logElement.dataset.logs);
+                    if (logs && logs.length > 0) {
+                        Swal.fire({
+                            title: '📋 Reporte de Procesamiento Excel',
+                            html: `<pre style="text-align: left; font-family: monospace; font-size: 13px; max-height: 400px; overflow-y: auto; background: #f8f9fa; padding: 12px; border-radius: 6px; border: 1px solid #dee2e6;">${logs.join('\n')}</pre>`,
+                            width: '800px',
+                            confirmButtonText: 'Cerrar',
+                            confirmButtonColor: '#0d6efd',
+                            customClass: {
+                                popup: 'swal-wide'
+                            }
+                        });
+                    }
+                } catch (e) {
+                    console.error("Error parseando logs:", e);
+                }
+            }
+        });
+    </script>
+    {% endif %}
+</body>
+
+</html>

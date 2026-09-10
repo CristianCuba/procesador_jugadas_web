@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Auditoría Línea por Línea - Marcadores API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background: #121212;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+
+        .log-box {
+            background: #000;
+            color: #00ff66;
+            font-family: monospace;
+            font-size: 0.85rem;
+            padding: 12px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h2>📊 Auditoría Detallada por Partido (Fútbol)</h2>
+        <div class="alert alert-dark text-white d-flex gap-4">
+            <div>📅 Fecha: <strong>{{ datos.fecha_consulta }}</strong></div>
+            <div>⚾ MLB: <strong>{{ datos.total_mlb }}</strong></div>
+            <div>⚽ Fútbol: <strong>{{ datos.total_futbol }}</strong></div>
+        </div>
+
+        <h5 class="mt-4">Logs de la petición</h5>
+        <div class="log-box mb-4">
+            {% for log in datos.logs %}
+            <div>{{ log }}</div>
+            {% endfor %}
+        </div>
+
+        <h5>Desglose Línea por Línea de Fixtures Recibidos ({{ datos.partidos_futbol_desglose|length }})</h5>
+        {% if datos.partidos_futbol_desglose %}
+        <table class="table table-dark table-striped table-bordered align-middle">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Fixture ID</th>
+                    <th>Liga ID</th>
+                    <th>Equipo Local</th>
+                    <th>Goles Local</th>
+                    <th>Goles Visitante</th>
+                    <th>Equipo Visitante</th>
+                    <th>State ID</th>
+                    <th>Estado Evaluado</th>
+                    <th>¿Procesado?</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for p in datos.partidos_futbol_desglose %}
+                <tr>
+                    <td>{{ p.index }}</td>
+                    <td><code>{{ p.fixture_id }}</code></td>
+                    <td>{{ p.liga_id }}</td>
+                    <td><strong>{{ p.home }}</strong></td>
+                    <td><span class="badge bg-primary">{{ p.home_score }}</span></td>
+                    <td><span class="badge bg-primary">{{ p.away_score }}</span></td>
+                    <td><strong>{{ p.away }}</strong></td>
+                    <td><code>{{ p.status_raw }}</code></td>
+                    <td><span
+                            class="badge {% if p.estado_evaluado == 'Final' %}bg-success{% else %}bg-warning{% endif %}">{{
+                            p.estado_evaluado }}</span></td>
+                    <td>
+                        {% if p.valido %}
+                        <span class="badge bg-success">SÍ</span>
+                        {% else %}
+                        <span class="badge bg-danger">NO (Nombre Vacío)</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <div class="alert alert-warning">
+            No se recibió ningún fixture individual de Fútbol en esta fecha. Revisa si el plan del Token restringe la
+            fecha solicitada.
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

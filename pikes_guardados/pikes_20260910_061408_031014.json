@@ -1,0 +1,74 @@
+{
+    "pikes": [
+        {
+            "id": "1279",
+            "equipo": "Minnesota Twins",
+            "pike1": "+100",
+            "pike2": "-195",
+            "pike3": "8.5"
+        },
+        {
+            "id": "1283",
+            "equipo": "Detroit Tigers",
+            "pike1": "-130",
+            "pike2": "+170",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1276",
+            "equipo": "Toronto Blue Jays",
+            "pike1": "-180",
+            "pike2": "-110",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1284",
+            "equipo": "Athletics",
+            "pike1": "+140",
+            "pike2": "-110",
+            "pike3": "9.5"
+        },
+        {
+            "id": "1293",
+            "equipo": "St. Louis Cardinals",
+            "pike1": "-125",
+            "pike2": "+140",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1300",
+            "equipo": "San Francisco Giant",
+            "pike1": "-115",
+            "pike2": "-160",
+            "pike3": "8.5"
+        },
+        {
+            "id": "1289",
+            "equipo": "Washington Nationa",
+            "pike1": "+150",
+            "pike2": "-135",
+            "pike3": "8"
+        },
+        {
+            "id": "1303",
+            "equipo": "San Diego Padres",
+            "pike1": "-190",
+            "pike2": "+115",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1287",
+            "equipo": "Texas Rangers",
+            "pike1": "+110",
+            "pike2": "-160",
+            "pike3": "7.5"
+        },
+        {
+            "id": "1286",
+            "equipo": "Seattle Mariners",
+            "pike1": "-150",
+            "pike2": "+140",
+            "pike3": "-1.5"
+        }
+    ]
+}

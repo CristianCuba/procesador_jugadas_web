@@ -1,0 +1,90 @@
+        {
+            "id": "1289",
+            "nombre": "Washington Nationals",
+            "pike1": "+130",
+            "pike2": "-155",
+            "pike3": "9"
+        },
+        {
+            "id": "1290",
+            "nombre": "Philadelphia Phillies",
+            "pike1": "-150",
+            "pike2": "+135",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1293",
+            "nombre": "St. Louis Cardinals",
+            "pike1": "+190",
+            "pike2": "-110",
+            "pike3": "8"
+        },
+        {
+            "id": "1274",
+            "nombre": "New York Yankees",
+            "pike1": "-215",
+            "pike2": "-110",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1296",
+            "nombre": "Pittsburgh Pirates",
+            "pike1": "+125",
+            "pike2": "-160",
+            "pike3": "8.5"
+        },
+        {
+            "id": "1298",
+            "nombre": "Milwaukee Brewers",
+            "pike1": "-145",
+            "pike2": "+140",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1301",
+            "nombre": "Los Angeles Dodger",
+            "pike1": "-120",
+            "pike2": "+135",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1297",
+            "nombre": "Chicago Cubs",
+            "pike1": "+100",
+            "pike2": "-155",
+            "pike3": "8"
+        },
+        {
+            "id": "1300",
+            "nombre": "San Francisco Giant",
+            "pike1": "+110",
+            "pike2": "-200",
+            "pike3": "8"
+        },
+        {
+            "id": "1287",
+            "nombre": "Texas Rangers",
+            "pike1": "-120",
+            "pike2": "+175",
+            "pike3": "-1.5"
+        }
+
+        1276 Toronto Blue +115 -170 9
+1294 Houston Astros -130 +150 -1.5
+
+1278 Tampa Jays Bay Rays -175 -125 -1.5
+1302 Colorado Rockies +155 +105 11.5
+
+1303 San Diego Padres -120 -210 9
+1299 Arizona Diamondba -120 +180 -1.5
+
+import os
+import json
+from flask import Blueprint, request, jsonify
+
+# 1. Definir el Blueprint
+pikes_bp = Blueprint('pikes_bp', __name__)
+
+# 2. Ruta ABSOLUTA EXACTA (Asegura estar en C:\procesador_jugadas_web\pikeshoy.json)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+JSON_PIKES_PATH = os.path.join(BASE_DIR, 'pikeshoy.json')

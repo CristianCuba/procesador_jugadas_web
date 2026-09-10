@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ==========================================
+   VARIABLES MODO OSCURO (DARK SPORTSBOOK)
+   ========================================== */
+:root {
+    --bg-main: #0b0f14;            /* Fondo principal ultra oscuro */
+    --card-bg: #151c24;            /* Fondo de paneles / tarjetas */
+    --card-header-bg: #1b242f;     /* Encabezados de tarjetas */
+    --border-color: #263342;       /* Bordes sutiles oscuros */
+    
+    --text-primary: #f1f5f9;       /* Texto principal claro */
+    --text-secondary: #94a3b8;     /* Texto secundario / labels */
+    --text-muted: #64748b;         /* Texto atenuao */
+    
+    --accent-emerald: #10b981;     /* Verde esmeralda estilo apuestas */
+    --accent-emerald-hover: #059669;
+    --accent-blue: #3b82f6;        /* Azul eléctrico */
+    --accent-blue-hover: #2563eb;
+    --accent-amber: #f59e0b;       /* Naranja / Amber */
+    --accent-danger: #ef4444;      /* Rojo alerta */
+
+    --input-bg: #0d1218;           /* Fondo campos de texto / selects */
+    --radius: 10px;
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* Base */
+body { 
+    font-family: 'Inter', Arial, sans-serif; 
+    background-color: var(--bg-main); 
+    margin: 0;
+    padding: 24px;
+    color: var(--text-primary); 
+}
+
+h1, h2, h3 { 
+    color: var(--text-primary); 
+    margin: 0;
+}
+
+/* Encabezado Principal */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    background: var(--card-bg);
+    padding: 16px 24px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+}
+
+.app-header h1 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Layout Principal */
+.contenedor-principal { 
+    display: flex; 
+    gap: 24px; 
+    flex-wrap: wrap; 
+}
+.columna-izquierda { 
+    flex: 2; 
+    min-width: 600px; 
+}
+.columna-derecha { 
+    flex: 1; 
+    min-width: 320px; 
+}
+
+@media (max-width: 1024px) {
+    .columna-izquierda, .columna-derecha { 
+        width: 100%; 
+        min-width: 100%; 
+    }
+}
+
+/* Tarjetas y Paneles (Cards) */
+.seccion-card { 
+    background-color: var(--card-bg); 
+    padding: 24px; 
+    border-radius: var(--radius); 
+    box-shadow: var(--shadow-sm); 
+    border: 1px solid var(--border-color);
+    margin-bottom: 24px; 
+}
+
+.seccion-card h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+    color: var(--text-primary);
+}
+
+/* Formularios, Inputs y Selects */
+.form-grupo { 
+    margin-bottom: 16px; 
+}
+
+label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-size: 0.85rem;
+    font-weight: 600; 
+    color: var(--text-secondary);
+}
+
+input[type="file"], select, input[type="text"], textarea { 
+    width: 100%; 
+    padding: 10px 14px; 
+    border: 1px solid var(--border-color); 
+    border-radius: 6px; 
+    box-sizing: border-box; 
+    font-family: inherit;
+    font-size: 0.9rem;
+    background-color: var(--input-bg);
+    color: var(--text-primary);
+    transition: all 0.2s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* Botones con estilo Dark Pro */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.btn-verde { 
+    background-color: var(--accent-emerald); 
+    color: #000; /* Texto oscuro para contraste alto sobre verde neón */
+    font-weight: 700;
+}
+.btn-verde:hover { 
+    background-color: var(--accent-emerald-hover); 
+    color: #fff;
+}
+
+.btn-azul { 
+    background-color: var(--accent-blue); 
+    color: white; 
+}
+.btn-azul:hover { 
+    background-color: var(--accent-blue-hover); 
+}
+
+.btn-amber { 
+    background-color: var(--accent-amber); 
+    color: #000;
+    font-weight: 700;
+}
+.btn-amber:hover { 
+    background-color: #d97706; 
+    color: #fff;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+.btn-outline:hover { 
+    background-color: var(--card-header-bg); 
+    border-color: var(--text-secondary);
+}
+
+.contenedor-botones { 
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+    margin-bottom: 18px; 
+    flex-wrap: wrap; 
+}
+
+/* Tabla Estilo Sportsbook Dark */
+.table-container {
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.table-estilo { 
+    width: 100%; 
+    border-collapse: collapse; 
+    background-color: var(--card-bg); 
+    font-size: 0.875rem;
+}
+
+.table-estilo th { 
+    background-color: var(--card-header-bg); 
+    color: var(--text-secondary); 
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    text-align: left;
+}
+
+.table-estilo td { 
+    padding: 12px 14px; 
+    border-bottom: 1px solid var(--border-color); 
+    border-right: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.table-estilo tr:last-child td { 
+    border-bottom: none; 
+}
+
+.table-estilo tr:hover { 
+    background-color: rgba(255, 255, 255, 0.02); 
+}
+
+/* Celda Encabezado Jugador */
+.fila-jugador-celda { 
+    background-color: #172433 !important; 
+    font-weight: 700; 
+    color: #60a5fa !important; /* Azul suave brillante */
+    border-left: 4px solid var(--accent-blue);
+}
+
+/* Mensajes de Alerta */
+/* Mensajes de Alerta Estilo Dark Pro */
+.mensaje-alerta { 
+    padding: 12px 16px; 
+    margin-top: 14px; 
+    border-radius: 6px; 
+    display: none; 
+    font-size: 0.875rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Alerta Éxito (Verde Translúcido Neón) */
+.exito { 
+    background-color: rgba(16, 185, 129, 0.12); 
+    color: #34d399; 
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* Alerta Error (Rojo Translúcido) */
+.error { 
+    background-color: rgba(239, 68, 68, 0.12); 
+    color: #fca5a5; 
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Badges de Resultado */
+.badge-result {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.badge-g { background-color: rgba(16, 185, 129, 0.2); color: #34d399; }
+.badge-p { background-color: rgba(239, 68, 68, 0.2); color: #fca5a5; }
+.badge-t { background-color: rgba(245, 158, 11, 0.2); color: #fcd34d; }
+
+/* Quita los bordes feos por defecto a TODOS los botones de la app */
+button, input[type="submit"], input[type="button"] {
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+/* Estilo Base del Botón Pro */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    border: 1px solid transparent; /* Evita que salgan bordes grises nativos */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* El Verde Neón Pro */
+.btn-verde { 
+    background-color: var(--accent-emerald, #10b981); 
+    color: #0b0f14; /* Texto oscuro para buen contraste */
+    font-weight: 700;
+}
+
+.btn-verde:hover { 
+    background-color: #059669; 
+    color: #ffffff;
+    transform: translateY(-1px); /* Efecto de elevación suave */
+    box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
+}
+
+.btn-verde:active {
+    transform: translateY(0);
+}
+/* Contenedor flotante superior derecho */
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Tarjeta Toast */
+.toast-notificacion {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 14px 18px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    animation: slideIn 0.3s ease forwards;
+}
+
+.toast-exito {
+    background-color: #151c24;
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    border-left: 5px solid #10b981;
+}
+
+.toast-error {
+    background-color: #151c24;
+    color: #fca5a5;
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    border-left: 5px solid #ef4444;
+}
+
+.toast-notificacion i {
+    font-size: 1.2rem;
+}
+
+/* Animaciones */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.toast-ocultar {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+}
+/* Animación de entrada para el banner de la app */
+@keyframes entradaBanner {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.96);
+        box-shadow: 0 0 0 rgba(56, 189, 248, 0);
+    }
+
+    60% {
+        transform: translateY(3px) scale(1.01);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        /* Efecto de resplandor sutil al finalizar */
+        box-shadow: 0 4px 20px rgba(56, 189, 248, 0.15);
+    }
+}
+
+/* Aplicar la animación a la clase del banner */
+.app-banner,
+.navbar,
+.header-banner {
+    /* Asegúrate de colocar la clase exacta de tu banner */
+    animation: entradaBanner 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    will-change: transform, opacity;
+}
+
+/* Opcional: Si quieres que el texto/logo interior también haga un pequeño pulso */
+.app-banner h1,
+.app-banner .logo-texto {
+    transition: text-shadow 0.3s ease;
+}
+
+.app-banner:hover h1,
+.app-banner:hover .logo-texto {
+    text-shadow: 0 0 12px rgba(56, 189, 248, 0.6);
+}
+/* Layout General de la Vista OCR */
+.ocr-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #f1f5f9;
+}
+
+/* Encabezado y Enlace de Regreso */
+.btn-volver {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.btn-volver:hover {
+    color: #7dd3fc;
+    transform: translateX(-4px);
+}
+
+/* Tarjetas (Cards) para CADA Paso */
+.ocr-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+.ocr-card h3 {
+    margin-top: 0;
+    color: #38bdf8;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Custom File Upload Dropzone */
+.file-upload-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #0f172a;
+    border: 2px dashed #475569;
+    border-radius: 8px;
+    padding: 1.25rem;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.file-upload-wrapper:hover {
+    border-color: #38bdf8;
+    background: #131e32;
+}
+
+.file-upload-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-upload-btn {
+    background: #334155;
+    color: #f8fafc;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+.file-upload-text {
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+/* Textarea y Form Cuerpos */
+.textarea-ocr {
+    width: 100%;
+    min-height: 220px;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #e2e8f0;
+    padding: 1rem;
+    font-family: monospace;
+    font-size: 0.95rem;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.textarea-ocr:focus {
+    outline: none;
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+}
+
+/* Botones Principales */
+.btn-primary {
+    background: #0284c7;
+    color: white;
+    border: none;
+    padding: 0.65rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-primary:hover {
+    background: #0369a1;
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+
+.btn-success {
+    background: #10b981;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-success:hover {
+    background: #059669;
+}
+
+/* Inputs del Diccionario */
+.grid-diccionario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.input-dark {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 0.65rem 1rem;
+    color: #f8fafc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-dark:focus {
+    outline: none;
+    border-color: #38bdf8;
+}
+/* Botón Flotante Scroll to Top */
+.btn-scroll-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    background-color: #38bdf8;
+    /* Azul cyan moderno acorde a la app */
+    color: #0f172a;
+    /* Ícono oscuro para alto contraste */
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* Efecto al pasar el mouse por encima */
+.btn-scroll-top:hover {
+    background-color: #0284c7;
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(56, 189, 248, 0.4);
+}
+
+/* Clase que se activa cuando bajamos en la página */
+.btn-scroll-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*modulo de alias de futbol*/
+ .alias-card {
+     background: #111827;
+     /* Fondo oscuro elegante */
+     border: 1px solid rgba(255, 255, 255, 0.08);
+     border-radius: 12px;
+     overflow: hidden;
+     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+ }
+
+ .alias-header {
+     background: #1f2937;
+     padding: 12px 20px;
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+ }
+
+ .alias-header h5 {
+     margin: 0;
+     color: #f3f4f6;
+     font-size: 1.05rem;
+     font-weight: 600;
+     letter-spacing: 0.5px;
+ }
+
+ .alias-body {
+     padding: 20px;
+ }
+
+ .alias-grid {
+     display: grid;
+     grid-template-columns: 2fr 2fr 1fr;
+     gap: 15px;
+     align-items: end;
+ }
+
+ @media (max-width: 768px) {
+     .alias-grid {
+         grid-template-columns: 1fr;
+     }
+ }
+
+ .input-group-custom {
+     display: flex;
+     flex-direction: column;
+     gap: 6px;
+ }
+
+ .input-group-custom label {
+     color: #9ca3af;
+     font-size: 0.82rem;
+     font-weight: 600;
+     text-transform: uppercase;
+     letter-spacing: 0.5px;
+ }
+
+ .form-control-dark {
+     background-color: #1f2937 !important;
+     border: 1px solid #374151 !important;
+     color: #f9fafb !important;
+     border-radius: 8px !important;
+     padding: 10px 14px !important;
+     font-size: 0.95rem;
+     transition: all 0.2s ease-in-out;
+ }
+
+ .form-control-dark::placeholder {
+     color: #6b7280 !important;
+ }
+
+ .form-control-dark:focus {
+     border-color: #10b981 !important;
+     box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25) !important;
+     outline: none !important;
+ }
+
+ .btn-pacotilla {
+     background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+     color: #ffffff;
+     border: none;
+     border-radius: 8px;
+     padding: 10px 18px;
+     font-weight: 600;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 8px;
+     cursor: pointer;
+     transition: all 0.2s ease;
+     height: 42px;
+     box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+ }
+
+ .btn-pacotilla:hover {
+     transform: translateY(-1px);
+     box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+     filter: brightness(1.1);
+ }
+
+ .btn-pacotilla:active {
+     transform: translateY(0);
+ }

@@ -1,0 +1,46 @@
+{
+    "pikes": [
+        {
+            "id": "1297",
+            "equipo": "Chicago Cubs",
+            "pike1": "+100",
+            "pike2": "-190",
+            "pike3": "7.5"
+        },
+        {
+            "id": "1298",
+            "equipo": "Milwaukee Brewers",
+            "pike1": "135",
+            "pike2": "+165",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1296",
+            "equipo": "Pittsburgh Pirates",
+            "pike1": "+105",
+            "pike2": "-175",
+            "pike3": "8.5"
+        },
+        {
+            "id": "1280",
+            "equipo": "Chicago White Sox",
+            "pike1": "-140",
+            "pike2": "+155",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1299",
+            "equipo": "Arizona Diamondba",
+            "pike1": "-125",
+            "pike2": "+140",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1282",
+            "equipo": "Kansas City Royals",
+            "pike1": "-115",
+            "pike2": "-160",
+            "pike3": "8.5"
+        }
+    ]
+}

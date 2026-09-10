@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Auditoría Pikes Fútbol</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background: #121212;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+
+        .log-box {
+            background: #000;
+            color: #00ff66;
+            font-family: monospace;
+            font-size: 0.8rem;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        .badge-ASIGNADO {
+            background-color: #198754;
+        }
+
+        .badge-FALLIDO {
+            background-color: #dc3545;
+        }
+
+        .badge-OMITIDO {
+            background-color: #6c757d;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h2>📊 Auditoría de Procesamiento de Pikes (Fútbol)</h2>
+        <div class="alert alert-dark text-white d-flex gap-4 mb-3">
+            <div>📂 Archivo Pikes: <strong>{{ datos.archivo_pikes_usado or 'N/A' }}</strong></div>
+            <div>⚽ Pikes Cargados: <strong>{{ datos.total_pikes_cargados or 0 }}</strong></div>
+            <div>📋 Marcadores Guardados: <strong>{{ datos.total_marcadores or 0 }}</strong></div>
+            <div>🎯 Coincidencias Logradas: <strong>{{ datos.coincidencias or 0 }}</strong></div>
+        </div>
+
+        <table class="table table-dark table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Jugada Raw</th>
+                    <th>Estado</th>
+                    <th>Línea / Cuota Asignada</th>
+                    <th>Trazabilidad / Debug Logs</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in datos.reporte %}
+                <tr>
+                    <td>#{{ item.index }}</td>
+                    <td><code>{{ item.jugada }}</code></td>
+                    <td><span class="badge badge-{{ item.estado }}">{{ item.estado }}</span></td>
+                    <td>
+                        <strong>Línea:</strong> {{ item.linea_asignada or 'None' }}<br>
+                        <strong>Cuota:</strong> {{ item.cuota_asignada or 'None' }}
+                    </td>
+                    <td>
+                        <div class="log-box">
+                            {% for log in item.logs %}
+                            <div>{{ log }}</div>
+                            {% endfor %}
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

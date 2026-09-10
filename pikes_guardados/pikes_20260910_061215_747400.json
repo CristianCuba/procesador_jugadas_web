@@ -1,0 +1,88 @@
+{
+    "pikes": [
+        {
+            "id": "1281",
+            "equipo": "Cleveland Guardians",
+            "pike1": "-120",
+            "pike2": "+145",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1277",
+            "equipo": "Baltimore Orioles",
+            "pike1": "+100",
+            "pike2": "-165",
+            "pike3": "8.5"
+        },
+        {
+            "id": "1292",
+            "equipo": "New York Mets",
+            "pike1": "+100",
+            "pike2": "-190",
+            "pike3": "8.5"
+        },
+        {
+            "id": "1291",
+            "equipo": "Miami Marlins",
+            "pike1": "-130",
+            "pike2": "+165",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1294",
+            "equipo": "Houston Astros",
+            "pike1": "+115",
+            "pike2": "-160",
+            "pike3": "8"
+        },
+        {
+            "id": "1290",
+            "equipo": "Philadelphia Phillies",
+            "pike1": "-155",
+            "pike2": "+140",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1285",
+            "equipo": "Los Angeles Angels",
+            "pike1": "+165",
+            "pike2": "-110",
+            "pike3": "9"
+        },
+        {
+            "id": "1275",
+            "equipo": "Boston Red Sox",
+            "pike1": "-220",
+            "pike2": "-110",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1302",
+            "equipo": "Colorado Rockies",
+            "pike1": "+180",
+            "pike2": "+100",
+            "pike3": "9"
+        },
+        {
+            "id": "1274",
+            "equipo": "New York Yankees",
+            "pike1": "-250",
+            "pike2": "-120",
+            "pike3": "-1.5"
+        },
+        {
+            "id": "1278",
+            "equipo": "Tampa Bay Rays",
+            "pike1": "+100",
+            "pike2": "-190",
+            "pike3": "8"
+        },
+        {
+            "id": "1288",
+            "equipo": "Atlanta Braves",
+            "pike1": "-130",
+            "pike2": "+170",
+            "pike3": "-1.5"
+        }
+    ]
+}

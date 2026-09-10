@@ -1,0 +1,52 @@
+[
+    {
+        "id_liga": "4338",
+        "nombre_liga": "Belgian Pro League",
+        "alternate": null
+    },
+    {
+        "id_liga": "4337",
+        "nombre_liga": "Dutch Eredivisie",
+        "alternate": null
+    },
+    {
+        "id_liga": "4329",
+        "nombre_liga": "English League Championship",
+        "alternate": null
+    },
+    {
+        "id_liga": "4328",
+        "nombre_liga": "English Premier League",
+        "alternate": null
+    },
+    {
+        "id_liga": "4334",
+        "nombre_liga": "French Ligue 1",
+        "alternate": null
+    },
+    {
+        "id_liga": "4331",
+        "nombre_liga": "German Bundesliga",
+        "alternate": null
+    },
+    {
+        "id_liga": "4336",
+        "nombre_liga": "Greek Super League 1",
+        "alternate": null
+    },
+    {
+        "id_liga": "4332",
+        "nombre_liga": "Italian Serie A",
+        "alternate": null
+    },
+    {
+        "id_liga": "4330",
+        "nombre_liga": "Scottish Premier League",
+        "alternate": null
+    },
+    {
+        "id_liga": "4335",
+        "nombre_liga": "Spanish La Liga",
+        "alternate": null
+    }
+]

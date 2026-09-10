@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas Guardadas por Deporte</title>
+    <style>
+        :root {
+            --bg-main: #0b0f17;
+            --card-bg: #151d2a;
+            --border-color: #232f42;
+            --primary: #0284c7;
+            --accent: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .dashboard-container {
+            max-width: 1240px;
+            margin: 0 auto;
+        }
+
+        /* Header Navigation */
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header-title-group h2 {
+            margin: 0;
+            font-size: 1.6rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .btn-volver {
+            color: var(--text-muted);
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 0.9rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.875rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.2s ease;
+        }
+
+        .btn-volver:hover {
+            color: var(--text-main);
+            background: #1e293b;
+            border-color: #475569;
+        }
+
+        .svg-icon {
+            width: 1.2rem;
+            height: 1.2rem;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2;
+        }
+
+        /* Tabs Navigation */
+        .tabs-container {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tab-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 0.65rem 1.25rem;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            transition: all 0.2s ease;
+        }
+
+        .tab-btn:hover {
+            background: #1e293b;
+            color: var(--text-main);
+        }
+
+        .tab-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+        }
+
+        .tab-badge {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.78rem;
+        }
+
+        /* Search Box */
+        .search-container {
+            position: relative;
+            margin-bottom: 1.5rem;
+            max-width: 420px;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+
+        .search-input {
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 0.75rem 1rem 0.75rem 2.8rem;
+            color: var(--text-main);
+            font-size: 0.9rem;
+            box-sizing: border-box;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        /* Table Card */
+        .table-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+        }
+
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .custom-table th {
+            background-color: #0d131f;
+            color: var(--text-muted);
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .custom-table td {
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: middle;
+            font-size: 0.92rem;
+        }
+
+        .custom-table tr:hover td {
+            background-color: rgba(255, 255, 255, 0.015);
+        }
+
+        .id-cell {
+            font-family: monospace;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .official-name {
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .alias-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+
+        .alias-badge {
+            background: #0d131f;
+            color: var(--accent);
+            border: 1px solid #1e293b;
+            padding: 0.3rem 0.7rem;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- HEADER -->
+        <div class="header-section">
+            <div class="header-title-group">
+                <h2>
+                    <svg class="svg-icon" viewBox="0 0 24 24"
+                        style="width: 1.8rem; height: 1.8rem; color: var(--accent);">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                        <polyline points="14 2 14 8 20 8" />
+                        <line x1="16" y1="13" x2="8" y2="13" />
+                        <line x1="16" y1="17" x2="8" y2="17" />
+                    </svg>
+                    Listas Guardadas por Deporte
+                </h2>
+            </div>
+            <a href="/" class="btn-volver">
+                <svg class="svg-icon" viewBox="0 0 24 24">
+                    <path d="M19 12H5M12 19l-7-7 7-7" />
+                </svg>
+                Volver al Procesador
+            </a>
+        </div>
+
+        <!-- TABS CON LINKS DINÁMICOS -->
+        <div class="tabs-container">
+            <a href="?deporte=mlb" class="tab-btn {{ 'active' if deporte_activo == 'mlb' }}">
+                ⚾ MLB <span class="tab-badge">{{ conteos.mlb if conteos else 30 }}</span>
+            </a>
+            <a href="?deporte=futbol" class="tab-btn {{ 'active' if deporte_activo == 'futbol' }}">
+                ⚽ Fútbol <span class="tab-badge">{{ conteos.futbol if conteos else 291 }}</span>
+            </a>
+            <a href="?deporte=ufc" class="tab-btn {{ 'active' if deporte_activo == 'ufc' }}">
+                🥊 UFC / MMA <span class="tab-badge">{{ conteos.ufc if conteos else 622 }}</span>
+            </a>
+        </div>
+
+        <!-- BUSCADOR -->
+        <div class="search-container">
+            <svg class="svg-icon search-icon" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input type="text" id="searchInput" class="search-input" placeholder="Buscar equipo o alias..."
+                onkeyup="filtrarTabla()">
+        </div>
+
+        <!-- TABLA DE EQUIPOS ITERADA CON JINJA2 -->
+        <div class="table-card">
+            <table class="custom-table" id="tablaEquipos">
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">ID</th>
+                        <th style="width: 260px;">Nombre Oficial</th>
+                        <th>Aliases / Apodos Guardados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for equipo in equipos %}
+                    <tr>
+                        <td class="id-cell">{{ equipo.id }}</td>
+                        <td class="official-name">{{ equipo.nombre_oficial }}</td>
+                        <td>
+                            <div class="alias-group">
+                                {% for alias in equipo.aliases %}
+                                <span class="alias-badge">{{ alias }}</span>
+                                {% endfor %}
+                            </div>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="3" style="text-align: center; color: var(--text-muted); padding: 2rem;">
+                            No se encontraron equipos registrados para este deporte.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script>
+        // Filtra únicamente las filas visibles en pantalla al escribir
+        function filtrarTabla() {
+            const input = document.getElementById("searchInput");
+            const filter = input.value.toUpperCase();
+            const table = document.getElementById("tablaEquipos");
+            const tr = table.getElementsByTagName("tr");
+
+            for (let i = 1; i < tr.length; i++) {
+                const rowText = tr[i].innerText.toUpperCase();
+                if (rowText.indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>

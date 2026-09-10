@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesador OCR - Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+   <script src="/static/js/main.js"></script>
+    <style>
+        :root {
+            --bg-main: #0b0f17;
+            --card-bg: #151d2a;
+            --border-color: #232f42;
+            --primary: #0284c7;
+            --primary-hover: #0369a1;
+            --accent: #38bdf8;
+            --success: #10b981;
+            --danger: #ef4444;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .ocr-container {
+            max-width: 1240px;
+            margin: 0 auto;
+        }
+
+        /* Top Bar Integrada */
+        .header-ocr {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header-title-group {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .btn-volver {
+            color: var(--text-muted);
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 0.9rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.875rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.2s ease;
+        }
+
+        .btn-volver:hover {
+            color: var(--text-main);
+            background: #1e293b;
+            border-color: #475569;
+            transform: translateX(-2px);
+        }
+
+        .title-section h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        /* Iconos SVG inline */
+        .svg-icon {
+            width: 1.2rem;
+            height: 1.2rem;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        /* Cards Layout */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 900px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-header-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .card-header-title h3 {
+            margin: 0;
+            font-size: 1.05rem;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* INTERRUPTOR DE DEPORTE */
+        .deporte-selector {
+            display: flex;
+            background: #0d131f;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 4px;
+            margin-bottom: 1.25rem;
+            gap: 4px;
+        }
+
+        .deporte-option {
+            flex: 1;
+            text-align: center;
+        }
+
+        .deporte-option input[type="radio"] {
+            display: none;
+        }
+
+        .deporte-option label {
+            display: block;
+            padding: 0.6rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            transition: all 0.2s ease;
+        }
+
+        .deporte-option input[type="radio"]:checked+label {
+            background: var(--primary);
+            color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Dropzone Pro */
+        .dropzone-wrapper {
+            position: relative;
+            background: #0d131f;
+            border: 2px dashed #28374d;
+            border-radius: 10px;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-bottom: 1.25rem;
+        }
+
+        .dropzone-wrapper:hover {
+            border-color: var(--accent);
+            background: #111a2a;
+        }
+
+        .dropzone-wrapper input[type="file"] {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .dropzone-icon {
+            color: var(--accent);
+            width: 2.5rem;
+            height: 2.5rem;
+            margin: 0 auto 0.75rem auto;
+            display: block;
+        }
+
+        .dropzone-text {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .file-selected-name {
+            color: var(--accent);
+            font-weight: 600;
+            word-break: break-all;
+        }
+
+        /* Textarea Estilizado */
+        .form-control-dark {
+            width: 100%;
+            background: #0d131f;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: #e2e8f0;
+            padding: 1rem;
+            font-family: 'Fira Code', 'Courier New', monospace;
+            resize: vertical;
+            box-sizing: border-box;
+            line-height: 1.5;
+            font-size: 0.92rem;
+        }
+
+        .form-control-dark:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+        }
+
+        /* Botones SaaS Style */
+        .btn-pro {
+            border: none;
+            padding: 0.65rem 1.2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            width: 100%;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #059669;
+            transform: translateY(-1px);
+        }
+
+        .btn-danger {
+            background: rgba(239, 68, 68, 0.12);
+            color: var(--danger);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .btn-danger:hover {
+            background: var(--danger);
+            color: white;
+        }
+
+        /* Diccionario Section */
+        .diccionario-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .form-group-inline {
+            display: grid;
+            grid-template-columns: 1fr 1fr auto;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .form-group-inline {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .input-dark {
+            background: #0d131f;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.65rem 1rem;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        .input-dark:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        /* Table Rules */
+        .tabla-reglas-custom {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 0.5rem;
+        }
+
+        .tabla-reglas-custom th,
+        .tabla-reglas-custom td {
+            padding: 0.85rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .tabla-reglas-custom th {
+            background-color: #0d131f;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        code {
+            background: #0d131f;
+            color: var(--accent);
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-family: monospace;
+            border: 1px solid #1e293b;
+        }
+
+        .preview-img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 1rem;
+            border: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="ocr-container">
+        <!-- TOP BAR -->
+        <div class="header-ocr">
+            <div class="header-title-group">
+                <a href="/" class="btn-volver">
+                    <svg class="svg-icon" viewBox="0 0 24 24">
+                        <path d="M19 12H5M12 19l-7-7 7-7" />
+                    </svg>
+                    Volver
+                </a>
+                <div class="title-section">
+                    <h2>Extractor de Pikes</h2>
+                </div>
+            </div>
+            <button onclick="reiniciarDia('mlb')" class="btn-pro btn-danger">
+                <svg class="svg-icon" viewBox="0 0 24 24">
+                    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                    <path d="M3 3v5h5" />
+                </svg>
+                Reiniciar Día
+            </button>
+        </div>
+
+        <!-- MAIN GRID -->
+        <div class="grid-container">
+
+            <!-- COLUMNA 1: Cargar Imagen -->
+            <div class="card">
+                <div>
+                    <div class="card-header-title">
+                        <h3>
+                            <svg class="svg-icon" viewBox="0 0 24 24">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                                <circle cx="8.5" cy="8.5" r="1.5" />
+                                <polyline points="21 15 16 10 5 21" />
+                            </svg>
+                            1. Cargar Imagen
+                        </h3>
+                    </div>
+
+                    <form action="/ocr" method="POST" enctype="multipart/form-data" id="formOcr">
+
+                        <!-- INTERRUPTOR DE DEPORTE -->
+                        <div class="deporte-selector">
+                            <div class="deporte-option">
+                                <input type="radio" id="deporte_mlb" name="deporte" value="mlb" {% if deporte_activo
+                                    !='futbol' %}checked{% endif %}>
+                                <label for="deporte_mlb">⚾ Béisbol (Pelota)</label>
+                            </div>
+                        </div>
+
+                        <div class="dropzone-wrapper" id="dropzone">
+                            <input type="file" name="imagen" accept="image/*" required id="fileInput"
+                                onchange="mostrarNombreArchivo(this)">
+                            <svg class="dropzone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="17 8 12 3 7 8" />
+                                <line x1="12" y1="3" x2="12" y2="15" />
+                            </svg>
+                            <div class="dropzone-text" id="dropzoneText">
+                                <strong>Haz clic para examinar</strong> o arrastra la captura aquí
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-pro btn-primary">
+                            <svg class="svg-icon" viewBox="0 0 24 24">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                            </svg>
+                            Procesar OCR
+                        </button>
+                    </form>
+
+                    {% if imagen_base64 %}
+                    <h4
+                        style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--text-muted); font-size: 0.85rem;">
+                        Imagen Procesada:</h4>
+                    <img class="preview-img" src="data:image/png;base64,{{ imagen_base64 }}" alt="Imagen subida">
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- COLUMNA 2: Texto Extraído -->
+            <div class="card">
+                <div>
+                    <div class="card-header-title">
+                        <h3>
+                            <svg class="svg-icon" viewBox="0 0 24 24">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                <polyline points="14 2 14 8 20 8" />
+                                <line x1="16" y1="13" x2="8" y2="13" />
+                                <line x1="16" y1="17" x2="8" y2="17" />
+                                <polyline points="10 9 9 9 8 9" />
+                            </svg>
+                            2. Texto Extraído
+                        </h3>
+                        <span style="font-size: 0.8rem; color: var(--text-muted);">Edita antes de guardar</span>
+                    </div>
+
+                    <textarea id="textoPikes" class="form-control-dark" rows="15"
+                        placeholder="El texto detectado aparecerá aquí...">{{ texto_resultado }}</textarea>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.25rem;">
+                    <span id="mensajeEstado"
+                        style="color: var(--text-muted); font-weight: 600; font-size: 0.85rem;"></span>
+                    <button type="button" class="btn-pro btn-success" onclick="guardarPikesEditados()">
+                        <svg class="svg-icon" viewBox="0 0 24 24">
+                            <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z" />
+                            <polyline points="17 21 17 13 7 13 7 21" />
+                            <polyline points="7 3 7 8 15 8" />
+                        </svg>
+                        Guardar en pikeshoy.json
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SECCIÓN INFERIOR: Diccionario -->
+        <div class="diccionario-card">
+            <div class="card-header-title">
+                <h3>
+                    <svg class="svg-icon" viewBox="0 0 24 24">
+                        <path d="M12 20h9" />
+                        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+                    </svg>
+                    3. Ajustar Diccionario de Correcciones (En Vivo)
+                </h3>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: -0.5rem; margin-bottom: 1.25rem;">
+                Las correcciones que agregues aquí se aplicarán a todas las lecturas OCR siguientes.
+            </p>
+
+            <div class="form-group-inline">
+                <input type="text" id="patron" class="input-dark" placeholder="Texto erróneo (ej: YANKEE5 o 90D)">
+                <input type="text" id="reemplazo" class="input-dark" placeholder="Texto correcto (ej: YANKEES o 900)">
+                <button class="btn-pro btn-primary" style="width: auto;" onclick="agregarRegla()">
+                    <svg class="svg-icon" viewBox="0 0 24 24">
+                        <line x1="12" y1="5" x2="12" y2="19" />
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                    </svg>
+                    Agregar Regla
+                </button>
+            </div>
+
+            <table class="tabla-reglas-custom">
+                <thead>
+                    <tr>
+                        <th>Texto Detectado (OCR)</th>
+                        <th>Reemplazo Correcto</th>
+                        <th style="width: 100px; text-align: right;">Acción</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-reglas">
+                    {% for patron, reemplazo in reglas.items() %}
+                    <tr>
+                        <td><code>{{ patron }}</code></td>
+                        <td><code>{{ reemplazo }}</code></td>
+                        <td style="text-align: right;">
+                            <button class="btn-pro btn-danger" style="padding: 0.35rem 0.65rem; font-size: 0.8rem;"
+                                onclick="eliminarRegla('{{ patron }}')">
+                                <svg class="svg-icon" viewBox="0 0 24 24" style="width: 1rem; height: 1rem;">
+                                    <polyline points="3 6 5 6 21 6" />
+                                    <path
+                                        d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                                </svg>
+                            </button>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="3" style="text-align: center; color: var(--text-muted); padding: 2rem;">
+                            No hay reglas registradas aún.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function mostrarNombreArchivo(input) {
+            const label = document.getElementById('dropzoneText');
+            if (input.files && input.files.length > 0) {
+                label.innerHTML = `Imagen seleccionada: <span class="file-selected-name">${input.files[0].name}</span>`;
+            }
+        }
+
+        function agregarRegla() {
+            const patron = document.getElementById('patron').value;
+            const reemplazo = document.getElementById('reemplazo').value;
+
+            if (!patron) return alert('Debes escribir el texto erróneo a buscar.');
+
+            fetch('/diccionario/agregar', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ patron, reemplazo })
+            })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.success) {
+                        location.reload();
+                    } else {
+                        alert(data.mensaje);
+                    }
+                });
+        }
+
+        function eliminarRegla(patron) {
+            if (!confirm(`¿Eliminar la regla para "${patron}"?`)) return;
+
+            fetch('/diccionario/eliminar', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ patron })
+            })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.success) {
+                        location.reload();
+                    } else {
+                        alert(data.mensaje);
+                    }
+                });
+        }
+
+        async function guardarPikesEditados() {
+            const texto = document.getElementById('textoPikes').value;
+            const mensajeEstado = document.getElementById('mensajeEstado');
+
+            if (!texto.trim()) {
+                alert("⚠️ No hay texto o pikes para guardar.");
+                return;
+            }
+
+            let lineas = texto.split('\n').filter(l => l.trim() !== '');
+            let pikesEstructurados = [];
+
+            const regexPike = /^(\d+)\s+(.+?)\s+([+-]?\d+(?:\.\d+)?)\s+([+-]?\d+(?:\.\d+)?)(?:\s+([+-]?\d+(?:\.\d+)?))?$/;
+
+            lineas.forEach(linea => {
+                let match = linea.trim().match(regexPike);
+
+                if (match) {
+                    pikesEstructurados.push({
+                        id: match[1],
+                        equipo: match[2],
+                        pike1: match[3],
+                        pike2: match[4],
+                        pike3: match[5] || ""
+                    });
+                } else {
+                    pikesEstructurados.push({
+                        id: "",
+                        equipo: linea.trim(),
+                        pike1: "",
+                        pike2: "",
+                        pike3: ""
+                    });
+                }
+            });
+
+            if (mensajeEstado) mensajeEstado.innerText = "⏳ Guardando...";
+
+            try {
+                let respuesta = await fetch('/guardar_pikes', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ pikes: pikesEstructurados, texto: texto })
+                });
+
+                let resultado = await respuesta.json();
+
+                if (resultado.success) {
+                    if (mensajeEstado) mensajeEstado.innerText = "✅ Guardado";
+                    alert("✅ " + resultado.mensaje);
+                } else {
+                    if (mensajeEstado) mensajeEstado.innerText = "❌ Error";
+                    alert("❌ Error: " + resultado.mensaje);
+                }
+            } catch (error) {
+                console.error("Error al guardar:", error);
+                if (mensajeEstado) mensajeEstado.innerText = "❌ Error conexión";
+                alert("❌ Ocurrió un error al enviar los datos.");
+            }
+        }
+
+        async function reiniciarDia() {
+            const confirmar = confirm("⚠️ ¿Estás seguro de que deseas reiniciar el día?\nEsto borrará todas las fotos y pikes guardados.");
+
+            if (!confirmar) return;
+
+            try {
+                const response = await fetch('/reiniciar_dia', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                const res = await response.json();
+
+                if (res.success) {
+                    alert("🧹 " + res.mensaje);
+                    document.getElementById('textoPikes').value = "";
+                } else {
+                    alert("❌ Error: " + res.mensaje);
+                }
+            } catch (err) {
+                console.error("❌ Error al reiniciar el día:", err);
+                alert("Ocurrió un error de conexión al reiniciar el día.");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
