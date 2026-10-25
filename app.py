@@ -207,6 +207,9 @@ def limpiar_jugadas(texto_crudo, logs_list: list = None):
 
     texto = str(texto_crudo).strip()
 
+
+    
+
     # --- OMITIR SEPARADORES DE DEPORTE/CATEGORÍA ---
     # Limpiamos emojis y caracteres especiales para evaluar solo el texto puro
     texto_solo_letras = re.sub(r'[^A-Za-zÁÉÍÓÚáéíóúÑñ]', '', texto).upper()
@@ -698,128 +701,6 @@ import requests
 
 import requests
 
-def obtener_resultados_futbol_api(fecha_str, logs_audit=None, partidos_audit=None):
-    if logs_audit is None: logs_audit = []
-    if partidos_audit is None: partidos_audit = []
-
-    marcadores = {}
-
-    API_KEY = "d9eb8586e665d04f6dd5338bedcad974"  # Verifica el consumo de tu cuota en el panel de API-Sports
-    url = "https://v3.football.api-sports.io/fixtures"
-    
-    headers = {
-        "x-apisports-key": API_KEY
-    }
-    
-    # IMPORTANTE: No mandamos 'status' en params para recibir partidos en FT, AET y PEN,
-    # y filtramos manualmente en el bucle.
-    params = {
-        "date": fecha_str
-    }
-
-    try:
-        response = requests.get(url, headers=headers, params=params, timeout=12)
-        logs_audit.append(f"⚽ API Fútbol Status Code: {response.status_code}")
-
-        if response.status_code != 200:
-            logs_audit.append(f"❌ Error HTTP API Fútbol: Status {response.status_code}")
-            return marcadores
-
-        data = response.json()
-        
-        # Auditoría detallada del error recibido en JSON
-        errors = data.get("errors")
-        if errors:
-            if isinstance(errors, dict) and len(errors) > 0:
-                logs_audit.append(f"❌ Error de cuota/credenciales en API: {errors}")
-                return marcadores
-            elif isinstance(errors, list) and len(errors) > 0:
-                logs_audit.append(f"❌ Errores devueltos por la API: {errors}")
-                return marcadores
-
-        lista_partidos = data.get("response", [])
-        logs_audit.append(f"⚽ Eventos totales recibidos en la fecha: {len(lista_partidos)}")
-
-        partidos_finalizados = 0
-
-        for idx, item in enumerate(lista_partidos):
-            try:
-                fixture = item.get("fixture", {})
-                status_short = fixture.get("status", {}).get("short", "")
-
-                # Filtrar únicamente partidos realmente terminados
-                if status_short not in ["FT", "AET", "PEN"]:
-                    continue
-
-                partidos_finalizados += 1
-                league = item.get("league", {})
-                teams = item.get("teams", {})
-                goals = item.get("goals", {})
-                
-                raw_home = teams.get("home", {}).get("name", "")
-                raw_away = teams.get("away", {}).get("name", "")
-
-                if not raw_home or not raw_away:
-                    continue
-
-                # Extraer marcadores
-                home_score = str(goals.get("home") if goals.get("home") is not None else 0)
-                away_score = str(goals.get("away") if goals.get("away") is not None else 0)
-
-                status = "Final"
-                liga_nombre = league.get("name", "Fútbol General")
-
-                # Normalización (Verificación segura de funciones)
-                func_normalizar = globals().get('normalizar_linea_apuesta')
-                home_team = func_normalizar(raw_home) if callable(func_normalizar) else raw_home.upper()
-                away_team = func_normalizar(raw_away) if callable(func_normalizar) else raw_away.upper()
-
-                func_registrar = globals().get('registrar_equipo_dinamico')
-                id_home_team = func_registrar(raw_home, liga=liga_nombre) if callable(func_registrar) else None
-                id_away_team = func_registrar(raw_away, liga=liga_nombre) if callable(func_registrar) else None
-
-                # Auditoría
-                partidos_audit.append({
-                    "index": idx + 1,
-                    "fixture_id": fixture.get("id"),
-                    "liga": liga_nombre,
-                    "home": home_team,
-                    "id_home_team": id_home_team,
-                    "away": away_team,
-                    "id_away_team": id_away_team,
-                    "home_score": home_score,
-                    "away_score": away_score,
-                    "status_raw": status_short,
-                    "estado_evaluado": status
-                })
-
-                texto_juego = f"{away_team} {away_score} - {home_score} {home_team} ({status})"
-
-                objeto_resultado = {
-                    "juego": texto_juego,
-                    "estado": status,
-                    "equipo1": away_team,
-                    "id_equipo1": id_away_team,
-                    "marcador_equipo1": away_score,
-                    "equipo2": home_team,
-                    "id_equipo2": id_home_team,
-                    "marcador_equipo2": home_score
-                }
-
-                marcadores[away_team] = {"jugada": away_team, **objeto_resultado}
-                marcadores[home_team] = {"jugada": home_team, **objeto_resultado}
-
-            except Exception as inner_e:
-                logs_audit.append(f"⚠️ Error procesando partido {idx}: {str(inner_e)}")
-                continue
-
-        logs_audit.append(f"✅ Partidos finalizados procesados: {partidos_finalizados}")
-
-    except Exception as e:
-        logs_audit.append(f"💥 Excepción crítica en Fútbol API: {str(e)}")
-
-    return marcadores
-
 @app.route('/guardar_marcadores_api', methods=['POST'])
 def guardar_marcadores_api():
     logs_audit = []
@@ -829,7 +710,14 @@ def guardar_marcadores_api():
         data = request.json or {}
         opcion_fecha = str(data.get('fecha_consulta', 'ayer')).strip().lower()
 
-        fecha_obj = datetime.datetime.now() if opcion_fecha == 'hoy' else datetime.datetime.now() - timedelta(days=1)
+        # Manejo correcto de las opciones de fecha: hoy, ayer o antier
+        if opcion_fecha == 'hoy':
+            fecha_obj = datetime.datetime.now()
+        elif opcion_fecha == 'antier':
+            fecha_obj = datetime.datetime.now() - timedelta(days=2)
+        else:
+            fecha_obj = datetime.datetime.now() - timedelta(days=1)  # Por defecto 'ayer'
+
         fecha_str = fecha_obj.strftime('%Y-%m-%d')
         logs_audit.append(f"📅 Consultando marcadores para la fecha: {fecha_str}")
 
@@ -838,12 +726,12 @@ def guardar_marcadores_api():
         cant_mlb = len(marcadores_mlb)
         logs_audit.append(f"⚾ Equipos MLB cargados exitosamente: {cant_mlb}")
 
-        # 2. Cargar Fútbol de forma independiente
+        # 2. Cargar Fútbol con el filtro de ligas y auditoría
         marcadores_futbol = obtener_resultados_futbol_api(fecha_str, logs_audit, partidos_futbol_audit)
         cant_futbol = len(marcadores_futbol) if isinstance(marcadores_futbol, dict) else 0
         logs_audit.append(f"⚽ Equipos Fútbol cargados exitosamente: {cant_futbol}")
 
-        # 3. Fusionar diccionarios de forma segura
+        # 3. Fusionar diccionarios
         marcadores_totales = {}
         if isinstance(marcadores_mlb, dict):
             marcadores_totales.update(marcadores_mlb)
@@ -855,7 +743,7 @@ def guardar_marcadores_api():
         with open(ruta_absoluta, 'w', encoding='utf-8') as f:
             json.dump(marcadores_totales, f, ensure_ascii=False, indent=4)
 
-        # 5. Guardar reporte de auditoría
+        # 5. Guardar reporte de auditoría completo con el desglose de partidos
         with open(os.path.join(app.root_path, RUTA_REPORTE_MARCADORES), 'w', encoding='utf-8') as f:
             json.dump({
                 "fecha_consulta": fecha_str,
@@ -879,6 +767,124 @@ def guardar_marcadores_api():
         error_detal = traceback.format_exc()
         logs_audit.append(f"💥 ERROR GENERAL EN GUARDAR MARCADORES:\n{error_detal}")
         return jsonify({"success": False, "mensaje": str(e), "trace": error_detal}), 500
+
+
+def obtener_resultados_futbol_api(fecha_str, logs_audit=None, partidos_audit=None):
+    if logs_audit is None: logs_audit = []
+    if partidos_audit is None: partidos_audit = []
+
+    marcadores = {}
+    API_KEY = "d9eb8586e665d04f6dd5338bedcad974"
+    url = "https://v3.football.api-sports.io/fixtures"
+    
+    headers = {"x-apisports-key": API_KEY}
+    params = {"date": fecha_str}
+
+    # 🛑 LISTA BLANCA DE LIGAS PRINCIPALES (Evita la basura de 1200 partidos)
+    LIGAS_PERMITIDAS = {
+        39,   # Premier League (Inglaterra)
+        40,   # Championship / Segunda División (Inglaterra)
+        45,   # FA Cup (Inglaterra)
+        140,  # La Liga (España)
+        141,  # Segunda División / LaLiga 2 (España)
+        143,  # Copa del Rey (España)
+        135,  # Serie A (Italia)
+        78,   # Bundesliga (Alemania)
+        61,   # Ligue 1 (Francia)
+        2,    # UEFA Champions League
+        3,    # UEFA Europa League
+        262,  # Liga MX (México)
+        128,  # Liga Profesional Argentina
+        13,   # Copa Libertadores
+        14,   # Copa Sudamericana
+        71,   # Brasileirao (Brasil)
+        253,  # MLS (Estados Unidos)
+    }
+
+    try:
+        response = requests.get(url, headers=headers, params=params, timeout=12)
+        logs_audit.append(f"⚽ API Fútbol Status Code: {response.status_code}")
+
+        if response.status_code != 200:
+            logs_audit.append(f"❌ Error HTTP API Fútbol: Status {response.status_code}")
+            return marcadores
+
+        data = response.json()
+        lista_partidos = data.get("response", [])
+        logs_audit.append(f"⚽ Eventos totales recibidos en la fecha: {len(lista_partidos)}")
+
+        partidos_filtrados = 0
+
+        for idx, item in enumerate(lista_partidos):
+            try:
+                fixture = item.get("fixture", {})
+                status_short = fixture.get("status", {}).get("short", "")
+
+                # Filtrar únicamente partidos finalizados
+                if status_short not in ["FT", "AET", "PEN"]:
+                    continue
+
+                league = item.get("league", {})
+                liga_id = league.get("id")
+
+                # Filtrar estrictamente por las ligas permitidas
+                if liga_id not in LIGAS_PERMITIDAS:
+                    continue
+
+                partidos_filtrados += 1
+                teams = item.get("teams", {})
+                goals = item.get("goals", {})
+                
+                raw_home = teams.get("home", {}).get("name", "")
+                raw_away = teams.get("away", {}).get("name", "")
+
+                if not raw_home or not raw_away:
+                    continue
+
+                home_score = str(goals.get("home") if goals.get("home") is not None else 0)
+                away_score = str(goals.get("away") if goals.get("away") is not None else 0)
+                liga_nombre = league.get("name", "Fútbol General")
+
+                func_normalizar = globals().get('normalizar_linea_apuesta')
+                home_team = func_normalizar(raw_home) if callable(func_normalizar) else raw_home.upper()
+                away_team = func_normalizar(raw_away) if callable(func_normalizar) else raw_away.upper()
+
+                texto_juego = f"{away_team} {away_score} - {home_score} {home_team} (Final)"
+
+                objeto_resultado = {
+                    "juego": texto_juego,
+                    "estado": "Final",
+                    "equipo1": away_team,
+                    "marcador_equipo1": away_score,
+                    "equipo2": home_team,
+                    "marcador_equipo2": home_score
+                }
+
+                marcadores[away_team] = {"jugada": away_team, **objeto_resultado}
+                marcadores[home_team] = {"jugada": home_team, **objeto_resultado}
+
+                # ✅ AGREGAR AUDITORÍA PARA QUE APAREZCA EL DESGLOSE EN LA VISTA WEB
+                partidos_audit.append({
+                    "index": partidos_filtrados,
+                    "fixture_id": fixture.get("id"),
+                    "liga": liga_nombre,
+                    "home": home_team,
+                    "away": away_team,
+                    "home_score": home_score,
+                    "away_score": away_score,
+                    "status_raw": status_short,
+                    "estado_evaluado": "Final"
+                })
+
+            except Exception as inner_e:
+                continue
+
+        logs_audit.append(f"✅ Partidos filtrados de ligas principales procesados: {partidos_filtrados}")
+
+    except Exception as e:
+        logs_audit.append(f"💥 Excepción crítica en Fútbol API: {str(e)}")
+
+    return marcadores
 
 def evaluar_resultado_jugada(jugada_raw, linea_raw, datos_partido):
     # Modificado para aceptar 'Final', 'Completed' y 'Match Finished'

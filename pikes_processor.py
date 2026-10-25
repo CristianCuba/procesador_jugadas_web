@@ -373,14 +373,14 @@ def procesar_pikes_rl_futbol():
     try:
         data = request.json or {}
         filas = data.get('filas', [])
-        reporte_pikes = []  # <--- Array para la auditoría en la vista web
+        reporte_pikes = []
 
         if not filas:
             return jsonify({"success": False, "mensaje": "No se recibieron filas."}), 400
 
-        # 1. CARGAR PIKES
+        # 1. CARGAR EL ARCHIVO DE PARTIDOS DE FÚTBOL MÁS RECIENTE
         carp_pikes_futbol = os.path.join(BASE_DIR, 'pikes_futbol')
-        mapa_id, mapa_nombre = {}, {}
+        partidos_cargados = []
         archivo_cargado_nombre = "Ninguno"
 
         if os.path.exists(carp_pikes_futbol):
@@ -394,22 +394,13 @@ def procesar_pikes_rl_futbol():
 
                 with open(archivo_mas_reciente, 'r', encoding='utf-8') as f:
                     datos_pikes = json.load(f)
-                    lista_pikes = datos_pikes if isinstance(datos_pikes, list) else datos_pikes.get('pikes', [])
-                    for item in lista_pikes:
-                        p_id = str(item.get('id', '')).strip()
-                        p_nombre = str(item.get('equipo', '') or item.get('nombre', '')).strip().upper()
-                        if p_id: mapa_id[p_id] = item
-                        if p_nombre: mapa_nombre[p_nombre] = item
-
-        # 2. CARGAR MARCADORES
-        ruta_json_marcadores = os.path.join(BASE_DIR, 'marcadores_guardados.json')
-        resultados_guardados = {}
-        if os.path.exists(ruta_json_marcadores):
-            try:
-                with open(ruta_json_marcadores, 'r', encoding='utf-8') as f:
-                    resultados_guardados = json.load(f)
-            except Exception as e:
-                pass
+                    if "partidos" in datos_pikes:
+                        partidos_cargados = datos_pikes.get("partidos", [])
+                    elif "pikes" in datos_pikes:
+                        # Compatibilidad por si hay archivos planos viejos
+                        lista_plana = datos_pikes.get("pikes", [])
+                        for i in range(0, len(lista_plana)-1, 2):
+                            partidos_cargados.append({"local": lista_plana[i], "visitante": lista_plana[i+1]})
 
         coincidencias = 0
 
@@ -421,24 +412,13 @@ def procesar_pikes_rl_futbol():
             palabras_limpias = [p for p in palabras if p not in basura]
             return " ".join(palabras_limpias).strip()
 
-        def obtener_datos_pikes(id_eq, nombre_eq):
-            if id_eq and id_eq in mapa_id:
-                return mapa_id[id_eq]
-            nombre_norm = normalizar_nombre(nombre_eq)
-            if not nombre_norm: return None
-            for k_nombre, info in mapa_nombre.items():
-                k_norm = normalizar_nombre(k_nombre)
-                if k_norm and (k_norm in nombre_norm or nombre_norm in k_norm):
-                    return info
-            return None
-
         def invertir_signo(linea):
             linea = str(linea).strip()
             if linea.startswith("-"): return "+" + linea[1:]
             elif linea.startswith("+"): return "-" + linea[1:]
             return None
 
-        # 3. PROCESAMIENTO CON AUDITORÍA REGISTRADA
+        # 2. PROCESAMIENTO DE LAS FILAS DE LA TABLA
         for idx, fila in enumerate(filas):
             logs_fila = []
             jugada_raw = str(fila.get("jugada", "")).upper().strip()
@@ -447,7 +427,7 @@ def procesar_pikes_rl_futbol():
 
             logs_fila.append(f"🔍 Raw: '{jugada_raw}' | Normalizado: '{equipo_puro}' | ID: {id_equipo or 'Sin ID'}")
 
-            # Filtro Alta/Baja
+            # Filtrar si es jugada de Alta/Baja
             if any(palabra in jugada_raw for palabra in ["ALTA", "BAJA", "OVER", "UNDER"]):
                 logs_fila.append("⏭️ OMITIDA: Es una jugada de Alta/Baja.")
                 reporte_pikes.append({
@@ -459,56 +439,50 @@ def procesar_pikes_rl_futbol():
                 })
                 continue
 
-            datos_eq = obtener_datos_pikes(id_equipo, equipo_puro)
-            if datos_eq:
-                logs_fila.append(f"✅ Coincidencia de equipo hallada en Pikes JSON ({datos_eq.get('equipo') or datos_eq.get('nombre')})")
-            else:
-                logs_fila.append("❌ NO se halló coincidencia directa en Pikes JSON.")
-
-            raw_pike1 = datos_eq.get("pike1", "").strip() if datos_eq else ""
-            if raw_pike1.upper() == "V2":
-                raw_pike1 = "-0.5"
-                logs_fila.append("🔄 Transformado 'V2' a '-0.5'")
-
             linea_encontrada = None
-            logro_encontrado = datos_eq.get("pike2", "").strip() if datos_eq else ""
+            logro_encontrado = None
 
-            # CASO A: RL directo
-            if raw_pike1 and (raw_pike1.startswith("-") or raw_pike1.startswith("+")):
-                linea_encontrada = raw_pike1
-                logs_fila.append(f"🟢 CASO A -> RL directo asignado: '{linea_encontrada}'")
-            
-            # CASO B: Rival
-            else:
-                logs_fila.append("🟡 CASO B -> Buscando rival en marcadores_guardados.json...")
-                datos_partido = None
-                for eq_key, info_partido in resultados_guardados.items():
-                    eq_key_norm = normalizar_nombre(eq_key)
-                    if eq_key_norm and (eq_key_norm == equipo_puro or eq_key_norm in equipo_puro or equipo_puro in eq_key_norm):
-                        datos_partido = info_partido
-                        break
+            # Buscar dentro de los partidos estructurados (Local vs Visitante)
+            for partido in partidos_cargados:
+                local = partido.get("local", {})
+                visitante = partido.get("visitante", {})
 
-                if datos_partido:
-                    eq1, eq2 = datos_partido.get("equipo1", "").strip(), datos_partido.get("equipo2", "").strip()
-                    eq1_norm = normalizar_nombre(eq1)
-                    nombre_rival = eq2 if (eq1_norm and (eq1_norm in equipo_puro or equipo_puro in eq1_norm)) else eq1
-                    logs_fila.append(f"   ├─ Partido en marcador: {eq1} vs {eq2}")
-                    logs_fila.append(f"   ├─ Rival deducido: '{nombre_rival}'")
+                match_local = (id_equipo and id_equipo == str(local.get("id", ""))) or \
+                              (equipo_puro and normalizar_nombre(local.get("equipo", "")) in equipo_puro)
+                
+                match_visitante = (id_equipo and id_equipo == str(visitante.get("id", ""))) or \
+                                  (equipo_puro and normalizar_nombre(visitante.get("equipo", "")) in equipo_puro)
 
-                    datos_rival = obtener_datos_pikes(None, nombre_rival)
-                    if datos_rival:
-                        pike1_rival = datos_rival.get("pike1", "").strip()
-                        if pike1_rival.upper() == "V2": pike1_rival = "-0.5"
+                if match_local:
+                    propio_pike1 = local.get("pike1", "").strip()
+                    rival_pike1 = visitante.get("pike1", "").strip()
+                    logro_encontrado = local.get("pike2", "").strip()
 
-                        if pike1_rival and (pike1_rival.startswith("-") or pike1_rival.startswith("+")):
-                            linea_encontrada = invertir_signo(pike1_rival)
-                            logs_fila.append(f"   └─ 🟢 Línea de rival ({pike1_rival}) invertida asignada: '{linea_encontrada}'")
-                        else:
-                            logs_fila.append(f"   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '{pike1_rival}')")
-                    else:
-                        logs_fila.append(f"   └─ ⚠️ No se halló al rival '{nombre_rival}' en el JSON de Pikes.")
-                else:
-                    logs_fila.append("   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json.")
+                    if propio_pike1.upper() == "V2": propio_pike1 = "-0.5"
+
+                    # REGLA: Si el equipo tiene hándicap directo con signo, úsalo. Si no, invierte el del rival.
+                    if propio_pike1.startswith("-") or propio_pike1.startswith("+"):
+                        linea_encontrada = propio_pike1
+                        logs_fila.append(f"🟢 Hándicap directo local encontrado: '{linea_encontrada}'")
+                    elif rival_pike1.startswith("-") or rival_pike1.startswith("+"):
+                        linea_encontrada = invertir_signo(rival_pike1)
+                        logs_fila.append(f"🟢 Hándicap deducido del rival ({rival_pike1}) invertido: '{linea_encontrada}'")
+                    break
+
+                elif match_visitante:
+                    propio_pike1 = visitante.get("pike1", "").strip()
+                    rival_pike1 = local.get("pike1", "").strip()
+                    logro_encontrado = visitante.get("pike2", "").strip()
+
+                    if propio_pike1.upper() == "V2": propio_pike1 = "-0.5"
+
+                    if propio_pike1.startswith("-") or propio_pike1.startswith("+"):
+                        linea_encontrada = propio_pike1
+                        logs_fila.append(f"🟢 Hándicap directo visitante encontrado: '{linea_encontrada}'")
+                    elif rival_pike1.startswith("-") or rival_pike1.startswith("+"):
+                        linea_encontrada = invertir_signo(rival_pike1)
+                        logs_fila.append(f"🟢 Hándicap deducido del rival ({rival_pike1}) invertido: '{linea_encontrada}'")
+                    break
 
             estado_final = "ASIGNADO" if (linea_encontrada or logro_encontrado) else "FALLIDO"
 
@@ -516,6 +490,9 @@ def procesar_pikes_rl_futbol():
                 fila["linea_rl"] = linea_encontrada
                 fila["cuota_rl"] = logro_encontrado
                 coincidencias += 1
+                logs_fila.append(f"✅ Asignado con éxito -> Línea: {linea_encontrada} | Cuota: {logro_encontrado}")
+            else:
+                logs_fila.append("❌ No se encontró coincidencia ni hándicap válido en el partido.")
 
             reporte_pikes.append({
                 "index": fila.get("index", idx + 1),
@@ -526,19 +503,18 @@ def procesar_pikes_rl_futbol():
                 "logs": logs_fila
             })
 
-        # Guardar archivo JSON con la auditoría
+        # Guardar reporte de auditoría
         with open(os.path.join(BASE_DIR, RUTA_REPORTE_PIKES), 'w', encoding='utf-8') as f:
             json.dump({
                 "archivo_pikes_usado": archivo_cargado_nombre,
-                "total_pikes_cargados": len(mapa_nombre),
-                "total_marcadores": len(resultados_guardados),
+                "total_partidos_cargados": len(partidos_cargados),
                 "coincidencias": coincidencias,
                 "reporte": reporte_pikes
             }, f, ensure_ascii=False, indent=2)
 
         return jsonify({
             "success": True,
-            "mensaje": f"Se asignaron {coincidencias} pikes.",
+            "mensaje": f"Se asignaron {coincidencias} pikes de fútbol correctamente.",
             "filas": filas
         })
 
@@ -554,150 +530,92 @@ def procesar_pikes_ou_futbol():
         data = request.json or {}
         filas = data.get('filas', [])
 
-        print(f"\n================ [INICIO PROCESAR ALTAS/BAJAS FUTBOL] ================")
-        print(f"📥 Filas recibidas: {len(filas)}")
-
         if not filas:
             return jsonify({"success": False, "mensaje": "No se recibieron filas."}), 400
 
-        # 1. Cargar el JSON más reciente de pikes_futbol
+        # 1. Cargar el archivo de partidos estructurados más reciente
         carp_pikes_futbol = os.path.join(BASE_DIR, 'pikes_futbol')
-        mapa_id = {}
-        mapa_nombre = {}
+        partidos_cargados = []
 
         if os.path.exists(carp_pikes_futbol):
             archivos_json = [
                 os.path.join(carp_pikes_futbol, f) 
-                for f in os.listdir(carp_pikes_futbol) 
-                if f.endswith('.json')
+                for f in os.listdir(carp_pikes_futbol) if f.endswith('.json')
             ]
-            
             if archivos_json:
                 archivo_mas_reciente = max(archivos_json, key=os.path.getmtime)
-                print(f"📂 Cargando pikes desde: {os.path.basename(archivo_mas_reciente)}")
-
                 with open(archivo_mas_reciente, 'r', encoding='utf-8') as f:
                     datos_pikes = json.load(f)
-                    lista_pikes = datos_pikes if isinstance(datos_pikes, list) else datos_pikes.get('pikes', [])
-                    
-                    for item in lista_pikes:
-                        p_id = str(item.get('id', '')).strip()
-                        p_nombre = str(item.get('equipo', '') or item.get('nombre', '')).strip().upper()
-                        
-                        if p_id:
-                            mapa_id[p_id] = item
-                        if p_nombre:
-                            mapa_nombre[p_nombre] = item
-
-                print(f"✅ Pikes cargados ({len(mapa_nombre)} equipos).")
-
-        # 2. Cargar marcadores guardados
-        ruta_json_marcadores = os.path.join(BASE_DIR, 'marcadores_guardados.json')
-        resultados_guardados = {}
-        if os.path.exists(ruta_json_marcadores):
-            try:
-                with open(ruta_json_marcadores, 'r', encoding='utf-8') as f:
-                    resultados_guardados = json.load(f)
-                print(f"✅ Marcadores cargados ({len(resultados_guardados)} registros).")
-            except Exception as e:
-                print(f"⚠️ Error cargando marcadores_guardados.json: {e}")
+                    if "partidos" in datos_pikes:
+                        partidos_cargados = datos_pikes.get("partidos", [])
+                    elif "pikes" in datos_pikes:
+                        # Compatibilidad por si hay listas planas viejas
+                        lista_plana = datos_pikes.get("pikes", [])
+                        for i in range(0, len(lista_plana)-1, 2):
+                            partidos_cargados.append({"local": lista_plana[i], "visitante": lista_plana[i+1]})
 
         coincidencias = 0
 
-        # Helper para extraer nombre limpio y tipo
-        def extraer_info_jugada(texto):
-            if not texto:
-                return "", None
-            
-            texto_upper = str(texto).upper().strip()
-            
-            tipo = None
-            if "ALTA" in texto_upper or "OVER" in texto_upper:
-                tipo = "ALTA"
-            elif "BAJA" in texto_upper or "UNDER" in texto_upper:
-                tipo = "BAJA"
-
+        def normalizar_nombre(texto):
+            if not texto: return ""
+            texto = str(texto).upper().strip().replace("_", " ")
             basura = ["MLB", "ALTA", "BAJA", "OVER", "UNDER", "RL", "ML", "FUTBOL", "BEISBOL", "FK", "FC", "CF", "CD"]
-            palabras = texto_upper.replace("_", " ").split()
+            palabras = texto.split()
             palabras_limpias = [p for p in palabras if p not in basura]
-            equipo_limpio = " ".join(palabras_limpias).strip()
+            return " ".join(palabras_limpias).strip()
 
-            return equipo_limpio, tipo
+        def extraer_info_jugada(texto):
+            if not texto: return "", None
+            texto_upper = str(texto).upper().strip()
+            tipo = "ALTA" if any(w in texto_upper for w in ["ALTA", "OVER"]) else "BAJA" if any(w in texto_upper for w in ["BAJA", "UNDER"]) else None
+            return normalizar_nombre(texto_upper), tipo
 
-        def obtener_datos_pikes(id_eq, nombre_eq):
-            if id_eq and id_eq in mapa_id:
-                return mapa_id[id_eq]
-            
-            if not nombre_eq:
-                return None
-
-            for k_nombre, info in mapa_nombre.items():
-                k_norm, _ = extraer_info_jugada(k_nombre)
-                if k_norm and (k_norm in nombre_eq or nombre_eq in k_norm):
-                    return info
-            return None
-
-        # 3. Procesar filas
+        # 2. Procesar filas de la tabla
         for fila in filas:
             jugada_raw = str(fila.get("jugada", "")).upper().strip()
 
             # Filtrar: únicamente jugadas de ALTA/BAJA
             if not any(palabra in jugada_raw for palabra in ["ALTA", "BAJA", "OVER", "UNDER"]):
-                print(f" ⏭️ [FILA {fila.get('index')}] Saltando '{jugada_raw}' por no ser ALTA/BAJA.")
                 continue
 
             equipo_puro, tipo_jugada = extraer_info_jugada(jugada_raw)
             id_equipo = str(fila.get("id", "")).strip()
 
-            print(f"\n🔍 [FILA {fila.get('index')}] Raw: '{jugada_raw}' -> Equipo: '{equipo_puro}' | Tipo: '{tipo_jugada}'")
-
-            # Buscar la información del partido en marcadores_guardados.json
-            datos_partido = None
-            for eq_key, info_partido in resultados_guardados.items():
-                eq_key_norm, _ = extraer_info_jugada(eq_key)
-                if eq_key_norm and (eq_key_norm == equipo_puro or eq_key_norm in equipo_puro or equipo_puro in eq_key_norm):
-                    datos_partido = info_partido
-                    break
-
-            if not datos_partido:
-                print(f" ❌ No se encontró el partido de '{equipo_puro}' en marcadores_guardados.json.")
-                continue
-
-            # Obtener datos de ambos equipos del partido
-            eq1_nombre = datos_partido.get("equipo1", "").strip()
-            eq2_nombre = datos_partido.get("equipo2", "").strip()
-
-            datos_eq1 = obtener_datos_pikes(None, extraer_info_jugada(eq1_nombre)[0])
-            datos_eq2 = obtener_datos_pikes(None, extraer_info_jugada(eq2_nombre)[0])
-
-            # Identificar cuál equipo posee la línea de gol (el que NO tiene signo + o - en pike1)
-            pike1_eq1 = datos_eq1.get("pike1", "").strip() if datos_eq1 else ""
-            pike1_eq2 = datos_eq2.get("pike1", "").strip() if datos_eq2 else ""
-
             linea_encontrada = None
             logro_encontrado = None
 
-            # Determinar la línea O/U
-            if pike1_eq1 and not (pike1_eq1.startswith("-") or pike1_eq1.startswith("+")):
-                linea_encontrada = pike1_eq1
-            elif pike1_eq2 and not (pike1_eq2.startswith("-") or pike1_eq2.startswith("+")):
-                linea_encontrada = pike1_eq2
+            # Buscar en los bloques de partidos estructurados
+            for partido in partidos_cargados:
+                local = partido.get("local", {})
+                visitante = partido.get("visitante", {})
 
-            # Determinar el logro según el tipo de jugada:
-            # ALTA -> pike3 del equipo 1 | BAJA -> pike3 del equipo 2
-            if tipo_jugada == "ALTA":
-                logro_encontrado = datos_eq1.get("pike3", "").strip() if datos_eq1 else ""
-            elif tipo_jugada == "BAJA":
-                logro_encontrado = datos_eq2.get("pike3", "").strip() if datos_eq2 else ""
+                match_local = (id_equipo and id_equipo == str(local.get("id", ""))) or \
+                              (equipo_puro and normalizar_nombre(local.get("equipo", "")) in equipo_puro)
+                
+                match_visitante = (id_equipo and id_equipo == str(visitante.get("id", ""))) or \
+                                  (equipo_puro and normalizar_nombre(visitante.get("equipo", "")) in equipo_puro)
 
-            print(f" 🟢 Resultado -> Línea: '{linea_encontrada}', Logro ({tipo_jugada}): '{logro_encontrado}'")
+                if match_local or match_visitante:
+                    pike1_local = local.get("pike1", "").strip()
+                    pike1_visitante = visitante.get("pike1", "").strip()
+
+                    # La línea O/U es el valor numérico sin signos (+ o -)
+                    if pike1_local and not (pike1_local.startswith("-") or pike1_local.startswith("+")):
+                        linea_encontrada = pike1_local
+                    elif pike1_visitante and not (pike1_visitante.startswith("-") or pike1_visitante.startswith("+")):
+                        linea_encontrada = pike1_visitante
+
+                    # Asignar cuota según sea ALTA (pike3 del local) o BAJA (pike3 del visitante)
+                    if tipo_jugada == "ALTA":
+                        logro_encontrado = local.get("pike3", "").strip()
+                    elif tipo_jugada == "BAJA":
+                        logro_encontrado = visitante.get("pike3", "").strip()
+                    break
 
             if linea_encontrada or logro_encontrado:
                 fila["linea_ou"] = linea_encontrada
                 fila["cuota_ou"] = logro_encontrado
                 coincidencias += 1
-
-        print(f"\n================ [FIN] Coincidencias O/U: {coincidencias} ================\n")
 
         return jsonify({
             "success": True,
@@ -707,7 +625,6 @@ def procesar_pikes_ou_futbol():
 
     except Exception as e:
         error_detallado = traceback.format_exc()
-        print(f"💥 ERROR EN BACKEND:\n{error_detallado}")
         return jsonify({"success": False, "mensaje": f"Error: {str(e)}", "trace": error_detallado}), 500
 # ==========================================
 # 5. ENDPOINT PARA REINICIAR DÍA

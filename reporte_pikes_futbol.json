@@ -1,2312 +1,2106 @@
 {
-  "archivo_pikes_usado": "pikes_futbol_20260910_060958.json",
-  "total_pikes_cargados": 92,
-  "total_marcadores": 639,
-  "coincidencias": 155,
+  "archivo_pikes_usado": "pikes_futbol_20261024_073255.json",
+  "total_partidos_cargados": 45,
+  "coincidencias": 35,
   "reporte": [
     {
       "index": 1,
-      "jugada": "KAUNO ZALGIRIS_ALTA",
+      "jugada": "CORVINUL_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'KAUNO ZALGIRIS_ALTA' | Normalizado: 'KAUNO ZALGIRIS' | ID: Sin ID",
+        "🔍 Raw: 'CORVINUL_ALTA' | Normalizado: 'CORVINUL' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 3,
-      "jugada": "FEYENOORD",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+3",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'FEYENOORD' | Normalizado: 'FEYENOORD' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Feyenoord)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: FEYENOORD vs BARCELONA FC",
-        "   ├─ Rival deducido: 'BARCELONA FC'",
-        "   └─ 🟢 Línea de rival (-3) invertida asignada: '+3'"
-      ]
-    },
-    {
-      "index": 5,
-      "jugada": "BARCELONA FC_BAJA",
+      "jugada": "METZ_BAJA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'BARCELONA FC_BAJA' | Normalizado: 'BARCELONA' | ID: Sin ID",
+        "🔍 Raw: 'METZ_BAJA' | Normalizado: 'METZ' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
-      "index": 7,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
-      ]
-    },
-    {
-      "index": 9,
+      "index": 5,
       "jugada": "PARLEY",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
         "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 6,
+      "jugada": "TORINO",
+      "estado": "ASIGNADO",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "115",
+      "logs": [
+        "🔍 Raw: 'TORINO' | Normalizado: 'TORINO' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: 115"
+      ]
+    },
+    {
+      "index": 7,
+      "jugada": "ATLANTA BRAVES",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'ATLANTA BRAVES' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 8,
+      "jugada": "GRANADA",
+      "estado": "ASIGNADO",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "125",
+      "logs": [
+        "🔍 Raw: 'GRANADA' | Normalizado: 'GRANADA' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: 125"
       ]
     },
     {
       "index": 10,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 11,
-      "jugada": "ARSENAL_ALTA",
+      "jugada": "NICE_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'ARSENAL_ALTA' | Normalizado: 'ARSENAL' | ID: Sin ID",
+        "🔍 Raw: 'NICE_ALTA' | Normalizado: 'NICE' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 12,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
-      "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 13,
-      "jugada": "SLOVAN BRATISLAVA",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "110",
-      "logs": [
-        "🔍 Raw: 'SLOVAN BRATISLAVA' | Normalizado: 'SLOVAN BRATISLAVA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Slovan Bratislava)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Slovan Bratislava U19 vs PSG U19",
-        "   ├─ Rival deducido: 'PSG U19'",
-        "   └─ ⚠️ No se halló al rival 'PSG U19' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 15,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 16,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
-      ]
-    },
-    {
-      "index": 17,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
-      "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 18,
-      "jugada": "BARCELONA FC_ALTA",
+      "jugada": "TORINO_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'BARCELONA FC_ALTA' | Normalizado: 'BARCELONA' | ID: Sin ID",
+        "🔍 Raw: 'TORINO_ALTA' | Normalizado: 'TORINO' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
-      "index": 19,
-      "jugada": "GALATASARAY",
-      "estado": "ASIGNADO",
+      "index": 13,
+      "jugada": "VICENZA_ALTA",
+      "estado": "OMITIDO",
       "linea_asignada": null,
-      "cuota_asignada": "115",
       "logs": [
-        "🔍 Raw: 'GALATASARAY' | Normalizado: 'GALATASARAY' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Galatasaray)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Galatasaray U19 vs Sporting CP U19",
-        "   ├─ Rival deducido: 'Sporting CP U19'",
-        "   └─ ⚠️ No se halló al rival 'Sporting CP U19' en el JSON de Pikes."
+        "🔍 Raw: 'VICENZA_ALTA' | Normalizado: 'VICENZA' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 14,
+      "jugada": "MALAGA_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MALAGA_ALTA' | Normalizado: 'MALAGA' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 15,
+      "jugada": "MARITIMO_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MARITIMO_ALTA' | Normalizado: 'MARITIMO' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 17,
+      "jugada": "STUTTGART",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'STUTTGART' | Normalizado: 'STUTTGART' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 18,
+      "jugada": "GRENOBLE",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'GRENOBLE' | Normalizado: 'GRENOBLE' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 20,
-      "jugada": "CHELSEA",
+      "jugada": "DEPORTIVO ALAVES",
       "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-120",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "-155",
       "logs": [
-        "🔍 Raw: 'CHELSEA' | Normalizado: 'CHELSEA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chelsea)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'DEPORTIVO ALAVES' | Normalizado: 'DEPORTIVO ALAVES' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -155"
       ]
     },
     {
       "index": 22,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 23,
-      "jugada": "FEYENOORD",
+      "jugada": "CAERNARFON TOWN",
       "estado": "ASIGNADO",
-      "linea_asignada": "+3",
-      "cuota_asignada": "-120",
+      "linea_asignada": "-1.5",
+      "cuota_asignada": "-105",
       "logs": [
-        "🔍 Raw: 'FEYENOORD' | Normalizado: 'FEYENOORD' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Feyenoord)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: FEYENOORD vs BARCELONA FC",
-        "   ├─ Rival deducido: 'BARCELONA FC'",
-        "   └─ 🟢 Línea de rival (-3) invertida asignada: '+3'"
+        "🔍 Raw: 'CAERNARFON TOWN' | Normalizado: 'CAERNARFON TOWN' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-1.5'",
+        "✅ Asignado con éxito -> Línea: -1.5 | Cuota: -105"
       ]
     },
     {
       "index": 24,
-      "jugada": "GALATASARAY",
+      "jugada": "DEPORTIVO ALAVES",
       "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "115",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "-155",
       "logs": [
-        "🔍 Raw: 'GALATASARAY' | Normalizado: 'GALATASARAY' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Galatasaray)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Galatasaray U19 vs Sporting CP U19",
-        "   ├─ Rival deducido: 'Sporting CP U19'",
-        "   └─ ⚠️ No se halló al rival 'Sporting CP U19' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 25,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'DEPORTIVO ALAVES' | Normalizado: 'DEPORTIVO ALAVES' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -155"
       ]
     },
     {
       "index": 26,
-      "jugada": "ARSENAL_ALTA",
+      "jugada": "GRANADA_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'ARSENAL_ALTA' | Normalizado: 'ARSENAL' | ID: Sin ID",
+        "🔍 Raw: 'GRANADA_ALTA' | Normalizado: 'GRANADA' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 28,
-      "jugada": "TAMMEKA_ALTA",
+      "jugada": "MALAGA_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'TAMMEKA_ALTA' | Normalizado: 'TAMMEKA' | ID: Sin ID",
+        "🔍 Raw: 'MALAGA_ALTA' | Normalizado: 'MALAGA' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 30,
-      "jugada": "FC TWENTE",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-2",
-      "cuota_asignada": "-110",
-      "logs": [
-        "🔍 Raw: 'FC TWENTE' | Normalizado: 'TWENTE' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Fc Twente)",
-        "🟢 CASO A -> RL directo asignado: '-2'"
-      ]
-    },
-    {
-      "index": 32,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 33,
-      "jugada": "ST. LOUIS CARDINALS",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ST. LOUIS CARDINALS' | Normalizado: 'ST. LOUIS CARDINALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ST. LOUIS CARDINALS vs SAN FRANCISCO GIANTS",
-        "   ├─ Rival deducido: 'SAN FRANCISCO GIANTS'",
-        "   └─ ⚠️ No se halló al rival 'SAN FRANCISCO GIANTS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 34,
-      "jugada": "SAN DIEGO PADRES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'SAN DIEGO PADRES_MLB' | Normalizado: 'SAN DIEGO PADRES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (San Diego)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 35,
-      "jugada": "VIKTORIA PLZEN",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "120",
-      "logs": [
-        "🔍 Raw: 'VIKTORIA PLZEN' | Normalizado: 'VIKTORIA PLZEN' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Viktoria Plzen)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 36,
-      "jugada": "BARCELONA FC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-3",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'BARCELONA FC' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Barcelona Fc)",
-        "🟢 CASO A -> RL directo asignado: '-3'"
-      ]
-    },
-    {
-      "index": 37,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
-      ]
-    },
-    {
-      "index": 38,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
-      "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 39,
-      "jugada": "CELTIC_ALTA",
+      "jugada": "NOTTINGHAM FOREST_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'CELTIC_ALTA' | Normalizado: 'CELTIC' | ID: Sin ID",
+        "🔍 Raw: 'NOTTINGHAM FOREST_ALTA' | Normalizado: 'NOTTINGHAM FOREST' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
-      "index": 40,
-      "jugada": "CHELSEA",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-120",
+      "index": 32,
+      "jugada": "TORINO_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'CHELSEA' | Normalizado: 'CHELSEA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chelsea)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'TORINO_ALTA' | Normalizado: 'TORINO' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 34,
+      "jugada": "ATLANTA BRAVES_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'ATLANTA BRAVES_ALTA' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 36,
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 37,
+      "jugada": "HOLYWELL",
+      "estado": "ASIGNADO",
+      "linea_asignada": "+1.5",
+      "cuota_asignada": "-105",
+      "logs": [
+        "🔍 Raw: 'HOLYWELL' | Normalizado: 'HOLYWELL' | ID: Sin ID",
+        "🟢 Hándicap deducido del rival (-1.5) invertido: '+1.5'",
+        "✅ Asignado con éxito -> Línea: +1.5 | Cuota: -105"
+      ]
+    },
+    {
+      "index": 38,
+      "jugada": "BRITON FERRY",
+      "estado": "ASIGNADO",
+      "linea_asignada": "+1.5",
+      "cuota_asignada": "-125",
+      "logs": [
+        "🔍 Raw: 'BRITON FERRY' | Normalizado: 'BRITON FERRY' | ID: Sin ID",
+        "🟢 Hándicap deducido del rival (-1.5) invertido: '+1.5'",
+        "✅ Asignado con éxito -> Línea: +1.5 | Cuota: -125"
+      ]
+    },
+    {
+      "index": 39,
+      "jugada": "MONCHENGLADBACH",
+      "estado": "ASIGNADO",
+      "linea_asignada": "+1.5",
+      "cuota_asignada": "100",
+      "logs": [
+        "🔍 Raw: 'MONCHENGLADBACH' | Normalizado: 'MONCHENGLADBACH' | ID: Sin ID",
+        "🟢 Hándicap deducido del rival (-1.5) invertido: '+1.5'",
+        "✅ Asignado con éxito -> Línea: +1.5 | Cuota: 100"
+      ]
+    },
+    {
+      "index": 40,
+      "jugada": "SLIGO ROVERS",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'SLIGO ROVERS' | Normalizado: 'SLIGO ROVERS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 41,
-      "jugada": "BARCELONA FC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-3",
-      "cuota_asignada": "-120",
+      "jugada": "GRANADA_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'BARCELONA FC' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Barcelona Fc)",
-        "🟢 CASO A -> RL directo asignado: '-3'"
+        "🔍 Raw: 'GRANADA_ALTA' | Normalizado: 'GRANADA' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 43,
-      "jugada": "TRIPLETA",
+      "jugada": "PARLEY",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'TRIPLETA' | Normalizado: 'TRIPLETA' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 44,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
+      "jugada": "VFB STUTTGART_BAJA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'VFB STUTTGART_BAJA' | Normalizado: 'VFB STUTTGART' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 45,
-      "jugada": "LIVERPOOL",
+      "jugada": "EMPOLI FC",
       "estado": "ASIGNADO",
       "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
+      "cuota_asignada": "160",
       "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'EMPOLI FC' | Normalizado: 'EMPOLI' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: 160"
       ]
     },
     {
       "index": 46,
-      "jugada": "TORONTO BLUE JAYS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-140",
-      "logs": [
-        "🔍 Raw: 'TORONTO BLUE JAYS_MLB' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Toronto Fc)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TORONTO BLUE JAYS vs ATHLETICS",
-        "   ├─ Rival deducido: 'ATHLETICS'",
-        "   └─ ⚠️ No se halló al rival 'ATHLETICS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 47,
-      "jugada": "SAN DIEGO PADRES_MLB",
+      "jugada": "DEPORTIVO ALAVES",
       "estado": "ASIGNADO",
       "linea_asignada": "-0.5",
-      "cuota_asignada": "-125",
+      "cuota_asignada": "-155",
       "logs": [
-        "🔍 Raw: 'SAN DIEGO PADRES_MLB' | Normalizado: 'SAN DIEGO PADRES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (San Diego)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'DEPORTIVO ALAVES' | Normalizado: 'DEPORTIVO ALAVES' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -155"
       ]
     },
     {
-      "index": 49,
-      "jugada": "FEYENOORD",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+3",
-      "cuota_asignada": "-120",
+      "index": 48,
+      "jugada": "NICE_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'FEYENOORD' | Normalizado: 'FEYENOORD' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Feyenoord)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: FEYENOORD vs BARCELONA FC",
-        "   ├─ Rival deducido: 'BARCELONA FC'",
-        "   └─ 🟢 Línea de rival (-3) invertida asignada: '+3'"
+        "🔍 Raw: 'NICE_ALTA' | Normalizado: 'NICE' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 50,
+      "jugada": "BOHEMIANS_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'BOHEMIANS_ALTA' | Normalizado: 'BOHEMIANS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 51,
-      "jugada": "BARCELONA FC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-3",
-      "cuota_asignada": "-120",
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'BARCELONA FC' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Barcelona Fc)",
-        "🟢 CASO A -> RL directo asignado: '-3'"
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 52,
+      "jugada": "BOHEMIANS",
+      "estado": "ASIGNADO",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "-160",
+      "logs": [
+        "🔍 Raw: 'BOHEMIANS' | Normalizado: 'BOHEMIANS' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -160"
       ]
     },
     {
       "index": 53,
-      "jugada": "BARCELONA FC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-3",
-      "cuota_asignada": "-120",
+      "jugada": "BOHEMIANS_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'BARCELONA FC' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Barcelona Fc)",
-        "🟢 CASO A -> RL directo asignado: '-3'"
+        "🔍 Raw: 'BOHEMIANS_ALTA' | Normalizado: 'BOHEMIANS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 54,
+      "jugada": "ST. PATRICK'S ATH.",
+      "estado": "ASIGNADO",
+      "linea_asignada": "-1",
+      "cuota_asignada": "-105",
+      "logs": [
+        "🔍 Raw: 'ST. PATRICK'S ATH.' | Normalizado: 'ST. PATRICK'S ATH.' | ID: Sin ID",
+        "🟢 Hándicap directo local encontrado: '-1'",
+        "✅ Asignado con éxito -> Línea: -1 | Cuota: -105"
       ]
     },
     {
       "index": 55,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
+      "jugada": "ST. PATRICK'S ATH._ALTA",
+      "estado": "OMITIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
       "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 56,
-      "jugada": "FEYENOORD",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+3",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'FEYENOORD' | Normalizado: 'FEYENOORD' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Feyenoord)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: FEYENOORD vs BARCELONA FC",
-        "   ├─ Rival deducido: 'BARCELONA FC'",
-        "   └─ 🟢 Línea de rival (-3) invertida asignada: '+3'"
+        "🔍 Raw: 'ST. PATRICK'S ATH._ALTA' | Normalizado: 'ST. PATRICK'S ATH.' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 57,
-      "jugada": "GALATASARAY",
+      "jugada": "DEPORTIVO ALAVES",
       "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "115",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "-155",
       "logs": [
-        "🔍 Raw: 'GALATASARAY' | Normalizado: 'GALATASARAY' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Galatasaray)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Galatasaray U19 vs Sporting CP U19",
-        "   ├─ Rival deducido: 'Sporting CP U19'",
-        "   └─ ⚠️ No se halló al rival 'Sporting CP U19' en el JSON de Pikes."
+        "🔍 Raw: 'DEPORTIVO ALAVES' | Normalizado: 'DEPORTIVO ALAVES' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -155"
       ]
     },
     {
       "index": 58,
-      "jugada": "TELSTAR",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+2",
-      "cuota_asignada": "-120",
+      "jugada": "IPSWICH",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'TELSTAR' | Normalizado: 'TELSTAR' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Telstar)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TELSTAR vs FC TWENTE",
-        "   ├─ Rival deducido: 'FC TWENTE'",
-        "   └─ 🟢 Línea de rival (-2) invertida asignada: '+2'"
+        "🔍 Raw: 'IPSWICH' | Normalizado: 'IPSWICH' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
-      "index": 59,
-      "jugada": "AL MOKAWLOON",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "-140",
+      "index": 60,
+      "jugada": "SHAMROCK ROVERS_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'AL MOKAWLOON' | Normalizado: 'AL MOKAWLOON' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Al Mokawloon)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: AL AHLY vs AL MOKAWLOON",
-        "   ├─ Rival deducido: 'AL AHLY'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
+        "🔍 Raw: 'SHAMROCK ROVERS_ALTA' | Normalizado: 'SHAMROCK ROVERS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 61,
-      "jugada": "BARCELONA FC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-3",
-      "cuota_asignada": "-120",
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'BARCELONA FC' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Barcelona Fc)",
-        "🟢 CASO A -> RL directo asignado: '-3'"
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 62,
+      "jugada": "SHAMROCK ROVERS",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'SHAMROCK ROVERS' | Normalizado: 'SHAMROCK ROVERS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 63,
-      "jugada": "LIVERPOOL",
+      "jugada": "SHAMROCK ROVERS_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'SHAMROCK ROVERS_ALTA' | Normalizado: 'SHAMROCK ROVERS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 64,
+      "jugada": "BOHEMIANS",
       "estado": "ASIGNADO",
       "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
+      "cuota_asignada": "-160",
       "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'BOHEMIANS' | Normalizado: 'BOHEMIANS' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -160"
       ]
     },
     {
       "index": 65,
-      "jugada": "BARCELONA FC_ALTA",
+      "jugada": "BOHEMIANS_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'BARCELONA FC_ALTA' | Normalizado: 'BARCELONA' | ID: Sin ID",
+        "🔍 Raw: 'BOHEMIANS_ALTA' | Normalizado: 'BOHEMIANS' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 67,
-      "jugada": "BARCELONA FC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-3",
-      "cuota_asignada": "-120",
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'BARCELONA FC' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Barcelona Fc)",
-        "🟢 CASO A -> RL directo asignado: '-3'"
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 68,
-      "jugada": "BARCELONA FC_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
+      "jugada": "DEPORTIVO ALAVES",
+      "estado": "ASIGNADO",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "-155",
       "logs": [
-        "🔍 Raw: 'BARCELONA FC_ALTA' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'DEPORTIVO ALAVES' | Normalizado: 'DEPORTIVO ALAVES' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -155"
+      ]
+    },
+    {
+      "index": 69,
+      "jugada": "NOTTINGHAM FOREST",
+      "estado": "ASIGNADO",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "130",
+      "logs": [
+        "🔍 Raw: 'NOTTINGHAM FOREST' | Normalizado: 'NOTTINGHAM FOREST' | ID: Sin ID",
+        "🟢 Hándicap directo local encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: 130"
       ]
     },
     {
       "index": 70,
-      "jugada": "BARCELONA FC_ALTA",
+      "jugada": "NOTTINGHAM FOREST_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'BARCELONA FC_ALTA' | Normalizado: 'BARCELONA' | ID: Sin ID",
+        "🔍 Raw: 'NOTTINGHAM FOREST_ALTA' | Normalizado: 'NOTTINGHAM FOREST' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 72,
-      "jugada": "FEYENOORD",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+3",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'FEYENOORD' | Normalizado: 'FEYENOORD' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Feyenoord)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: FEYENOORD vs BARCELONA FC",
-        "   ├─ Rival deducido: 'BARCELONA FC'",
-        "   └─ 🟢 Línea de rival (-3) invertida asignada: '+3'"
-      ]
-    },
-    {
-      "index": 74,
-      "jugada": "VIKTORIA PLZEN",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "120",
-      "logs": [
-        "🔍 Raw: 'VIKTORIA PLZEN' | Normalizado: 'VIKTORIA PLZEN' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Viktoria Plzen)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 75,
       "jugada": "PARLEY",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
         "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
-      "index": 76,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
-      ]
-    },
-    {
-      "index": 77,
-      "jugada": "VIKTORIA PLZEN",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "120",
-      "logs": [
-        "🔍 Raw: 'VIKTORIA PLZEN' | Normalizado: 'VIKTORIA PLZEN' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Viktoria Plzen)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 78,
-      "jugada": "CHELSEA",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'CHELSEA' | Normalizado: 'CHELSEA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chelsea)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
-      ]
-    },
-    {
-      "index": 79,
-      "jugada": "CELTIC_ALTA",
+      "index": 73,
+      "jugada": "TORINO_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'CELTIC_ALTA' | Normalizado: 'CELTIC' | ID: Sin ID",
+        "🔍 Raw: 'TORINO_ALTA' | Normalizado: 'TORINO' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
-      "index": 80,
-      "jugada": "CELTIC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1.5",
-      "cuota_asignada": "110",
+      "index": 74,
+      "jugada": "CARDIFF MU_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'CELTIC' | Normalizado: 'CELTIC' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Celtic)",
-        "🟢 CASO A -> RL directo asignado: '-1.5'"
+        "🔍 Raw: 'CARDIFF MU_ALTA' | Normalizado: 'CARDIFF MU' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 75,
+      "jugada": "BOLTON_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'BOLTON_ALTA' | Normalizado: 'BOLTON' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 76,
+      "jugada": "MARITIMO_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MARITIMO_ALTA' | Normalizado: 'MARITIMO' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 77,
+      "jugada": "WATERFORD_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'WATERFORD_ALTA' | Normalizado: 'WATERFORD' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 78,
+      "jugada": "UNIVERSIDAD CATOLICA_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'UNIVERSIDAD CATOLICA_ALTA' | Normalizado: 'UNIVERSIDAD CATOLICA' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 79,
+      "jugada": "CARDIFF MU_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'CARDIFF MU_ALTA' | Normalizado: 'CARDIFF MU' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 81,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 82,
-      "jugada": "NAPOLI",
+      "jugada": "TORINO",
       "estado": "ASIGNADO",
-      "linea_asignada": "+1",
-      "cuota_asignada": "-125",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "115",
       "logs": [
-        "🔍 Raw: 'NAPOLI' | Normalizado: 'NAPOLI' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Napoli)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Arsenal U19 vs Napoli U19",
-        "   ├─ Rival deducido: 'Arsenal U19'",
-        "   └─ 🟢 Línea de rival (-1) invertida asignada: '+1'"
+        "🔍 Raw: 'TORINO' | Normalizado: 'TORINO' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: 115"
       ]
     },
     {
       "index": 83,
-      "jugada": "VIKTORIA PLZEN",
+      "jugada": "NOTTINGHAM FOREST",
       "estado": "ASIGNADO",
       "linea_asignada": "-0.5",
-      "cuota_asignada": "120",
+      "cuota_asignada": "130",
       "logs": [
-        "🔍 Raw: 'VIKTORIA PLZEN' | Normalizado: 'VIKTORIA PLZEN' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Viktoria Plzen)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'NOTTINGHAM FOREST' | Normalizado: 'NOTTINGHAM FOREST' | ID: Sin ID",
+        "🟢 Hándicap directo local encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: 130"
       ]
     },
     {
-      "index": 84,
-      "jugada": "CHELSEA",
+      "index": 85,
+      "jugada": "DEPORTIVO ALAVES",
       "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-120",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "-155",
       "logs": [
-        "🔍 Raw: 'CHELSEA' | Normalizado: 'CHELSEA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chelsea)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
-      ]
-    },
-    {
-      "index": 86,
-      "jugada": "TELSTAR",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+2",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'TELSTAR' | Normalizado: 'TELSTAR' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Telstar)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TELSTAR vs FC TWENTE",
-        "   ├─ Rival deducido: 'FC TWENTE'",
-        "   └─ 🟢 Línea de rival (-2) invertida asignada: '+2'"
+        "🔍 Raw: 'DEPORTIVO ALAVES' | Normalizado: 'DEPORTIVO ALAVES' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -155"
       ]
     },
     {
       "index": 87,
-      "jugada": "BARCELONA FC_ALTA",
+      "jugada": "DEPORTIVO ALAVES_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'BARCELONA FC_ALTA' | Normalizado: 'BARCELONA' | ID: Sin ID",
+        "🔍 Raw: 'DEPORTIVO ALAVES_ALTA' | Normalizado: 'DEPORTIVO ALAVES' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 89,
-      "jugada": "BARCELONA FC_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
+      "jugada": "BOHEMIANS",
+      "estado": "ASIGNADO",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "-160",
       "logs": [
-        "🔍 Raw: 'BARCELONA FC_ALTA' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'BOHEMIANS' | Normalizado: 'BOHEMIANS' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -160"
       ]
     },
     {
       "index": 91,
-      "jugada": "TRIPLETA",
+      "jugada": "PARLEY",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'TRIPLETA' | Normalizado: 'TRIPLETA' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 92,
-      "jugada": "ARSENAL",
+      "jugada": "DEPORTIVO ALAVES",
       "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "-155",
       "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'DEPORTIVO ALAVES' | Normalizado: 'DEPORTIVO ALAVES' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -155"
       ]
     },
     {
       "index": 93,
-      "jugada": "LIVERPOOL",
+      "jugada": "VITORIA GUIMARAES",
       "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
+      "linea_asignada": "-1",
+      "cuota_asignada": "-120",
       "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'VITORIA GUIMARAES' | Normalizado: 'VITORIA GUIMARAES' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-1'",
+        "✅ Asignado con éxito -> Línea: -1 | Cuota: -120"
       ]
     },
     {
       "index": 94,
-      "jugada": "TORONTO BLUE JAYS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-140",
-      "logs": [
-        "🔍 Raw: 'TORONTO BLUE JAYS_MLB' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Toronto Fc)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TORONTO BLUE JAYS vs ATHLETICS",
-        "   ├─ Rival deducido: 'ATHLETICS'",
-        "   └─ ⚠️ No se halló al rival 'ATHLETICS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 95,
-      "jugada": "SAN DIEGO PADRES_MLB",
+      "jugada": "NOTTINGHAM FOREST",
       "estado": "ASIGNADO",
       "linea_asignada": "-0.5",
-      "cuota_asignada": "-125",
+      "cuota_asignada": "130",
       "logs": [
-        "🔍 Raw: 'SAN DIEGO PADRES_MLB' | Normalizado: 'SAN DIEGO PADRES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (San Diego)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'NOTTINGHAM FOREST' | Normalizado: 'NOTTINGHAM FOREST' | ID: Sin ID",
+        "🟢 Hándicap directo local encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: 130"
       ]
     },
     {
       "index": 96,
-      "jugada": "SAN DIEGO PADRES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-125",
+      "jugada": "DEPORTIVO ALAVES_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'SAN DIEGO PADRES_MLB' | Normalizado: 'SAN DIEGO PADRES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (San Diego)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'DEPORTIVO ALAVES_ALTA' | Normalizado: 'DEPORTIVO ALAVES' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 98,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 99,
-      "jugada": "VIKTORIA PLZEN_ALTA",
+      "jugada": "NOTTINGHAM FOREST_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'VIKTORIA PLZEN_ALTA' | Normalizado: 'VIKTORIA PLZEN' | ID: Sin ID",
+        "🔍 Raw: 'NOTTINGHAM FOREST_ALTA' | Normalizado: 'NOTTINGHAM FOREST' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 100,
-      "jugada": "BARCELONA FC_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'BARCELONA FC_ALTA' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 101,
-      "jugada": "ARSENAL_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'ARSENAL_ALTA' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 103,
-      "jugada": "SAN DIEGO PADRES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'SAN DIEGO PADRES_MLB' | Normalizado: 'SAN DIEGO PADRES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (San Diego)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 105,
-      "jugada": "BARCELONA FC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-3",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'BARCELONA FC' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Barcelona Fc)",
-        "🟢 CASO A -> RL directo asignado: '-3'"
-      ]
-    },
-    {
-      "index": 107,
-      "jugada": "BARCELONA FC_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'BARCELONA FC_ALTA' | Normalizado: 'BARCELONA' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 109,
-      "jugada": "VIKTORIA PLZEN_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'VIKTORIA PLZEN_ALTA' | Normalizado: 'VIKTORIA PLZEN' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 111,
-      "jugada": "PARLEY",
+      "jugada": "MILWAUKEE BREWERS_MLB",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 102,
+      "jugada": "MILWAUKE_PA_DAR_MEDIA_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKE_PA_DAR_MEDIA_MLB' | Normalizado: 'MILWAUKE PA DAR MEDIA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 104,
+      "jugada": "MILWAUKEE BREWERS_MLB_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB_ALTA' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 106,
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 108,
+      "jugada": "MILWAUKE_PA_DAR_MEDIA_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKE_PA_DAR_MEDIA_MLB' | Normalizado: 'MILWAUKE PA DAR MEDIA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 110,
+      "jugada": "MILWAUKEE BREWERS_MLB_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB_ALTA' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 112,
-      "jugada": "DETROIT TIGERS_MLB",
+      "jugada": "MILWAUKEE_NBA",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'DETROIT TIGERS_MLB' | Normalizado: 'DETROIT TIGERS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: MINNESOTA TWINS vs DETROIT TIGERS",
-        "   ├─ Rival deducido: 'MINNESOTA TWINS'",
-        "   └─ ⚠️ No se halló al rival 'MINNESOTA TWINS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 113,
-      "jugada": "TORONTO BLUE JAYS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-140",
-      "logs": [
-        "🔍 Raw: 'TORONTO BLUE JAYS_MLB' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Toronto Fc)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TORONTO BLUE JAYS vs ATHLETICS",
-        "   ├─ Rival deducido: 'ATHLETICS'",
-        "   └─ ⚠️ No se halló al rival 'ATHLETICS' en el JSON de Pikes."
+        "🔍 Raw: 'MILWAUKEE_NBA' | Normalizado: 'MILWAUKEE NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 114,
-      "jugada": "ST. LOUIS CARDINALS_MLB",
-      "estado": "FALLIDO",
+      "jugada": "CHICAGO_BAJA",
+      "estado": "OMITIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
       "logs": [
-        "🔍 Raw: 'ST. LOUIS CARDINALS_MLB' | Normalizado: 'ST. LOUIS CARDINALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ST. LOUIS CARDINALS vs SAN FRANCISCO GIANTS",
-        "   ├─ Rival deducido: 'SAN FRANCISCO GIANTS'",
-        "   └─ ⚠️ No se halló al rival 'SAN FRANCISCO GIANTS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 115,
-      "jugada": "SAN DIEGO PADRES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'SAN DIEGO PADRES_MLB' | Normalizado: 'SAN DIEGO PADRES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (San Diego)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'CHICAGO_BAJA' | Normalizado: 'CHICAGO' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 116,
-      "jugada": "SEATTLE_MLB",
+      "jugada": "NUEVA CHICAGO",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'SEATTLE_MLB' | Normalizado: 'SEATTLE' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Bom Jesus EC vs SEATTLE MARINERS",
-        "   ├─ Rival deducido: 'Bom Jesus EC'",
-        "   └─ ⚠️ No se halló al rival 'Bom Jesus EC' en el JSON de Pikes."
+        "🔍 Raw: 'NUEVA CHICAGO' | Normalizado: 'NUEVA CHICAGO' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 118,
-      "jugada": "MINNESOTA TWINS",
+      "jugada": "MILWAUKEE_NBA",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'MINNESOTA TWINS' | Normalizado: 'MINNESOTA TWINS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: MINNESOTA TWINS vs DETROIT TIGERS",
-        "   ├─ Rival deducido: 'DETROIT TIGERS'",
-        "   └─ ⚠️ No se halló al rival 'DETROIT TIGERS' en el JSON de Pikes."
+        "🔍 Raw: 'MILWAUKEE_NBA' | Normalizado: 'MILWAUKEE NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 120,
-      "jugada": "TORONTO BLUE JAYS_MLB",
+      "jugada": "ATLETICO GRAU",
       "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-140",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "-150",
       "logs": [
-        "🔍 Raw: 'TORONTO BLUE JAYS_MLB' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Toronto Fc)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TORONTO BLUE JAYS vs ATHLETICS",
-        "   ├─ Rival deducido: 'ATHLETICS'",
-        "   └─ ⚠️ No se halló al rival 'ATHLETICS' en el JSON de Pikes."
+        "🔍 Raw: 'ATLETICO GRAU' | Normalizado: 'ATLETICO GRAU' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -150"
       ]
     },
     {
-      "index": 122,
-      "jugada": "ST. LOUIS CARDINALS_MLB",
-      "estado": "FALLIDO",
+      "index": 121,
+      "jugada": "ATLETICO GRAU_ALTA",
+      "estado": "OMITIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
       "logs": [
-        "🔍 Raw: 'ST. LOUIS CARDINALS_MLB' | Normalizado: 'ST. LOUIS CARDINALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ST. LOUIS CARDINALS vs SAN FRANCISCO GIANTS",
-        "   ├─ Rival deducido: 'SAN FRANCISCO GIANTS'",
-        "   └─ ⚠️ No se halló al rival 'SAN FRANCISCO GIANTS' en el JSON de Pikes."
+        "🔍 Raw: 'ATLETICO GRAU_ALTA' | Normalizado: 'ATLETICO GRAU' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 123,
+      "jugada": "INDEPENDIENTE DEL VALLE",
+      "estado": "ASIGNADO",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "-155",
+      "logs": [
+        "🔍 Raw: 'INDEPENDIENTE DEL VALLE' | Normalizado: 'INDEPENDIENTE DEL VALLE' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: -155"
       ]
     },
     {
       "index": 124,
-      "jugada": "ST. LOUIS CARDINALS",
-      "estado": "FALLIDO",
+      "jugada": "INDEPENDIENTE DEL VALLE_ALTA",
+      "estado": "OMITIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
       "logs": [
-        "🔍 Raw: 'ST. LOUIS CARDINALS' | Normalizado: 'ST. LOUIS CARDINALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ST. LOUIS CARDINALS vs SAN FRANCISCO GIANTS",
-        "   ├─ Rival deducido: 'SAN FRANCISCO GIANTS'",
-        "   └─ ⚠️ No se halló al rival 'SAN FRANCISCO GIANTS' en el JSON de Pikes."
+        "🔍 Raw: 'INDEPENDIENTE DEL VALLE_ALTA' | Normalizado: 'INDEPENDIENTE DEL VALLE' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 126,
-      "jugada": "ST. LOUIS CARDINALS_MLB_ALTA",
+      "jugada": "UNIVERSIDAD CATOLICA_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'ST. LOUIS CARDINALS_MLB_ALTA' | Normalizado: 'ST. LOUIS CARDINALS' | ID: Sin ID",
+        "🔍 Raw: 'UNIVERSIDAD CATOLICA_ALTA' | Normalizado: 'UNIVERSIDAD CATOLICA' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 128,
-      "jugada": "DETROIT TIGERS_MLB",
+      "jugada": "MILWAUKEE BREWERS_MLB",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'DETROIT TIGERS_MLB' | Normalizado: 'DETROIT TIGERS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: MINNESOTA TWINS vs DETROIT TIGERS",
-        "   ├─ Rival deducido: 'MINNESOTA TWINS'",
-        "   └─ ⚠️ No se halló al rival 'MINNESOTA TWINS' en el JSON de Pikes."
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
-      "index": 130,
-      "jugada": "CHELSEA",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-120",
+      "index": 129,
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'CHELSEA' | Normalizado: 'CHELSEA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chelsea)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 131,
+      "jugada": "CUARTETO",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'CUARTETO' | Normalizado: 'CUARTETO' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 132,
-      "jugada": "CHELSEA_ALTA",
+      "jugada": "PLATENSE",
+      "estado": "ASIGNADO",
+      "linea_asignada": "+0.5",
+      "cuota_asignada": "-175",
+      "logs": [
+        "🔍 Raw: 'PLATENSE' | Normalizado: 'PLATENSE' | ID: Sin ID",
+        "🟢 Hándicap deducido del rival (-0.5) invertido: '+0.5'",
+        "✅ Asignado con éxito -> Línea: +0.5 | Cuota: -175"
+      ]
+    },
+    {
+      "index": 133,
+      "jugada": "PLATENSE_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'CHELSEA_ALTA' | Normalizado: 'CHELSEA' | ID: Sin ID",
+        "🔍 Raw: 'PLATENSE_ALTA' | Normalizado: 'PLATENSE' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 134,
-      "jugada": "CHELSEA",
+      "jugada": "SARMIENTO JUNIN",
       "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-120",
+      "linea_asignada": "+1",
+      "cuota_asignada": "-130",
       "logs": [
-        "🔍 Raw: 'CHELSEA' | Normalizado: 'CHELSEA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chelsea)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'SARMIENTO JUNIN' | Normalizado: 'SARMIENTO JUNIN' | ID: Sin ID",
+        "🟢 Hándicap deducido del rival (-1) invertido: '+1'",
+        "✅ Asignado con éxito -> Línea: +1 | Cuota: -130"
       ]
     },
     {
-      "index": 136,
-      "jugada": "CHELSEA_ALTA",
+      "index": 135,
+      "jugada": "SARMIENTO JUNIN_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'CHELSEA_ALTA' | Normalizado: 'CHELSEA' | ID: Sin ID",
+        "🔍 Raw: 'SARMIENTO JUNIN_ALTA' | Normalizado: 'SARMIENTO JUNIN' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
-      "index": 138,
-      "jugada": "ST. LOUIS CARDINALS_MLB",
+      "index": 137,
+      "jugada": "SANTOS_BAJA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'SANTOS_BAJA' | Normalizado: 'SANTOS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 139,
+      "jugada": "PLATENSE",
+      "estado": "ASIGNADO",
+      "linea_asignada": "+0.5",
+      "cuota_asignada": "-175",
+      "logs": [
+        "🔍 Raw: 'PLATENSE' | Normalizado: 'PLATENSE' | ID: Sin ID",
+        "🟢 Hándicap deducido del rival (-0.5) invertido: '+0.5'",
+        "✅ Asignado con éxito -> Línea: +0.5 | Cuota: -175"
+      ]
+    },
+    {
+      "index": 141,
+      "jugada": "PLATENSE_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'PLATENSE_ALTA' | Normalizado: 'PLATENSE' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 143,
+      "jugada": "SARMIENTO JUNIN",
+      "estado": "ASIGNADO",
+      "linea_asignada": "+1",
+      "cuota_asignada": "-130",
+      "logs": [
+        "🔍 Raw: 'SARMIENTO JUNIN' | Normalizado: 'SARMIENTO JUNIN' | ID: Sin ID",
+        "🟢 Hándicap deducido del rival (-1) invertido: '+1'",
+        "✅ Asignado con éxito -> Línea: +1 | Cuota: -130"
+      ]
+    },
+    {
+      "index": 145,
+      "jugada": "SARMIENTO JUNIN_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'SARMIENTO JUNIN_ALTA' | Normalizado: 'SARMIENTO JUNIN' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 147,
+      "jugada": "PLATENSE_BAJA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'PLATENSE_BAJA' | Normalizado: 'PLATENSE' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 149,
+      "jugada": "BOSTON RED SOX",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ST. LOUIS CARDINALS_MLB' | Normalizado: 'ST. LOUIS CARDINALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ST. LOUIS CARDINALS vs SAN FRANCISCO GIANTS",
-        "   ├─ Rival deducido: 'SAN FRANCISCO GIANTS'",
-        "   └─ ⚠️ No se halló al rival 'SAN FRANCISCO GIANTS' en el JSON de Pikes."
+        "🔍 Raw: 'BOSTON RED SOX' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
-      "index": 140,
-      "jugada": "ST. LOUIS CARDINALS",
+      "index": 151,
+      "jugada": "MILWAUKEE BREWERS_MLB",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ST. LOUIS CARDINALS' | Normalizado: 'ST. LOUIS CARDINALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ST. LOUIS CARDINALS vs SAN FRANCISCO GIANTS",
-        "   ├─ Rival deducido: 'SAN FRANCISCO GIANTS'",
-        "   └─ ⚠️ No se halló al rival 'SAN FRANCISCO GIANTS' en el JSON de Pikes."
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
-      "index": 142,
-      "jugada": "ST. LOUIS CARDINALS_MLB_ALTA",
-      "estado": "OMITIDO",
+      "index": 153,
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ST. LOUIS CARDINALS_MLB_ALTA' | Normalizado: 'ST. LOUIS CARDINALS' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 144,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
-      "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 146,
-      "jugada": "LIVERPOOL_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'LIVERPOOL_ALTA' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 148,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
-      "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 150,
-      "jugada": "LIVERPOOL_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'LIVERPOOL_ALTA' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 152,
-      "jugada": "CELTIC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1.5",
-      "cuota_asignada": "110",
-      "logs": [
-        "🔍 Raw: 'CELTIC' | Normalizado: 'CELTIC' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Celtic)",
-        "🟢 CASO A -> RL directo asignado: '-1.5'"
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 154,
-      "jugada": "CELTIC_ALTA",
-      "estado": "OMITIDO",
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'CELTIC_ALTA' | Normalizado: 'CELTIC' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 155,
+      "jugada": "ATLANTA BRAVES",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'ATLANTA BRAVES' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 156,
-      "jugada": "PARIS FC_BAJA",
-      "estado": "OMITIDO",
+      "jugada": "TORONTO BLUE JAYS",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PARIS FC_BAJA' | Normalizado: 'PARIS' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'TORONTO BLUE JAYS' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 157,
+      "jugada": "INDIANA_NBA",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'INDIANA_NBA' | Normalizado: 'INDIANA NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 158,
-      "jugada": "PARIS ST GERMAIN_BAJA",
-      "estado": "OMITIDO",
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PARIS ST GERMAIN_BAJA' | Normalizado: 'PARIS ST GERMAIN' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 160,
-      "jugada": "NAPOLI_BAJA",
-      "estado": "OMITIDO",
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'NAPOLI_BAJA' | Normalizado: 'NAPOLI' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 161,
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 162,
-      "jugada": "NORWICH CITY_ALTA",
-      "estado": "OMITIDO",
+      "jugada": "NICKS_NBA",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'NORWICH CITY_ALTA' | Normalizado: 'NORWICH CITY' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'NICKS_NBA' | Normalizado: 'NICKS NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 163,
+      "jugada": "ATLANTA BRAVES",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'ATLANTA BRAVES' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 164,
-      "jugada": "SLOVAN BRATISLAVA",
-      "estado": "ASIGNADO",
+      "jugada": "MINNESOTA TWINS",
+      "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "110",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'SLOVAN BRATISLAVA' | Normalizado: 'SLOVAN BRATISLAVA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Slovan Bratislava)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Slovan Bratislava U19 vs PSG U19",
-        "   ├─ Rival deducido: 'PSG U19'",
-        "   └─ ⚠️ No se halló al rival 'PSG U19' en el JSON de Pikes."
+        "🔍 Raw: 'MINNESOTA TWINS' | Normalizado: 'MINNESOTA TWINS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 165,
+      "jugada": "WIZARDS_NBA",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'WIZARDS_NBA' | Normalizado: 'WIZARDS NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 166,
-      "jugada": "RANDERS FC_ALTA",
-      "estado": "OMITIDO",
+      "jugada": "FC DALLAS",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'RANDERS FC_ALTA' | Normalizado: 'RANDERS' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'FC DALLAS' | Normalizado: 'DALLAS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 168,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 170,
-      "jugada": "DERBY COUNTY",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+0.5",
-      "cuota_asignada": "-145",
+      "jugada": "MILWAUKEE BREWERS_BAJA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'DERBY COUNTY' | Normalizado: 'DERBY COUNTY' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Derby County)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: WEST BROMWICH vs Derby",
-        "   ├─ Rival deducido: 'WEST BROMWICH'",
-        "   └─ 🟢 Línea de rival (-0.5) invertida asignada: '+0.5'"
+        "🔍 Raw: 'MILWAUKEE BREWERS_BAJA' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 172,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
-      ]
-    },
-    {
-      "index": 174,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
-      "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 176,
-      "jugada": "DETROIT TIGERS_MLB",
+      "jugada": "MILWAUKEE BREWERS_MLB",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'DETROIT TIGERS_MLB' | Normalizado: 'DETROIT TIGERS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: MINNESOTA TWINS vs DETROIT TIGERS",
-        "   ├─ Rival deducido: 'MINNESOTA TWINS'",
-        "   └─ ⚠️ No se halló al rival 'MINNESOTA TWINS' en el JSON de Pikes."
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 173,
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 175,
+      "jugada": "TAMPA BAY RAYS_MLB_BAJA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'TAMPA BAY RAYS_MLB_BAJA' | Normalizado: 'TAMPA BAY RAYS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 177,
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 178,
-      "jugada": "PARIS FC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-3.5",
-      "cuota_asignada": "-140",
+      "jugada": "BOSTON RED SOX",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PARIS FC' | Normalizado: 'PARIS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Paris St Germain)",
-        "🟢 CASO A -> RL directo asignado: '-3.5'"
+        "🔍 Raw: 'BOSTON RED SOX' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 179,
+      "jugada": "INDIANA_NBA",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'INDIANA_NBA' | Normalizado: 'INDIANA NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 180,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
+      "jugada": "INDIANA_NBA_ALTA",
+      "estado": "OMITIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
       "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "🔍 Raw: 'INDIANA_NBA_ALTA' | Normalizado: 'INDIANA NBA' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 181,
-      "jugada": "TORONTO BLUE JAYS_MLB",
-      "estado": "ASIGNADO",
+      "jugada": "WASHINGTON NATIONALS",
+      "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "-140",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'TORONTO BLUE JAYS_MLB' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Toronto Fc)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TORONTO BLUE JAYS vs ATHLETICS",
-        "   ├─ Rival deducido: 'ATHLETICS'",
-        "   └─ ⚠️ No se halló al rival 'ATHLETICS' en el JSON de Pikes."
+        "🔍 Raw: 'WASHINGTON NATIONALS' | Normalizado: 'WASHINGTON NATIONALS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 182,
-      "jugada": "SAN DIEGO PADRES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-125",
+      "jugada": "WASHINGTON NATIONALS_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'SAN DIEGO PADRES_MLB' | Normalizado: 'SAN DIEGO PADRES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (San Diego)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'WASHINGTON NATIONALS_ALTA' | Normalizado: 'WASHINGTON NATIONALS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 183,
-      "jugada": "CELTIC_ALTA",
+      "jugada": "ATLETICO SAN LUIS",
+      "estado": "ASIGNADO",
+      "linea_asignada": "+0.5",
+      "cuota_asignada": "-150",
+      "logs": [
+        "🔍 Raw: 'ATLETICO SAN LUIS' | Normalizado: 'ATLETICO SAN LUIS' | ID: Sin ID",
+        "🟢 Hándicap deducido del rival (-0.5) invertido: '+0.5'",
+        "✅ Asignado con éxito -> Línea: +0.5 | Cuota: -150"
+      ]
+    },
+    {
+      "index": 184,
+      "jugada": "CHICAGO WHITE SOX_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'CELTIC_ALTA' | Normalizado: 'CELTIC' | ID: Sin ID",
+        "🔍 Raw: 'CHICAGO WHITE SOX_ALTA' | Normalizado: 'CHICAGO WHITE SOX' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 185,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
+      "jugada": "UTHAT_ROYAL_W_FC_ALTA",
+      "estado": "OMITIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
       "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "🔍 Raw: 'UTHAT_ROYAL_W_FC_ALTA' | Normalizado: 'UTHAT ROYAL W' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 186,
-      "jugada": "TORONTO BLUE JAYS",
-      "estado": "ASIGNADO",
+      "jugada": "PORLAND_THORN_W_FC_ALTA",
+      "estado": "OMITIDO",
       "linea_asignada": null,
-      "cuota_asignada": "-140",
       "logs": [
-        "🔍 Raw: 'TORONTO BLUE JAYS' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Toronto Fc)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TORONTO BLUE JAYS vs ATHLETICS",
-        "   ├─ Rival deducido: 'ATHLETICS'",
-        "   └─ ⚠️ No se halló al rival 'ATHLETICS' en el JSON de Pikes."
+        "🔍 Raw: 'PORLAND_THORN_W_FC_ALTA' | Normalizado: 'PORLAND THORN W' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 187,
-      "jugada": "SAN DIEGO PADRES",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'SAN DIEGO PADRES' | Normalizado: 'SAN DIEGO PADRES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (San Diego)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 188,
-      "jugada": "SLOVAN BRATISLAVA",
-      "estado": "ASIGNADO",
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "110",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'SLOVAN BRATISLAVA' | Normalizado: 'SLOVAN BRATISLAVA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Slovan Bratislava)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Slovan Bratislava U19 vs PSG U19",
-        "   ├─ Rival deducido: 'PSG U19'",
-        "   └─ ⚠️ No se halló al rival 'PSG U19' en el JSON de Pikes."
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 189,
-      "jugada": "ST. LOUIS CARDINALS",
+      "jugada": "BOSTON RED SOX",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ST. LOUIS CARDINALS' | Normalizado: 'ST. LOUIS CARDINALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ST. LOUIS CARDINALS vs SAN FRANCISCO GIANTS",
-        "   ├─ Rival deducido: 'SAN FRANCISCO GIANTS'",
-        "   └─ ⚠️ No se halló al rival 'SAN FRANCISCO GIANTS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 190,
-      "jugada": "LIVERPOOL_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'LIVERPOOL_ALTA' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'BOSTON RED SOX' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 191,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
+      "jugada": "INDIANA_NBA",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 192,
-      "jugada": "TEXAS RANGERS",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1.5",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'TEXAS RANGERS' | Normalizado: 'TEXAS RANGERS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Rangers)",
-        "🟢 CASO A -> RL directo asignado: '-1.5'"
+        "🔍 Raw: 'INDIANA_NBA' | Normalizado: 'INDIANA NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 193,
-      "jugada": "SLOVAN BRATISLAVA",
-      "estado": "ASIGNADO",
+      "jugada": "PACERS",
+      "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "110",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'SLOVAN BRATISLAVA' | Normalizado: 'SLOVAN BRATISLAVA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Slovan Bratislava)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Slovan Bratislava U19 vs PSG U19",
-        "   ├─ Rival deducido: 'PSG U19'",
-        "   └─ ⚠️ No se halló al rival 'PSG U19' en el JSON de Pikes."
+        "🔍 Raw: 'PACERS' | Normalizado: 'PACERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 195,
-      "jugada": "SPORTING LISBON",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-145",
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'SPORTING LISBON' | Normalizado: 'SPORTING LISBON' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Sporting Lisbon)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 196,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 197,
-      "jugada": "PARLEY",
+      "jugada": "ATLANTA BRAVES",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "🔍 Raw: 'ATLANTA BRAVES' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 198,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
+      "jugada": "TORONTO BLUE JAYS_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 199,
-      "jugada": "PARIS ST GERMAIN",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-3.5",
-      "cuota_asignada": "-140",
-      "logs": [
-        "🔍 Raw: 'PARIS ST GERMAIN' | Normalizado: 'PARIS ST GERMAIN' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Paris St Germain)",
-        "🟢 CASO A -> RL directo asignado: '-3.5'"
+        "🔍 Raw: 'TORONTO BLUE JAYS_ALTA' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 200,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 201,
+      "jugada": "TAMPA BAY RAYS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'TAMPA BAY RAYS_MLB' | Normalizado: 'TAMPA BAY RAYS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 202,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
+      "jugada": "TAMPA BAY RAYS_MLB_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'TAMPA BAY RAYS_MLB_ALTA' | Normalizado: 'TAMPA BAY RAYS' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 203,
+      "jugada": "ATLANTE_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'ATLANTE_ALTA' | Normalizado: 'ATLANTE' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 204,
-      "jugada": "GALATASARAY",
-      "estado": "ASIGNADO",
+      "jugada": "CHICAGO_STARS_W_ALTA",
+      "estado": "OMITIDO",
       "linea_asignada": null,
-      "cuota_asignada": "115",
       "logs": [
-        "🔍 Raw: 'GALATASARAY' | Normalizado: 'GALATASARAY' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Galatasaray)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Galatasaray U19 vs Sporting CP U19",
-        "   ├─ Rival deducido: 'Sporting CP U19'",
-        "   └─ ⚠️ No se halló al rival 'Sporting CP U19' en el JSON de Pikes."
+        "🔍 Raw: 'CHICAGO_STARS_W_ALTA' | Normalizado: 'CHICAGO STARS W' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
-      "index": 206,
-      "jugada": "ATLETICO MADRID",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+0.5",
-      "cuota_asignada": "105",
+      "index": 205,
+      "jugada": "SEATTLE MARINERS",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ATLETICO MADRID' | Normalizado: 'ATLETICO MADRID' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Atletico Madrid)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ATLETICO MADRID vs LIVERPOOL",
-        "   ├─ Rival deducido: 'LIVERPOOL'",
-        "   └─ 🟢 Línea de rival (-0.5) invertida asignada: '+0.5'"
+        "🔍 Raw: 'SEATTLE MARINERS' | Normalizado: 'SEATTLE MARINERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 207,
+      "jugada": "ATLANTA BRAVES",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'ATLANTA BRAVES' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 208,
-      "jugada": "SPORTING LISBON",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-145",
+      "jugada": "MINNESOTA TWINS",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'SPORTING LISBON' | Normalizado: 'SPORTING LISBON' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Sporting Lisbon)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'MINNESOTA TWINS' | Normalizado: 'MINNESOTA TWINS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 209,
+      "jugada": "TORONTO BLUE JAYS",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'TORONTO BLUE JAYS' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 210,
-      "jugada": "CELTIC_ALTA",
-      "estado": "OMITIDO",
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'CELTIC_ALTA' | Normalizado: 'CELTIC' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 211,
+      "jugada": "TORONTO BLUE JAYS",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'TORONTO BLUE JAYS' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 212,
-      "jugada": "SLOVAN BRATISLAVA",
-      "estado": "ASIGNADO",
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "110",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'SLOVAN BRATISLAVA' | Normalizado: 'SLOVAN BRATISLAVA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Slovan Bratislava)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Slovan Bratislava U19 vs PSG U19",
-        "   ├─ Rival deducido: 'PSG U19'",
-        "   └─ ⚠️ No se halló al rival 'PSG U19' en el JSON de Pikes."
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
-      "index": 214,
-      "jugada": "ARSENAL_ALTA",
-      "estado": "OMITIDO",
+      "index": 213,
+      "jugada": "MINNESOTA TWINS",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ARSENAL_ALTA' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'MINNESOTA TWINS' | Normalizado: 'MINNESOTA TWINS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 215,
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 216,
-      "jugada": "PARLEY",
+      "jugada": "MILWAUKEE BREWERS_MLB",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 217,
-      "jugada": "GALATASARAY",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "115",
-      "logs": [
-        "🔍 Raw: 'GALATASARAY' | Normalizado: 'GALATASARAY' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Galatasaray)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Galatasaray U19 vs Sporting CP U19",
-        "   ├─ Rival deducido: 'Sporting CP U19'",
-        "   └─ ⚠️ No se halló al rival 'Sporting CP U19' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 218,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
-      ]
-    },
-    {
-      "index": 219,
-      "jugada": "CHELSEA",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'CHELSEA' | Normalizado: 'CHELSEA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chelsea)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
-      ]
-    },
-    {
-      "index": 220,
-      "jugada": "LIVERPOOL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-135",
-      "logs": [
-        "🔍 Raw: 'LIVERPOOL' | Normalizado: 'LIVERPOOL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Liverpool)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 221,
-      "jugada": "ST. LOUIS CARDINALS_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ST. LOUIS CARDINALS_MLB' | Normalizado: 'ST. LOUIS CARDINALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ST. LOUIS CARDINALS vs SAN FRANCISCO GIANTS",
-        "   ├─ Rival deducido: 'SAN FRANCISCO GIANTS'",
-        "   └─ ⚠️ No se halló al rival 'SAN FRANCISCO GIANTS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 222,
-      "jugada": "SAN DIEGO PADRES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'SAN DIEGO PADRES_MLB' | Normalizado: 'SAN DIEGO PADRES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (San Diego)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 224,
-      "jugada": "SPORTING LISBON",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-145",
-      "logs": [
-        "🔍 Raw: 'SPORTING LISBON' | Normalizado: 'SPORTING LISBON' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Sporting Lisbon)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 226,
-      "jugada": "NAPOLI_ALTA",
+      "jugada": "MILWAUKEE BREWERS_MLB_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'NAPOLI_ALTA' | Normalizado: 'NAPOLI' | ID: Sin ID",
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB_ALTA' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
-      "index": 227,
-      "jugada": "PARLEY",
+      "index": 218,
+      "jugada": "NEW YORK",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "🔍 Raw: 'NEW YORK' | Normalizado: 'NEW YORK' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 219,
+      "jugada": "ATLANTA BRAVES",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'ATLANTA BRAVES' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 220,
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 222,
+      "jugada": "TAMPA BAY RAYS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'TAMPA BAY RAYS_MLB' | Normalizado: 'TAMPA BAY RAYS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 224,
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 226,
+      "jugada": "MILWAUKEE BREWERS",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKEE BREWERS' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 228,
-      "jugada": "NAPOLI",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1",
-      "cuota_asignada": "-125",
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'NAPOLI' | Normalizado: 'NAPOLI' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Napoli)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Arsenal U19 vs Napoli U19",
-        "   ├─ Rival deducido: 'Arsenal U19'",
-        "   └─ 🟢 Línea de rival (-1) invertida asignada: '+1'"
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 229,
-      "jugada": "NAPOLI_ALTA",
+      "jugada": "JUAREZ_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'NAPOLI_ALTA' | Normalizado: 'NAPOLI' | ID: Sin ID",
+        "🔍 Raw: 'JUAREZ_ALTA' | Normalizado: 'JUAREZ' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 230,
-      "jugada": "GALATASARAY",
+      "jugada": "ATLANTE",
       "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "115",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "120",
       "logs": [
-        "🔍 Raw: 'GALATASARAY' | Normalizado: 'GALATASARAY' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Galatasaray)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Galatasaray U19 vs Sporting CP U19",
-        "   ├─ Rival deducido: 'Sporting CP U19'",
-        "   └─ ⚠️ No se halló al rival 'Sporting CP U19' en el JSON de Pikes."
+        "🔍 Raw: 'ATLANTE' | Normalizado: 'ATLANTE' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: 120"
       ]
     },
     {
       "index": 231,
-      "jugada": "GALATASARAY_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
+      "jugada": "UTAH_ROYALS_W",
+      "estado": "ASIGNADO",
+      "linea_asignada": "-0.5",
+      "cuota_asignada": "140",
       "logs": [
-        "🔍 Raw: 'GALATASARAY_ALTA' | Normalizado: 'GALATASARAY' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'UTAH_ROYALS_W' | Normalizado: 'UTAH ROYALS W' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: 140"
       ]
     },
     {
       "index": 233,
-      "jugada": "ARSENAL",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1",
-      "cuota_asignada": "-105",
+      "jugada": "MILWAUKEE BREWERS",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ARSENAL' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Arsenal)",
-        "🟢 CASO A -> RL directo asignado: '-1'"
+        "🔍 Raw: 'MILWAUKEE BREWERS' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 235,
-      "jugada": "ARSENAL_ALTA",
-      "estado": "OMITIDO",
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ARSENAL_ALTA' | Normalizado: 'ARSENAL' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 237,
-      "jugada": "GALATASARAY_ALTA",
-      "estado": "OMITIDO",
+      "jugada": "PARLEY",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'GALATASARAY_ALTA' | Normalizado: 'GALATASARAY' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 238,
+      "jugada": "ATLETICO SAN LUIS",
+      "estado": "ASIGNADO",
+      "linea_asignada": "+0.5",
+      "cuota_asignada": "-150",
+      "logs": [
+        "🔍 Raw: 'ATLETICO SAN LUIS' | Normalizado: 'ATLETICO SAN LUIS' | ID: Sin ID",
+        "🟢 Hándicap deducido del rival (-0.5) invertido: '+0.5'",
+        "✅ Asignado con éxito -> Línea: +0.5 | Cuota: -150"
       ]
     },
     {
       "index": 239,
-      "jugada": "TORONTO BLUE JAYS_MLB",
-      "estado": "ASIGNADO",
+      "jugada": "CHICAGO_STAR_W_FC_ALTA",
+      "estado": "OMITIDO",
       "linea_asignada": null,
-      "cuota_asignada": "-140",
       "logs": [
-        "🔍 Raw: 'TORONTO BLUE JAYS_MLB' | Normalizado: 'TORONTO BLUE JAYS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Toronto Fc)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TORONTO BLUE JAYS vs ATHLETICS",
-        "   ├─ Rival deducido: 'ATHLETICS'",
-        "   └─ ⚠️ No se halló al rival 'ATHLETICS' en el JSON de Pikes."
+        "🔍 Raw: 'CHICAGO_STAR_W_FC_ALTA' | Normalizado: 'CHICAGO STAR W' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 240,
+      "jugada": "UTHAT_ROYAL_W_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'UTHAT_ROYAL_W_ALTA' | Normalizado: 'UTHAT ROYAL W' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 241,
-      "jugada": "CELTIC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1.5",
-      "cuota_asignada": "110",
+      "jugada": "PORLAND_THIRN_W_FC_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'CELTIC' | Normalizado: 'CELTIC' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Celtic)",
-        "🟢 CASO A -> RL directo asignado: '-1.5'"
+        "🔍 Raw: 'PORLAND_THIRN_W_FC_ALTA' | Normalizado: 'PORLAND THIRN W' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+      ]
+    },
+    {
+      "index": 242,
+      "jugada": "MILWAUKEE BREWERS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 243,
-      "jugada": "SLOVAN BRATISLAVA",
-      "estado": "ASIGNADO",
+      "jugada": "PORTLAND",
+      "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "110",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'SLOVAN BRATISLAVA' | Normalizado: 'SLOVAN BRATISLAVA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Slovan Bratislava)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: Slovan Bratislava U19 vs PSG U19",
-        "   ├─ Rival deducido: 'PSG U19'",
-        "   └─ ⚠️ No se halló al rival 'PSG U19' en el JSON de Pikes."
+        "🔍 Raw: 'PORTLAND' | Normalizado: 'PORTLAND' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 244,
+      "jugada": "PORTLAND_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'PORTLAND_ALTA' | Normalizado: 'PORTLAND' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 245,
-      "jugada": "SAN DIEGO PADRES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-125",
+      "jugada": "SPURS_NBA",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'SAN DIEGO PADRES_MLB' | Normalizado: 'SAN DIEGO PADRES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (San Diego)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'SPURS_NBA' | Normalizado: 'SPURS NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 246,
+      "jugada": "SPURS_NBA_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'SPURS_NBA_ALTA' | Normalizado: 'SPURS NBA' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 247,
-      "jugada": "PHILADELPHIA PHILLIES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-150",
+      "jugada": "GOLDEN_NBA",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PHILADELPHIA PHILLIES_MLB' | Normalizado: 'PHILADELPHIA PHILLIES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Philadelphia)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'GOLDEN_NBA' | Normalizado: 'GOLDEN NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
-      "index": 249,
-      "jugada": "PARLEY",
+      "index": 248,
+      "jugada": "LAKER_NBA",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "🔍 Raw: 'LAKER_NBA' | Normalizado: 'LAKER NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 250,
-      "jugada": "PHILADELPHIA PHILLIES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-150",
-      "logs": [
-        "🔍 Raw: 'PHILADELPHIA PHILLIES_MLB' | Normalizado: 'PHILADELPHIA PHILLIES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Philadelphia)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 251,
-      "jugada": "MIAMI MARLINS_MLB",
+      "jugada": "MILWAUKEE BREWERS_MLB",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'MIAMI MARLINS_MLB' | Normalizado: 'MIAMI MARLINS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: NEW YORK METS vs MIAMI MARLINS",
-        "   ├─ Rival deducido: 'NEW YORK METS'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '3.5')"
+        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 252,
-      "jugada": "BOSTON RED SOX",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
+      "jugada": "HOUSTON_ROKEST_NBA_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'BOSTON RED SOX' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
+        "🔍 Raw: 'HOUSTON_ROKEST_NBA_ALTA' | Normalizado: 'HOUSTON ROKEST NBA' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 254,
-      "jugada": "PARLEY",
+      "jugada": "GOLDEN_STATE",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 255,
-      "jugada": "NEW YORK CITY FC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "145",
-      "logs": [
-        "🔍 Raw: 'NEW YORK CITY FC' | Normalizado: 'NEW YORK CITY' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York City Fc)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'GOLDEN_STATE' | Normalizado: 'GOLDEN STATE' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 256,
-      "jugada": "NEW YORK CITY FC_ALTA",
+      "jugada": "JUAREZ_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'NEW YORK CITY FC_ALTA' | Normalizado: 'NEW YORK CITY' | ID: Sin ID",
+        "🔍 Raw: 'JUAREZ_ALTA' | Normalizado: 'JUAREZ' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 257,
-      "jugada": "ALIANZA PETROLERA",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'ALIANZA PETROLERA' | Normalizado: 'ALIANZA PETROLERA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Alianza Petrolera)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 258,
-      "jugada": "ALIANZA PETROLERA_ALTA",
+      "jugada": "ATLANTE_ALTA",
       "estado": "OMITIDO",
       "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'ALIANZA PETROLERA_ALTA' | Normalizado: 'ALIANZA PETROLERA' | ID: Sin ID",
+        "🔍 Raw: 'ATLANTE_ALTA' | Normalizado: 'ATLANTE' | ID: Sin ID",
         "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
-      "index": 260,
+      "index": 258,
       "jugada": "PARLEY",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
         "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 259,
+      "jugada": "JUAREZ",
+      "estado": "ASIGNADO",
+      "linea_asignada": "+0.5",
+      "cuota_asignada": "105",
+      "logs": [
+        "🔍 Raw: 'JUAREZ' | Normalizado: 'JUAREZ' | ID: Sin ID",
+        "🟢 Hándicap deducido del rival (-0.5) invertido: '+0.5'",
+        "✅ Asignado con éxito -> Línea: +0.5 | Cuota: 105"
+      ]
+    },
+    {
+      "index": 260,
+      "jugada": "JUAREZ_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
+      "logs": [
+        "🔍 Raw: 'JUAREZ_ALTA' | Normalizado: 'JUAREZ' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
       "index": 261,
-      "jugada": "PHILADELPHIA PHILLIES_MLB",
+      "jugada": "ATLANTE",
       "estado": "ASIGNADO",
       "linea_asignada": "-0.5",
-      "cuota_asignada": "-150",
+      "cuota_asignada": "120",
       "logs": [
-        "🔍 Raw: 'PHILADELPHIA PHILLIES_MLB' | Normalizado: 'PHILADELPHIA PHILLIES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Philadelphia)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'ATLANTE' | Normalizado: 'ATLANTE' | ID: Sin ID",
+        "🟢 Hándicap directo visitante encontrado: '-0.5'",
+        "✅ Asignado con éxito -> Línea: -0.5 | Cuota: 120"
       ]
     },
     {
       "index": 262,
-      "jugada": "BOSTON RED SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
+      "jugada": "ATLANTE_ALTA",
+      "estado": "OMITIDO",
+      "linea_asignada": null,
       "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_MLB' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
+        "🔍 Raw: 'ATLANTE_ALTA' | Normalizado: 'ATLANTE' | ID: Sin ID",
+        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
       ]
     },
     {
-      "index": 263,
-      "jugada": "ATLANTA BRAVES_MLB",
+      "index": 264,
+      "jugada": "MILWAUKEE BREWERS",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'ATLANTA BRAVES_MLB' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TAMPA BAY RAYS vs ATLANTA BRAVES",
-        "   ├─ Rival deducido: 'TAMPA BAY RAYS'",
-        "   └─ ⚠️ No se halló al rival 'TAMPA BAY RAYS' en el JSON de Pikes."
+        "🔍 Raw: 'MILWAUKEE BREWERS' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
-      "index": 265,
-      "jugada": "BOSTON RED SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
+      "index": 266,
+      "jugada": "TAMPA BAY RAYS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_MLB' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
+        "🔍 Raw: 'TAMPA BAY RAYS_MLB' | Normalizado: 'TAMPA BAY RAYS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
-      "index": 267,
-      "jugada": "BOSTON RED SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
+      "index": 268,
+      "jugada": "TAMPA BAY RAYS_MLB",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_MLB' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
+        "🔍 Raw: 'TAMPA BAY RAYS_MLB' | Normalizado: 'TAMPA BAY RAYS' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
-      "index": 269,
-      "jugada": "PHILADELPHIA PHILLIES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-150",
+      "index": 270,
+      "jugada": "SAN ANTONIO FC",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'PHILADELPHIA PHILLIES_MLB' | Normalizado: 'PHILADELPHIA PHILLIES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Philadelphia)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'SAN ANTONIO FC' | Normalizado: 'SAN ANTONIO' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 271,
-      "jugada": "CLEVELAND GUARDIANS_MLB",
+      "jugada": "PORTLAND",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'CLEVELAND GUARDIANS_MLB' | Normalizado: 'CLEVELAND GUARDIANS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: CLEVELAND GUARDIANS vs BALTIMORE ORIOLES",
-        "   ├─ Rival deducido: 'BALTIMORE ORIOLES'",
-        "   └─ ⚠️ No se halló al rival 'BALTIMORE ORIOLES' en el JSON de Pikes."
+        "🔍 Raw: 'PORTLAND' | Normalizado: 'PORTLAND' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 273,
-      "jugada": "MIAMI MARLINS_MLB",
+      "jugada": "GOLDEN_STATE_NBA",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'MIAMI MARLINS_MLB' | Normalizado: 'MIAMI MARLINS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: NEW YORK METS vs MIAMI MARLINS",
-        "   ├─ Rival deducido: 'NEW YORK METS'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '3.5')"
+        "🔍 Raw: 'GOLDEN_STATE_NBA' | Normalizado: 'GOLDEN STATE NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
+      ]
+    },
+    {
+      "index": 274,
+      "jugada": "PORTLAND",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
+      "logs": [
+        "🔍 Raw: 'PORTLAND' | Normalizado: 'PORTLAND' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 275,
-      "jugada": "BOSTON RED SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
+      "jugada": "LAKERS_NBA",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_MLB' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
+        "🔍 Raw: 'LAKERS_NBA' | Normalizado: 'LAKERS NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
@@ -2314,1123 +2108,43 @@
       "jugada": "PARLEY",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
         "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 278,
-      "jugada": "NASHVILLE SC_ALTA",
-      "estado": "OMITIDO",
+      "jugada": "GOLDEN_STATE_NBA",
+      "estado": "FALLIDO",
       "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'NASHVILLE SC_ALTA' | Normalizado: 'NASHVILLE SC' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
+        "🔍 Raw: 'GOLDEN_STATE_NBA' | Normalizado: 'GOLDEN STATE NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 279,
-      "jugada": "NASHVILLE SC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "110",
+      "jugada": "PORTLAND",
+      "estado": "FALLIDO",
+      "linea_asignada": null,
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'NASHVILLE SC' | Normalizado: 'NASHVILLE SC' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Nashville Sc)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
+        "🔍 Raw: 'PORTLAND' | Normalizado: 'PORTLAND' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     },
     {
       "index": 280,
-      "jugada": "PHILADELPHIA PHILLIES",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-150",
-      "logs": [
-        "🔍 Raw: 'PHILADELPHIA PHILLIES' | Normalizado: 'PHILADELPHIA PHILLIES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Philadelphia)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 281,
-      "jugada": "NEW ENGLAND",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-175",
-      "logs": [
-        "🔍 Raw: 'NEW ENGLAND' | Normalizado: 'NEW ENGLAND' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New England)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 282,
-      "jugada": "HOUSTON",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'HOUSTON' | Normalizado: 'HOUSTON' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Houston)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 283,
-      "jugada": "COLORADO",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-185",
-      "logs": [
-        "🔍 Raw: 'COLORADO' | Normalizado: 'COLORADO' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Colorado)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: COLORADO ROCKIES vs NEW YORK YANKEES",
-        "   ├─ Rival deducido: 'NEW YORK YANKEES'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '3.5')"
-      ]
-    },
-    {
-      "index": 284,
-      "jugada": "DEPORTIVO PASTO_BAJA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'DEPORTIVO PASTO_BAJA' | Normalizado: 'DEPORTIVO PASTO' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 285,
-      "jugada": "BOSTON RED SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_MLB' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
-      ]
-    },
-    {
-      "index": 286,
-      "jugada": "NEW YORK YANKEES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK YANKEES_MLB' | Normalizado: 'NEW YORK YANKEES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: COLORADO ROCKIES vs NEW YORK YANKEES",
-        "   ├─ Rival deducido: 'COLORADO ROCKIES'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '2.5')"
-      ]
-    },
-    {
-      "index": 287,
-      "jugada": "KANSAS CITY ROYALS_MLB",
+      "jugada": "LAKERS_NBA",
       "estado": "FALLIDO",
       "linea_asignada": null,
-      "cuota_asignada": "",
+      "cuota_asignada": null,
       "logs": [
-        "🔍 Raw: 'KANSAS CITY ROYALS_MLB' | Normalizado: 'KANSAS CITY ROYALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ARIZONA DIAMONDBACKS vs KANSAS CITY ROYALS",
-        "   ├─ Rival deducido: 'ARIZONA DIAMONDBACKS'",
-        "   └─ ⚠️ No se halló al rival 'ARIZONA DIAMONDBACKS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 288,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 289,
-      "jugada": "BOSTON RED SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_MLB' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
-      ]
-    },
-    {
-      "index": 290,
-      "jugada": "NEW YORK YANKEES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK YANKEES_MLB' | Normalizado: 'NEW YORK YANKEES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: COLORADO ROCKIES vs NEW YORK YANKEES",
-        "   ├─ Rival deducido: 'COLORADO ROCKIES'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '2.5')"
-      ]
-    },
-    {
-      "index": 291,
-      "jugada": "KANSAS CITY ROYALS_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'KANSAS CITY ROYALS_MLB' | Normalizado: 'KANSAS CITY ROYALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ARIZONA DIAMONDBACKS vs KANSAS CITY ROYALS",
-        "   ├─ Rival deducido: 'ARIZONA DIAMONDBACKS'",
-        "   └─ ⚠️ No se halló al rival 'ARIZONA DIAMONDBACKS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 292,
-      "jugada": "PHILADELPHIA PHILLIES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-150",
-      "logs": [
-        "🔍 Raw: 'PHILADELPHIA PHILLIES_MLB' | Normalizado: 'PHILADELPHIA PHILLIES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Philadelphia)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 293,
-      "jugada": "ATLANTA BRAVES_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ATLANTA BRAVES_MLB' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TAMPA BAY RAYS vs ATLANTA BRAVES",
-        "   ├─ Rival deducido: 'TAMPA BAY RAYS'",
-        "   └─ ⚠️ No se halló al rival 'TAMPA BAY RAYS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 294,
-      "jugada": "CLEVELAND GUARDIANS_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'CLEVELAND GUARDIANS_MLB' | Normalizado: 'CLEVELAND GUARDIANS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: CLEVELAND GUARDIANS vs BALTIMORE ORIOLES",
-        "   ├─ Rival deducido: 'BALTIMORE ORIOLES'",
-        "   └─ ⚠️ No se halló al rival 'BALTIMORE ORIOLES' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 295,
-      "jugada": "MILWAUKEE BREWERS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+0.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: CHICAGO CUBS vs MILWAUKEE BREWERS",
-        "   ├─ Rival deducido: 'CHICAGO CUBS'",
-        "   └─ 🟢 Línea de rival (-0.5) invertida asignada: '+0.5'"
-      ]
-    },
-    {
-      "index": 296,
-      "jugada": "CHICAGO WHITE SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "125",
-      "logs": [
-        "🔍 Raw: 'CHICAGO WHITE SOX_MLB' | Normalizado: 'CHICAGO WHITE SOX' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chicago)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 297,
-      "jugada": "PHILADELPHIA PHILLIES",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-150",
-      "logs": [
-        "🔍 Raw: 'PHILADELPHIA PHILLIES' | Normalizado: 'PHILADELPHIA PHILLIES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Philadelphia)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 298,
-      "jugada": "HOUSTON",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-120",
-      "logs": [
-        "🔍 Raw: 'HOUSTON' | Normalizado: 'HOUSTON' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Houston)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 300,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 301,
-      "jugada": "CLEVELAND GUARDIANS_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'CLEVELAND GUARDIANS_MLB' | Normalizado: 'CLEVELAND GUARDIANS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: CLEVELAND GUARDIANS vs BALTIMORE ORIOLES",
-        "   ├─ Rival deducido: 'BALTIMORE ORIOLES'",
-        "   └─ ⚠️ No se halló al rival 'BALTIMORE ORIOLES' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 302,
-      "jugada": "BOSTON RED SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_MLB' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
-      ]
-    },
-    {
-      "index": 303,
-      "jugada": "NEW YORK YANKEES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK YANKEES_MLB' | Normalizado: 'NEW YORK YANKEES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: COLORADO ROCKIES vs NEW YORK YANKEES",
-        "   ├─ Rival deducido: 'COLORADO ROCKIES'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '2.5')"
-      ]
-    },
-    {
-      "index": 304,
-      "jugada": "ATLANTA BRAVES_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ATLANTA BRAVES_MLB' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TAMPA BAY RAYS vs ATLANTA BRAVES",
-        "   ├─ Rival deducido: 'TAMPA BAY RAYS'",
-        "   └─ ⚠️ No se halló al rival 'TAMPA BAY RAYS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 305,
-      "jugada": "KANSAS CITY ROYALS_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'KANSAS CITY ROYALS_MLB' | Normalizado: 'KANSAS CITY ROYALS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ARIZONA DIAMONDBACKS vs KANSAS CITY ROYALS",
-        "   ├─ Rival deducido: 'ARIZONA DIAMONDBACKS'",
-        "   └─ ⚠️ No se halló al rival 'ARIZONA DIAMONDBACKS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 306,
-      "jugada": "NEW YORK METS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK METS_MLB' | Normalizado: 'NEW YORK METS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: NEW YORK METS vs MIAMI MARLINS",
-        "   ├─ Rival deducido: 'MIAMI MARLINS'",
-        "   └─ ⚠️ No se halló al rival 'MIAMI MARLINS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 308,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 309,
-      "jugada": "PITTSBURGH PIRATES_-_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PITTSBURGH PIRATES_-_MLB' | Normalizado: 'PITTSBURGH PIRATES -' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: FC Emmelshausen-Karbach vs PITTSBURGH PIRATES",
-        "   ├─ Rival deducido: 'FC Emmelshausen-Karbach'",
-        "   └─ ⚠️ No se halló al rival 'FC Emmelshausen-Karbach' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 310,
-      "jugada": "NEW YORK YANKEES_-_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK YANKEES_-_MLB' | Normalizado: 'NEW YORK YANKEES -' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: COLORADO ROCKIES vs NEW YORK YANKEES",
-        "   ├─ Rival deducido: 'COLORADO ROCKIES'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '2.5')"
-      ]
-    },
-    {
-      "index": 311,
-      "jugada": "ARIZONA DIAMONDBACKS_-_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ARIZONA DIAMONDBACKS_-_MLB' | Normalizado: 'ARIZONA DIAMONDBACKS -' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ARIZONA DIAMONDBACKS vs KANSAS CITY ROYALS",
-        "   ├─ Rival deducido: 'KANSAS CITY ROYALS'",
-        "   └─ ⚠️ No se halló al rival 'KANSAS CITY ROYALS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 312,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 313,
-      "jugada": "PITTSBURGH PIRATES_-_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PITTSBURGH PIRATES_-_MLB' | Normalizado: 'PITTSBURGH PIRATES -' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: FC Emmelshausen-Karbach vs PITTSBURGH PIRATES",
-        "   ├─ Rival deducido: 'FC Emmelshausen-Karbach'",
-        "   └─ ⚠️ No se halló al rival 'FC Emmelshausen-Karbach' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 314,
-      "jugada": "NEW YORK YANKEES_-_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK YANKEES_-_MLB' | Normalizado: 'NEW YORK YANKEES -' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: COLORADO ROCKIES vs NEW YORK YANKEES",
-        "   ├─ Rival deducido: 'COLORADO ROCKIES'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '2.5')"
-      ]
-    },
-    {
-      "index": 315,
-      "jugada": "NEW YORK METS_-_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK METS_-_MLB' | Normalizado: 'NEW YORK METS -' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: NEW YORK METS vs MIAMI MARLINS",
-        "   ├─ Rival deducido: 'MIAMI MARLINS'",
-        "   └─ ⚠️ No se halló al rival 'MIAMI MARLINS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 316,
-      "jugada": "BOSTON RED SOX_-_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_-_MLB' | Normalizado: 'BOSTON RED SOX -' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
-      ]
-    },
-    {
-      "index": 317,
-      "jugada": "ATLANTA BRAVES_-_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ATLANTA BRAVES_-_MLB' | Normalizado: 'ATLANTA BRAVES -' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TAMPA BAY RAYS vs ATLANTA BRAVES",
-        "   ├─ Rival deducido: 'TAMPA BAY RAYS'",
-        "   └─ ⚠️ No se halló al rival 'TAMPA BAY RAYS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 318,
-      "jugada": "ARIZONA DIAMONDBACKS_-_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ARIZONA DIAMONDBACKS_-_MLB' | Normalizado: 'ARIZONA DIAMONDBACKS -' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ARIZONA DIAMONDBACKS vs KANSAS CITY ROYALS",
-        "   ├─ Rival deducido: 'KANSAS CITY ROYALS'",
-        "   └─ ⚠️ No se halló al rival 'KANSAS CITY ROYALS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 320,
-      "jugada": "BOSTON RED SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_MLB' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
-      ]
-    },
-    {
-      "index": 321,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 322,
-      "jugada": "BOSTON RED SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_MLB' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
-      ]
-    },
-    {
-      "index": 323,
-      "jugada": "NEW YORK YANKEES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK YANKEES_MLB' | Normalizado: 'NEW YORK YANKEES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: COLORADO ROCKIES vs NEW YORK YANKEES",
-        "   ├─ Rival deducido: 'COLORADO ROCKIES'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '2.5')"
-      ]
-    },
-    {
-      "index": 324,
-      "jugada": "ARIZONA DIAMONDBACKS_MLB_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'ARIZONA DIAMONDBACKS_MLB_ALTA' | Normalizado: 'ARIZONA DIAMONDBACKS' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 325,
-      "jugada": "CLEVELAND GUARDIANS_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'CLEVELAND GUARDIANS_MLB' | Normalizado: 'CLEVELAND GUARDIANS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: CLEVELAND GUARDIANS vs BALTIMORE ORIOLES",
-        "   ├─ Rival deducido: 'BALTIMORE ORIOLES'",
-        "   └─ ⚠️ No se halló al rival 'BALTIMORE ORIOLES' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 327,
-      "jugada": "PHILADELPHIA_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-150",
-      "logs": [
-        "🔍 Raw: 'PHILADELPHIA_MLB' | Normalizado: 'PHILADELPHIA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Philadelphia)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 329,
-      "jugada": "BOSTON RED SOX",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'BOSTON RED SOX' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
-      ]
-    },
-    {
-      "index": 331,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 332,
-      "jugada": "CHICAGO WHITE SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "125",
-      "logs": [
-        "🔍 Raw: 'CHICAGO WHITE SOX_MLB' | Normalizado: 'CHICAGO WHITE SOX' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chicago)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 333,
-      "jugada": "MILWAUKEE BREWERS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+0.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: CHICAGO CUBS vs MILWAUKEE BREWERS",
-        "   ├─ Rival deducido: 'CHICAGO CUBS'",
-        "   └─ 🟢 Línea de rival (-0.5) invertida asignada: '+0.5'"
-      ]
-    },
-    {
-      "index": 334,
-      "jugada": "BOSTON RED SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+1.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'BOSTON RED SOX_MLB' | Normalizado: 'BOSTON RED SOX' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: LOS ANGELES ANGELS vs BOSTON RED SOX",
-        "   ├─ Rival deducido: 'LOS ANGELES ANGELS'",
-        "   └─ 🟢 Línea de rival (-1.5) invertida asignada: '+1.5'"
-      ]
-    },
-    {
-      "index": 335,
-      "jugada": "NEW YORK YANKEES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK YANKEES_MLB' | Normalizado: 'NEW YORK YANKEES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: COLORADO ROCKIES vs NEW YORK YANKEES",
-        "   ├─ Rival deducido: 'COLORADO ROCKIES'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '2.5')"
-      ]
-    },
-    {
-      "index": 336,
-      "jugada": "ATLANTA BRAVES_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ATLANTA BRAVES_MLB' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TAMPA BAY RAYS vs ATLANTA BRAVES",
-        "   ├─ Rival deducido: 'TAMPA BAY RAYS'",
-        "   └─ ⚠️ No se halló al rival 'TAMPA BAY RAYS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 338,
-      "jugada": "NEW YORK YANKEES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK YANKEES_MLB' | Normalizado: 'NEW YORK YANKEES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: COLORADO ROCKIES vs NEW YORK YANKEES",
-        "   ├─ Rival deducido: 'COLORADO ROCKIES'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '2.5')"
-      ]
-    },
-    {
-      "index": 340,
-      "jugada": "ATLANTA BRAVES_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ATLANTA BRAVES_MLB' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TAMPA BAY RAYS vs ATLANTA BRAVES",
-        "   ├─ Rival deducido: 'TAMPA BAY RAYS'",
-        "   └─ ⚠️ No se halló al rival 'TAMPA BAY RAYS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 341,
-      "jugada": "INTER MIAMI",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-155",
-      "logs": [
-        "🔍 Raw: 'INTER MIAMI' | Normalizado: 'INTER MIAMI' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Inter Miami)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 343,
-      "jugada": "NEW YORK YANKEES_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-125",
-      "logs": [
-        "🔍 Raw: 'NEW YORK YANKEES_MLB' | Normalizado: 'NEW YORK YANKEES' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (New York)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: COLORADO ROCKIES vs NEW YORK YANKEES",
-        "   ├─ Rival deducido: 'COLORADO ROCKIES'",
-        "   └─ ⚠️ El rival no tenía pike1 válido con +/- (Tenía: '2.5')"
-      ]
-    },
-    {
-      "index": 345,
-      "jugada": "ATLANTA BRAVES_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ATLANTA BRAVES_MLB' | Normalizado: 'ATLANTA BRAVES' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: TAMPA BAY RAYS vs ATLANTA BRAVES",
-        "   ├─ Rival deducido: 'TAMPA BAY RAYS'",
-        "   └─ ⚠️ No se halló al rival 'TAMPA BAY RAYS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 347,
-      "jugada": "CHICAGO WHITE SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "125",
-      "logs": [
-        "🔍 Raw: 'CHICAGO WHITE SOX_MLB' | Normalizado: 'CHICAGO WHITE SOX' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chicago)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 348,
-      "jugada": "LOS ANGELES DODGERS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1.5",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'LOS ANGELES DODGERS_MLB' | Normalizado: 'LOS ANGELES DODGERS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Los Angeles FC)",
-        "🟢 CASO A -> RL directo asignado: '-1.5'"
-      ]
-    },
-    {
-      "index": 350,
-      "jugada": "TRIPLETA",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'TRIPLETA' | Normalizado: 'TRIPLETA' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 351,
-      "jugada": "LOS ANGELES DODGERS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1.5",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'LOS ANGELES DODGERS_MLB' | Normalizado: 'LOS ANGELES DODGERS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Los Angeles FC)",
-        "🟢 CASO A -> RL directo asignado: '-1.5'"
-      ]
-    },
-    {
-      "index": 352,
-      "jugada": "MILWAUKEE BREWERS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+0.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: CHICAGO CUBS vs MILWAUKEE BREWERS",
-        "   ├─ Rival deducido: 'CHICAGO CUBS'",
-        "   └─ 🟢 Línea de rival (-0.5) invertida asignada: '+0.5'"
-      ]
-    },
-    {
-      "index": 353,
-      "jugada": "MILWAUKEE BREWERS_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'MILWAUKEE BREWERS_ALTA' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 354,
-      "jugada": "LOS ANGELES DODGERS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1.5",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'LOS ANGELES DODGERS_MLB' | Normalizado: 'LOS ANGELES DODGERS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Los Angeles FC)",
-        "🟢 CASO A -> RL directo asignado: '-1.5'"
-      ]
-    },
-    {
-      "index": 356,
-      "jugada": "ARIZONA DIAMONDBACKS_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ARIZONA DIAMONDBACKS_MLB' | Normalizado: 'ARIZONA DIAMONDBACKS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ARIZONA DIAMONDBACKS vs KANSAS CITY ROYALS",
-        "   ├─ Rival deducido: 'KANSAS CITY ROYALS'",
-        "   └─ ⚠️ No se halló al rival 'KANSAS CITY ROYALS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 358,
-      "jugada": "CHICAGO WHITE SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "125",
-      "logs": [
-        "🔍 Raw: 'CHICAGO WHITE SOX_MLB' | Normalizado: 'CHICAGO WHITE SOX' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chicago)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 360,
-      "jugada": "MILWAUKEE BREWERS",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+0.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'MILWAUKEE BREWERS' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: CHICAGO CUBS vs MILWAUKEE BREWERS",
-        "   ├─ Rival deducido: 'CHICAGO CUBS'",
-        "   └─ 🟢 Línea de rival (-0.5) invertida asignada: '+0.5'"
-      ]
-    },
-    {
-      "index": 362,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 363,
-      "jugada": "PHILADELPHIA",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "-150",
-      "logs": [
-        "🔍 Raw: 'PHILADELPHIA' | Normalizado: 'PHILADELPHIA' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Philadelphia)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 364,
-      "jugada": "NASHVILLE SC_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'NASHVILLE SC_ALTA' | Normalizado: 'NASHVILLE SC' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 365,
-      "jugada": "AUSTIN_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'AUSTIN_ALTA' | Normalizado: 'AUSTIN' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 367,
-      "jugada": "NASHVILLE SC",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "110",
-      "logs": [
-        "🔍 Raw: 'NASHVILLE SC' | Normalizado: 'NASHVILLE SC' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Nashville Sc)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 369,
-      "jugada": "PARLEY",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'PARLEY' | Normalizado: 'PARLEY' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 370,
-      "jugada": "CHICAGO WHITE SOX_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-0.5",
-      "cuota_asignada": "125",
-      "logs": [
-        "🔍 Raw: 'CHICAGO WHITE SOX_MLB' | Normalizado: 'CHICAGO WHITE SOX' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Chicago)",
-        "🟢 CASO A -> RL directo asignado: '-0.5'"
-      ]
-    },
-    {
-      "index": 371,
-      "jugada": "MILWAUKEE BREWERS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "+0.5",
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'MILWAUKEE BREWERS_MLB' | Normalizado: 'MILWAUKEE BREWERS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: CHICAGO CUBS vs MILWAUKEE BREWERS",
-        "   ├─ Rival deducido: 'CHICAGO CUBS'",
-        "   └─ 🟢 Línea de rival (-0.5) invertida asignada: '+0.5'"
-      ]
-    },
-    {
-      "index": 372,
-      "jugada": "ARIZONA DIAMONDBACKS_MLB",
-      "estado": "FALLIDO",
-      "linea_asignada": null,
-      "cuota_asignada": "",
-      "logs": [
-        "🔍 Raw: 'ARIZONA DIAMONDBACKS_MLB' | Normalizado: 'ARIZONA DIAMONDBACKS' | ID: Sin ID",
-        "❌ NO se halló coincidencia directa en Pikes JSON.",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   ├─ Partido en marcador: ARIZONA DIAMONDBACKS vs KANSAS CITY ROYALS",
-        "   ├─ Rival deducido: 'KANSAS CITY ROYALS'",
-        "   └─ ⚠️ No se halló al rival 'KANSAS CITY ROYALS' en el JSON de Pikes."
-      ]
-    },
-    {
-      "index": 373,
-      "jugada": "INTER MIAMI_ALTA",
-      "estado": "OMITIDO",
-      "linea_asignada": null,
-      "logs": [
-        "🔍 Raw: 'INTER MIAMI_ALTA' | Normalizado: 'INTER MIAMI' | ID: Sin ID",
-        "⏭️ OMITIDA: Es una jugada de Alta/Baja."
-      ]
-    },
-    {
-      "index": 374,
-      "jugada": "LOS ANGELES DODGERS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1.5",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'LOS ANGELES DODGERS_MLB' | Normalizado: 'LOS ANGELES DODGERS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Los Angeles FC)",
-        "🟢 CASO A -> RL directo asignado: '-1.5'"
-      ]
-    },
-    {
-      "index": 376,
-      "jugada": "LOS ANGELES DODGERS",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1.5",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'LOS ANGELES DODGERS' | Normalizado: 'LOS ANGELES DODGERS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Los Angeles FC)",
-        "🟢 CASO A -> RL directo asignado: '-1.5'"
-      ]
-    },
-    {
-      "index": 378,
-      "jugada": "INTER MIAMI",
-      "estado": "ASIGNADO",
-      "linea_asignada": null,
-      "cuota_asignada": "-155",
-      "logs": [
-        "🔍 Raw: 'INTER MIAMI' | Normalizado: 'INTER MIAMI' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Inter Miami)",
-        "🟡 CASO B -> Buscando rival en marcadores_guardados.json...",
-        "   └─ ⚠️ No se encontró partido para este equipo en marcadores_guardados.json."
-      ]
-    },
-    {
-      "index": 380,
-      "jugada": "LOS ANGELES DODGERS_MLB",
-      "estado": "ASIGNADO",
-      "linea_asignada": "-1.5",
-      "cuota_asignada": "-105",
-      "logs": [
-        "🔍 Raw: 'LOS ANGELES DODGERS_MLB' | Normalizado: 'LOS ANGELES DODGERS' | ID: Sin ID",
-        "✅ Coincidencia de equipo hallada en Pikes JSON (Los Angeles FC)",
-        "🟢 CASO A -> RL directo asignado: '-1.5'"
+        "🔍 Raw: 'LAKERS_NBA' | Normalizado: 'LAKERS NBA' | ID: Sin ID",
+        "❌ No se encontró coincidencia ni hándicap válido en el partido."
       ]
     }
   ]

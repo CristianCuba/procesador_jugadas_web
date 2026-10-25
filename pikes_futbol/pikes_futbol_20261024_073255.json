@@ -1,0 +1,727 @@
+{
+    "fecha_actualizacion": "2026-10-24 07:32:55",
+    "deporte": "FUTBOL",
+    "total_partidos": 45,
+    "partidos": [
+        {
+            "local": {
+                "id": "4367",
+                "equipo": "Nice",
+                "pike1": "2.5",
+                "pike2": "-155",
+                "pike3": "-140"
+            },
+            "visitante": {
+                "id": "19255",
+                "equipo": "D.Brest 1960",
+                "pike1": "-0.5",
+                "pike2": "125",
+                "pike3": "110"
+            }
+        },
+        {
+            "local": {
+                "id": "33106",
+                "equipo": "Monza1",
+                "pike1": "2.5",
+                "pike2": "-145",
+                "pike3": "-120"
+            },
+            "visitante": {
+                "id": "2027",
+                "equipo": "Torino",
+                "pike1": "-0.5",
+                "pike2": "115",
+                "pike3": "-120"
+            }
+        },
+        {
+            "local": {
+                "id": "16743",
+                "equipo": "Airbus UK",
+                "pike1": "-0.5",
+                "pike2": "110",
+                "pike3": "100"
+            },
+            "visitante": {
+                "id": "37300",
+                "equipo": "Cambrian United",
+                "pike1": "3.5",
+                "pike2": "-140",
+                "pike3": "-130"
+            }
+        },
+        {
+            "local": {
+                "id": "19360",
+                "equipo": "Penybont",
+                "pike1": "-1.5",
+                "pike2": "-125",
+                "pike3": "115"
+            },
+            "visitante": {
+                "id": "37303",
+                "equipo": "Holywell",
+                "pike1": "3.5",
+                "pike2": "-105",
+                "pike3": "-145"
+            }
+        },
+        {
+            "local": {
+                "id": "23179",
+                "equipo": "Flint Town United",
+                "pike1": "-0.5",
+                "pike2": "-105",
+                "pike3": "-105"
+            },
+            "visitante": {
+                "id": "37302",
+                "equipo": "Trefelin",
+                "pike1": "3",
+                "pike2": "-125",
+                "pike3": "-125"
+            }
+        },
+        {
+            "local": {
+                "id": "12495",
+                "equipo": "Cardiff Mu",
+                "pike1": "2.5",
+                "pike2": "-120",
+                "pike3": "-125"
+            },
+            "visitante": {
+                "id": "31696",
+                "equipo": "Colwyn Bay",
+                "pike1": "-1",
+                "pike2": "-120",
+                "pike3": "-105"
+            }
+        },
+        {
+            "local": {
+                "id": "33616",
+                "equipo": "Briton Ferry",
+                "pike1": "3.5",
+                "pike2": "-125",
+                "pike3": "-105"
+            },
+            "visitante": {
+                "id": "17545",
+                "equipo": "Caernarfon Town",
+                "pike1": "-1.5",
+                "pike2": "-105",
+                "pike3": "-125"
+            }
+        },
+        {
+            "local": {
+                "id": "29179",
+                "equipo": "Nottingham Forest",
+                "pike1": "-0.5",
+                "pike2": "130",
+                "pike3": "-130"
+            },
+            "visitante": {
+                "id": "33556",
+                "equipo": "Ipswich Town",
+                "pike1": "2.5",
+                "pike2": "-160",
+                "pike3": "100"
+            }
+        },
+        {
+            "local": {
+                "id": "3034",
+                "equipo": "Malaga",
+                "pike1": "2.5",
+                "pike2": "125",
+                "pike3": "100"
+            },
+            "visitante": {
+                "id": "9849",
+                "equipo": "Deportivo Alaves",
+                "pike1": "-0.5",
+                "pike2": "-155",
+                "pike3": "-130"
+            }
+        },
+        {
+            "local": {
+                "id": "6621",
+                "equipo": "Maritimo",
+                "pike1": "2.5",
+                "pike2": "-120",
+                "pike3": "-120"
+            },
+            "visitante": {
+                "id": "8684",
+                "equipo": "Vitoria Guimaraes",
+                "pike1": "-1",
+                "pike2": "-120",
+                "pike3": "-120"
+            }
+        },
+        {
+            "local": {
+                "id": "19327",
+                "equipo": "Juarez",
+                "pike1": "3",
+                "pike2": "105",
+                "pike3": "105"
+            },
+            "visitante": {
+                "id": "9608",
+                "equipo": "Necaxa",
+                "pike1": "-0.5",
+                "pike2": "-135",
+                "pike3": "-135"
+            }
+        },
+        {
+            "local": {
+                "id": "19328",
+                "equipo": "Atletico San Luis",
+                "pike1": "2.5",
+                "pike2": "-150",
+                "pike3": "-135"
+            },
+            "visitante": {
+                "id": "37046",
+                "equipo": "Atlante",
+                "pike1": "-0.5",
+                "pike2": "120",
+                "pike3": "105"
+            }
+        },
+        {
+            "local": {
+                "id": "37382",
+                "equipo": "Houston Dash W",
+                "pike1": "-0.5",
+                "pike2": "105",
+                "pike3": "-140"
+            },
+            "visitante": {
+                "id": "37368",
+                "equipo": "Chicago Stars W",
+                "pike1": "2.5",
+                "pike2": "-135",
+                "pike3": "110"
+            }
+        },
+        {
+            "local": {
+                "id": "37381",
+                "equipo": "Seattle Reign W",
+                "pike1": "2.5",
+                "pike2": "-170",
+                "pike3": "-145"
+            },
+            "visitante": {
+                "id": "37375",
+                "equipo": "Utah Royals W",
+                "pike1": "-0.5",
+                "pike2": "140",
+                "pike3": "115"
+            }
+        },
+        {
+            "local": {
+                "id": "37377",
+                "equipo": "North Carolina Courage W",
+                "pike1": "-0.5",
+                "pike2": "125",
+                "pike3": "-145"
+            },
+            "visitante": {
+                "id": "37380",
+                "equipo": "Portland Thorns W",
+                "pike1": "3",
+                "pike2": "-155",
+                "pike3": "115"
+            }
+        },
+        {
+            "local": {
+                "id": "9665",
+                "equipo": "Metz",
+                "pike1": "-0.5",
+                "pike2": "135",
+                "pike3": "-105"
+            },
+            "visitante": {
+                "id": "33126",
+                "equipo": "Dunkerque1",
+                "pike1": "3",
+                "pike2": "-165",
+                "pike3": "-125"
+            }
+        },
+        {
+            "local": {
+                "id": "17342",
+                "equipo": "Grenoble Foot 38",
+                "pike1": "2.5",
+                "pike2": "-120",
+                "pike3": "-105"
+            },
+            "visitante": {
+                "id": "33124",
+                "equipo": "Pau1",
+                "pike1": "-0.5",
+                "pike2": "-120",
+                "pike3": "-125"
+            }
+        },
+        {
+            "local": {
+                "id": "33123",
+                "equipo": "Annecy",
+                "pike1": "2.5",
+                "pike2": "-175",
+                "pike3": "105"
+            },
+            "visitante": {
+                "id": "9654",
+                "equipo": "Sochaux",
+                "pike1": "-0.5",
+                "pike2": "145",
+                "pike3": "-135"
+            }
+        },
+        {
+            "local": {
+                "id": "34918",
+                "equipo": "Telstar",
+                "pike1": "3.5",
+                "pike2": "-120",
+                "pike3": "-120"
+            },
+            "visitante": {
+                "id": "7212",
+                "equipo": "Go Ahead Eagles",
+                "pike1": "-1",
+                "pike2": "-120",
+                "pike3": "-120"
+            }
+        },
+        {
+            "local": {
+                "id": "8822",
+                "equipo": "Melgar",
+                "pike1": "-1",
+                "pike2": "-120",
+                "pike3": "105"
+            },
+            "visitante": {
+                "id": "9789",
+                "equipo": "Utc Cajamarca",
+                "pike1": "3",
+                "pike2": "-120",
+                "pike3": "-135"
+            }
+        },
+        {
+            "local": {
+                "id": "29281",
+                "equipo": "Universitatea Cluj",
+                "pike1": "2.5",
+                "pike2": "-190",
+                "pike3": "-120"
+            },
+            "visitante": {
+                "id": "37168",
+                "equipo": "Corvinul",
+                "pike1": "-0.5",
+                "pike2": "160",
+                "pike3": "-120"
+            }
+        },
+        {
+            "local": {
+                "id": "4381",
+                "equipo": "Monchengladbach",
+                "pike1": "4",
+                "pike2": "100",
+                "pike3": "105"
+            },
+            "visitante": {
+                "id": "3681",
+                "equipo": "Vfb Stuttgart",
+                "pike1": "-1.5",
+                "pike2": "-130",
+                "pike3": "-135"
+            }
+        },
+        {
+            "local": {
+                "id": "9724",
+                "equipo": "Vicenza",
+                "pike1": "2.5",
+                "pike2": "-190",
+                "pike3": "-125"
+            },
+            "visitante": {
+                "id": "15560",
+                "equipo": "Empoli",
+                "pike1": "-0.5",
+                "pike2": "160",
+                "pike3": "-105"
+            }
+        },
+        {
+            "local": {
+                "id": "9797",
+                "equipo": "Gornik Zabrze",
+                "pike1": "-0.5",
+                "pike2": "125",
+                "pike3": "-120"
+            },
+            "visitante": {
+                "id": "28931",
+                "equipo": "Widzew Lodz",
+                "pike1": "2.5",
+                "pike2": "-155",
+                "pike3": "-120"
+            }
+        },
+        {
+            "local": {
+                "id": "9853",
+                "equipo": "Real Valladolid",
+                "pike1": "2.5",
+                "pike2": "-155",
+                "pike3": "110"
+            },
+            "visitante": {
+                "id": "15309",
+                "equipo": "Granada",
+                "pike1": "-0.5",
+                "pike2": "125",
+                "pike3": "-140"
+            }
+        },
+        {
+            "local": {
+                "id": "9715",
+                "equipo": "Drogheda United",
+                "pike1": "2.5",
+                "pike2": "115",
+                "pike3": "-135"
+            },
+            "visitante": {
+                "id": "16534",
+                "equipo": "Waterford",
+                "pike1": "-0.5",
+                "pike2": "-145",
+                "pike3": "105"
+            }
+        },
+        {
+            "local": {
+                "id": "9714",
+                "equipo": "St. Patrick'S Ath.",
+                "pike1": "-1",
+                "pike2": "-105",
+                "pike3": "-135"
+            },
+            "visitante": {
+                "id": "9713",
+                "equipo": "Galway",
+                "pike1": "2.5",
+                "pike2": "-125",
+                "pike3": "105"
+            }
+        },
+        {
+            "local": {
+                "id": "20494",
+                "equipo": "Shelbourne",
+                "pike1": "3",
+                "pike2": "130",
+                "pike3": "110"
+            },
+            "visitante": {
+                "id": "9717",
+                "equipo": "Bohemians",
+                "pike1": "-0.5",
+                "pike2": "-160",
+                "pike3": "-140"
+            }
+        },
+        {
+            "local": {
+                "id": "9711",
+                "equipo": "Dundalk",
+                "pike1": "3",
+                "pike2": "110",
+                "pike3": "-120"
+            },
+            "visitante": {
+                "id": "9712",
+                "equipo": "Derry City",
+                "pike1": "-0.5",
+                "pike2": "-140",
+                "pike3": "-120"
+            }
+        },
+        {
+            "local": {
+                "id": "9762",
+                "equipo": "Linfield",
+                "pike1": "-1",
+                "pike2": "-150",
+                "pike3": "-150"
+            },
+            "visitante": {
+                "id": "9759",
+                "equipo": "Portadown",
+                "pike1": "2.5",
+                "pike2": "120",
+                "pike3": "120"
+            }
+        },
+        {
+            "local": {
+                "id": "2004",
+                "equipo": "Middlesbrough",
+                "pike1": "-1",
+                "pike2": "-105",
+                "pike3": "-125"
+            },
+            "visitante": {
+                "id": "1995",
+                "equipo": "Bolton",
+                "pike1": "3",
+                "pike2": "-125",
+                "pike3": "-105"
+            }
+        },
+        {
+            "local": {
+                "id": "9720",
+                "equipo": "Sligo Rovers",
+                "pike1": "3.5",
+                "pike2": "105",
+                "pike3": "110"
+            },
+            "visitante": {
+                "id": "5850",
+                "equipo": "Shamrock Rovers",
+                "pike1": "-2",
+                "pike2": "-135",
+                "pike3": "-140"
+            }
+        },
+        {
+            "local": {
+                "id": "27092",
+                "equipo": "ADT",
+                "pike1": "2.5",
+                "pike2": "120",
+                "pike3": "-120"
+            },
+            "visitante": {
+                "id": "20586",
+                "equipo": "Atletico Grau",
+                "pike1": "-0.5",
+                "pike2": "-150",
+                "pike3": "-120"
+            }
+        },
+        {
+            "local": {
+                "id": "10686",
+                "equipo": "Universidad Catolica",
+                "pike1": "2.5",
+                "pike2": "125",
+                "pike3": "-135"
+            },
+            "visitante": {
+                "id": "16774",
+                "equipo": "Independiente Del Valle",
+                "pike1": "-0.5",
+                "pike2": "-155",
+                "pike3": "105"
+            }
+        },
+        {
+            "local": {
+                "id": "24777",
+                "equipo": "Platense",
+                "pike1": "2",
+                "pike2": "-175",
+                "pike3": "-120"
+            },
+            "visitante": {
+                "id": "36263",
+                "equipo": "Gimnasia Mendoza",
+                "pike1": "-0.5",
+                "pike2": "145",
+                "pike3": "-120"
+            }
+        },
+        {
+            "local": {
+                "id": "8251",
+                "equipo": "Sarmiento Junin",
+                "pike1": "2.5",
+                "pike2": "-130",
+                "pike3": "-120"
+            },
+            "visitante": {
+                "id": "4833",
+                "equipo": "Gimnasia Lp",
+                "pike1": "-1",
+                "pike2": "100",
+                "pike3": "-120"
+            }
+        },
+        {
+            "local": {
+                "id": "34702",
+                "equipo": "Athletic Club MG",
+                "pike1": "2.5",
+                "pike2": "-120",
+                "pike3": "120"
+            },
+            "visitante": {
+                "id": "18715",
+                "equipo": "Operario PR",
+                "pike1": "-0.5",
+                "pike2": "-120",
+                "pike3": "-150"
+            }
+        },
+        {
+            "local": {
+                "id": "36265",
+                "equipo": "Remo",
+                "pike1": "3.5",
+                "pike2": "-120",
+                "pike3": "110"
+            },
+            "visitante": {
+                "id": "4899",
+                "equipo": "Cruzeiro",
+                "pike1": "-1.5",
+                "pike2": "-120",
+                "pike3": "-140"
+            }
+        },
+        {
+            "local": {
+                "id": "10447",
+                "equipo": "Atletico Tucuman",
+                "pike1": "2",
+                "pike2": "115",
+                "pike3": "-120"
+            },
+            "visitante": {
+                "id": "4829",
+                "equipo": "Tigre",
+                "pike1": "-0.5",
+                "pike2": "-145",
+                "pike3": "-120"
+            }
+        },
+        {
+            "local": {
+                "id": "22961",
+                "equipo": "Cancun",
+                "pike1": "-1",
+                "pike2": "-120",
+                "pike3": "-125"
+            },
+            "visitante": {
+                "id": "22958",
+                "equipo": "Tepatitlan",
+                "pike1": "3",
+                "pike2": "-120",
+                "pike3": "-105"
+            }
+        },
+        {
+            "local": {
+                "id": "22867",
+                "equipo": "Sporting San Jose",
+                "pike1": "-0.5",
+                "pike2": "-135",
+                "pike3": "-135"
+            },
+            "visitante": {
+                "id": "37549",
+                "equipo": "Escorpiones",
+                "pike1": "2.5",
+                "pike2": "105",
+                "pike3": "105"
+            }
+        },
+        {
+            "local": {
+                "id": "8284",
+                "equipo": "Guarani Asuncion",
+                "pike1": "-0.5",
+                "pike2": "140",
+                "pike3": "125"
+            },
+            "visitante": {
+                "id": "11097",
+                "equipo": "Rubio Nu",
+                "pike1": "2.5",
+                "pike2": "-170",
+                "pike3": "-155"
+            }
+        },
+        {
+            "local": {
+                "id": "8828",
+                "equipo": "Sportivo Luqueño",
+                "pike1": "2.5",
+                "pike2": "-120",
+                "pike3": "-135"
+            },
+            "visitante": {
+                "id": "8285",
+                "equipo": "Libertad Asuncion",
+                "pike1": "-1",
+                "pike2": "-120",
+                "pike3": "105"
+            }
+        },
+        {
+            "local": {
+                "id": "10589",
+                "equipo": "Atletico Bucaramanga",
+                "pike1": "-0.5",
+                "pike2": "110",
+                "pike3": "-145"
+            },
+            "visitante": {
+                "id": "16762",
+                "equipo": "Boyaca Chico",
+                "pike1": "2",
+                "pike2": "-140",
+                "pike3": "115"
+            }
+        },
+        {
+            "local": {
+                "id": "13518",
+                "equipo": "Rionegro Aguilas",
+                "pike1": "2.5",
+                "pike2": "-120",
+                "pike3": "-140"
+            },
+            "visitante": {
+                "id": "8823",
+                "equipo": "Junior",
+                "pike1": "-0.5",
+                "pike2": "-120",
+                "pike3": "110"
+            }
+        }
+    ]
+}

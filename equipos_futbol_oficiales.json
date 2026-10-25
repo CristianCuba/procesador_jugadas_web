@@ -152,7 +152,8 @@
         "nombre_oficial": "JAGIELLONIA BIAYSTOK",
         "apodo": "JAGIELLONIA BIAYSTOK",
         "aliases": [
-            "JAGIELLONIA BIAYSTOK"
+            "JAGIELLONIA BIAYSTOK",
+            "JAGIELLONIA"
         ]
     },
     {
@@ -337,7 +338,9 @@
         "nombre_oficial": "RAKOW CZESTOCHOWA",
         "apodo": "RAKOW CZESTOCHOWA",
         "aliases": [
-            "RAKOW CZESTOCHOWA"
+            "RAKOW CZESTOCHOWA",
+            "FC RAKOW",
+            "RAKOW"
         ]
     },
     {
@@ -820,7 +823,8 @@
         "nombre_oficial": "FLINT TOWN UNITED",
         "apodo": "FLINT TOWN UNITED",
         "aliases": [
-            "FLINT TOWN UNITED"
+            "FLINT TOWN UNITED",
+            "FC FLINT TOWN"
         ]
     },
     {
@@ -3385,7 +3389,8 @@
         "nombre_oficial": "HAPOEL BE'ER SHEVA",
         "apodo": "HAPOEL BE'ER SHEVA",
         "aliases": [
-            "HAPOEL BE'ER SHEVA"
+            "HAPOEL BE'ER SHEVA",
+            "APOEL_BER_SHEVA"
         ]
     },
     {
@@ -3425,7 +3430,8 @@
         "nombre_oficial": "LYON",
         "apodo": "LYON",
         "aliases": [
-            "LYON"
+            "LYON",
+            "OLYMPIQUE_LYONNAIS"
         ]
     },
     {
@@ -4029,7 +4035,9 @@
         "nombre_oficial": "DEPORTIVO ALAVES",
         "apodo": "DEPORTIVO ALAVES",
         "aliases": [
-            "DEPORTIVO ALAVES"
+            "DEPORTIVO ALAVES",
+            "ALAVES",
+            "ALAVEZ"
         ]
     },
     {
@@ -5664,7 +5672,9 @@
         "nombre_oficial": "GENOA",
         "apodo": "GENOA",
         "aliases": [
-            "GENOA"
+            "GENOA",
+            "FC GENOA",
+            "GENOA FC"
         ]
     },
     {
@@ -6050,7 +6060,8 @@
         "nombre_oficial": "JUVENTUS",
         "apodo": "JUVENTUS",
         "aliases": [
-            "JUVENTUS"
+            "JUVENTUS",
+            "JUVENTUD"
         ]
     },
     {
@@ -6287,7 +6298,8 @@
         "nombre_oficial": "AS ROMA",
         "apodo": "AS ROMA",
         "aliases": [
-            "AS ROMA"
+            "AS ROMA",
+            "FC ROMA"
         ]
     },
     {
@@ -6303,7 +6315,8 @@
         "nombre_oficial": "FULHAM1",
         "apodo": "FULHAM1",
         "aliases": [
-            "FULHAM1"
+            "FULHAM1",
+            "FULHAN"
         ]
     },
     {
@@ -6737,7 +6750,8 @@
         "nombre_oficial": "FULHAM",
         "apodo": "FULHAM",
         "aliases": [
-            "FULHAM"
+            "FULHAM",
+            "FULHAN"
         ]
     },
     {
@@ -7137,7 +7151,8 @@
         "nombre_oficial": "BAYER LEVERKUSEN",
         "apodo": "BAYER LEVERKUSEN",
         "aliases": [
-            "BAYER LEVERKUSEN"
+            "BAYER LEVERKUSEN",
+            "LEBERKRUSEN"
         ]
     },
     {
@@ -8111,6 +8126,2003 @@
         "apodo": "SUCHITEPEQUEZ",
         "aliases": [
             "SUCHITEPEQUEZ"
+        ]
+    },
+    {
+        "id": "3008",
+        "nombre_oficial": "SHAKHTAR DONETSK",
+        "apodo": "SHAKHTAR DONETSK",
+        "aliases": [
+            "SHAKHTAR DONETSK"
+        ]
+    },
+    {
+        "id": "3009",
+        "nombre_oficial": "SLAVIA PRAHA",
+        "apodo": "SLAVIA PRAHA",
+        "aliases": [
+            "SLAVIA PRAHA"
+        ]
+    },
+    {
+        "id": "3010",
+        "nombre_oficial": "MESHAKHTE TKIBULI",
+        "apodo": "MESHAKHTE TKIBULI",
+        "aliases": [
+            "MESHAKHTE TKIBULI"
+        ]
+    },
+    {
+        "id": "3011",
+        "nombre_oficial": "FC DINAMO TBILISI",
+        "apodo": "FC DINAMO TBILISI",
+        "aliases": [
+            "FC DINAMO TBILISI"
+        ]
+    },
+    {
+        "id": "3012",
+        "nombre_oficial": "SOGDIANA",
+        "apodo": "SOGDIANA",
+        "aliases": [
+            "SOGDIANA"
+        ]
+    },
+    {
+        "id": "3013",
+        "nombre_oficial": "XORAZM",
+        "apodo": "XORAZM",
+        "aliases": [
+            "XORAZM"
+        ]
+    },
+    {
+        "id": "3014",
+        "nombre_oficial": "AL AIN",
+        "apodo": "AL AIN",
+        "aliases": [
+            "AL AIN"
+        ]
+    },
+    {
+        "id": "3015",
+        "nombre_oficial": "TORPEDO KUTAISI",
+        "apodo": "TORPEDO KUTAISI",
+        "aliases": [
+            "TORPEDO KUTAISI"
+        ]
+    },
+    {
+        "id": "3016",
+        "nombre_oficial": "GAGRA",
+        "apodo": "GAGRA",
+        "aliases": [
+            "GAGRA"
+        ]
+    },
+    {
+        "id": "3017",
+        "nombre_oficial": "KIFISIA",
+        "apodo": "KIFISIA",
+        "aliases": [
+            "KIFISIA"
+        ]
+    },
+    {
+        "id": "3018",
+        "nombre_oficial": "MUNICIPAL",
+        "apodo": "MUNICIPAL",
+        "aliases": [
+            "MUNICIPAL"
+        ]
+    },
+    {
+        "id": "3019",
+        "nombre_oficial": "AURORA",
+        "apodo": "AURORA",
+        "aliases": [
+            "AURORA"
+        ]
+    },
+    {
+        "id": "3020",
+        "nombre_oficial": "ANTIGUA GFC",
+        "apodo": "ANTIGUA GFC",
+        "aliases": [
+            "ANTIGUA GFC"
+        ]
+    },
+    {
+        "id": "3021",
+        "nombre_oficial": "MALACATECO",
+        "apodo": "MALACATECO",
+        "aliases": [
+            "MALACATECO"
+        ]
+    },
+    {
+        "id": "3022",
+        "nombre_oficial": "COBAN IMPERIAL",
+        "apodo": "COBAN IMPERIAL",
+        "aliases": [
+            "COBAN IMPERIAL"
+        ]
+    },
+    {
+        "id": "3023",
+        "nombre_oficial": "XELAJU",
+        "apodo": "XELAJU",
+        "aliases": [
+            "XELAJU"
+        ]
+    },
+    {
+        "id": "3024",
+        "nombre_oficial": "AL SHARJAH",
+        "apodo": "AL SHARJAH",
+        "aliases": [
+            "AL SHARJAH"
+        ]
+    },
+    {
+        "id": "3025",
+        "nombre_oficial": "AL ITTIHAD KALBA",
+        "apodo": "AL ITTIHAD KALBA",
+        "aliases": [
+            "AL ITTIHAD KALBA"
+        ]
+    },
+    {
+        "id": "3026",
+        "nombre_oficial": "DARMSTADT 98",
+        "apodo": "DARMSTADT 98",
+        "aliases": [
+            "DARMSTADT 98"
+        ]
+    },
+    {
+        "id": "3027",
+        "nombre_oficial": "TAPATIO",
+        "apodo": "TAPATIO",
+        "aliases": [
+            "TAPATIO"
+        ]
+    },
+    {
+        "id": "3028",
+        "nombre_oficial": "OAKLAND ROOTS1",
+        "apodo": "OAKLAND ROOTS1",
+        "aliases": [
+            "OAKLAND ROOTS1"
+        ]
+    },
+    {
+        "id": "3029",
+        "nombre_oficial": "ORANGE COUNTY BLUES",
+        "apodo": "ORANGE COUNTY BLUES",
+        "aliases": [
+            "ORANGE COUNTY BLUES"
+        ]
+    },
+    {
+        "id": "3030",
+        "nombre_oficial": "ZEMUN",
+        "apodo": "ZEMUN",
+        "aliases": [
+            "ZEMUN"
+        ]
+    },
+    {
+        "id": "3031",
+        "nombre_oficial": "KEFLAVIK",
+        "apodo": "KEFLAVIK",
+        "aliases": [
+            "KEFLAVIK"
+        ]
+    },
+    {
+        "id": "3032",
+        "nombre_oficial": "EL GEISH",
+        "apodo": "EL GEISH",
+        "aliases": [
+            "EL GEISH"
+        ]
+    },
+    {
+        "id": "3033",
+        "nombre_oficial": "CHORNOMORETS",
+        "apodo": "CHORNOMORETS",
+        "aliases": [
+            "CHORNOMORETS"
+        ]
+    },
+    {
+        "id": "3034",
+        "nombre_oficial": "TRANSINVEST VILNIUS",
+        "apodo": "TRANSINVEST VILNIUS",
+        "aliases": [
+            "TRANSINVEST VILNIUS"
+        ]
+    },
+    {
+        "id": "3035",
+        "nombre_oficial": "BANGA",
+        "apodo": "BANGA",
+        "aliases": [
+            "BANGA"
+        ]
+    },
+    {
+        "id": "3036",
+        "nombre_oficial": "IRONI KIRYAT SHMONA",
+        "apodo": "IRONI KIRYAT SHMONA",
+        "aliases": [
+            "IRONI KIRYAT SHMONA"
+        ]
+    },
+    {
+        "id": "3037",
+        "nombre_oficial": "AL NASSR",
+        "apodo": "AL NASSR",
+        "aliases": [
+            "AL NASSR"
+        ]
+    },
+    {
+        "id": "3038",
+        "nombre_oficial": "ZAGLEBIE LUBIN",
+        "apodo": "ZAGLEBIE LUBIN",
+        "aliases": [
+            "ZAGLEBIE LUBIN"
+        ]
+    },
+    {
+        "id": "3039",
+        "nombre_oficial": "HAPOEL JERUSALEM",
+        "apodo": "HAPOEL JERUSALEM",
+        "aliases": [
+            "HAPOEL JERUSALEM"
+        ]
+    },
+    {
+        "id": "3040",
+        "nombre_oficial": "IRONI TIBERIAS",
+        "apodo": "IRONI TIBERIAS",
+        "aliases": [
+            "IRONI TIBERIAS"
+        ]
+    },
+    {
+        "id": "3041",
+        "nombre_oficial": "MACCABI PETAH TIKVA",
+        "apodo": "MACCABI PETAH TIKVA",
+        "aliases": [
+            "MACCABI PETAH TIKVA"
+        ]
+    },
+    {
+        "id": "3042",
+        "nombre_oficial": "AL GHARAFA",
+        "apodo": "AL GHARAFA",
+        "aliases": [
+            "AL GHARAFA"
+        ]
+    },
+    {
+        "id": "3043",
+        "nombre_oficial": "AL HILAL",
+        "apodo": "AL HILAL",
+        "aliases": [
+            "AL HILAL"
+        ]
+    },
+    {
+        "id": "3044",
+        "nombre_oficial": "BRIGHTON & HOVE",
+        "apodo": "BRIGHTON & HOVE",
+        "aliases": [
+            "BRIGHTON & HOVE"
+        ]
+    },
+    {
+        "id": "3045",
+        "nombre_oficial": "RENNES",
+        "apodo": "RENNES",
+        "aliases": [
+            "RENNES"
+        ]
+    },
+    {
+        "id": "3046",
+        "nombre_oficial": "COLORADO RAPIDS",
+        "apodo": "COLORADO RAPIDS",
+        "aliases": [
+            "COLORADO RAPIDS"
+        ]
+    },
+    {
+        "id": "3047",
+        "nombre_oficial": "SAPRISSA",
+        "apodo": "SAPRISSA",
+        "aliases": [
+            "SAPRISSA"
+        ]
+    },
+    {
+        "id": "3048",
+        "nombre_oficial": "CARTAGINES",
+        "apodo": "CARTAGINES",
+        "aliases": [
+            "CARTAGINES"
+        ]
+    },
+    {
+        "id": "3049",
+        "nombre_oficial": "MOTAGUA",
+        "apodo": "MOTAGUA",
+        "aliases": [
+            "MOTAGUA"
+        ]
+    },
+    {
+        "id": "3050",
+        "nombre_oficial": "ALIANZA",
+        "apodo": "ALIANZA",
+        "aliases": [
+            "ALIANZA"
+        ]
+    },
+    {
+        "id": "3051",
+        "nombre_oficial": "BARCELONA",
+        "apodo": "BARCELONA",
+        "aliases": [
+            "BARCELONA"
+        ]
+    },
+    {
+        "id": "3052",
+        "nombre_oficial": "PLYMOUTH ARGYLE",
+        "apodo": "PLYMOUTH ARGYLE",
+        "aliases": [
+            "PLYMOUTH ARGYLE"
+        ]
+    },
+    {
+        "id": "3053",
+        "nombre_oficial": "WYCOMBE WANDERERS",
+        "apodo": "WYCOMBE WANDERERS",
+        "aliases": [
+            "WYCOMBE WANDERERS"
+        ]
+    },
+    {
+        "id": "3054",
+        "nombre_oficial": "ORGRYTE",
+        "apodo": "ORGRYTE",
+        "aliases": [
+            "ORGRYTE"
+        ]
+    },
+    {
+        "id": "3055",
+        "nombre_oficial": "ODENSE BK",
+        "apodo": "ODENSE BK",
+        "aliases": [
+            "ODENSE BK"
+        ]
+    },
+    {
+        "id": "3056",
+        "nombre_oficial": "ATROMITOS",
+        "apodo": "ATROMITOS",
+        "aliases": [
+            "ATROMITOS"
+        ]
+    },
+    {
+        "id": "3057",
+        "nombre_oficial": "ANGOLA",
+        "apodo": "ANGOLA",
+        "aliases": [
+            "ANGOLA"
+        ]
+    },
+    {
+        "id": "3058",
+        "nombre_oficial": "EGYPT",
+        "apodo": "EGYPT",
+        "aliases": [
+            "EGYPT"
+        ]
+    },
+    {
+        "id": "3059",
+        "nombre_oficial": "CAPE VERDE ISLANDS",
+        "apodo": "CAPE VERDE ISLANDS",
+        "aliases": [
+            "CAPE VERDE ISLANDS"
+        ]
+    },
+    {
+        "id": "3060",
+        "nombre_oficial": "MALI",
+        "apodo": "MALI",
+        "aliases": [
+            "MALI"
+        ]
+    },
+    {
+        "id": "3061",
+        "nombre_oficial": "GABON",
+        "apodo": "GABON",
+        "aliases": [
+            "GABON"
+        ]
+    },
+    {
+        "id": "3062",
+        "nombre_oficial": "MOROCCO",
+        "apodo": "MOROCCO",
+        "aliases": [
+            "MOROCCO"
+        ]
+    },
+    {
+        "id": "3063",
+        "nombre_oficial": "ZAMBIA",
+        "apodo": "ZAMBIA",
+        "aliases": [
+            "ZAMBIA"
+        ]
+    },
+    {
+        "id": "3064",
+        "nombre_oficial": "ALGERIA",
+        "apodo": "ALGERIA",
+        "aliases": [
+            "ALGERIA"
+        ]
+    },
+    {
+        "id": "3065",
+        "nombre_oficial": "BENIN",
+        "apodo": "BENIN",
+        "aliases": [
+            "BENIN"
+        ]
+    },
+    {
+        "id": "3066",
+        "nombre_oficial": "BURKINA FASO",
+        "apodo": "BURKINA FASO",
+        "aliases": [
+            "BURKINA FASO"
+        ]
+    },
+    {
+        "id": "3067",
+        "nombre_oficial": "UNION MAGDALENA",
+        "apodo": "UNION MAGDALENA",
+        "aliases": [
+            "UNION MAGDALENA"
+        ]
+    },
+    {
+        "id": "3068",
+        "nombre_oficial": "ATLETICO BUCARAMANGA",
+        "apodo": "ATLETICO BUCARAMANGA",
+        "aliases": [
+            "ATLETICO BUCARAMANGA"
+        ]
+    },
+    {
+        "id": "3069",
+        "nombre_oficial": "GUADELOUPE",
+        "apodo": "GUADELOUPE",
+        "aliases": [
+            "GUADELOUPE"
+        ]
+    },
+    {
+        "id": "3070",
+        "nombre_oficial": "BERMUDA",
+        "apodo": "BERMUDA",
+        "aliases": [
+            "BERMUDA"
+        ]
+    },
+    {
+        "id": "3071",
+        "nombre_oficial": "CUBA",
+        "apodo": "CUBA",
+        "aliases": [
+            "CUBA"
+        ]
+    },
+    {
+        "id": "3072",
+        "nombre_oficial": "GRENADA",
+        "apodo": "GRENADA",
+        "aliases": [
+            "GRENADA"
+        ]
+    },
+    {
+        "id": "3073",
+        "nombre_oficial": "GUATEMALA",
+        "apodo": "GUATEMALA",
+        "aliases": [
+            "GUATEMALA"
+        ]
+    },
+    {
+        "id": "3074",
+        "nombre_oficial": "JAMAICA",
+        "apodo": "JAMAICA",
+        "aliases": [
+            "JAMAICA"
+        ]
+    },
+    {
+        "id": "3075",
+        "nombre_oficial": "SAINT LUCIA",
+        "apodo": "SAINT LUCIA",
+        "aliases": [
+            "SAINT LUCIA"
+        ]
+    },
+    {
+        "id": "3076",
+        "nombre_oficial": "BARBADOS",
+        "apodo": "BARBADOS",
+        "aliases": [
+            "BARBADOS"
+        ]
+    },
+    {
+        "id": "3077",
+        "nombre_oficial": "SURINAME",
+        "apodo": "SURINAME",
+        "aliases": [
+            "SURINAME"
+        ]
+    },
+    {
+        "id": "3078",
+        "nombre_oficial": "HONDURAS",
+        "apodo": "HONDURAS",
+        "aliases": [
+            "HONDURAS"
+        ]
+    },
+    {
+        "id": "3079",
+        "nombre_oficial": "MARTINIQUE",
+        "apodo": "MARTINIQUE",
+        "aliases": [
+            "MARTINIQUE"
+        ]
+    },
+    {
+        "id": "3080",
+        "nombre_oficial": "EL SALVADOR",
+        "apodo": "EL SALVADOR",
+        "aliases": [
+            "EL SALVADOR"
+        ]
+    },
+    {
+        "id": "3081",
+        "nombre_oficial": "UKRAINE",
+        "apodo": "UKRAINE",
+        "aliases": [
+            "UKRAINE",
+            "UCRANIA"
+        ]
+    },
+    {
+        "id": "3082",
+        "nombre_oficial": "HUNGARY",
+        "apodo": "HUNGARY",
+        "aliases": [
+            "HUNGARY",
+            "HUNGRIA"
+        ]
+    },
+    {
+        "id": "3083",
+        "nombre_oficial": "FRANCE",
+        "apodo": "FRANCE",
+        "aliases": [
+            "FRANCE",
+            "FRANCIA"
+        ]
+    },
+    {
+        "id": "3084",
+        "nombre_oficial": "TURKEY",
+        "apodo": "TURKEY",
+        "aliases": [
+            "TURKEY",
+            "TURKIA",
+            "TURQUIA"
+        ]
+    },
+    {
+        "id": "3085",
+        "nombre_oficial": "ROMANIA",
+        "apodo": "ROMANIA",
+        "aliases": [
+            "ROMANIA"
+        ]
+    },
+    {
+        "id": "3086",
+        "nombre_oficial": "SWEDEN",
+        "apodo": "SWEDEN",
+        "aliases": [
+            "SWEDEN",
+            "SUECIA",
+            "SUEZIA"
+        ]
+    },
+    {
+        "id": "3087",
+        "nombre_oficial": "BOSNIA & HERZEGOVINA",
+        "apodo": "BOSNIA & HERZEGOVINA",
+        "aliases": [
+            "BOSNIA & HERZEGOVINA"
+        ]
+    },
+    {
+        "id": "3088",
+        "nombre_oficial": "POLAND",
+        "apodo": "POLAND",
+        "aliases": [
+            "POLAND",
+            "POLONIA"
+        ]
+    },
+    {
+        "id": "3089",
+        "nombre_oficial": "BELGIUM",
+        "apodo": "BELGIUM",
+        "aliases": [
+            "BELGIUM",
+            "BELGICA"
+        ]
+    },
+    {
+        "id": "3090",
+        "nombre_oficial": "ITALY",
+        "apodo": "ITALY",
+        "aliases": [
+            "ITALY"
+        ]
+    },
+    {
+        "id": "3091",
+        "nombre_oficial": "CYPRUS",
+        "apodo": "CYPRUS",
+        "aliases": [
+            "CYPRUS",
+            "CHIPRE"
+        ]
+    },
+    {
+        "id": "3092",
+        "nombre_oficial": "MONTENEGRO",
+        "apodo": "MONTENEGRO",
+        "aliases": [
+            "MONTENEGRO"
+        ]
+    },
+    {
+        "id": "3093",
+        "nombre_oficial": "COLOMBIA",
+        "apodo": "COLOMBIA",
+        "aliases": [
+            "COLOMBIA"
+        ]
+    },
+    {
+        "id": "3094",
+        "nombre_oficial": "MEXICO",
+        "apodo": "MEXICO",
+        "aliases": [
+            "MEXICO"
+        ]
+    },
+    {
+        "id": "3095",
+        "nombre_oficial": "PERU",
+        "apodo": "PERU",
+        "aliases": [
+            "PERU"
+        ]
+    },
+    {
+        "id": "3096",
+        "nombre_oficial": "USA",
+        "apodo": "USA",
+        "aliases": [
+            "USA"
+        ]
+    },
+    {
+        "id": "3097",
+        "nombre_oficial": "CHILE",
+        "apodo": "CHILE",
+        "aliases": [
+            "CHILE"
+        ]
+    },
+    {
+        "id": "3098",
+        "nombre_oficial": "CANADA",
+        "apodo": "CANADA",
+        "aliases": [
+            "CANADA"
+        ]
+    },
+    {
+        "id": "3099",
+        "nombre_oficial": "EXETER CITY",
+        "apodo": "EXETER CITY",
+        "aliases": [
+            "EXETER CITY"
+        ]
+    },
+    {
+        "id": "3100",
+        "nombre_oficial": "TRANMERE ROVERS",
+        "apodo": "TRANMERE ROVERS",
+        "aliases": [
+            "TRANMERE ROVERS"
+        ]
+    },
+    {
+        "id": "3101",
+        "nombre_oficial": "MARQUENSE",
+        "apodo": "MARQUENSE",
+        "aliases": [
+            "MARQUENSE"
+        ]
+    },
+    {
+        "id": "3102",
+        "nombre_oficial": "COMUNICACIONES",
+        "apodo": "COMUNICACIONES",
+        "aliases": [
+            "COMUNICACIONES"
+        ]
+    },
+    {
+        "id": "3103",
+        "nombre_oficial": "BRITISH VIRGIN",
+        "apodo": "BRITISH VIRGIN",
+        "aliases": [
+            "BRITISH VIRGIN"
+        ]
+    },
+    {
+        "id": "3104",
+        "nombre_oficial": "MONTSERRAT",
+        "apodo": "MONTSERRAT",
+        "aliases": [
+            "MONTSERRAT"
+        ]
+    },
+    {
+        "id": "3105",
+        "nombre_oficial": "US VIRGIN",
+        "apodo": "US VIRGIN",
+        "aliases": [
+            "US VIRGIN"
+        ]
+    },
+    {
+        "id": "3106",
+        "nombre_oficial": "SAINT MARTIN",
+        "apodo": "SAINT MARTIN",
+        "aliases": [
+            "SAINT MARTIN"
+        ]
+    },
+    {
+        "id": "3107",
+        "nombre_oficial": "ANGUILLA",
+        "apodo": "ANGUILLA",
+        "aliases": [
+            "ANGUILLA"
+        ]
+    },
+    {
+        "id": "3108",
+        "nombre_oficial": "ANTIGUA",
+        "apodo": "ANTIGUA",
+        "aliases": [
+            "ANTIGUA"
+        ]
+    },
+    {
+        "id": "3109",
+        "nombre_oficial": "BELIZE",
+        "apodo": "BELIZE",
+        "aliases": [
+            "BELIZE"
+        ]
+    },
+    {
+        "id": "3110",
+        "nombre_oficial": "SINT MAARTEN",
+        "apodo": "SINT MAARTEN",
+        "aliases": [
+            "SINT MAARTEN"
+        ]
+    },
+    {
+        "id": "3111",
+        "nombre_oficial": "PENAROL",
+        "apodo": "PENAROL",
+        "aliases": [
+            "PENAROL"
+        ]
+    },
+    {
+        "id": "3112",
+        "nombre_oficial": "ESTONIA",
+        "apodo": "ESTONIA",
+        "aliases": [
+            "ESTONIA"
+        ]
+    },
+    {
+        "id": "3113",
+        "nombre_oficial": "ICELAND",
+        "apodo": "ICELAND",
+        "aliases": [
+            "ICELAND"
+        ]
+    },
+    {
+        "id": "3114",
+        "nombre_oficial": "LUXEMBOURG",
+        "apodo": "LUXEMBOURG",
+        "aliases": [
+            "LUXEMBOURG"
+        ]
+    },
+    {
+        "id": "3115",
+        "nombre_oficial": "BULGARIA",
+        "apodo": "BULGARIA",
+        "aliases": [
+            "BULGARIA"
+        ]
+    },
+    {
+        "id": "3116",
+        "nombre_oficial": "FINLAND",
+        "apodo": "FINLAND",
+        "aliases": [
+            "FINLAND"
+        ]
+    },
+    {
+        "id": "3117",
+        "nombre_oficial": "SAN MARINO",
+        "apodo": "SAN MARINO",
+        "aliases": [
+            "SAN MARINO"
+        ]
+    },
+    {
+        "id": "3118",
+        "nombre_oficial": "KAZAKHSTAN",
+        "apodo": "KAZAKHSTAN",
+        "aliases": [
+            "KAZAKHSTAN"
+        ]
+    },
+    {
+        "id": "3119",
+        "nombre_oficial": "FAROE ISLANDS",
+        "apodo": "FAROE ISLANDS",
+        "aliases": [
+            "FAROE ISLANDS"
+        ]
+    },
+    {
+        "id": "3120",
+        "nombre_oficial": "CROATIA",
+        "apodo": "CROATIA",
+        "aliases": [
+            "CROATIA",
+            "CROACIA"
+        ]
+    },
+    {
+        "id": "3121",
+        "nombre_oficial": "CZECH REPUBLIC",
+        "apodo": "CZECH REPUBLIC",
+        "aliases": [
+            "CZECH REPUBLIC",
+            "REPUBLICA CHECA"
+        ]
+    },
+    {
+        "id": "3122",
+        "nombre_oficial": "SWITZERLAND",
+        "apodo": "SWITZERLAND",
+        "aliases": [
+            "SWITZERLAND",
+            "SUISA",
+            "SUIZA"
+        ]
+    },
+    {
+        "id": "3123",
+        "nombre_oficial": "N.MACEDONIA",
+        "apodo": "N.MACEDONIA",
+        "aliases": [
+            "N.MACEDONIA"
+        ]
+    },
+    {
+        "id": "3124",
+        "nombre_oficial": "MOLDOVA",
+        "apodo": "MOLDOVA",
+        "aliases": [
+            "MOLDOVA"
+        ]
+    },
+    {
+        "id": "3125",
+        "nombre_oficial": "SLOVAKIA",
+        "apodo": "SLOVAKIA",
+        "aliases": [
+            "SLOVAKIA"
+        ]
+    },
+    {
+        "id": "3126",
+        "nombre_oficial": "BELARUS",
+        "apodo": "BELARUS",
+        "aliases": [
+            "BELARUS"
+        ]
+    },
+    {
+        "id": "3127",
+        "nombre_oficial": "ALBANIA",
+        "apodo": "ALBANIA",
+        "aliases": [
+            "ALBANIA"
+        ]
+    },
+    {
+        "id": "3128",
+        "nombre_oficial": "SPAIN",
+        "apodo": "SPAIN",
+        "aliases": [
+            "SPAIN",
+            "ESPAÑA"
+        ]
+    },
+    {
+        "id": "3129",
+        "nombre_oficial": "ENGLAND",
+        "apodo": "ENGLAND",
+        "aliases": [
+            "ENGLAND",
+            "INGLATERRA",
+            "ENGLATERRA"
+        ]
+    },
+    {
+        "id": "3130",
+        "nombre_oficial": "YORK UNITED",
+        "apodo": "YORK UNITED",
+        "aliases": [
+            "YORK UNITED"
+        ]
+    },
+    {
+        "id": "3131",
+        "nombre_oficial": "LIECHTENSTEIN",
+        "apodo": "LIECHTENSTEIN",
+        "aliases": [
+            "LIECHTENSTEIN"
+        ]
+    },
+    {
+        "id": "3132",
+        "nombre_oficial": "MALTA",
+        "apodo": "MALTA",
+        "aliases": [
+            "MALTA"
+        ]
+    },
+    {
+        "id": "3133",
+        "nombre_oficial": "SAN MARTIN TUCUMAN",
+        "apodo": "SAN MARTIN TUCUMAN",
+        "aliases": [
+            "SAN MARTIN TUCUMAN"
+        ]
+    },
+    {
+        "id": "3134",
+        "nombre_oficial": "TEMPERLEY",
+        "apodo": "TEMPERLEY",
+        "aliases": [
+            "TEMPERLEY"
+        ]
+    },
+    {
+        "id": "3135",
+        "nombre_oficial": "PARAGUAY",
+        "apodo": "PARAGUAY",
+        "aliases": [
+            "PARAGUAY"
+        ]
+    },
+    {
+        "id": "3136",
+        "nombre_oficial": "BOLIVIA",
+        "apodo": "BOLIVIA",
+        "aliases": [
+            "BOLIVIA"
+        ]
+    },
+    {
+        "id": "3137",
+        "nombre_oficial": "MIXCO",
+        "apodo": "MIXCO",
+        "aliases": [
+            "MIXCO"
+        ]
+    },
+    {
+        "id": "3138",
+        "nombre_oficial": "CAYMAN",
+        "apodo": "CAYMAN",
+        "aliases": [
+            "CAYMAN"
+        ]
+    },
+    {
+        "id": "3139",
+        "nombre_oficial": "GUYANA",
+        "apodo": "GUYANA",
+        "aliases": [
+            "GUYANA"
+        ]
+    },
+    {
+        "id": "3140",
+        "nombre_oficial": "COSTA RICA",
+        "apodo": "COSTA RICA",
+        "aliases": [
+            "COSTA RICA"
+        ]
+    },
+    {
+        "id": "3141",
+        "nombre_oficial": "HAITI",
+        "apodo": "HAITI",
+        "aliases": [
+            "HAITI"
+        ]
+    },
+    {
+        "id": "3142",
+        "nombre_oficial": "NICARAGUA",
+        "apodo": "NICARAGUA",
+        "aliases": [
+            "NICARAGUA"
+        ]
+    },
+    {
+        "id": "3143",
+        "nombre_oficial": "CURACAO",
+        "apodo": "CURACAO",
+        "aliases": [
+            "CURACAO"
+        ]
+    },
+    {
+        "id": "3144",
+        "nombre_oficial": "DOMINICAN REP.",
+        "apodo": "DOMINICAN REP.",
+        "aliases": [
+            "DOMINICAN REP."
+        ]
+    },
+    {
+        "id": "3145",
+        "nombre_oficial": "TRINIDAD AND TOBAGO",
+        "apodo": "TRINIDAD AND TOBAGO",
+        "aliases": [
+            "TRINIDAD AND TOBAGO"
+        ]
+    },
+    {
+        "id": "3146",
+        "nombre_oficial": "JUVENTUD",
+        "apodo": "JUVENTUD",
+        "aliases": [
+            "JUVENTUD"
+        ]
+    },
+    {
+        "id": "3147",
+        "nombre_oficial": "DEFENSOR SPORTING",
+        "apodo": "DEFENSOR SPORTING",
+        "aliases": [
+            "DEFENSOR SPORTING"
+        ]
+    },
+    {
+        "id": "3148",
+        "nombre_oficial": "ANDORRA",
+        "apodo": "ANDORRA",
+        "aliases": [
+            "ANDORRA"
+        ]
+    },
+    {
+        "id": "3149",
+        "nombre_oficial": "GIBRALTAR",
+        "apodo": "GIBRALTAR",
+        "aliases": [
+            "GIBRALTAR"
+        ]
+    },
+    {
+        "id": "3150",
+        "nombre_oficial": "NETHERLANDS",
+        "apodo": "NETHERLANDS",
+        "aliases": [
+            "NETHERLANDS"
+        ]
+    },
+    {
+        "id": "3151",
+        "nombre_oficial": "SERBIA",
+        "apodo": "SERBIA",
+        "aliases": [
+            "SERBIA"
+        ]
+    },
+    {
+        "id": "3152",
+        "nombre_oficial": "WALES",
+        "apodo": "WALES",
+        "aliases": [
+            "WALES",
+            "GALES"
+        ]
+    },
+    {
+        "id": "3153",
+        "nombre_oficial": "DENMARK",
+        "apodo": "DENMARK",
+        "aliases": [
+            "DENMARK",
+            "DINAMARCA"
+        ]
+    },
+    {
+        "id": "3154",
+        "nombre_oficial": "KOSOVO",
+        "apodo": "KOSOVO",
+        "aliases": [
+            "KOSOVO"
+        ]
+    },
+    {
+        "id": "3155",
+        "nombre_oficial": "AUSTRIA",
+        "apodo": "AUSTRIA",
+        "aliases": [
+            "AUSTRIA"
+        ]
+    },
+    {
+        "id": "3156",
+        "nombre_oficial": "GREECE",
+        "apodo": "GREECE",
+        "aliases": [
+            "GREECE"
+        ]
+    },
+    {
+        "id": "3157",
+        "nombre_oficial": "GERMANY",
+        "apodo": "GERMANY",
+        "aliases": [
+            "GERMANY",
+            "ALEMANIA"
+        ]
+    },
+    {
+        "id": "3158",
+        "nombre_oficial": "PORTUGAL",
+        "apodo": "PORTUGAL",
+        "aliases": [
+            "PORTUGAL"
+        ]
+    },
+    {
+        "id": "3159",
+        "nombre_oficial": "NORWAY",
+        "apodo": "NORWAY",
+        "aliases": [
+            "NORWAY",
+            "NORUEGA"
+        ]
+    },
+    {
+        "id": "3160",
+        "nombre_oficial": "IRELAND",
+        "apodo": "IRELAND",
+        "aliases": [
+            "IRELAND"
+        ]
+    },
+    {
+        "id": "3161",
+        "nombre_oficial": "ISRAEL",
+        "apodo": "ISRAEL",
+        "aliases": [
+            "ISRAEL"
+        ]
+    },
+    {
+        "id": "3162",
+        "nombre_oficial": "LIBYA",
+        "apodo": "LIBYA",
+        "aliases": [
+            "LIBYA"
+        ]
+    },
+    {
+        "id": "3163",
+        "nombre_oficial": "UGANDA",
+        "apodo": "UGANDA",
+        "aliases": [
+            "UGANDA"
+        ]
+    },
+    {
+        "id": "3164",
+        "nombre_oficial": "TOGO",
+        "apodo": "TOGO",
+        "aliases": [
+            "TOGO"
+        ]
+    },
+    {
+        "id": "3165",
+        "nombre_oficial": "RWANDA",
+        "apodo": "RWANDA",
+        "aliases": [
+            "RWANDA"
+        ]
+    },
+    {
+        "id": "3166",
+        "nombre_oficial": "GAMBIA",
+        "apodo": "GAMBIA",
+        "aliases": [
+            "GAMBIA"
+        ]
+    },
+    {
+        "id": "3167",
+        "nombre_oficial": "GHANA",
+        "apodo": "GHANA",
+        "aliases": [
+            "GHANA"
+        ]
+    },
+    {
+        "id": "3168",
+        "nombre_oficial": "NIGERIA",
+        "apodo": "NIGERIA",
+        "aliases": [
+            "NIGERIA"
+        ]
+    },
+    {
+        "id": "3169",
+        "nombre_oficial": "GUINEA-BISSAU",
+        "apodo": "GUINEA-BISSAU",
+        "aliases": [
+            "GUINEA-BISSAU"
+        ]
+    },
+    {
+        "id": "3170",
+        "nombre_oficial": "MAURITANIA",
+        "apodo": "MAURITANIA",
+        "aliases": [
+            "MAURITANIA"
+        ]
+    },
+    {
+        "id": "3171",
+        "nombre_oficial": "CAMEROON",
+        "apodo": "CAMEROON",
+        "aliases": [
+            "CAMEROON"
+        ]
+    },
+    {
+        "id": "3172",
+        "nombre_oficial": "CONGO",
+        "apodo": "CONGO",
+        "aliases": [
+            "CONGO"
+        ]
+    },
+    {
+        "id": "3173",
+        "nombre_oficial": "LIBERIA",
+        "apodo": "LIBERIA",
+        "aliases": [
+            "LIBERIA"
+        ]
+    },
+    {
+        "id": "3174",
+        "nombre_oficial": "NIGER",
+        "apodo": "NIGER",
+        "aliases": [
+            "NIGER"
+        ]
+    },
+    {
+        "id": "3175",
+        "nombre_oficial": "TURKS AND CAICOS",
+        "apodo": "TURKS AND CAICOS",
+        "aliases": [
+            "TURKS AND CAICOS"
+        ]
+    },
+    {
+        "id": "3176",
+        "nombre_oficial": "SLOVENIA",
+        "apodo": "SLOVENIA",
+        "aliases": [
+            "SLOVENIA"
+        ]
+    },
+    {
+        "id": "3177",
+        "nombre_oficial": "SCOTLAND",
+        "apodo": "SCOTLAND",
+        "aliases": [
+            "SCOTLAND"
+        ]
+    },
+    {
+        "id": "3178",
+        "nombre_oficial": "KENYA",
+        "apodo": "KENYA",
+        "aliases": [
+            "KENYA"
+        ]
+    },
+    {
+        "id": "3179",
+        "nombre_oficial": "GUINEA",
+        "apodo": "GUINEA",
+        "aliases": [
+            "GUINEA"
+        ]
+    },
+    {
+        "id": "3180",
+        "nombre_oficial": "DOMINICA",
+        "apodo": "DOMINICA",
+        "aliases": [
+            "DOMINICA"
+        ]
+    },
+    {
+        "id": "3181",
+        "nombre_oficial": "PUERTO RICO",
+        "apodo": "PUERTO RICO",
+        "aliases": [
+            "PUERTO RICO"
+        ]
+    },
+    {
+        "id": "3182",
+        "nombre_oficial": "AZERBAIJAN",
+        "apodo": "AZERBAIJAN",
+        "aliases": [
+            "AZERBAIJAN"
+        ]
+    },
+    {
+        "id": "3183",
+        "nombre_oficial": "INTER W",
+        "apodo": "INTER W",
+        "aliases": [
+            "INTER W"
+        ]
+    },
+    {
+        "id": "3184",
+        "nombre_oficial": "AUSTRIA VIENNA W",
+        "apodo": "AUSTRIA VIENNA W",
+        "aliases": [
+            "AUSTRIA VIENNA W"
+        ]
+    },
+    {
+        "id": "3185",
+        "nombre_oficial": "SERVETTE GENEVE FC W",
+        "apodo": "SERVETTE GENEVE FC W",
+        "aliases": [
+            "SERVETTE GENEVE FC W"
+        ]
+    },
+    {
+        "id": "3186",
+        "nombre_oficial": "KOGE W",
+        "apodo": "KOGE W",
+        "aliases": [
+            "KOGE W"
+        ]
+    },
+    {
+        "id": "3187",
+        "nombre_oficial": "LEUVEN W",
+        "apodo": "LEUVEN W",
+        "aliases": [
+            "LEUVEN W"
+        ]
+    },
+    {
+        "id": "3188",
+        "nombre_oficial": "PSG W",
+        "apodo": "PSG W",
+        "aliases": [
+            "PSG W"
+        ]
+    },
+    {
+        "id": "3189",
+        "nombre_oficial": "REAL MADRID W",
+        "apodo": "REAL MADRID W",
+        "aliases": [
+            "REAL MADRID W"
+        ]
+    },
+    {
+        "id": "3190",
+        "nombre_oficial": "MANCHESTER CITY W",
+        "apodo": "MANCHESTER CITY W",
+        "aliases": [
+            "MANCHESTER CITY W"
+        ]
+    },
+    {
+        "id": "3191",
+        "nombre_oficial": "ESTUDIANTES L.P.",
+        "apodo": "ESTUDIANTES L.P.",
+        "aliases": [
+            "ESTUDIANTES L.P."
+        ]
+    },
+    {
+        "id": "3192",
+        "nombre_oficial": "LATVIA",
+        "apodo": "LATVIA",
+        "aliases": [
+            "LATVIA"
+        ]
+    },
+    {
+        "id": "3193",
+        "nombre_oficial": "ARMENIA",
+        "apodo": "ARMENIA",
+        "aliases": [
+            "ARMENIA"
+        ]
+    },
+    {
+        "id": "3194",
+        "nombre_oficial": "NORTHERN IRELAND",
+        "apodo": "NORTHERN IRELAND",
+        "aliases": [
+            "NORTHERN IRELAND"
+        ]
+    },
+    {
+        "id": "3195",
+        "nombre_oficial": "GEORGIA",
+        "apodo": "GEORGIA",
+        "aliases": [
+            "GEORGIA"
+        ]
+    },
+    {
+        "id": "3196",
+        "nombre_oficial": "SAINT KITTS & NEVIS",
+        "apodo": "SAINT KITTS & NEVIS",
+        "aliases": [
+            "SAINT KITTS & NEVIS"
+        ]
+    },
+    {
+        "id": "3197",
+        "nombre_oficial": "BONAIRE",
+        "apodo": "BONAIRE",
+        "aliases": [
+            "BONAIRE"
+        ]
+    },
+    {
+        "id": "3198",
+        "nombre_oficial": "BRAZIL",
+        "apodo": "BRAZIL",
+        "aliases": [
+            "BRAZIL"
+        ]
+    },
+    {
+        "id": "3199",
+        "nombre_oficial": "INDIA",
+        "apodo": "INDIA",
+        "aliases": [
+            "INDIA"
+        ]
+    },
+    {
+        "id": "3200",
+        "nombre_oficial": "NAMIBIA",
+        "apodo": "NAMIBIA",
+        "aliases": [
+            "NAMIBIA"
+        ]
+    },
+    {
+        "id": "3201",
+        "nombre_oficial": "RUSSIA",
+        "apodo": "RUSSIA",
+        "aliases": [
+            "RUSSIA"
+        ]
+    },
+    {
+        "id": "3202",
+        "nombre_oficial": "ARGENTINA",
+        "apodo": "ARGENTINA",
+        "aliases": [
+            "ARGENTINA"
+        ]
+    },
+    {
+        "id": "3203",
+        "nombre_oficial": "HORNCHURCH",
+        "apodo": "HORNCHURCH",
+        "aliases": [
+            "HORNCHURCH"
+        ]
+    },
+    {
+        "id": "3204",
+        "nombre_oficial": "HARROGATE TOWN",
+        "apodo": "HARROGATE TOWN",
+        "aliases": [
+            "HARROGATE TOWN"
+        ]
+    },
+    {
+        "id": "3205",
+        "nombre_oficial": "BARRANQUILLA",
+        "apodo": "BARRANQUILLA",
+        "aliases": [
+            "BARRANQUILLA"
+        ]
+    },
+    {
+        "id": "3206",
+        "nombre_oficial": "BAHAMAS",
+        "apodo": "BAHAMAS",
+        "aliases": [
+            "BAHAMAS"
+        ]
+    },
+    {
+        "id": "3207",
+        "nombre_oficial": "CITY TORQUE",
+        "apodo": "CITY TORQUE",
+        "aliases": [
+            "CITY TORQUE"
+        ]
+    },
+    {
+        "id": "3208",
+        "nombre_oficial": "CLUB NACIONAL",
+        "apodo": "CLUB NACIONAL",
+        "aliases": [
+            "CLUB NACIONAL"
+        ]
+    },
+    {
+        "id": "3209",
+        "nombre_oficial": "ST VINCENT GRENADINES",
+        "apodo": "ST VINCENT GRENADINES",
+        "aliases": [
+            "ST VINCENT GRENADINES"
+        ]
+    },
+    {
+        "id": "3210",
+        "nombre_oficial": "ARUBA",
+        "apodo": "ARUBA",
+        "aliases": [
+            "ARUBA"
+        ]
+    },
+    {
+        "id": "3211",
+        "nombre_oficial": "FRENCH GUIANA",
+        "apodo": "FRENCH GUIANA",
+        "aliases": [
+            "FRENCH GUIANA"
+        ]
+    },
+    {
+        "id": "3212",
+        "nombre_oficial": "MALAWI",
+        "apodo": "MALAWI",
+        "aliases": [
+            "MALAWI"
+        ]
+    },
+    {
+        "id": "3213",
+        "nombre_oficial": "VITORIA",
+        "apodo": "VITORIA",
+        "aliases": [
+            "VITORIA"
+        ]
+    },
+    {
+        "id": "3214",
+        "nombre_oficial": "AMERICA MINEIRO",
+        "apodo": "AMERICA MINEIRO",
+        "aliases": [
+            "AMERICA MINEIRO"
+        ]
+    },
+    {
+        "id": "3215",
+        "nombre_oficial": "MOQUEGUA",
+        "apodo": "MOQUEGUA",
+        "aliases": [
+            "MOQUEGUA"
+        ]
+    },
+    {
+        "id": "3216",
+        "nombre_oficial": "SEPSI",
+        "apodo": "SEPSI",
+        "aliases": [
+            "SEPSI"
+        ]
+    },
+    {
+        "id": "3217",
+        "nombre_oficial": "WIECZYSTA KRAKOW",
+        "apodo": "WIECZYSTA KRAKOW",
+        "aliases": [
+            "WIECZYSTA KRAKOW"
+        ]
+    },
+    {
+        "id": "3218",
+        "nombre_oficial": "TREFELIN",
+        "apodo": "TREFELIN",
+        "aliases": [
+            "TREFELIN"
+        ]
+    },
+    {
+        "id": "3219",
+        "nombre_oficial": "AMMANFORD",
+        "apodo": "AMMANFORD",
+        "aliases": [
+            "AMMANFORD"
+        ]
+    },
+    {
+        "id": "3220",
+        "nombre_oficial": "CAMBRIAN UNITED",
+        "apodo": "CAMBRIAN UNITED",
+        "aliases": [
+            "CAMBRIAN UNITED"
+        ]
+    },
+    {
+        "id": "3221",
+        "nombre_oficial": "HOLYWELL",
+        "apodo": "HOLYWELL",
+        "aliases": [
+            "HOLYWELL"
+        ]
+    },
+    {
+        "id": "3222",
+        "nombre_oficial": "LIVERPOOL M",
+        "apodo": "LIVERPOOL M",
+        "aliases": [
+            "LIVERPOOL M"
+        ]
+    },
+    {
+        "id": "3223",
+        "nombre_oficial": "MALDONADO",
+        "apodo": "MALDONADO",
+        "aliases": [
+            "MALDONADO"
+        ]
+    },
+    {
+        "id": "3224",
+        "nombre_oficial": "LEICESTER",
+        "apodo": "LEICESTER",
+        "aliases": [
+            "LEICESTER"
+        ]
+    },
+    {
+        "id": "3225",
+        "nombre_oficial": "KOLDING",
+        "apodo": "KOLDING",
+        "aliases": [
+            "KOLDING"
+        ]
+    },
+    {
+        "id": "3226",
+        "nombre_oficial": "KRASNODAR",
+        "apodo": "KRASNODAR",
+        "aliases": [
+            "KRASNODAR"
+        ]
+    },
+    {
+        "id": "3227",
+        "nombre_oficial": "LE MANS",
+        "apodo": "LE MANS",
+        "aliases": [
+            "LE MANS"
+        ]
+    },
+    {
+        "id": "3228",
+        "nombre_oficial": "ACADEMICO VISEU",
+        "apodo": "ACADEMICO VISEU",
+        "aliases": [
+            "ACADEMICO VISEU"
+        ]
+    },
+    {
+        "id": "3229",
+        "nombre_oficial": "PIRATAS",
+        "apodo": "PIRATAS",
+        "aliases": [
+            "PIRATAS"
+        ]
+    },
+    {
+        "id": "3230",
+        "nombre_oficial": "CDS TAMPICO MADERO",
+        "apodo": "CDS TAMPICO MADERO",
+        "aliases": [
+            "CDS TAMPICO MADERO"
+        ]
+    },
+    {
+        "id": "3231",
+        "nombre_oficial": "CRUZ AZUL HIDALGO",
+        "apodo": "CRUZ AZUL HIDALGO",
+        "aliases": [
+            "CRUZ AZUL HIDALGO"
+        ]
+    },
+    {
+        "id": "3232",
+        "nombre_oficial": "CELTA VIGO B",
+        "apodo": "CELTA VIGO B",
+        "aliases": [
+            "CELTA VIGO B"
+        ]
+    },
+    {
+        "id": "3233",
+        "nombre_oficial": "IRAKLIS 1908",
+        "apodo": "IRAKLIS 1908",
+        "aliases": [
+            "IRAKLIS 1908"
+        ]
+    },
+    {
+        "id": "3234",
+        "nombre_oficial": "RACING SANTANDER1",
+        "apodo": "RACING SANTANDER1",
+        "aliases": [
+            "RACING SANTANDER1"
+        ]
+    },
+    {
+        "id": "3235",
+        "nombre_oficial": "SABAH BAKU",
+        "apodo": "SABAH BAKU",
+        "aliases": [
+            "SABAH BAKU"
+        ]
+    },
+    {
+        "id": "3236",
+        "nombre_oficial": "VIKING",
+        "apodo": "VIKING",
+        "aliases": [
+            "VIKING"
+        ]
+    },
+    {
+        "id": "3237",
+        "nombre_oficial": "ASYUT PETROLEUM",
+        "apodo": "ASYUT PETROLEUM",
+        "aliases": [
+            "ASYUT PETROLEUM"
+        ]
+    },
+    {
+        "id": "3238",
+        "nombre_oficial": "ABU QIR SEMAD",
+        "apodo": "ABU QIR SEMAD",
+        "aliases": [
+            "ABU QIR SEMAD"
+        ]
+    },
+    {
+        "id": "3239",
+        "nombre_oficial": "WADI DEGLA",
+        "apodo": "WADI DEGLA",
+        "aliases": [
+            "WADI DEGLA"
+        ]
+    },
+    {
+        "id": "3240",
+        "nombre_oficial": "EL GOUNAH",
+        "apodo": "EL GOUNAH",
+        "aliases": [
+            "EL GOUNAH"
+        ]
+    },
+    {
+        "id": "3241",
+        "nombre_oficial": "AL SADD",
+        "apodo": "AL SADD",
+        "aliases": [
+            "AL SADD"
+        ]
+    },
+    {
+        "id": "3242",
+        "nombre_oficial": "SHABAD AL AHLI",
+        "apodo": "SHABAD AL AHLI",
+        "aliases": [
+            "SHABAD AL AHLI"
+        ]
+    },
+    {
+        "id": "3243",
+        "nombre_oficial": "STUTTGART",
+        "apodo": "STUTTGART",
+        "aliases": [
+            "STUTTGART"
+        ]
+    },
+    {
+        "id": "3244",
+        "nombre_oficial": "LINCOLN",
+        "apodo": "LINCOLN",
+        "aliases": [
+            "LINCOLN"
+        ]
+    },
+    {
+        "id": "3245",
+        "nombre_oficial": "STROMSGODSET",
+        "apodo": "STROMSGODSET",
+        "aliases": [
+            "STROMSGODSET"
+        ]
+    },
+    {
+        "id": "3246",
+        "nombre_oficial": "HAUGESUND",
+        "apodo": "HAUGESUND",
+        "aliases": [
+            "HAUGESUND"
+        ]
+    },
+    {
+        "id": "3247",
+        "nombre_oficial": "KAIRAT",
+        "apodo": "KAIRAT",
+        "aliases": [
+            "KAIRAT"
+        ]
+    },
+    {
+        "id": "3248",
+        "nombre_oficial": "NIJMEGEN",
+        "apodo": "NIJMEGEN",
+        "aliases": [
+            "NIJMEGEN"
+        ]
+    },
+    {
+        "id": "3249",
+        "nombre_oficial": "TORREENSE",
+        "apodo": "TORREENSE",
+        "aliases": [
+            "TORREENSE"
+        ]
+    },
+    {
+        "id": "3250",
+        "nombre_oficial": "UNIVERSITATEA CRAIOVA",
+        "apodo": "UNIVERSITATEA CRAIOVA",
+        "aliases": [
+            "UNIVERSITATEA CRAIOVA"
+        ]
+    },
+    {
+        "id": "3251",
+        "nombre_oficial": "BRIGHTON",
+        "apodo": "BRIGHTON",
+        "aliases": [
+            "BRIGHTON"
+        ]
+    },
+    {
+        "id": "3252",
+        "nombre_oficial": "FREIBURG",
+        "apodo": "FREIBURG",
+        "aliases": [
+            "FREIBURG"
+        ]
+    },
+    {
+        "id": "3253",
+        "nombre_oficial": "MONACO",
+        "apodo": "MONACO",
+        "aliases": [
+            "MONACO"
+        ]
+    },
+    {
+        "id": "3254",
+        "nombre_oficial": "TWENTE",
+        "apodo": "TWENTE",
+        "aliases": [
+            "TWENTE"
         ]
     }
 ]
